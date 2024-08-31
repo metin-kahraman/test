@@ -1,4 +1,6 @@
 {
-    "welcome_message": "Uygulamamıza hoş geldiniz!"
+    "welcome": "Добро пожаловать в блог!",
+    "hello": "Здравствуйте",
+    "goodbye": "До свидания"
   }
   

@@ -1,3 +1,5 @@
 {
-    "welcome_message": "Welcome to our application!"
-  }
+  "welcome": "Welcome to the blog!",
+  "hello": "Hello",
+  "goodbye": "Goodbye"
+}

@@ -1,4 +1,6 @@
 {
-    "welcome_message": "Uygulamamıza hoş geldiniz!"
+    "welcome": "Bienvenue sur le blog!",
+    "hello": "Bonjour",
+    "goodbye": "Au revoir"
   }
   
