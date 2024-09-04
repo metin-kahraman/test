@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "title": "Merhaba dünya!",
+    "about": "Hakkında sayfasına gidin"
+  },
+  "TreatmentsPage": {
+    "T1": "İmplant Tedavisi",
+    "T2": "Diş Estetiği",
+    "T3": "Zirkonyum Diş",
+    "T4": "Porselen Diş",
+    "T5": "Dişteli Ortodontik Tedavi",
+    "T6": "Kanal Tedavisi",
+    "T7": "Diş Dolgusu",
+    "T8": "Diş Beyazlatma",
+    "T9": "Çocuk Diş Hekimliği",
+    "T10": "Ağız ve Çene Cerrahisi",
+    "T11": "Dijital Diş Hekimliği",
+    "seo": {
+      "title": "Diş Tedavileri - Orange Dent Clinic",
+      "description": "Orange Dent Clinic ile implant tedavisi, diş estetiği ve ortodonti dahil çeşitli diş tedavilerini keşfedin.",
+      "keywords": "diş tedavileri, implantlar, diş estetiği, ortodonti, diş bakımı",
+      "url":"dis-tedavileri"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+  "TreatmentsPage": {
+    "T1": "Implant Treatment",
+    "T2": "Dental Aesthetics",
+    "T3": "Zirconium Teeth",
+    "T4": "Porcelain Teeth",
+    "T5": "Orthodontic Treatment with Braces",
+    "T6": "Root Canal Treatment",
+    "T7": "Dental Filling",
+    "T8": "Teeth Whitening",
+    "T9": "Pediatric Dentistry",
+    "T10": "Oral and Maxillofacial Surgery",
+    "T11": "Digital Dentistry",
+    "seo": {
+      "title": "Dental Treatments at Orange Dent Clinic",
+      "description": "Discover a variety of dental treatments including implants, aesthetic dentistry, and orthodontics at Orange Dent Clinic.",
+      "keywords": "dental treatments, implants, aesthetic dentistry, orthodontics, dental care",
+      "url":"dental-treatments"
+    }
+  }
+}

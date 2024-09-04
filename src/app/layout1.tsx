@@ -1,6 +1,4 @@
 import * as React from "react";
-import {NextIntlClientProvider} from 'next-intl';
-import {getLocale, getMessages} from 'next-intl/server';
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
@@ -10,8 +8,6 @@ import Container from "@mui/material/Container";
 import Footer from "../components/Footer";
 
 export default function RootLayout(props: { children: React.ReactNode }) {
-  console.log('Rendering file:', __filename);
-
   return (
     <html lang="en">
       <body>

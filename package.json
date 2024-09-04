@@ -16,11 +16,14 @@
     "@mui/icons-material": "^6.0.0-rc.0",
     "@mui/material": "^6.0.0-rc.0",
     "@mui/material-nextjs": "next",
+    "i18next": "^23.14.0",
     "markdown-to-jsx": "^7.5.0",
     "next": "latest",
+    "next-i18next": "^15.3.1",
     "next-intl": "^3.19.0",
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "react-i18next": "^15.0.1"
   },
   "devDependencies": {
     "@types/node": "latest",

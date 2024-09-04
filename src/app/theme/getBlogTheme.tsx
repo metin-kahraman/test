@@ -11,7 +11,7 @@ import {
 
 export default function getBlogTheme(mode: PaletteMode): ThemeOptions {
   return {
-    ...getDesignTokens(mode),
+     ...getDesignTokens(mode),
     components: {
       ...inputsCustomizations,
       ...dataDisplayCustomizations,

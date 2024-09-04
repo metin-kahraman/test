@@ -1,9 +1,24 @@
-/** @type {import('next').NextConfig} */
-const { i18n } = require('./next-i18next.config');
+const createNextIntlPlugin = require('next-intl/plugin');
+
+const withNextIntl = createNextIntlPlugin();
 
 const nextConfig = {
-  i18n,
-  // Diğer Next.js konfigürasyonları buraya eklenebilir
+  async rewrites() {
+    return [
+      {
+        source: '/tr/dis-tedavileri',
+        destination: '/tr/dental-treatments',
+      },
+      {
+        source: '/en/dental-treatments',
+        destination: '/en/dental-treatments',
+      },
+      {
+        source: '/fr/traitements-dentaires',
+        destination: '/fr/dental-treatments',
+      },
+    ];
+  },
 };
 
-module.exports = nextConfig;
+module.exports = withNextIntl(nextConfig);

@@ -101,7 +101,7 @@ function ReviewSlider() {
               sx={{
                 width: '100%',
                 maxWidth: '600px',
-                backgroundColor: '#FFFAF0',
+                backgroundColor: 'white',
                 border: '2px solid #FFA500',
                 borderRadius: '15px',
                 textAlign: 'center',

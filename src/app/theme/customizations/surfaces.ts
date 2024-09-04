@@ -1,5 +1,5 @@
 import { alpha, Theme, Components } from '@mui/material/styles';
-import { gray } from '../themePrimitives';
+import { gray, orange  } from '../themePrimitives';
 
 /* eslint-disable import/prefer-default-export */
 export const surfacesCustomizations: Components<Theme> = {
@@ -54,6 +54,16 @@ export const surfacesCustomizations: Components<Theme> = {
     defaultProps: {
       elevation: 0,
     },
+    styleOverrides: {
+      root: ({ theme }) => ({
+        // Arka planı, gradient ve hafif doku ile güncelleyin
+        background: 'linear-gradient(135deg, #ff7f50, #ffaf7a, #50d0ff, #87e1ff)',
+        backgroundSize: 'cover',
+        backgroundAttachment: 'fixed',
+        // Hafif desen için:
+        // backgroundImage: `url('/path/to/your/texture.png')`, // Dokulu arka plan
+      }),
+    },
   },
   MuiCard: {
     styleOverrides: {
@@ -62,7 +72,7 @@ export const surfacesCustomizations: Components<Theme> = {
           padding: 16,
           gap: 16,
           transition: 'all 100ms ease',
-          backgroundColor: gray[50],
+          backgroundColor: gray[100],
           borderRadius: theme.shape.borderRadius,
           border: `1px solid ${theme.palette.divider}`,
           boxShadow: 'none',
