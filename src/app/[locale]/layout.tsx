@@ -8,6 +8,7 @@ import theme from "@/theme";
 import AppAppBar from "@/components/AppAppBar";
 import Container from "@mui/material/Container";
 import Footer from "@/components/Footer";
+import { useTranslations } from 'next-intl';
 
 export default async function LocaleLayout({
   children,
@@ -17,7 +18,7 @@ export default async function LocaleLayout({
   params: { locale: string };
 }) {
   // Sunucudan dil mesajlarını al
-  const messages = await getMessages();
+  const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>
@@ -41,7 +42,6 @@ export default async function LocaleLayout({
                 {children}
               </NextIntlClientProvider>
               <Footer />
-
             </Container>
           </ThemeProvider>
         </AppRouterCacheProvider>

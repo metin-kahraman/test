@@ -4,6 +4,13 @@ import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 
+// Type definitions
+interface DentalApplication {
+  title: string;
+  description: string;
+  image: string;
+}
+
 const theme = createTheme({
   palette: {
     primary: {
@@ -15,7 +22,7 @@ const theme = createTheme({
   },
 });
 
-const dentalApplications = [
+const dentalApplications: DentalApplication[] = [
   {
     title: 'Diş Beyazlatma',
     description: 'Dişlerinizi güvenle beyazlatın ve parlatın.',
@@ -44,11 +51,11 @@ const SliderContainer = styled('div')({
   width: '100%',
 });
 
-const SliderWrapper = styled('div')(({ isPaused, currentIndex }) => ({
+const SliderWrapper = styled('div')<{ isPaused: boolean; currentIndex: number }>(({ isPaused, currentIndex }) => ({
   display: 'flex',
   width: '100%',
   transition: isPaused ? 'none' : 'transform 0.5s ease-in-out',
-  transform: `translateX(-${currentIndex * 100}%)`,
+  transform: `translateX(-${currentIndex * 50}%)`, // 50% burada iki kartın genişliğini ifade eder
   willChange: 'transform',
 }));
 
@@ -82,7 +89,7 @@ function DentalApplications() {
   const slideCount = dentalApplications.length;
 
   useEffect(() => {
-    let autoSlideInterval;
+    let autoSlideInterval: NodeJS.Timeout;
 
     if (!isPaused) {
       autoSlideInterval = setInterval(() => {

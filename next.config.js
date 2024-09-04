@@ -6,19 +6,17 @@ const nextConfig = {
   async rewrites() {
     return [
       {
-        source: '/tr/dis-tedavileri',
-        destination: '/tr/dental-treatments',
+        source: '/:locale/dis-tedavileri',
+        destination: '/:locale/dental-treatments',
       },
       {
-        source: '/en/dental-treatments',
-        destination: '/en/dental-treatments',
+        source: '/:locale/traitements-dentaires',
+        destination: '/:locale/dental-treatments',
       },
-      {
-        source: '/fr/traitements-dentaires',
-        destination: '/fr/dental-treatments',
-      },
+      // Diğer URL'ler buraya eklenebilir.
     ];
   },
 };
+
 
 module.exports = withNextIntl(nextConfig);

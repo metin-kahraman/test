@@ -4,8 +4,19 @@ import { styled } from '@mui/material/styles';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 
-// Define image data as a JavaScript object
-const imageData = [
+// ArrowButtonProps tanımı
+interface ArrowButtonProps {
+  direction: 'left' | 'right'; // Örnek: yalnızca 'left' ve 'right' izin verilen değerler
+}
+
+// Resim verisi türü
+interface ImageData {
+  src: string;
+  title: string;
+}
+
+// Resim verileri
+const carouselImages: ImageData[] = [
   { src: 'https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg', title: 'Başlık 1' },
   { src: 'https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg', title: 'Başlık 2' },
   { src: 'https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg', title: 'Başlık 3' },
@@ -13,7 +24,6 @@ const imageData = [
   { src: 'https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg', title: 'Başlık 5' }
 ];
 
-// Container for the carousel
 const CarouselContainer = styled('div')({
   position: 'relative',
   width: '100%',
@@ -21,7 +31,6 @@ const CarouselContainer = styled('div')({
   overflow: 'hidden',
 });
 
-// Container for rotating elements
 const RotatingWrapper = styled('div')({
   display: 'flex',
   alignItems: 'center',
@@ -94,8 +103,7 @@ const ShowAllButton = styled(Button)({
   },
 });
 
-
-const ArrowButton = styled(Button)(({ direction }) => ({
+const ArrowButton = styled(Button)<ArrowButtonProps>(({ direction }) => ({
   position: 'absolute',
   top: '50%',
   transform: 'translateY(-50%)',
@@ -116,14 +124,14 @@ const ArrowButton = styled(Button)(({ direction }) => ({
   ...(direction === 'left' ? { left: '10px' } : { right: '10px' }),
 }));
 
-const CategorySlider = () => {
-  const [images, setImages] = useState([]);
-  const [activeIndex, setActiveIndex] = useState(0);
-  const wrapperRef = useRef(null);
-  const intervalRef = useRef(null);
+const CategorySlider: React.FC = () => {
+  const [images, setImages] = useState<ImageData[]>([]);
+  const [activeIndex, setActiveIndex] = useState<number>(0);
+  const wrapperRef = useRef<HTMLDivElement>(null);
+  const intervalRef = useRef<NodeJS.Timeout | null>(null);
 
   useEffect(() => {
-    setImages(imageData);
+    setImages(carouselImages); // Güncellenmiş veri kümesi
   }, []);
 
   useEffect(() => {
@@ -139,8 +147,8 @@ const CategorySlider = () => {
     };
 
     const scrollContainer = wrapperRef.current;
-    scrollContainer.addEventListener('scroll', handleScroll);
-    return () => scrollContainer.removeEventListener('scroll', handleScroll);
+    scrollContainer?.addEventListener('scroll', handleScroll);
+    return () => scrollContainer?.removeEventListener('scroll', handleScroll);
   }, [images]);
 
   useEffect(() => {
@@ -156,11 +164,17 @@ const CategorySlider = () => {
         });
       }
     };
-
+  
     intervalRef.current = setInterval(autoScroll, 3000); // Adjust the interval as needed
-    return () => clearInterval(intervalRef.current);
+  
+    // Temizleme işlevi
+    return () => {
+      if (intervalRef.current) {
+        clearInterval(intervalRef.current);
+      }
+    };
   }, [images]);
-
+  
   const goToPrevious = () => {
     if (wrapperRef.current) {
       const slideWidth = 300; // Width of each slide
@@ -190,7 +204,9 @@ const CategorySlider = () => {
   };
 
   const resetAutoScroll = () => {
-    clearInterval(intervalRef.current);
+    if (intervalRef.current) {
+      clearInterval(intervalRef.current);
+    }
     intervalRef.current = setInterval(() => {
       if (wrapperRef.current) {
         const slideWidth = 300; // Width of each slide

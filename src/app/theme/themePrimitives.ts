@@ -1,3 +1,4 @@
+// themePrimitives.ts
 "use client";
 
 import { createTheme, alpha, Shadows, PaletteMode } from '@mui/material/styles';
@@ -91,7 +92,7 @@ export const red = {
   900: 'hsl(0, 93%, 6%)',
 };
 
-const getDesignTokens = (mode: PaletteMode) => ({
+export const getDesignTokens = (mode: PaletteMode) => ({
   palette: {
     mode,
     primary: {
@@ -235,4 +236,3 @@ const getDesignTokens = (mode: PaletteMode) => ({
         ]),
   ] as Shadows,
 });
-
