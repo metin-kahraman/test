@@ -95,7 +95,7 @@ const cardData = [
 const TreatmentsPage = () => {
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
-  const t = useTranslations('TreatmentsPage') as (key: keyof TreatmentsPageTranslations) => string;
+  const t = useTranslations('TreatmentsPage.titles') as (key: keyof TreatmentsPageTranslations['titles']) => string;
   const seo = useTranslations('TreatmentsPage.seo') as (key: keyof TreatmentsPageTranslations['seo']) => string;
 
   const isXs = useMediaQuery('(max-width:600px)');
