@@ -82,6 +82,7 @@ export default function AppAppBar() {
   const url = useTranslations('Menu.urls') as (key: keyof MenuItemTranslations['url']) => string;
 
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("en");
+  const flagitemMobil = languages.find(language => language.code === locale);
 
   const handleLanguageChange = (event: SelectChangeEvent<unknown> | string) => {
     const newLocale = typeof event === 'string' ? event : (event.target.value as string);
@@ -228,8 +229,8 @@ export default function AppAppBar() {
             </IconButton>
             <IconButton aria-label="Dil Seçimi" size="small" color="success" onClick={handleModalOpen}>
               <img
-                src={languages[0].flagUrl}
-                alt={languages[0].code}
+                src={languages.find((lang) => lang.code === locale)?.flagUrl || languages[0].flagUrl}
+                alt={selectedLanguage as string}
                 style={{ width: 24, height: 24, borderRadius: "50%" }}
               />
             </IconButton>
