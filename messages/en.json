@@ -23,5 +23,13 @@
       "keywords": "dental treatments, implants, aesthetic dentistry, orthodontics, dental care",
       "url":"dental-treatments"
     }
+  },
+  "Menu":{
+    "titles":{
+      "item1":"Treatments"
+    },
+    "urls":{
+      "item1":"dental-treatments"
+    }
   }
 }

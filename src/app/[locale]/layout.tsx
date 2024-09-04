@@ -27,22 +27,24 @@ export default async function LocaleLayout({
           <ThemeProvider theme={theme}>
             {/* CssBaseline: Uygulamanızın tutarlı bir temel stilini sağlar */}
             <CssBaseline />
-            <AppAppBar />
-            <Container
-              maxWidth="lg"
-              component="main"
-              sx={{
-                display: "flex",
-                flexDirection: "column",
-                mb: 4,
-                gap: 4,
-              }}
-            >
-              <NextIntlClientProvider messages={messages}>
+            <NextIntlClientProvider locale={locale} messages={messages}>
+
+              <AppAppBar />
+              <Container
+                maxWidth="lg"
+                component="main"
+                sx={{
+                  display: "flex",
+                  flexDirection: "column",
+                  mb: 4,
+                  gap: 4,
+                }}
+              >
                 {children}
-              </NextIntlClientProvider>
-              <Footer />
-            </Container>
+                <Footer />
+              </Container>
+            </NextIntlClientProvider>
+
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

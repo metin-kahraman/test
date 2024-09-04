@@ -1,5 +1,7 @@
 "use client";
 import * as React from "react";
+import { useTranslations } from 'next-intl';
+
 import { alpha } from "@mui/material/styles";
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
@@ -24,6 +26,7 @@ import {
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import PhoneIcon from "@mui/icons-material/Phone";
 import urlMappings from "public/locales/urlMapping";
+import { MenuItemTranslations } from "@/types/menu";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   display: "flex",
@@ -63,6 +66,9 @@ const CustomSelect = styled(Select)(({ theme }) => ({
     boxSizing: "border-box",
   },
 }));
+const menuItems = [
+  { title: 'item1' },
+];
 
 export default function AppAppBar() {
   console.log(urlMappings)
@@ -72,24 +78,26 @@ export default function AppAppBar() {
   const pathname = usePathname();
   const params = useParams();
   const { locale } = params;
+  const t = useTranslations('Menu.titles') as (key: keyof MenuItemTranslations['titles']) => string;
+  const url = useTranslations('Menu.urls') as (key: keyof MenuItemTranslations['url']) => string;
 
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("en");
-  
+
   const handleLanguageChange = (event: SelectChangeEvent<unknown> | string) => {
     const newLocale = typeof event === 'string' ? event : (event.target.value as string);
-  
+
     // Mevcut locale'yi çıkart ve kalan path'i al
     const pathParts = pathname.split('/');
     const currentPath = pathParts.slice(2).join('/'); // locale ve '/' kısmını çıkar
-  
+
     // URL'yi yeni locale'e göre dönüştür
     const newPath = urlMappings[newLocale as keyof typeof urlMappings]?.[currentPath] || currentPath;
-    console.log("newPath",newPath)
+    console.log("newPath", newPath)
     // Yönlendirme
     router.push(`/${newLocale}/${newPath}`);
     setSelectedLanguage(newLocale);
   };
-  
+
   const handleModalOpen = () => setmodalOpen(true);
   const handleModalClose = () => setmodalOpen(false);
 
@@ -112,24 +120,12 @@ export default function AppAppBar() {
           <Box sx={{ flexGrow: 1, display: "flex", alignItems: "center", px: 0 }}>
             <Sitemark />
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
-              <Button variant="text" color="info" size="small">
-                Features
-              </Button>
-              <Button variant="text" color="info" size="small">
-                Testimonials
-              </Button>
-              <Button variant="text" color="info" size="small">
-                Highlights
-              </Button>
-              <Button variant="text" color="info" size="small">
-                Pricing
-              </Button>
-              <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
-                FAQ
-              </Button>
-              <Button variant="text" color="info" size="small" sx={{ minWidth: 0 }}>
-                Blog
-              </Button>
+              {menuItems.map((item) => (
+                <Button onClick={() => router.push(`/${locale}/${url(item.title)}`)} variant="text" color="info" size="small">
+                  {t(item.title)}
+                </Button>
+              ))
+              }
             </Box>
           </Box>
           <Box
@@ -257,24 +253,13 @@ export default function AppAppBar() {
                   </IconButton>
                 </Box>
                 <Divider sx={{ my: 2 }} />
-                <Button variant="text" size="large">
-                  Features
-                </Button>
-                <Button variant="text" size="large">
-                  Testimonials
-                </Button>
-                <Button variant="text" size="large">
-                  Highlights
-                </Button>
-                <Button variant="text" size="large">
-                  Pricing
-                </Button>
-                <Button variant="text" size="large">
-                  FAQ
-                </Button>
-                <Button variant="text" size="large">
-                  Blog
-                </Button>
+                {menuItems.map((item) => (
+                  <Button onClick={() => router.push(`/${locale}/${url(item.title)}`)} variant="text" color="info" size="small">
+                    {t(item.title)}
+                  </Button>
+                ))
+                }
+
               </Box>
             </Drawer>
           </Box>

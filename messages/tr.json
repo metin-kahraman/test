@@ -23,5 +23,13 @@
       "keywords": "diş tedavileri, implantlar, diş estetiği, ortodonti, diş bakımı",
       "url":"dis-tedavileri"
     }
+  },
+  "Menu":{
+    "titles":{
+      "item1":"Diş Tedavileri"
+    },
+    "urls":{
+      "item1":"dis-tedavileri"
+    }
   }
 }
