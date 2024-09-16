@@ -55,7 +55,7 @@ export default function NavBar({
   return (
     <ThemeProvider theme={blogTheme}>
       <StyledAppBar>
-        <Container maxWidth="lg">
+        <Container>
           <Toolbar
             variant="dense"
             disableGutters

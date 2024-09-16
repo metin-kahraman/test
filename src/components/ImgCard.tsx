@@ -10,7 +10,7 @@ interface ImgCardProps {
 
 const ImgCard: React.FC<ImgCardProps> = ({ imageSrc, text, imageFirst = true, caption}) => {
   return (
-    <Paper style={{ padding: '16px', margin: '16px' }}>
+    <Paper style={{ padding: '16px', margin: '16px'}}>
       <Grid container spacing={2}>
         {imageFirst ? (
           <>
@@ -18,14 +18,14 @@ const ImgCard: React.FC<ImgCardProps> = ({ imageSrc, text, imageFirst = true, ca
               <img src={imageSrc} alt="ImgCard" style={{ width: '100%', borderRadius: '8px' }} />
             </Grid>
             <Grid item xs={12} md={6}>
-            <Typography variant="h3" align='center' sx={{p:2}}>{caption}</Typography>
+            <Typography variant="h4" align='center' sx={{p:2}}>{caption}</Typography>
               <Typography variant="body1" align='center'>{text}</Typography>
             </Grid>
           </>
         ) : (
           <>
             <Grid item xs={12} md={6}>
-            <Typography variant="h3" align='center' sx={{p:2}}>{caption}</Typography>
+            <Typography variant="h4" align='center' sx={{p:2}}>{caption}</Typography>
             <Typography variant="body1" align='center'>{text}</Typography>
             </Grid>
             <Grid item xs={12} md={6}>

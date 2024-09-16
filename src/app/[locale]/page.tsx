@@ -44,10 +44,9 @@ export default function Blog() {
 
   return (
     <>
-      <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', mt: 16, mb: 16, gap: 4 }}>
+      <Container maxWidth={false} disableGutters={true} component="main" sx={{ flexDirection: 'column' }}>
 
         <MUISlider/>
-        <CustomDivider />
 
         <ImgCard imageSrc='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg' caption='MyCaption' text='MyText'/>
         <CustomDivider />
@@ -62,6 +61,8 @@ export default function Blog() {
         <CustomDivider />
 
         <CategorySlider />
+        <CustomBeforeAfterSlider beforeImage='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg'
+        afterImage='https://picsum.photos/800/450?random=2' handleImage='/img.jpeg'/>
         </Container>
         </>
 

@@ -116,7 +116,7 @@ const TreatmentsPage = () => {
         <meta name="keywords" content={pageKeywords} />
         <link rel="alternate" hrefLang={locale} href={`/${locale}/${url}`} />
       </Head>
-      <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', mt: 16, mb: 16, gap: 4 }}>
+      <Container component="main" sx={{ display: 'flex', flexDirection: 'column', mt: 16, mb: 16, gap: 4 }}>
         <Grid container spacing={2}>
           {cardData.map((card, index) => (
             <React.Fragment key={index}>

@@ -38,7 +38,7 @@ const MUISlider = () => {
   };
 
   return (
-    <Box sx={{ position: 'relative', width: '100%', height: '500px', overflow: 'hidden', m: 0 }}>
+    <Box sx={{ position: 'flex', width: '100%', height: '500px', overflow: 'hidden', m: 0 }}>
       <Box
         sx={{
           display: 'flex',

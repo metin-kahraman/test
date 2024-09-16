@@ -59,7 +59,8 @@ export const surfacesCustomizations: Components<Theme> = {
         // Arka planı, gradient ve hafif doku ile güncelleyin
         background: 'linear-gradient(135deg, #ff7f50, #ffaf7a, #50d0ff, #87e1ff)',
         backgroundSize: 'cover',
-        backgroundAttachment: 'fixed',
+        position:'absolute',
+        //backgroundAttachment: 'fixed',
         // Hafif desen için:
         // backgroundImage: `url('/path/to/your/texture.png')`, // Dokulu arka plan
       }),

@@ -31,13 +31,13 @@ export default async function LocaleLayout({
 
               <AppAppBar />
               <Container
-                maxWidth="lg"
-                component="main"
+                maxWidth={false}
+                disableGutters={true}
+                //component="main"
                 sx={{
-                  display: "flex",
+                  //display: "flex",
                   flexDirection: "column",
                   mb: 4,
-                  gap: 4,
                 }}
               >
                 {children}
