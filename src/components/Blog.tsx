@@ -35,10 +35,17 @@ const typofImplants = ["item1", "item2", "item3", "item4"];
 
 const keys = ["item1", "item2", "item3", "item4", "item5", "item6", "item7","item8","item9","item10"] as const;
 const keysSub = {
+    item1:[],
+    item2:[],
     item3: ["item1", "item2", "item3"],
     item4: ["item1", "item2", "item3", "item4", "item5", "item6", "item7", "item8", "item9"],
     item5: ["item1", "item2"],
-    item7: ["item1", "item2", "item3"]
+    item6:[],
+    item7: ["item1", "item2", "item3"],
+    item8:[],
+    item9:[],
+    item10:[]
+
 } as const;
 
 function createItem(title: string, value: string) {
