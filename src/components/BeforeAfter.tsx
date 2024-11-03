@@ -1,6 +1,6 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Box, Button, Grid2, Paper, Zoom } from "@mui/material";
-import { CustomBeforeAfterSliderProps } from '@/types'; // Import the types
+import { CustomBeforeAfterSliderProps } from '@/types'; 
 import { IconButton } from '@mui/material';
 import ZoomInIcon from '@mui/icons-material/ZoomIn';
 import Dialog from '@mui/material/Dialog';
@@ -16,12 +16,7 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
   const [isDragging, setIsDragging] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
   const [open, setOpen] = useState(false);
-  const handleClose = () => {
-    setOpen(false);
-  };
-  const handleOpen = () => {
-    setOpen(true);
-  };
+
   const handleMouseDown = () => {
     setIsDragging(true);
   };
@@ -29,52 +24,39 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
   const handleMouseUp = () => {
     setIsDragging(false);
   };
-  const Transition = React.forwardRef(function Transition(
-    props: TransitionProps & {
-      children: React.ReactElement<any, any>;
-    },
-    ref: React.Ref<unknown>,
-  ) {
-    return <Slide direction="up" ref={ref} {...props} />;
-  });
 
-  const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
-    if (!isDragging) return;
+  const handleMouseMove = (e: MouseEvent) => {
+    if (!isDragging || !sliderRef.current) return;
 
-    if (sliderRef.current) {
-      const rect = sliderRef.current.getBoundingClientRect();
-      const position = ((e.clientX - rect.left) / rect.width) * 100;
-      if (position >= 0 && position <= 100) {
-        setSliderPosition(position);
-      }
+    const rect = sliderRef.current.getBoundingClientRect();
+    const position = ((e.clientX - rect.left) / rect.width) * 100;
+    if (position >= 0 && position <= 100) {
+      setSliderPosition(position);
     }
   };
 
-  const handleTouchMove = (e: React.TouchEvent<HTMLDivElement>) => {
-    if (sliderRef.current) {
-      const rect = sliderRef.current.getBoundingClientRect();
-      const position = ((e.touches[0].clientX - rect.left) / rect.width) * 100;
-      if (position >= 0 && position <= 100) {
-        setSliderPosition(position);
-      }
+  const handleTouchMove = (e: TouchEvent) => {
+    if (!sliderRef.current) return;
+
+    const rect = sliderRef.current.getBoundingClientRect();
+    const position = ((e.touches[0].clientX - rect.left) / rect.width) * 100;
+    if (position >= 0 && position <= 100) {
+      setSliderPosition(position);
     }
   };
 
   useEffect(() => {
-    const handleDocumentMouseMove = (e: MouseEvent) => {
-      handleMouseMove(e as unknown as React.MouseEvent<HTMLDivElement>);
-    };
-
-    const handleDocumentTouchMove = (e: TouchEvent) => {
-      handleTouchMove(e as unknown as React.TouchEvent<HTMLDivElement>);
-    };
-
-    document.addEventListener("mousemove", handleDocumentMouseMove);
-    document.addEventListener("touchmove", handleDocumentTouchMove);
+    if (isDragging) {
+      document.addEventListener("mousemove", handleMouseMove);
+      document.addEventListener("touchmove", handleTouchMove);
+    } else {
+      document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("touchmove", handleTouchMove);
+    }
 
     return () => {
-      document.removeEventListener("mousemove", handleDocumentMouseMove);
-      document.removeEventListener("touchmove", handleDocumentTouchMove);
+      document.removeEventListener("mousemove", handleMouseMove);
+      document.removeEventListener("touchmove", handleTouchMove);
     };
   }, [isDragging]);
 
@@ -92,9 +74,10 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
         }}
         onMouseDown={handleMouseDown}
         onMouseUp={handleMouseUp}
-        onTouchStart={handleMouseDown} // Ensure touch interactions also start dragging
+        onTouchStart={handleMouseDown}
         onTouchEnd={handleMouseUp}
       >
+        {/* Before and After Images */}
         <Box
           component="img"
           src={beforeImage}
@@ -155,55 +138,34 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
           }}
           draggable={false}
         />
-
       </Box>
+      {/* Zoom Button */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 3 }}>
-
-        <IconButton onClick={handleOpen} aria-label="zoom" sx={{ color: "orange" }}>
+        <IconButton onClick={() => setOpen(true)} aria-label="zoom" sx={{ color: "orange" }}>
           <ZoomInIcon />
         </IconButton>
       </div>
-
-
-      <Dialog
-        open={open}
-        keepMounted
-        onClose={handleClose}
-        aria-describedby="alert-dialog-slide-description"
-      >
+      {/* Dialog for Zoomed Image */}
+      <Dialog open={open} onClose={() => setOpen(false)} aria-describedby="alert-dialog-slide-description">
         <DialogContent>
-          <Grid2 size={{ xs: 12 }} >
+          <Grid2 size={{ xs: 12 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 3 }}>
-
               <SitemarkIcon />
             </div>
-
             <Grid2 size={{ xs: 12 }}>
-              <img src={afterImage} style={{
-                borderWidth: 2,
-                borderRadius: 3
-              }} width='100%' alt="" />
+              <img src={afterImage} style={{ borderWidth: 2, borderRadius: 3 }} width='100%' alt="" />
             </Grid2>
-            <Grid2 size={{ xs: 12 }}>
-              İMZA
-            </Grid2>
-            <img src={beforeImage} style={{
-                borderWidth: 2,
-                borderRadius: 3
-              }}  width='100%' alt="" />
-
+            <Grid2 size={{ xs: 12 }}>İMZA</Grid2>
+            <img src={beforeImage} style={{ borderWidth: 2, borderRadius: 3 }} width='100%' alt="" />
           </Grid2>
         </DialogContent>
         <DialogActions>
-          <IconButton onClick={handleClose} aria-label="zoomClose" sx={{ color: "orange" }}>
+          <IconButton onClick={() => setOpen(false)} aria-label="zoomClose" sx={{ color: "orange" }}>
             <CloseRounded />
           </IconButton>
         </DialogActions>
       </Dialog>
-
-
     </Paper>
-
   );
 };
 
