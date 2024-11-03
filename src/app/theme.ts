@@ -1,39 +1,34 @@
+'use client';
+import { Roboto, Inter } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
-import { Roboto } from 'next/font/google';
+import { getDesignTokens } from './theme/themePrimitives';
+
+import {
+  inputsCustomizations,
+  dataDisplayCustomizations,
+  feedbackCustomizations,
+  navigationCustomizations,
+  surfacesCustomizations,
+} from '../app/theme/customizations';
 
 const roboto = Roboto({
-  weight: ['300', '400', '500', '700'],
+  weight: ['100', '300', '400', '500'],
   subsets: ['latin'],
   display: 'swap',
 });
+const inter = Inter({
+  weight: ['300', '400', '500', '700'],
+  subsets: ['latin'],
+});
 
 const theme = createTheme({
-  palette: {
-    mode: 'light',
-    background: {
-      default: 'linear-gradient(to bottom, #ff7f50, #50d0ff)', // Arka plan rengi tanımı
-      paper: '#f3f3f3', // İçerik kartlarının arka plan rengi
-    },
-    primary: {
-      main: '#ff7f50', // Turuncu tonlar
-    },
-    secondary: {
-      main: '#50d0ff', // Mavi tonlar
-    },
-  },
-  typography: {
-    fontFamily: roboto.style.fontFamily,
-  },
+  ...getDesignTokens('dark'),
   components: {
-    MuiAlert: {
-      styleOverrides: {
-        root: ({ ownerState }) => ({
-          ...(ownerState.severity === 'info' && {
-            backgroundColor: '#60a5fa',
-          }),
-        }),
-      },
-    },
+    ...inputsCustomizations,
+    ...dataDisplayCustomizations,
+    ...feedbackCustomizations,
+    ...navigationCustomizations,
+    ...surfacesCustomizations,
   },
 });
 

@@ -6,6 +6,7 @@
   "TreatmentsPage": {
     "titles": {
       "T1": "Implant Treatment",
+      "T1Link": "/en/dental-treatments/implants",
       "T2": "Dental Aesthetics",
       "T3": "Zirconium Teeth",
       "T4": "Porcelain Teeth",
@@ -21,15 +22,47 @@
       "title": "Dental Treatments at Orange Dent Clinic",
       "description": "Discover a variety of dental treatments including implants, aesthetic dentistry, and orthodontics at Orange Dent Clinic.",
       "keywords": "dental treatments, implants, aesthetic dentistry, orthodontics, dental care",
-      "url":"dental-treatments"
+      "url": "dental-treatments"
     }
   },
-  "Menu":{
-    "titles":{
-      "item1":"Treatments"
+  "Menu": {
+    "titles": {
+      "item1": "Treatments",
+      "item2": "Digital Dentistry",
+      "item3": "Our Clinic",
+      "item4": "About Us",
+      "item5": "Contact Us"
     },
-    "urls":{
-      "item1":"dental-treatments"
+    "urls": {
+      "item1": "dental-treatments"
     }
+  },
+  "Implants": {
+    "whatisImplant":"What is an Implant ?",
+    "whatistypofImplants":"What are the types of implants?",
+    "implantApply":"What are the implant application methods?",
+    "typofImplants": {
+      "item1": "Titanium Dental Implants",
+      "item2": "Ceramic Dental Implants",
+      "item3": "One Piece Ceramic Dental Implants",
+      "item4": "Ceramic Implants on Titanium"
+    },
+    "MainContent": "Implants are titanium screws that are used to treat missing teeth and are placed inside the jawbone. The dental prosthesis is placed on these screws. The advantage of implant treatment over other treatments is that neighboring teeth are not harmed. In other words, neighboring teeth do not need to be cut. The implant acts as a tooth root and you can eat, talk and laugh comfortably like a natural tooth. Dental implant surgery also involves a surgical process that replaces the tooth roots with metal, screw-like posts and replaces damaged or missing teeth with artificial teeth that look and function very much like real teeth. Dental implants can offer a nice alternative to poorly fitting dentures or bridges and are therefore preferred over traditional bridges."
+  },
+  "3dDentistry": {
+    "whatis3dDentistry":"What is Digital Dentistry?",
+    "whatisapplyof3dDentistry":"What are the stages of digital dentistry?",
+    "implantApply":"What are the implant application methods?",
+    "3dDentistrySteps": {
+      "item1": "Digital Scanning (Measurement Taking)",
+      "item1Content":"The patient comes to the clinic, the teeth to be treated are scanned in 3D with digital scanners. In this way, the 3D image of the tooth is transferred to the virtual environment.",
+      "item2": "Digital Design",
+      "item2Content":"The tooth design is done digitally on the scan image. All processes such as the shape of the tooth, its contours, and its compatibility with the gum are designed in a computer environment.",
+      "item3": "Digital Tooth Production",
+      "item3Content":"After the digital design is completed, it is time for production. The tooth is produced using the 3D printers in our clinic.",
+      "item4": "Porcelain Teeth",
+      "item4Content":"The porcelain teeth produced in our clinic are ready for application, the final checks of the new teeth are made in the mouth and applied to the patient."
+    },
+    "MainContent":"The question of what is digital dentistry is among the topics that many people have been wondering about recently. Digital dentistry is a field where devices, techniques and new technologies that are fully or partially supported by computers are used during diagnosis, planning and treatment. Digital dentistry is among the new generation methods developed to greatly reduce human errors, increase precision in production and shorten the duration of treatments a little bit more. In the field of digital dentistry; many applications that come to mind such as filling, complicated implant treatments, smile design, aesthetic planning, orthodontic procedures and porcelain coating can be performed. Each of these procedures is performed using digital technologies and modern devices."
   }
 }

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Card, CardContent, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-
+import TranslateIcon from '@mui/icons-material/Translate';
 const reviews = [
   {
     name: 'John Doe',
@@ -115,19 +115,23 @@ function ReviewSlider() {
                 justifyContent: 'center',
               }}
             >
-              <Box sx={{ mb: 0 }}>
+              <Box sx={{ mb: 0 ,pt:2}}>
                 <img
                   src="/google-logo.png"
                   alt="Google Reviews"
-                  style={{ width: '100px', height: 'auto' }}
+                  style={{ width: '100px', height: 'auto'}}
                 />
               </Box>
               <CardContent sx={{ padding: '10px' }}>
-                <Typography variant="body1" sx={{ marginBottom: '10px' }}>
+                <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
+                  {review.text}
+                </Typography>
+                <TranslateIcon sx={{color:'#ff7f50'}}/>
+                <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
                   {review.text}
                 </Typography>
                 <Typography variant="subtitle2" color="text.secondary" sx={{ fontWeight: 'bold' }}>
-                  - {review.name}
+                  - {review.name} -
                 </Typography>
               </CardContent>
             </Card>

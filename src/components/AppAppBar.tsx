@@ -2,13 +2,13 @@
 import * as React from "react";
 import { useTranslations } from 'next-intl';
 
-import { alpha } from "@mui/material/styles";
+import { alpha, styled } from '@mui/material/styles';
 import Box from "@mui/material/Box";
 import AppBar from "@mui/material/AppBar";
 import Toolbar from "@mui/material/Toolbar";
 import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
-import Container from "@mui/material/Container";
+import InstagramIcon from '@mui/icons-material/Instagram';
 import Divider from "@mui/material/Divider";
 import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
@@ -19,9 +19,9 @@ import {
   Select,
   MenuItem,
   SelectChangeEvent,
-  styled,
   OutlinedInput,
   Modal,
+  Container,
 } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import PhoneIcon from "@mui/icons-material/Phone";
@@ -29,17 +29,17 @@ import urlMappings from "public/locales/urlMapping";
 import { MenuItemTranslations } from "@/types/menu";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
-  display: "flex",
-  alignItems: "center",
-  justifyContent: "space-between",
+  display: 'flex',
+  alignItems: 'center',
+  justifyContent: 'space-between',
   flexShrink: 0,
-  //borderRadius: `calc(${theme.shape.borderRadius}px + 8px)`,
-  //backdropFilter: "blur(24px)",
-  //border: "1px solid",
-  //borderColor: theme.palette.divider,
-  //backgroundColor: alpha(theme.palette.background.default, 0.4),
-  //boxShadow: theme.shadows[1],
-  //padding: "8px 12px",
+  borderRadius: `calc(${theme.shape.borderRadius}px + 8px)`,
+  backdropFilter: 'blur(24px)',
+  border: '1px solid',
+  borderColor: theme.palette.divider,
+  backgroundColor: alpha(theme.palette.background.paper, 0.4),
+  boxShadow: theme.shadows[1],
+  padding: '8px 12px',
 }));
 
 const languages = [
@@ -68,6 +68,10 @@ const CustomSelect = styled(Select)(({ theme }) => ({
 }));
 const menuItems = [
   { title: 'item1' },
+  { title: 'item2' },
+  { title: 'item3' },
+  { title: 'item4' },
+
 ];
 
 export default function AppAppBar() {
@@ -80,7 +84,14 @@ export default function AppAppBar() {
   const { locale } = params;
   const t = useTranslations('Menu.titles') as (key: keyof MenuItemTranslations['titles']) => string;
   const url = useTranslations('Menu.urls') as (key: keyof MenuItemTranslations['url']) => string;
-
+  const handleScrollToBottom = () => {
+    console.log("cliked")
+    window.scroll({
+      top: document.body.offsetHeight,
+      left: 0, 
+      behavior: 'smooth',
+    });
+  };
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("en");
   const flagitemMobil = languages.find(language => language.code === locale);
 
@@ -107,17 +118,26 @@ export default function AppAppBar() {
   };
 
   return (
-
-        <StyledToolbar  >
+    <AppBar
+      position="fixed"
+      sx={{ boxShadow: 0, bgcolor: 'transparent', backgroundImage: 'none', mt: 2 ,                  pr:'2.2%',
+        pl:'2.2%'}}
+    >
+      <Container maxWidth={false} disableGutters={false}>
+      <StyledToolbar  >
           <Box sx={{ flexGrow: 1, display: "flex", alignItems: "center", px: 0 }}>
             <Sitemark />
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
               {menuItems.map((item) => (
-                <Button onClick={() => router.push(`/${locale}/${url(item.title)}`)} variant="text" color="info" size="small">
+                <Button onClick={() => router.push(`/${locale}/${url(item.title)}`)} variant="text" sx={{color:'#388E3C', fontWeight:'bold', fontFamily:'oswald',letterSpacing: '0.5px', fontSize:'12px'}}>
                   {t(item.title)}
                 </Button>
               ))
               }
+                              <Button onClick={() => handleScrollToBottom()} variant="text" sx={{color:'#388E3C', fontWeight:'bold', fontFamily:'oswald',letterSpacing: '0.5px', fontSize:'12px'}}>
+                              {t("item5")}
+
+                </Button>
             </Box>
           </Box>
           <Box
@@ -127,7 +147,10 @@ export default function AppAppBar() {
               alignItems: "center",
             }}
           >
-            <IconButton aria-label="Telefon" size="small" color="warning">
+            <IconButton aria-label="Instgram" size="small" sx={{color:'#E4405F'}}>
+              <InstagramIcon />
+            </IconButton>
+            <IconButton aria-label="Telefon" size="small" sx={{color:'#f37418'}}>
               <PhoneIcon />
             </IconButton>
             <IconButton aria-label="WhatsApp" size="small" color="success">
@@ -152,7 +175,7 @@ export default function AppAppBar() {
                     }
                     alt={selectedLanguage as string} // 'unknown' türünü 'string' olarak belirtiyoruz
                     style={{
-                      width: 24,
+                      width: 26,
                       height: 24,
                       margin: 0,
                       borderRadius: "50%",
@@ -186,7 +209,7 @@ export default function AppAppBar() {
                   left: "50%",
                   transform: "translate(-50%, -50%)",
                   width: 300,
-                  bgcolor: "background.paper",
+                  bgcolor: "hsla(210, 100%, 95%, 0.8)",
                   borderRadius: 2,
                   boxShadow: 24,
                   p: 4,
@@ -230,7 +253,7 @@ export default function AppAppBar() {
               <MenuIcon />
             </IconButton>
             <Drawer anchor="top" open={open} onClose={toggleDrawer(false)}>
-              <Box sx={{ p: 2, backgroundColor: "background.default" }}>
+              <Box sx={{ p: 2, backgroundColor: "rgb(252, 252, 252)" }}>
                 <Box
                   sx={{
                     display: "flex",
@@ -256,5 +279,9 @@ export default function AppAppBar() {
             </Drawer>
           </Box>
         </StyledToolbar>
+      </Container>
+
+    </AppBar>
+
   );
 }

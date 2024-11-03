@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
-import { Container, Typography, Card, CardContent, CardMedia, Button, IconButton } from '@mui/material';
+import { Container, Typography, Card, CardContent, CardMedia, Button, IconButton, Paper } from '@mui/material';
 import { ThemeProvider, createTheme, styled } from '@mui/material/styles';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
+import Grid from '@mui/material/Grid2';
+import { useTranslations } from 'next-intl';
+import { TreatmentsPageTranslations } from '@/types';
 
 // Type definitions
 interface DentalApplication {
@@ -22,11 +25,48 @@ const theme = createTheme({
   },
 });
 
+const SyledCard = styled(Card)(({ theme }) => ({
+  display: 'flex',
+  flexDirection: 'column',
+  padding: 0,
+  height: '100%',
+  backgroundColor: theme.palette.background.paper,
+  '&:hover': {
+    backgroundColor: 'transparent',
+    cursor: 'pointer',
+  },
+  '&:focus-visible': {
+    outline: '3px solid',
+    outlineColor: 'hsla(210, 98%, 48%, 0.5)',
+    outlineOffset: '2px',
+  },
+}));
+
+const SyledCardContent = styled(CardContent)({
+  display: 'flex',
+  flexDirection: 'column',
+  gap: 4,
+  padding: 16,
+  flexGrow: 1,
+  '&:last-child': {
+    paddingBottom: 16,
+  },
+});
+
+const StyledTypography = styled(Typography)({
+  display: '-webkit-box',
+  WebkitBoxOrient: 'vertical',
+  WebkitLineClamp: 2,
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+});
+
+
 const dentalApplications: DentalApplication[] = [
   {
     title: 'Diş Beyazlatma',
     description: 'Dişlerinizi güvenle beyazlatın ve parlatın.',
-    image: 'https://via.placeholder.com/200'
+    image: '/tw.jpg'
   },
   {
     title: 'Kanal Tedavisi',
@@ -43,6 +83,19 @@ const dentalApplications: DentalApplication[] = [
     description: 'Dişlerinizin hizalanmasını sağlayın.',
     image: 'https://via.placeholder.com/200'
   },
+];
+const treatments = [
+  { img: 'https://picsum.photos/800/450?random=1', title: 'T1' },
+  { img: 'https://picsum.photos/800/450?random=2', title: 'T2' },
+  { img: 'https://picsum.photos/800/450?random=3', title: 'T3' },
+  { img: 'https://picsum.photos/800/450?random=4', title: 'T4' },
+  { img: 'https://picsum.photos/800/450?random=5', title: 'T5' },
+  { img: 'https://picsum.photos/800/450?random=6', title: 'T6' },
+  { img: 'https://picsum.photos/800/450?random=7', title: 'T7' },
+  { img: 'https://picsum.photos/800/450?random=8', title: 'T8' },
+  { img: 'https://picsum.photos/800/450?random=9', title: 'T9' },
+  { img: 'https://picsum.photos/800/450?random=10', title: 'T10' },
+  { img: 'https://picsum.photos/800/450?random=11', title: 'T11' },
 ];
 
 const SliderContainer = styled('div')({
@@ -86,7 +139,8 @@ const SliderButtonRight = styled(SliderButton)({
 function DentalApplications() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
-  const slideCount = dentalApplications.length;
+  const slideCount = treatments.length;
+  const tt = useTranslations('TreatmentsPage.titles') as (key: keyof TreatmentsPageTranslations['titles']) => string;
 
   useEffect(() => {
     let autoSlideInterval: NodeJS.Timeout;
@@ -120,26 +174,84 @@ function DentalApplications() {
   };
 
   return (
-    <ThemeProvider theme={theme}>
-      <Container sx={{ py: 4 }}>
-        <Typography variant="h4" gutterBottom>
+      <Container maxWidth={false} disableGutters={true} sx={{pt:4}}>
+        <Typography variant="h4" align='center' gutterBottom>
           Dental Uygulamalarımız
         </Typography>
+        <Grid container spacing={3} sx={{ mr: 1, ml: 1, mb: 1, mt: 4 }}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{ height:344,maxHeight:480}} >
+            <SyledCard
+              variant="outlined"
+              tabIndex={0}
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                image={'/implant.jpeg'}
+                aspect-ratio="16 / 9"
+                sx={{
+                  borderBottom: '1px solid',
+                  borderColor: 'divider',
+                  height:200
+
+                }}
+              />
+              <SyledCardContent sx={{height:144}}>
+
+                <Typography gutterBottom variant="h6" component="div">
+                  {"İmplant Tedavisi"}
+                </Typography>
+                <StyledTypography variant="body2" color="text.secondary" gutterBottom>
+                  {"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}
+                </StyledTypography>
+              </SyledCardContent>
+            </SyledCard>
+          </Grid>
+          
+          <Grid size={{ xs: 12, md: 6 }} sx={{ height:344,maxHeight:480}} >
+            <SyledCard
+              variant="outlined"
+              tabIndex={0}
+            >
+              <CardMedia
+                component="img"
+                alt="green iguana"
+                image={'/pediatricdentistry.jpg'}
+                aspect-ratio="16 / 9"
+                sx={{
+                  borderBottom: '1px solid',
+                  borderColor: 'divider',
+                  height:200
+
+                }}
+              />
+              <SyledCardContent sx={{height:144}}>
+
+                <Typography gutterBottom variant="h6" component="div">
+                  {"Alignment Treatments"}
+                </Typography>
+                <StyledTypography variant="body2" color="text.secondary" gutterBottom>
+                  {"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}
+                </StyledTypography>
+              </SyledCardContent>
+            </SyledCard>
+          </Grid>
+        </Grid>
         <SliderContainer>
           <SliderWrapper isPaused={isPaused} currentIndex={currentIndex}>
-            {dentalApplications.map((app) => (
+            {treatments.map((app) => (
               <SliderItem key={app.title}>
-                <Card>
+                <Card sx={{ m: 1 }}>
                   <CardMedia
                     component="img"
-                    height="140"
-                    image={app.image}
+                    height="180"
+                    image={app.img}
                     alt={app.title}
                   />
                   <CardContent>
-                    <Typography variant="h6">{app.title}</Typography>
+                    <Typography variant="h6">{tt(app.title)}</Typography>
                     <Typography variant="body2" color="text.secondary">
-                      {app.description}
+                      {tt(app.title)}
                     </Typography>
                   </CardContent>
                 </Card>
@@ -147,17 +259,17 @@ function DentalApplications() {
             ))}
           </SliderWrapper>
           <SliderButtonLeft onClick={handlePrev}>
-            <ArrowBackIosIcon />
+            <ArrowBackIosIcon sx={{color:'#f37418'}}/>
           </SliderButtonLeft>
           <SliderButtonRight onClick={handleNext}>
-            <ArrowForwardIosIcon />
+            <ArrowForwardIosIcon sx={{color:'#f37418'}}/>
           </SliderButtonRight>
         </SliderContainer>
-        <Button variant="contained" color="primary" sx={{ mt: 3 }}>
+        <Button variant="contained" sx={{ mt: 3, ml: 1,backgroundColor:"#f37418" }}>
           Tüm Uygulamalar
         </Button>
+
       </Container>
-    </ThemeProvider>
   );
 }
 

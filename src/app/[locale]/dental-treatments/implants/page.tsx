@@ -15,12 +15,12 @@ import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import { TreatmentsPageTranslations } from '@/types';
 import Blog from '@/components/Blog';
+
 const Implants = () => {
 
   return (
     <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', mt: 16, mb: 16, gap: 4 }}>
     <Blog></Blog>
-
    </Container>
   );
 };

@@ -1,4 +1,3 @@
-// themePrimitives.ts
 "use client";
 
 import { createTheme, alpha, Shadows, PaletteMode } from '@mui/material/styles';
@@ -77,6 +76,8 @@ export const orange = {
   700: 'hsl(45, 94%, 20%)',
   800: 'hsl(45, 95%, 16%)',
   900: 'hsl(45, 93%, 12%)',
+  'primary':'#F57C00',
+  'secondary':'#FFA92C',
 };
 
 export const red = {

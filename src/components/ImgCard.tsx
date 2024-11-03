@@ -1,5 +1,6 @@
 import React from 'react';
 import { Grid, Typography, Paper } from '@mui/material';
+import theme from '@/app/theme';
 
 interface ImgCardProps {
   imageSrc: string;
@@ -10,12 +11,17 @@ interface ImgCardProps {
 
 const ImgCard: React.FC<ImgCardProps> = ({ imageSrc, text, imageFirst = true, caption}) => {
   return (
-    <Paper style={{ padding: '16px', margin: '16px'}}>
+    <Paper style={{ padding: '16px', margin: '16px', backgroundColor:"transparent"}}>
       <Grid container spacing={2}>
+      <Grid item xs={12} md={12}>
+      <Typography variant="h4" align='center' sx={{p:2}}>{caption}</Typography>
+
+      </Grid>
+
         {imageFirst ? (
           <>
             <Grid item xs={12} md={6}>
-              <img src={imageSrc} alt="ImgCard" style={{ width: '100%', borderRadius: '8px' }} />
+              <img src={imageSrc} alt="ImgCard" style={{ width: '100%',paddingRight:'5%',paddingLeft:'5%', borderRadius: '8px' }} />
             </Grid>
             <Grid item xs={12} md={6}>
             <Typography variant="h4" align='center' sx={{p:2}}>{caption}</Typography>

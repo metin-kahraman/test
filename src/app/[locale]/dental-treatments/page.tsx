@@ -14,7 +14,7 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import { TreatmentsPageTranslations } from '@/types';
-
+import Link from '@mui/material/Link';
 const StyledCard = styled(Card)(({ theme }) => ({
   display: 'flex',
   flexDirection: 'column',
@@ -121,6 +121,8 @@ const TreatmentsPage = () => {
           {cardData.map((card, index) => (
             <React.Fragment key={index}>
               <Grid item xs={12} md={6} lg={4} xl={3}>
+              <Link underline="none" href={t(card.title+"Link")}>
+
                 <StyledCard variant="outlined">
                   <CardMedia
                     component="img"
@@ -134,6 +136,7 @@ const TreatmentsPage = () => {
                     </Typography>
                   </StyledCardContent>
                 </StyledCard>
+                </Link>
               </Grid>
               {(isXs && index < cardData.length - 1) || 
                (isMd && index < cardData.length - 1 && (index + 1) % 2 === 0) ||

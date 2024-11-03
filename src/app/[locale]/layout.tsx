@@ -9,7 +9,7 @@ import AppAppBar from "@/components/AppAppBar";
 import Container from "@mui/material/Container";
 import Footer from "@/components/Footer";
 import { useTranslations } from 'next-intl';
-
+import FloatingActionButtons from "@/components/FloatingActionButtons";
 export default async function LocaleLayout({
   children,
   params: { locale }
@@ -29,7 +29,6 @@ export default async function LocaleLayout({
             <CssBaseline />
             <NextIntlClientProvider locale={locale} messages={messages}>
 
-              <AppAppBar />
               <Container
                 maxWidth={false}
                 disableGutters={true}
@@ -38,16 +37,24 @@ export default async function LocaleLayout({
                   //display: "flex",
                   flexDirection: "column",
                   mb: 4,
+                  mt:14,
+                  pr:'4.1%',
+                  pl:'4.1%'
                 }}
               >
+                              <AppAppBar />
+
                 {children}
+                <FloatingActionButtons></FloatingActionButtons>
                 <Footer />
               </Container>
             </NextIntlClientProvider>
 
           </ThemeProvider>
         </AppRouterCacheProvider>
+
       </body>
+      
     </html>
   );
 }

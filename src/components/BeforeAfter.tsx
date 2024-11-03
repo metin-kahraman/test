@@ -1,12 +1,27 @@
 import React, { useState, useRef, useEffect } from "react";
-import { Box, Paper } from "@mui/material";
+import { Box, Button, Grid2, Paper, Zoom } from "@mui/material";
 import { CustomBeforeAfterSliderProps } from '@/types'; // Import the types
+import { IconButton } from '@mui/material';
+import ZoomInIcon from '@mui/icons-material/ZoomIn';
+import Dialog from '@mui/material/Dialog';
+import DialogActions from '@mui/material/DialogActions';
+import DialogContent from '@mui/material/DialogContent';
+import { TransitionProps } from '@mui/material/transitions';
+import Slide from '@mui/material/Slide';
+import CloseRounded from "@mui/icons-material/CloseRounded";
+import SitemarkIcon from "./SitemarkIcon";
 
 const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afterImage, handleImage }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
   const [isDragging, setIsDragging] = useState(false);
   const sliderRef = useRef<HTMLDivElement>(null);
-
+  const [open, setOpen] = useState(false);
+  const handleClose = () => {
+    setOpen(false);
+  };
+  const handleOpen = () => {
+    setOpen(true);
+  };
   const handleMouseDown = () => {
     setIsDragging(true);
   };
@@ -14,6 +29,14 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
   const handleMouseUp = () => {
     setIsDragging(false);
   };
+  const Transition = React.forwardRef(function Transition(
+    props: TransitionProps & {
+      children: React.ReactElement<any, any>;
+    },
+    ref: React.Ref<unknown>,
+  ) {
+    return <Slide direction="up" ref={ref} {...props} />;
+  });
 
   const handleMouseMove = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!isDragging) return;
@@ -56,13 +79,13 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
   }, [isDragging]);
 
   return (
-    <Paper elevation={3} sx={{ padding: 5, backgroundColor: "orange" }}>
+    <Paper elevation={3} sx={{ padding: 5, backgroundColor: "white" }}>
       <Box
         ref={sliderRef}
         sx={{
           position: "relative",
           width: "100%",
-          height: "400px",
+          height: "210px",
           cursor: isDragging ? "grabbing" : "grab",
           userSelect: "none",
           overflow: "hidden",
@@ -83,6 +106,8 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
             width: "100%",
             height: "100%",
             objectFit: "cover",
+            border: '1px solid #FFA500',
+            borderRadius: '15px',
           }}
         />
         <Box
@@ -97,6 +122,8 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
             height: "100%",
             objectFit: "cover",
             clipPath: `polygon(0 0, ${sliderPosition}% 0, ${sliderPosition}% 100%, 0% 100%)`,
+            border: '1px solid #FFA500',
+            borderRadius: '15px',
           }}
         />
         <Box
@@ -119,15 +146,64 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
             top: "50%",
             left: `${sliderPosition}%`,
             transform: "translate(-50%, -50%)",
-            width: "60px",
-            height: "60px",
+            width: "30px",
+            height: "33px",
             cursor: "pointer",
-            borderRadius: 3
+            borderRadius: '50%',
+            border: 2,
+            borderColor: 'white'
           }}
           draggable={false}
         />
+
       </Box>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 3 }}>
+
+        <IconButton onClick={handleOpen} aria-label="zoom" sx={{ color: "orange" }}>
+          <ZoomInIcon />
+        </IconButton>
+      </div>
+
+
+      <Dialog
+        open={open}
+        keepMounted
+        onClose={handleClose}
+        aria-describedby="alert-dialog-slide-description"
+      >
+        <DialogContent>
+          <Grid2 size={{ xs: 12 }} >
+            <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 3 }}>
+
+              <SitemarkIcon />
+            </div>
+
+            <Grid2 size={{ xs: 12 }}>
+              <img src={afterImage} style={{
+                borderWidth: 2,
+                borderRadius: 3
+              }} width='100%' alt="" />
+            </Grid2>
+            <Grid2 size={{ xs: 12 }}>
+              İMZA
+            </Grid2>
+            <img src={beforeImage} style={{
+                borderWidth: 2,
+                borderRadius: 3
+              }}  width='100%' alt="" />
+
+          </Grid2>
+        </DialogContent>
+        <DialogActions>
+          <IconButton onClick={handleClose} aria-label="zoomClose" sx={{ color: "orange" }}>
+            <CloseRounded />
+          </IconButton>
+        </DialogActions>
+      </Dialog>
+
+
     </Paper>
+
   );
 };
 

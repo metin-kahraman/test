@@ -6,13 +6,13 @@ import { orange } from '@mui/material/colors';
 const sliderItems = [
   {
     description: 'Kaliteli hizmet için en iyi seçenekleri sunuyoruz.',
-    image: 'https://images.unsplash.com/photo-1556742031-c6961e8560b0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDEyNjB8MHwxfGFsbHwxfHx8fHx8fHwxNjYwODUwODg3&ixlib=rb-1.2.1&q=80&w=1080',
+    image: '/DSC_0077_2.JPG',
     buttonText: 'Daha Fazla Bilgi',
     buttonLink: '#',
   },
   {
     description: 'Diş sağlığınız için en iyi tedaviler burada.',
-    image: 'https://images.unsplash.com/photo-1574169208507-843761748f72?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDEyNjB8MHwxfGFsbHwyfHx8fHx8fHwxNjYwODUwODg3&ixlib=rb-1.2.1&q=80&w=1080',
+    image: '/DSC_0077_2.JPG',
     buttonText: 'Tedavilere Göz At',
     buttonLink: '#',
   },
@@ -59,15 +59,15 @@ const MUISlider = () => {
               position: 'relative',
             }}
           >
-            <Box
+    {        <Box
               sx={{
                 position: 'absolute',
                 top: '50%',
-                left: '10%', // Yazıyı sola yaklaştırma
+                left: '5%', // Yazıyı sola yaklaştırma
                 transform: 'translateY(-50%)',
                 color: '#fff',
                 textAlign: 'left',
-                backgroundColor: 'rgba(0, 0, 0, 0.5)',
+                backgroundColor: 'rgba(0, 0, 0, 0.4)',
                 padding: '20px',
                 borderRadius: '8px',
                 maxWidth: '60%',
@@ -81,54 +81,56 @@ const MUISlider = () => {
                 color="primary"
                 href={item.buttonLink}
                 sx={{
-                  backgroundColor: 'orange',
+                  backgroundColor: orange[600],
                   '&:hover': {
-                    backgroundColor: 'darkorange',
+                    backgroundColor: '#f37418',
                   },
                 }}
               >
                 {item.buttonText}
               </Button>
             </Box>
+     }            <IconButton
+     onClick={handlePrevSlide}
+     sx={{
+       position: 'absolute',
+       top: '50%',
+       left: '10px',
+       transform: 'translateY(-50%)',
+       color: orange[400],
+       border:'none',
+       padding: '10px',
+       backgroundColor: 'transparent',
+       '&:hover': {
+         backgroundColor: 'transparent',
+       },
+     }}
+   >
+     <ArrowBackIos />
+   </IconButton>
+   <IconButton
+     onClick={handleNextSlide}
+     sx={{
+       position: 'absolute',
+       top: '50%',
+       right: '2%',
+       transform: 'translateY(-50%)',
+       color: orange[400],
+       border:'none',
+       padding: '10px',
+       backgroundColor: 'transparent',
+       '&:hover': {
+         backgroundColor: 'transparent',
+       },
+     }}
+   >
+     <ArrowForwardIos />
+   </IconButton>
           </Box>
         ))}
+
       </Box>
-      <IconButton
-        onClick={handlePrevSlide}
-        sx={{
-          position: 'absolute',
-          top: '50%',
-          left: '10px',
-          transform: 'translateY(-50%)',
-          color: orange[400],
-          border:'none',
-          padding: '10px',
-          backgroundColor: 'transparent',
-          '&:hover': {
-            backgroundColor: 'transparent',
-          },
-        }}
-      >
-        <ArrowBackIos />
-      </IconButton>
-      <IconButton
-        onClick={handleNextSlide}
-        sx={{
-          position: 'absolute',
-          top: '50%',
-          right: '10px',
-          transform: 'translateY(-50%)',
-          color: orange[400],
-          border:'none',
-          padding: '10px',
-          backgroundColor: 'transparent',
-          '&:hover': {
-            backgroundColor: 'transparent',
-          },
-        }}
-      >
-        <ArrowForwardIos />
-      </IconButton>
+
     </Box>
   );
 };

@@ -19,15 +19,16 @@ import {useTranslations} from 'next-intl';
 import CustomDivider from '@/components/CustomDivider';
 import CategorySlider from '@/components/CategorySlider';
 import DentalApplications from '@/components/DentalApplications';
-
+import { Grid, Grid2 } from '@mui/material';
+import SitemarkIcon from '@/components/SitemarkIcon';
+import { alignProperty } from '@mui/material/styles/cssUtils';
+import { Opacity } from '@mui/icons-material';
 export default function Blog() {
 
   const [mode, setMode] = React.useState<PaletteMode>('light');
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
   
   const blogTheme = createTheme(getBlogTheme(mode));
-  const defaultTheme = createTheme({ palette: { mode } });
-  
 
 
 
@@ -41,30 +42,63 @@ export default function Blog() {
     setShowCustomTheme((prev) => !prev);
   };
   const t = useTranslations('HomePage');
-
+  
+ 
   return (
     <>
       <Container maxWidth={false} disableGutters={true} component="main" sx={{ flexDirection: 'column' }}>
 
         <MUISlider/>
+     {/**
+      * 
+      *         <img src='/OrangeDentClinic.svg'   style={{
+            height: 100,
+            width: '100%',
+            marginTop:40,
+          }}  ></img> 
+            
+      */}
 
-        <ImgCard imageSrc='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg' caption='MyCaption' text='MyText'/>
+
+        <DentalApplications />
+
         <CustomDivider />
 
-        <ImgCard imageSrc='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg' caption='MyCaption' text='MyText' imageFirst={false}/>
-
-        <CustomDivider />
 
         <ReviewSlider />
         <CustomDivider />
-        <DentalApplications />
-        <CustomDivider />
 
-        <CategorySlider />
-        <CustomBeforeAfterSlider beforeImage='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg'
-        afterImage='https://picsum.photos/800/450?random=2' handleImage='/img.jpeg'/>
+        <Grid2 container spacing={3} sx={{ mr: 1, ml: 1, mb: 1, mt: 4 }}>
+        <Grid2 size={{ xs: 12, md: 4 }}>
+        <CustomBeforeAfterSlider beforeImage='/images/ba12.jpeg'
+        afterImage='/images/ba11.jpeg' handleImage='/img.jpeg'/>
+        </Grid2>
+        <Grid2 size={{ xs: 12, md: 4 }}>
+        <CustomBeforeAfterSlider beforeImage='/images/ba21.jpeg'
+        afterImage='/images/ba22.jpeg' handleImage='/img.jpeg'/>
+        </Grid2>
+        <Grid2 size={{ xs: 12, md: 4 }}>
+        <CustomBeforeAfterSlider beforeImage='/images/ba31.jpeg'
+        afterImage='/images/ba32.jpeg' handleImage='/img.jpeg'/>
+        </Grid2>
+        </Grid2>
+
+
         </Container>
         </>
 
   );
 }
+
+/**
+ * 
+ *         <ImgCard imageSrc='/DSC_0103.JPG' caption='ORANGE DENT ' text='İçerik'/>
+
+        <CustomBeforeAfterSlider beforeImage='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg'
+        afterImage='https://picsum.photos/800/450?random=2' handleImage='/img.jpeg'/>
+                <CustomDivider />
+
+                        <ImgCard imageSrc='https://cdn.pixabay.com/photo/2023/10/19/21/08/ai-generated-8327632_1280.jpg' caption='MyCaption' text='MyText' imageFirst={false}/>
+
+
+ */

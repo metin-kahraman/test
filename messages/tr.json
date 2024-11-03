@@ -5,31 +5,482 @@
   },
   "TreatmentsPage": {
     "titles": {
-    "T1": "İmplant Tedavisi",
-    "T2": "Diş Estetiği",
-    "T3": "Zirkonyum Diş",
-    "T4": "Porselen Diş",
-    "T5": "Dişteli Ortodontik Tedavi",
-    "T6": "Kanal Tedavisi",
-    "T7": "Diş Dolgusu",
-    "T8": "Diş Beyazlatma",
-    "T9": "Çocuk Diş Hekimliği",
-    "T10": "Ağız ve Çene Cerrahisi",
-    "T11": "Dijital Diş Hekimliği"
+      "T1": "İmplant Tedavisi",
+      "T2": "Diş Estetiği",
+      "T3": "Zirkonyum Diş",
+      "T4": "Porselen Diş",
+      "T5": "Dişteli Ortodontik Tedavi",
+      "T6": "Kanal Tedavisi",
+      "T7": "Diş Dolgusu",
+      "T8": "Diş Beyazlatma",
+      "T9": "Çocuk Diş Hekimliği",
+      "T10": "Ağız ve Çene Cerrahisi",
+      "T11": "Dijital Diş Hekimliği"
     },
     "seo": {
       "title": "Diş Tedavileri - Orange Dent Clinic",
       "description": "Orange Dent Clinic ile implant tedavisi, diş estetiği ve ortodonti dahil çeşitli diş tedavilerini keşfedin.",
       "keywords": "diş tedavileri, implantlar, diş estetiği, ortodonti, diş bakımı",
-      "url":"dis-tedavileri"
+      "url": "dis-tedavileri"
     }
   },
-  "Menu":{
-    "titles":{
-      "item1":"Diş Tedavileri"
+  "Menu": {
+    "titles": {
+      "item1": "Diş Tedavileri",
+      "item2": "Dijital Diş Hekimliği",
+      "item3": "Kliniğimiz",
+      "item4": "Hakkımızda",
+      "item5": "İletişim"
     },
-    "urls":{
-      "item1":"dis-tedavileri"
+    "urls": {
+      "item1": "dis-tedavileri"
+    }
+  },
+  "Implants": {
+    "whatisImplant": "İmplant Nedir ?",
+    "whatistypofImplants": "İmplant Türleri Nelerdir ?",
+    "implantApply": "İmplant Uygulama Türleri",
+    "typofImplants": {
+      "item1": "Titanyum Diş İmplantları",
+      "item1Content": "Doğal diş görünümüne ve estetik açıdan güzel bir görünüm sunmaları açısından yine çok tercih edilen malzemelerden biri de seramik diş implantlarıdır. Bazı hastalarımızda tedavi sürecinde meydana gelen metal alerjisi nedeniyle de titanyum implant yerine seramik implant da aynı şekilde tercih edilebilmektedir. Seramik malzeme de yine aynı şekilde biyo uyumlu malzeme olarak kabul edildiği için, çene kemiği ve ağızda ilave bir komplikasyon gelişmesine engel olur, titanyum gibi aynı şekilde vücuda tutunmasını sağlar.",
+      "item2": "Seramik Diş İmplantları",
+      "item3": "Tek Parça Seramik Diş İmplantları",
+      "item4": "Titanyum Üstü Seramik İmplantlar"
+    },
+    "MainContent": {
+      "item1": {
+        "title": "Dental İmplant Ne Demek ?",
+        "value": "Dental implantlar diş etinin altındaki çene kemiğinize cerrahi olarak yerleştirilen metal ‘genellikle titanyum’ vidalardır. Bu vidalar, diş hekiminizin diş protezlerini yerleştireceği temel ayaklar görevi görür."
+      },
+      "item2": {
+        "title": "Dental İmplantlar Nasıl Çalışır ?",
+        "value": "Diş implantlarının çalışma şekli ve formları yıllar içinde çok farklık kazanmıştır. Ancak nasıl işlev görürse görsün temel amaç; doğal dişler gibi iş görmesi ve görünmesi amaçlanır. Yani onlarla rahat yemek yiyebilmenin yanında estetik olarak da tatmin edici olmalıdır. Tüm bunlara ilaveten tatbikîde rahatlıkla temizlenebilmelidir."
+      },
+      "item3": {
+        "title": "Bir diş implantının üç ana parçası vardır",
+        "value": {
+          "title": "Diş implantları bir vidadan (çene kemiğine yerleştirilen), bir dayanaktan (vidayla implanta tutturulan) ve krondan (dayanağın üstüne tutturulan ve doğal bir diş gibi görünen kısım) oluşur.",
+          "item1": {
+            "title": "Vida (titanyum veya zirkondan yapılmış)",
+            "value": "bu implantın kendisidir ve sizin çene kemiğinizin içerisine yerleştirilir. İmplantınız çene kemiğinizin içerisinde kalacağı için sadece diş röntgenleri ile görebilirsiniz. Diş implantını basitçe bir vida dübeline benzetmek hiçte yanlış olmaz. Diş protezini tutacak tüm ara parçalar implanta vida ile tutturulur."
+          },
+          "item2": {
+            "title": "Dayanak (Abutment)",
+            "value": "implantınız ile yapılacak protez dişinizi birbirine tutturan ara parçadır. Dübelin içine giren bir vida gibi implantınızın içine vidalanır."
+          },
+          "item3": {
+            "title": "Kron",
+            "value": "protez dişinizdir. Esasında direkt implantınıza tutturulmaz. Aradaki dayanak ‘abutment’ parçasına tutturulur."
+          }
+        }
+      },
+      "item4": {
+        "title": "Dental İmplant Yaptırmak",
+        "value": {
+          "title": "Bir diş implantı yaptırmayı düşünüyorsanız, nasıl bir yol izlemeniz gerektiğini birlikte inceleyelim.",
+          "item1": {
+            "title": "1.",
+            "value": "İlk olarak, diş hekiminiz implant yapılacak bölgeyi lokal anestezi ile uyuşturacak. Bu, sadece o bölgenin uyuşacağı anlamına gelir. Çok ender olarak bazı özel durumlarda diş hekiminiz tamamen uyutma ‘genel anestezi’ ile işlem yapılmasına karar verebilir."
+          },
+          "item2": {
+            "title": "2.",
+            "value": "İkinci olarak, diş hekiminiz implantı yerleştirmek için çene kemiğiniz ve çevre dokuları hazırlayacaktır."
+          },
+          "item3": {
+            "title": "3.",
+            "value": "Diş hekiminiz; en uygun olan bölgeye implantınızı yerleştirecektir. Burada en ideal olan yer ile en uygun olan yer aynı olmayabilir. Bu; hekiminiz size öngörebilirse önceden ya da ameliyat esnasında bilgi vererek çeşitli değişikliklere gidebileceği anlamına gelir."
+          },
+          "item4": {
+            "title": "4.",
+            "value": "Anestezinin etkisi geçtikten sonra; çene kemiğinde biraz ağrınızın ve ağız içinde bir miktar kanamanızın olması gayet normaldir."
+          },
+          "item5": {
+            "title": "5.",
+            "value": "İmplant uygulandıktan sonra çene kemiğiniz ile kaynaşma süreci başlayacak ki buna   ‘osseointegrasyon’ denir. Kemik implantın etrafını tamamen saracak ve çok sağlam hale gelecektir."
+          },
+          "item6": {
+            "title": "6.",
+            "value": "Diş hekiminiz size yumuşak ve çok sıcak olmayan sağlıklı bir diyet tavsiye edecektir."
+          },
+          "item7": {
+            "title": "7.",
+            "value": "Eğer diş hekiminiz uygun görürse size bu süreçte kullanmanız için geçici bir protez verebilir. Ama unutmayın ki bu her zaman mümkün olmayabilir."
+          },
+          "item8": {
+            "title": "8.)",
+            "value": "Osseointegrasyon süreci tamamlandıktan sonra (muhtemelen 3 ile 6 ay arası), diş hekiminiz diş protezine başlamak için sizden ölçü alacak. Daha sonra laboratuvardan gelen diş protezini implantın üstüne yerleştirilen dayanak diye tabir edilen ‘abutment’e bağlar."
+          },
+          "item9": {
+            "title": "-",
+            "value": "Aynı gün dental implantlarda prosedürün biraz farklı olduğunu unutmayın."
+          }
+        }
+      },
+      "item5": {
+        "title": "Dental İmplant Çeşitleri",
+        "value": {
+          "title": "İki ana tip dental implant vardır",
+          "item1": {
+            "title": "1.Standart Dental İmplantlar:",
+            "value": "Boyları 8 ila 10 mm’den başlar. Belirli bir kemik kalınlığı ve yüksekliğine ihtiyaç vardır."
+          },
+          "item2": {
+            "title": "2.Shorter (kısa) Dental İmplantlar:",
+            "value": "Boyları 4 mm’den başlar. Yeterli kemik yüksekliğinin olmadığı bölgeler için geliştirilmiş implantlardır. Yapım prosedürleri biraz daha farklıdır. Bazen kemik greftinin uygun olmadığı durumlar için en ideal çözümler olabilir."
+          }
+        }
+      },
+      "item6": {
+        "title": "Tek Diş İmplantları",
+        "value": "Tek diş implantı eksik bir dişin kökünün yerini alır. Yalnız o bölgeye protez dişin yapılmasını sağlar. Bu sadece estetik için değil, aynı zamanda yandaki dişlerin zarar görmesini engeller, çevresindeki doğal dişlerin zamanla kaymasının önüne geçer ve hatta kemik kaybını engellemede yardımcı olur. Tek diş implantı bağımsız bir ünitedir ve yanındaki dişlerin tedavisini içermez, onların kesilerek zarar görmelerinin önüne geçer."
+      },
+      "item7": {
+        "title": "İmplant Destekli Köprüler ve Protezler",
+        "value": {
+          "title": "Diş implantları, bir ya da birden fazla dişiniz eksik olduğunda (tüm dişleriniz bile eksikse) diş protezinin desteklenmesine yardımcı olur. İmplant destekli bir köprü, çevresindeki diğer dişlerden destek almak yerine implantları kullanır.   Diş hekiminizin seçtiği diş implantının türü durumunuza göre çeşitlilik gösterecektir. Bu her hastanın diş implantı diğeri ile aynı olamayacağı anlamına gelir.Geleneksel implant köprüleri: diş protezleri implantın üzerindeki dayanak parçasına ‘abutment’ yapıştırılır. Bunun iki dezavantajı vardır.",
+          "item1": {
+            "title": "1.",
+            "value": "Birincisi; ileride tekrar protezin değiştirilmesi ya da bir problemle karşılaşıldığında sökülmesi gerektiğinde tek yapılabilecek şey, diş hekiminiz mini bir çekiç ile vurarak protezi oradan sökmesidir. Bu çekiç darbeleri implantınız ve hatta çene kemiğinize zarar verme riski elbette vardır."
+          },
+          "item2": {
+            "title": "2.",
+            "value": "İkincisi; diş protezinizi implantınıza yapıştırıcı ile sabitlemek, “bu yapıştırıcı zamanla çözüneceği için” ileriki dönemlerde koku problemlerine yol açabilir. Yıllar içerisinde hastaların diş protezlerinin koku yaptıklarından şikâyet etmelerinin başlıca nedeni budur."
+          },
+          "item3": {
+            "title": "Vidalı İmplant Köprüleri:",
+            "value": "diş protezlerinin üzerinde küçük birer delik vardır. Diş hekiminiz protezleri implantların üzerine mini vidalar kullanarak sabitler. Bu hem ileride protezin problem oluşturmadan sökülmesini hem de koku yapmamasını sağlar. Ancak bu sistem size ek maliyet getirir. Bunu başta diş hekiminiz ile mutlaka konuşarak birlikte karar vermelisiniz."
+          }
+        }
+      },
+      "item8": {
+        "title": "Dental İmplantların Artıları ve Eksileri",
+        "value": "Her cerrahi operasyonun artıları ve eksileri olduğu gibi  tamamen güvenli olmalarına rağmen dental implantlarında artıları ve eksileri vardır."
+      },
+      "item9": {
+        "title": "Artıları",
+        "value": "Geleneksel protezlerin aksine, diş implantları çene kemiğinize kaynaşır ve onunla bütünleşir. Bu yapay dişlerinizin, doğal dişleriniz gibi üzerine baskı yaparak yemek yemenizi sağlar. Dental implant protezleri genellikle standart protezlerden veya köprülerden daha rahattır ve konforludur.İmplant üstü protezler, geleneksel protez veya diş köprülerinde olduğu gibi, çevre dişlere müdahale etmeyi gerektirmez. Böylelikle yandaki dişlere zarar vermeden diş protezi yapılmasına imkân verir.Tüm bunların ötesinde, bir diş implantının olması çene kemiğinizin korunmasına yardımcı olabilir. Dişler uzun süre eksik olduğunda, çene kemiği erimeye başlar. Bu durum kemik greftine gerek duyulmasına neden olur. Daha ileri durumlarda tüm çenenizi ve sırayla yüz yapınızı deforme olabilir."
+      },
+      "item10": {
+        "title": "Eksileri",
+        "value": "İmplant yaptırmanın en büyük olumsuz yanı maliyettir. Dünyanın hemen hemen her ülkesinde olduğu gibi ülkemizde de, genel sağlık sigortası implantı “kozmetik” seçmeli prosedür olarak (zirkonyum kronlar, diş beyazlatma gibi…) sınıflandıracağı için kapsamaz.Diş tedavi maliyetlerini azaltmanın en makul yolu elinizden geldiğince diş hekiminize düzenli kontrollere gitmektir. İyi bilinmelidir ki ertelenen her diş problemi daha büyük sorunlara buda çok daha büyük maliyetlere neden olacaktır. Başlangıçta kolaylıkla ve az maliyetle halledilebilecek bir diş problemi ertelendikçe daha büyük maddi külfetlerin yanında ayrıca daha zorlu ve uzun bir sürece sokacaktır.Tabii ki de diş implantları mükemmel ve kusursuz değildir. Sigara içmek, otoimmün bir rahatsızlık veya kontrol altında olmayan diyabet (diabetes mellitus, diabetes insipidus ) gibi çeşitli nedenlerden dolayı başarısız olabilirler (implant failure). Bunlar ayrıca implantın gevşek veya ağrılı olmasına neden olabilir, her iki durumda da çıkarılması gerekebilir."
+      }
+    }
+  },
+  "ALLONFOUR": {
+    "MainContent": {
+      "item1": {
+        "title": "Neden Bu Kadar Çok Sayıda Diş İmplantı Var? Peki, Bu “All-On-4” Nedir?",
+        "value": "All-On-4 dental implantın ne olduğunu anlamak için önce bir implantın ne olduğunu bilmeniz gerekir. Bir diş implantı temel olarak, eksik bir dişin bıraktığı boşlukta çene kemiğinize yerleştirilen küçük (titanyum) bir vidadır. İmplant ağzınıza yerleştirildikten sonra, diş hekiminiz diş implantına protez bir diş ekleyecektir.Şimdi, bu fikri dört ile çarpın ve All-On-4 diş implantı elde edin. Her eksik diş için bir implant kullanmak yerine, dört ana vida olarak üstte dört ve alta dört implant kullanabilirsiniz. Sonra diş hekiminiz bu implantlara takma diş takabilir. Şu çok iyi bilinmelidir ki her zaman dört adet implant en iyi seçenek olmayabilir, en doğru sonuç için her zaman doktorunuza danışmanız daha faydalı olacaktır."
+      },
+      "item2": {
+        "title": "4'lü Bir Diş İmplantının Maliyeti Nedir?",
+        "value": "All-On-4 diş implantlarının maliyeti, kullanılan malzemeye ve kaç tane protez dişe ihtiyacınız olduğuna bağlı olarak değişebilir."
+      },
+      "item3": {
+        "title": "Akrilik Veya Kompozit All-On-4 Diş Protezleri",
+        "value": "Standart All-On-4 seçeneğidir. 4 adet titanyum implantın üstüne inşa edilmiş akrilik bir protez kullanmayı içerir. Bu tip protezler daha çok ilk 3 ila 6 aylık dönemlerde kullanılır. Daha düşük bir maliyete sahiptir. Esasen sürekli kullanım için de gayet uygundur, ancak birçok hasta daha üstün estetik görünümünden dolayı haklı olarak ilk aşamadan sonra porselen dişler ile değiştirmektedirler."
+      },
+      "item4": {
+        "title": "Porselen All-On-4 Diş Protezleri",
+        "value": "Porselenden yapılan protezler daha estetik ve gerçekçi görünür. Ayrıca akrilikten daha uzun sürelidirler, ancak bu tip porselen protezler ilave maliyettir. Böylece tüm prosedür ve protez daha yüksek bir maliyete neden olabilir."
+      }
+    }
+  },
+  "ALLONFOURPROCEDURE": {
+    "MainContent": {
+      "title": "All-On-4 Dental İmplant Prosedürü Nasıl?",
+      "item1": "İlk kez diş implantı yaptırmak korkutucu olabilir. Bir de 4 tane birden yaptırma fikri sizi tedirgin edebilir. Bu korkunun çoğu muhtemelen belirsizlikten kaynaklanıyor, bu yüzden All-On-4 diş implantı yaptırmak için adım adım süreç nasıl işler birlikte göz atalım.",
+      "item2": "İlk olarak; diş hekiminiz sizi rahatlatmak isteyecektir, bu nedenle lokal veya genel anestezi uygulanacaktır. Bu tamamen sizin ve diş hekiminizin ortak vereceğiniz bir karardır. Eğer diş hekiminiz ve anestezi uzmanı doktor birlikte uygun görürse genel anestezi bazen en konforlu seçenek olabilir. Ama bilinmelidir ki bu tür işlemlerin çok büyük bir oranı lokal anestezi ile kolayca halledilebilmektedir.",
+      "item3": "İkinci olarak; diş hekiminiz kalan sağlıksız dişlerinizi, hastalıklı veya enfekte olmuş dokuları çenenizden ve diş etlerinizden çıkararak implantlar için ağzınızı hazırlayacaktır.",
+      "item4": "Sonra; implantı yerleştirme sürecine başlayacaklar. Bu, titanyum vidaları çene kemiğinize yerleştirecekleri anlamına gelir. Büyük olasılıkla, iki implant ağzınızın önüne ve iki ağzınızın arkasına doğru yerleştirileceklerdir, böylece “titanyum vidalar” takma dişin kuvvetini eşit şekilde kaldırabilir.",
+      "item5": "İmplantlar yerleştirildikten sonra, diş hekiminiz yara bölgelerini iyice temizler ve tüm kesilen alanları diker. Daha sonra dinlenebileceğiniz bir dinlenme odasına götürüleceksiniz.",
+      "item6": "Temel All-On-4 implant prosedürü; anestezi, ameliyat bölgesinin hazırlanması, implantın yerleştirilmesi ve ameliyat sonrası temizlik ve dikiş işlemlerini içerir."
+    }
+  },
+  "ALLONFOURHEALINGPROCESS": {
+    "MainContent": {
+      "title": "All-On-4 Dental İmplantların İyileşme Süresi",
+      "value": "Geleneksel protezler takıldıktan sonra iyileşme süresi 3 ila 8 ay arasında değişebilir, ancak All-On-4 protez yapıldıktan sonra daha erken daimi porselenler takılabilir. Nedeni, implantların kemiğinize kaynaşması ve ilk günden itibaren protez stabilitesini arttırmasıdır.",
+      "item1": {
+        "title": "İlk Gün",
+        "item1": "Ameliyatınızdan sonra ilk bir saat boyunca ya da kanamayı durdurana kadar, ameliyat alanları üzerine yerleştirilen gazlı bezleri hafifçe ısırmak gerekir. İlk saatten sonra, aşırı kanama olmadıkça gazlı bezi çıkarmanız istenebilir, bu durumda diş hekiminiz muhtemelen yeni gazlı bezle değiştirecektir.",
+        "item2": "Ameliyattan eve döndüğünüzde, ameliyat alanlarını zarar verecek hiçbir şey yapmadığınızdan emin olun. Yumuşak bir diş fırçası ile yumuşak fırçalama haricinde cerrahi alanları durulamayın veya dokunmayın. Açıkçası, daha sonra (esasen genel olarak) sigara içmek, cerrahi alanların iyileşmesini çok kötü etkiler. Ağzınızı olabildiğince temiz tutmanız da önemlidir. Doktorunuz muhtemelen bakteriyel enfeksiyonu engellemek ve iyileşmeyi teşvik etmek için reçete verecektir.",
+        "item3": "Ameliyattan yirmi dört saat sonra, az miktarda kanama varsa, ağzınızı tuzlu suyla nazikçe durulayabilirsiniz. Sadece bir çorba kaşığı tuzu bir bardak su ile karıştırın ve yavaşça durulayın. Bunu günde 2-3 kez yapabilirsiniz."
+      },
+      "item2": {
+        "title": "Ameliyattan Sonraki Günler",
+        "item1": "Ameliyatı takip eden zamanda, yapacağınız en iyi şey kendinizi dinlendirmektir. Yapmamanız gereken şeyler arasında eğilme, ağır nesneleri kaldırma veya daha fazla kanama ve şişmeye yol açabileceğinden yorucu aktivitelerden kaçının.",
+        "item2": "Ayrıca, uzanma pozisyonundan ayağa kalkarken yavaş ve temkinli olmak en iyisidir. Aksi takdirde, başınız dönebilir. Normalde egzersiz yapan bir kişiyseniz, ameliyattan sonra 3-4 gün boyunca bundan kaçınmanız gerekir.",
+        "item3": "İyileşme sırasında hatırlanması gereken en önemli şeyler dinlenme, sigara ve alkol tüketilmemesi, ağrı yönetimi ve yumuşak yiyecekler yemektir."
+      }
+    }
+  },
+  "ALLONFOURGENERALPROBLEMS":{
+    "MainContent": {
+      "title":"Ameliyatı Sonrası Yaşanma İhtimali Olan Bazı Genel Sorunlar",
+      "value":"Ameliyatı takip eden günlerde karşılaşabileceğiniz bazı genel sorunlar ve All-On-4 diş implantlarına nasıl bakacağınız aşağıda açıklanmıştır.",
+      "item1":{
+        "title":"Kalıcı Kanama",
+        "value":"Durmayan kanamanız olduğunu fark ederseniz, bu genellikle gazlı bezleri cerrahi alanların tam üstüne gelecek şekilde ısırmadığınızdan kaynaklanır. Gazlı bezi yeniden konumlandırın ve kanamanın durup durmadığını kontrol edin.Bu işe yaramazsa ve kanama devam ederse, dik oturmayı deneyin, fiziksel aktiviteden kaçının ve ağzınızı dışına buz paketleri koyun daha sonra yaklaşık 30 dakika boyunca nemli bir siyah çay poşeti ısırırsanız buda size yardımcı olacaktır. Bu hala yardımcı olmazsa, randevu almak için mutlaka diş hekiminizi arayın"
+      },
+      "item2":{
+        "title":"Şişme",
+        "value":"Şişme ameliyat olmanın normal bir parçasıdır ve işlemden yaklaşık 2-3 gün sonra doruğa ulaşır. İşlemi takip eden 24 saat içinde yanağınızın üstünden buz veya soğuk bir paket kullanmak, şişliğinizin minimum düzeyde kalmasına yardımcı olabilir (10 dakika soğuk uygula ve 10 dakika ara ver). Hiç ara vermeden devamlı soğuk uygulamak 'ilk anda uyuşukluktan hissetmeseniz de soğuk yanmalarına neden olabilir. Ayrıca şişmeyi en aza indirmek için diş hekiminiz size ilaç da yazabilir."
+      },
+      "item3":{
+        "title":"Ağrı",
+        "value":"Bu ameliyatın kaçınılmaz bir sonucudur. Diş hekiminiz size ağrı kesici verecektir ve mutlaka talimatlara uygun şekilde alın. Sigara kullanımı ve sıcak yemek-içmek unutulmamalıdır ki ağrı ve şişliği mutlaka artırır. Ağrıyı kontrol etmek için daha fazla ilaca ihtiyacınız olduğunu düşünüyorsanız, diş hekiminizi arayın."
+      },
+      "item4":{
+        "title":"Kısıtlı Diyet",
+        "value":"Yediğiniz yiyecekler rahatsızlığa neden olmadıkça, yemek yemenin herhangi bir sakıncası yoktur. Sert yiyeceklerden, şekerlerden veya çok sıcak yiyeceklerden kaçınmalısınız ve dilinizdeki-dudağınızdaki uyuşukluk hissi gitmeden çiğneme önerilmez. En iyi tavsiyemiz, ameliyattan sonraki ilk birkaç gün boyunca sadece sıvı veya saflaştırılmış gıdalar tüketmektir. En önemlisi, ne kadar rahatsız edici olursa olsun, yeterli beslendiğinizden emin olun. İyileşmeniz için çok önemlidir."
+      },
+      "item5":{
+        "title":"Mide Bulantısı",
+        "value":"Yanlışlıkla yutulmuş kanlardan veya alacağınız ilaçlardan dolayı bulantı, hatta kusma yaşayabilirsiniz. Bulantı devam ederse veya şiddetlenirse, öneriler için diş hekiminizi arayın."
+      },
+      "item6":{
+        "title":"Morarma",
+        "value":"Ameliyattan yaklaşık 2-3 gün sonra, cerrahi alanların yakınlarında renk değişikliği veya morarma görebilirsiniz. Bu ameliyatın tabii bir sonucudur ve gayet normaldir. İşlemden sonraki ilk 48 saatten sonra yanağınıza hafif ısı uygulamak morarmanın daha çabuk dağılmasına yardımcı olacaktır."
+      },
+      "item7":{
+        "title":"Ağzınızda Keskin Çıkıntılar",
+        "value":"Ağzınızda, özellikle dişlerinizin çekildiği bölgelerde kıymık gibi keskin çıkıntılar hissetmeye başlarsanız, bu çekilen dişlerin kemik duvarları olabilir. Birkaç gün sonra çekilen dişlerin küçük kemik parçaları diş etlerinden hafifçe dışarı çıkıntılar oluşturup rahatsızlık verebilir. Bundan endişe edilmemeli, bu durumu diş hekiminizle konuşabilirsiniz."
+      },
+      "item8":{
+        "title":"Kuru Dudaklar",
+        "value":"Ağzınız uzun süre açık kalacağından ve gazlı bezi ısırırken hafifçe gerileceğinden dudaklarınızın kuru olması ya da dudak kenarlarının tahriş olması beklenebilir. Dudak köşelerinde buna bağlı olarak küçük yırtılmalar ya da uçuklar oluşabilir. Vazelin veya başka bir nemlendirici merhem kullanabilirsiniz."
+      },
+      "item9":{
+        "title":"Boğaz Ağrısı",
+        "value":"Gazlı bez nedeniyle ağzınız çoğu zaman açık olabileceğinden, boğaz ağrısına yol açabilir ve yutmayı ağrılı hale getirebilir. Bu genellikle birkaç gün sonra kaybolan geçici bir semptomdur."
+      },
+      "item10":{
+        "title":"Sert Kaslar",
+        "value":"Çene kaslarınız, çenenizi uzun süre açmaktan ve aynı pozisyonda tutmaktan kasılabilir. Bunun için, yavaş yavaş çenenizi arada bir esnetebilirsiniz ve diş hekiminiz uygun görürse kas gevşetici verebilir.Bu belirtilerden veya sorunlardan herhangi birini yaşarsanız, yapmanız gereken ilk şey, her şeyin yolunda olduğundan emin olsanız bile diş hekiminize başvurmaktır."
+      },
+      "item11":{
+        "title":"4'lü Diş İmplantlarında Sık Karşılaşılan Sorunlar",
+        "value":"Bazen iyileşme sürecinden sonra problemlerle karşılaşabilirsiniz. All-On-4 implantlarında karşılaşabileceğiniz en yaygın sorunlar şunlardır."
+      },
+      "item12":{
+        "title":"Cerrahi Komplikasyonlar",
+        "value":"Her türlü ameliyatla, her zaman ilgili riskler vardır. Özellikle All-On-4 prosedürü ile olası komplikasyonlar arasında enfeksiyon, kötü iyileşme ve aşırı kanama bulunur. Açıkçası, diş hekiminiz bu risklerden kaçınmak için ellerinden gelen her şeyi yapacaktır, ancak bazen olurlar.Ameliyattan sonra bu komplikasyonlara dikkat etmek ve diş hekiminize herhangi bir anormal değişiklik bildirmek en iyisidir."
+      },
+      "item13":{
+        "title":"Kemiğinizle Entegre Olmayan Diş İmplantları",
+        "value":"Bazen diş implantları ve kemiğiniz birbiriyle aynı fikirde değildir. Bir implantın kemiğinize ne kadar iyi kaynayacağını belirleyen faktörler; sigara içmeniz, kemik yoğunluğunuzun kalitesi, beslenmeniz ve diğer birçok şeydir.Bir implant kemiğinize kaynamazsa, diş hekiminiz implantı çıkarabilir, alanın iyileşmesine izin verebilir ve yeni bir implant yerleştirebilir."
+      },
+      "item14":{
+        "title":"Başarısız İmplantlar",
+        "value":"Bu nadir bir durumdur, ancak yine de bir olasılıktır. Diş implantları son derece yüksek bir başarı oranına sahiptir; ancak başarısız olursa, diş hekiminiz implantı hemen yenisi ile değiştirebilir ya da o bölgeyi iyileşmeye bırakıp bir iki ay sonra tekrar implant uygulayabilir.Başarısız bir implantın en yaygın nedeni olan dişeti problemlerini, diş etlerinize iyi bakıp düzenli kontrollere girerek önleyebilirsiniz."
+      }
+    }
+
+  },
+  "TemporaryDentalOptions":{
+    "MainContent":{
+      "title":"İmplantın iyileşmesini Beklerken Geçici Diş Seçenekleriniz Neler?",
+      "value":"Birçok hasta için dental implanta karar verme ve yaptırma süreçleri ne kadar kafa karıştırıcı ve zor bir süreç olduğu bilinmektedir. Daha sonra daimi diş protezlerinizin yapım süreci başlayacaktır. Bu nispeten daha az kafa karıştırıcı ve işin sonuna gelindiği için daha keyifli bir süreçtir. Ancak birde unutulan ya da göz ardı edilen birde iyileşme süresindeki geçici dişleriniz ve bunların seçenekleridir.İşte biz bu makalede tamda bunu;  implant yaptırdıktan sonra iyileşme süresince geçici diş protezlerinizi ve seçeneklerini tartışacağız. Siz ve diş hekiminiz bu süreçte geçici dişe ihtiyaç olduğuna (genellikle arka bölgelerde estetik açısında geçici proteze ihtiyaç duyulmaz ve tercih edilmeyebilir) karar verirseniz birçok seçeneklerinizin olduğunu bilmelisiniz.",
+      "item1":{
+        "title":"Geçici Tek Diş Kaplaması",
+        "value":"Geçici dişler söz konusu olduğunda, her zaman mümkün olmasa da, yapıştırma geçici kron en iyisidir. Ama sorunlara neden olabilir, bu nedenle her hasta için ideal ya da uygun değildir.Burada yapılan, kronu (implantın diş görünümlü kısmı) implantın ara parçasına ‘abutmentine’ yapıştırmaktır.",
+        "positiveOps":{
+          "title":"Artı Yönleri",
+          "item1":"Eksik diş boşluğunu hızla doldurabilir.",
+          "item2":"Yapıştırıldığından, temizlik için çıkarmaya gerek yoktur.",
+          "item3":"Son derece gerçekçi görünür.",
+          "item4":"Çevredeki dişeti dokusu, geçici dişin etrafında düzgün bir şekilde oluşur. Bu ileride yapılacak daimi dişin estetiği için fayda sağlar.",
+          "item5":"İleride daimi diş yapımında, implantınızın üzerini tekrardan keserek açmaya gerek kalmadan direkt ölçü alınabilir."
+        },
+        "negativeOps":{
+          "title":"Eksi Yönleri",
+          "item1":"Diş üzerinde çok fazla baskı olması implantı kırabilir.",
+          "item2":"İlk prosedür daha uzun ve daha pahalıdır.",
+          "item3":"Geçici diş almayı planlayabilir, ancak prosedürün gününü bulmak mümkün değildir."
+        }
+      },
+      "item2":{
+        "title":"Geçici Damak",
+        "value":"İmplantlarınız uygulandıktan yaklaşık 7-10 gün sonra hem dikişleri almak hem de kontrol için diş hekiminiz tekrardan sizi görmek isteyecektir. Her şey yolunda gidiyor ve yara yerleriniz son derece düzgün iyileştiyse geçici damak yapılabilir. Ama diş hekimleri her zaman bunu istemeyebilir. Bu damaklar alttaki dental implantlara orantısız ve belirlenemeyen baskılara yol açabilir.   Orantısız kuvvetler bazen implantın iyileşme sürecini ters etkileyebilir. ",
+        "positiveOps":{
+          "title":"Artı Yönleri",
+          "item1":"Uygun fiyatlı (muhtemelen en ucuz yapay diş seçeneği).",
+          "item2":"Yaklaşık 1-2 gün içinde, ofiste veya bir laboratuvarda hızlı bir şekilde yapılır.",
+          "item3":"Uygun durumlarda yüksek başarı oranı",
+          "item4":"Dikkatli yapılırsa dental implantınıza fazla baskı yapmaz.",
+          "item5":"Çoğu durumlar için en hızlı, ucuz ve kolay çözüm yolu."
+        },
+        "negativeOps":{
+          "title":"Eski Yönleri",
+          "item1":"Çıkarılabilir bir damak, doğal dişlerinize nadiren mükemmel uyum sağlar.",
+          "item2":"Kemik grefti veya diş eti ameliyatı geçirirseniz, diş etlerine gereksiz baskı uygulayabilir. Buda iyileşme sürecini olumsuz etkileyebilir.",
+          "item3":"Kolayca kırılabilir veya ağzınızdan düşebilir.",
+          "item4":"Yeterince güçlü olmadıklarından yemek zor olabilir",
+          "item5":"Hareketli olduklarından altlarına yiyecek kaçabilir.",
+          "item6":"Konuşmayı zorlaştırabilir.",
+          "item7":"Konforsuzdur, hacimli ve rahatsız edici olabilir."
+        }
+      },
+      "item3":{
+        "title":"Geçici Diş Köprüleri",
+        "value":"Genellikle akrilik malzemeden yapılır. Geçici bir diş köprüsü diğerlerine göre daha dayanıklı bir seçenek olabilir. Destek için çevredeki dişlere güvenilir. Ancak geçici diş köprüleri sağlam dişlerin uzun dönemde hassasiyet ve dahi çürüklerine yol açabilir."
+      },
+      "item4":{
+        "title":"Essix Plaklar",
+        "value":"Essix plaklar; alt ya da üst tüm dişlerinizin üzerine oturan şeffaf plaklardır. Bu plakları daha çok,  gece diş gıcırdatmalarında hastalara verilmesinden aşina olabilirsiniz.",
+        "positiveOps":{
+          "title":"Artı Yönleri",
+          "item1":"Essix plaklar, çıkarılabilir bir protez için en rahat seçeneklerden biridir.",
+          "item2":"Hızlı ve kolay yapılır (genellikle 1-2 gün içinde yapılır).",
+          "item3":"Yeme kuvvetlerine dayanabilir.",
+          "item4":"Diş eti ameliyatı veya kemik grefti geçirmiş olduğunuz bölgelere baskı yapmaz."
+        },
+        "negativeOps":{
+          "title":"Eski Yönleri",
+          "item1":"Kesin bir eşleşme elde etmek zor, bu yüzden tam oturmayabilir.",
+          "item2":"Hareketli olduğu için altına yemek kaçabilir, her yemekten sonra temizlenmelidir.",
+          "item3":"Konuşmanda zorlanma ve farklılık olabilir.",
+          "item4":"Eğer dikkatli değilsen kaybolabilir."
+        }
+      }
+    }
+  },
+  "Burksizm":{
+    "title":"Neden Gece veya Gündüz Dişlerinizi Gıcırdatıyoruz ?",
+    "value":"Çoğu zaman, dişlerini gıcırdatanlar ya da sıkanlar bunu fark etmez bile. Bunun sebebi diş gıcırdatma genellikle uyurken geceleri olur. Bu nedenle, diş gıcırdatma semptomlarını diğer sorunlarla ilişkilendirmek ya da karıştırmak oldukça kolaydır.Bruksizm az araştırılmış bir tıbbi terimdir. Bu yüzden bu terim muhtemelen size yabancı geliyor olabilir.",
+    "item1":{
+      "title":"Bruksizm Nedir?",
+      "value":"Bruksizm, uyku sırasında dişlerin gıcırdatılması veya sıkılması için kullanılan teknik terimdir. Devamlı olmayan bruksizm o kadar ciddi bir sorun değildir. Bazen çok yorgun olduğumuzda, zihnimizi çok meşgul eden ya da canımızı sıkan durumlarda hemen hemen herkes hayatının bir döneminde bruksizm yaşamış olabilir. Ancak uzun süreli ya da devamlı bruksizm durumlarında, çeşitli başka sorunlara neden olabilir. Biz dahil çevremizdeki birçok kişi bu sorunu yaşıyor ve de farkında bile olmuyor olabilir.Açıkçası bruksizmin tam ve kesin sebebi tıp camiası tarafından açıklanabilmiş değil. Tıp camiasının altta yatan bir neden bulmakta çok başarılı olduğunu söyleyemeyiz. Son zamanlarda, önceki sonuçlarla çelişen birçok yeni bilgiler ortaya çıktı.Diş gıcırdatmasını araştırırken, asıl neden olarak stresi gösteren birçok bilgiye rastlamış olabilirsiniz. Bununla birlikte, yeni kanıtlar stresin tek başına suçlu olmadığını göstermektedir.Öncelikle bruksizmi gece ve gündüz olarak iki farklı başlıkta incelemekte fayda var."
+    },
+    "item2":{
+      "title":"Gündüz Bruksizmi",
+      "value":"Gece diş gıcırdatma ile gündüz diş sıkma benzer bir durum gibi gözükse de ikisi oldukça farklı durumlardır aslında. Diş gıcırdatma gece bruksizminde çok daha yaygın olmakla birlikte, diş kenetlenmesi gündüz hastaları için daha yaygındır. Aslında gece diş gıcırdatması çok daha fazla olmasına rağmen, tespit edilmesi daha kolay olduğu için gündüz bruksizmi daha fazla rapor edilir. İkisi arasında sıkı bir ilişki yoktur: birisinden muzdarip olmanız diğerinden de etkileneceğiniz anlamına gelmez. Gün boyunca dişlerinizi sıkar veya gıcırdatırsanız, muhtemelen fark edersiniz. Gece vakti olanlar için durum böyle değildir. Uzun sürelerdir gece bruksizminden muzdarip olup da bunun farkında olmayabilirsiniz. Semptomlarını başka problemler ile karıştırmanız muhtemeldir.Gündüz bruksizm yüksek stresli kariyerlerle ilişkilendirilmiştir. Gündelik hayattaki iş stresi ve özellikle öğrencilerde sınav öncesi dönemlerde çok sık görülmektedir."
+    },
+    "item3":{
+      "title":"Geceleri Dişlerinizi Öğütürseniz Nasıl Anlaşılır ?",
+      "value":"Bruksizm belirtileri her zaman açık değildir.İlk olarak, vücudunuz tüm kötü koşullara uyum sağlamak için kendisini adapte etmeye çalışır. Bu nedenle, semptomlara alışmak ve fark etmemek kolaydır.İkincisi, en yaygın semptomlardan bazıları diğer faktörlerden kaynaklanabilir yada diğer semptomlarla karışabilir."
+    },
+    "item4":{
+      "title":"Bruksizm Belirtileri",
+      "value":"Birçok kişi uyku bruksizminden muzdariptir ve komplikasyonlar gelişene kadar bilmez. Semptomları anlamak, onu tanımanın ilk adımıdır.Liste tahmin edebileceğinizden daha çeşitli ve uzundur;",
+      "item1":"Kuru ağız",
+      "item2":"Sesli gıcırdatma veya sıkma",
+      "item3":"Hareketli dişler",
+      "item4":"Aşınmış dişler",
+      "item5":"Diş protezlerinde çatlak yada kırılmalar",
+      "item6":"Diş kaybı",
+      "item7":"Artan hassasiyet",
+      "item8":"Diş eti iltihabı ve çekilmesi",
+      "item9":"Çene kas ağrısı",
+      "item10":"Omuz ağrısı",
+      "item11":"Kulak ağrısı",
+      "item12":"Boyun ağrısı",
+      "item13":"Tükürük bezi tıkanıklığı",
+      "item14":"Kulak çınlamaları"
+    },
+    "item5":{
+      "title":"Bruksizm'in Genel Olarak Kabul Edilen Nedenleri",
+      "value":"Stres ve kaygı bozukluğu genel olarak bruksizme atfedilen en yaygın nedenlerdir. Ancak zamanla, yanlış diş kapanışları ‘malokluzyon’ ve bulaşıcı hastalık gibi şeyler de dahil olmak üzere birçok neden dikkate alınmıştır. Genetik yatkınlığında bu konuda rol oynadığını son çalışmalarla ortaya konmuştur.Bilimin emin olduğu tek şey, bruksizmin sinir sistemi tarafından tetiklenmesidir. Bruksizm depresyon, iş kaygısı ve ağır strese ile ilişkilendirilmiştir. Hatta çocuklarda anksiyeteye bağlı olarak hiç de azımsanmayacak kadar görülmektedir.Diş gıcırdatma ve sıkma bazı insanların geceleri hava yollarını açık tutmasına yardımcı olabilir. Tıkanmış hava yolları, bazı insanlarda hem gece dişleri gıcırdatmanın hem de obstrüktif uyku apnesinin (OSA) temel nedenidir. "
+    },
+    "item6":{
+      "title":"Uyku Apnesinin Tehlikeleri",
+      "value":"Bruksizm gibi, uyku apnesinin şiddeti değişebilir.Eğer sizde uyku apnesi varsa ve bunun hafif olduğunu düşünüyorsanız bile mutlaka bir doktor tarafından kontrol edilmesi gerekir. Muhtemelen obstrüktif uyku apnesini (OSA) test etmek için size bir uyku çalışması yaptıracaklardır. Uyku apnesinin göz ardı etmenin riskleri oldukça ağırdır.",
+      "item1":"Bu risklerden bazıları şunlardır:",
+      "item2":"Mental yorgunluk",
+      "item3":"Baş ağrısı veya migren",
+      "item4":"Zihinsel sağlık sorunları",
+      "item5":"Gündüz yorgunluğu",
+      "item6":"Metabolik sendromlar",
+      "item7":"Metabolik ilaçlar",
+      "item8":"Kilo almak",
+      "item9":"Tip2  diyabet",
+      "item10":"Reflü",
+      "item11":"Karaciğer sorunları",
+      "item12":"Yüksek tansiyon",
+      "item13":"Kalp hastalığı"
+    },
+    "item7":{
+      "title":"Geceleri Diş Gıcırdatma Nasıl Durdurulur ?",
+      "value":"Hafif bruksizm tedavi gerektirmeyebilir. Stresin ya da kaygının ortadan kalkması ile kendiliğinden kaybolur.Ancak, diş gıcırdatmalarınız sık ve/veya şiddetli ise önlem almanız gerekir. Dişleriniz bundan dolayı tehlike altındadır. Yavaş yavaş ama geri dönülmesi imkânsız bir şekilde aşınmalar, çatlaklar hatta kırılmalar oluşabilir. Diş gıcırdatma ve sıkma etkileri birden ortaya çıkmazlar, zaman içinde birikirler. Hatta bruksizminiz eğer (obstrüktif uyku apnesi) OSA ile ilgiliyse, bundan çok daha fazlası olabilir.Yaşam tarzı seçimlerinin, bruksizmin şiddetine katkıda bulunabileceğini unutmayın. Sigara, kafein ve alkol bruksizmin tetikleyici ve artırıcı sebepleri olarak kabul edilir. Onları azaltmak, bruksizminizi azaltmaya yardımcı olabilir.Diş koruyucu plakları, bruksizm tedavisi için en uzun süredir devam eden koruyucu önlemdir."
+    },
+    "item8":{
+      "title":"Diş Koruyucu Plaklar",
+      "value":"En son çalışmalardan bazıları diş koruyucu plakların, dişlerinizi korurken OSA'yı daha da kötüleştirebileceğini ortaya koymuştur. Ama unutulmamalıdır ki bu ağız plakları bruksizmin tedavisi kesinlikle değildir. Sadece bruksizmin kötü ve yıkıcı etkilerinden dişlerinizi korumak içindir.Eğer probleminiz gece bruksizmi ise ilk önce uyku apnesi kontrolüne gitmeniz tavsiye edilir daha sonra ağız plaklarını diş hekiminize yaptırmalısınız. Belki de ağız plaklarına gerek kalmadan bu sorununuz uyku apne tedavisi ile düzelecektir. Sorununuz gündüz bruksizmiyse, ağızlıklar gerçekten tek seçeneğinizdir."
+    },
+    "item9":{
+      "title":"CPAP Cihazı",
+      "value":"CPAP (Continuous Positive Airway Pressure), sürekli pozitif hava yolu basıncı anlamına gelir. CPAP cihazı esasen havayı arıttıktan sonra basınçlı bir şekilde ileten bir pompadır. OSA ile ilişkili diş gıcırdatmanız varsa tam olarak ihtiyacınız olan şey budur. Bir CPAP makinesi temel olarak küçük bir hava pompasıdır. Yüzünüze bir maske veya burun parçası ile yerleştirirsiniz. Bu parça bir hortumla makineye bağlanır.Havanın sürekli dolaşımı, solunumun düzenlenmesine ve hava tıkanıklığıyla mücadelede yardımcı olur.CPAP cihazları uyku apnesini tedavi etmek için üretilmiş endüstriyel standartlardadır. Diş hekiminiz, size makineyle birlikte kullanabileceğiniz bir gece koruyucu plak yapabilir. Bazı durumlarda, bu cihaz sadece OSA ve bruksizmi durdurmak için yeterli olabilir.Yine de, diş gıcırdatma ve OSA'nın tek başına tespit edilmesi zordur.Bu durum sizin için çok ciddi görünmeyebilir. Ancak, bruksizm veya OSA'dan muzdarip olabileceğinizi düşünüyorsanız, bir diş hekimini ziyaret etmeniz çok önemlidir. Sorunun devam etmesi diş sağlığınızdan daha büyük problemlere yol açabilir."
+    }
+  },
+  "DENTURE":{
+    "title":"Diş Protezi Nedir?",
+    "title2":"Sizin İçin Doğru Olan Hangi Tür Diş Protezi?",
+    "value":"Diş protezleri, doğal dişlerin yerini alma amacı ile sabit ya da çıkarılabilir yapay dişlerdir. Bütün bir çeneyi veya sadece tek tek dişleri kaplayabilirler. Diş protezleri, hastaların konuşma, yemek yeme ve gülme konusundaki görünümlerini, güvenlerini ve rahatlıklarını sağlamada yardımcı olur.Protezler tipik olarak 5 ila 10 yıl süre ile kullanılırlar. Çoğu, ayarlamalar veya yeniden diş ilaveleri gibi zaman içinde bakıma ihtiyaç duyar. Aşağıda diş ekibimizle birlikte hazırladığımız bilgilendirici bir kılavuzu bulabilirsiniz. Türleri ve malzemeleri karşılaştırın ve artıları ve eksileri keşfedin.",
+    "typeOfDenture":{
+      "title":"Protez Çeşitleri",
+      "value":"Ağzınızın durumuna bağlı olarak seçebileceğiniz birkaç seçenek vardır. Herkes her tür diş protezi yaptırmak için uygun değildir.Eğer hiç dişiniz yoksa; size tam çene diş protezi gerekecektir. Eğer dişlerinizin bir kısmı varsa; kısmi yada halk arasındaki ismiyle kancalı damak yapmak için kalan dişlerin çekilip çekilmeyeceğine karar vermek diş hekiminize bağlıdır. ",
+      "item1":{
+        "title":"Tam Protezler",
+        "value":"Tam protezler, çene başına 12 ila 14 diş içerir. Bazıları ilk azı dişinde (6. diş) biter, ancak bazen sağlamlık için ikinci bir azı dişi (7. diş) eklenir. Belirleyici faktörler, mevcut alan ve karşıt dişlerin olup olmamasıdır.Seçim yaparken iki seçenek vardır",
+        "item1":{
+          "title":"Birincisi",
+          "value":"Geleneksel olarak yapılan dişsiz çenenin üzerine uygulanan damak protezlerdir. Geleneksel protezlerde üst çene kavisi ağzın tüm çatısını kaplar ve emme yoluyla tutturulabilir. Alt çene protezi nal şeklinde olup, hareket halindeki dil olduğu için kullanmak biraz daha zordur."
+      },
+      "item2":{
+        "title":"İkincisi",
+        "value":"İmplant tutuculu protezlerdir ki en fazla desteği ve konforu sağlar. Ayrıca kemik kaybını azaltmaya da yardımcı olurlar, bu da ağız durumunun bozulmaya devam etmeyeceği anlamına gelir. Ancak yine de her yemekten sonra çıkarılıp temizlenmesi gereklidir. Alt çenede en az 2 adet, üst çenede 2 ila 4 adet destek implant gereklidir. İmplantların üstünde topuzcuklar vardır. Damak dişlerin içerisinde de bunların yuvaları olur. "
+      }
+    },
+    "item2":{
+      "title":"Kısmi Protezler",
+      "value":"Ark başına bir miktar diş kalmışsa, kısmi protezler düşünebilirsiniz. Bu çözüm , komşu dişlere takılan metal klipslerle desteklenebilir.Protezi daha gerçekçi hale getirmek için sahte dişlere pembe veya sakız renginde plastik eklenebilir. Reçine genellikle bir metal çerçeveyi veya implantları kapsar."
+    },
+    "item3":{
+      "title":"Flipper Dişler (Geçici Kısmi Dişler)",
+      "value":"Geçici damak dişler; hiç dişsiz kalmak istemeyenler için başka bir çözümdür. Doğal diş çekilmeden önce ya da çekildikten 7 ila 10 gün içinde yapılabilir. Diş hekiminizi daha az ziyaret etmenizi sağlar. Geçici flipper diş bir veya birden fazla diş için yapılabilir.Bir tutucuya benzer şekilde tokalarla tutulabilirler. Bir boşluğa kanatlı diş yerleştirildiğinde, diğer dişlerin kaymasını da önler. Gece çıkarması ve temizliği çok kolaydır."
+    },
+    "item4":{
+      "title":"Protezler nelerden yapılır?",
+      "value":"Protezlerin üç ana bileşeni vardır: taban, dişler ve çerçeve.",
+      "item1":{
+        "title":"Taban",
+        "value":"Protez tabanları hemen hemen her zaman akrilik reçine veya kron kobalt metalden yapılır. Birincisi estetik için daha iyidir çünkü renk hastanın diş etlerine uygun renktedir. İkincisi daha sağlamdır ve takma diş düşürülürse bile kırılma olasılığı daha düşüktür.Esnek protezler, çoğunlukla termoplastik malzemelerden yapılır. Çene kemiğinde çok aşırı miktarda erime görülen hastalarda yapılır. Kullanımı ve alışması diğerleri kadar kolay değildir."
+      },
+      "item2":{
+        "title":"Dişler",
+        "value":"Akrilik reçine, sahte dişler için en popüler malzemedir. Hafif ve ucuzdur. Malzeme ayrıca tabana kolayca yapışır. Birçok renk seçenekleri de vardır. Bu, dişlerin önceden var olan diş yapısına uyması gerektiğinde, kısmi protezler için çok önemlidir.Eğer istenirse damak üzerine porselen dişler de yapılabilir. Diş minesinin görünümü ve verdiği his tam olarak eşleştirilebilir. Bu seçenek akrilikten daha dayanıklıdır. Dezavantajları arasında porselenin pahalı olması ve kırılmaya yatkın olmasıdır. Böyle bir diş hasar gördüğünde, değiştirilmesi çok daha pahalıdır. Ayrıca porselen dişler akriliklere çok daha ağır olacağı için kullanımı konforlu değildir. Diş hekimleri tarafından pek sık tercih edilmezler."
+      },
+      "item3":{
+        "title":"Çerçeve",
+        "value":"Protez çerçeveleri, şekli korumak için sağlam bir malzemeye ihtiyaç duyar. Bu genellikle nikel krom, paslanmaz çelik veya altın gibi bir tür metaldir.Kısmi protezlerde ise, tutucu kancalar çoğunlukla krom kobaltdan yapılır. Sağlamlık ve esnekliği birleştirerek uzun yıllar dayanmasını sağlar."
+      },
+      "item4":{
+        "title":"Protezler nasıl yapılır?",
+        "value":"Çoğu protezin ağzınıza girmesi en az 3 ay sürer. Süreç birkaç randevu içerir. Bu, mümkün olan en iyi uyumu ve dayanıklılığı sağlamak içindir.Protezin şeklini belirlemek için ölçü almak gereklidir. Hemen protez yapılması gerekli olduğu durumlarda, dişler çekilmeden önce ölçü gereklidir.Laboratuvar teknisyenleri önce diş kalıbının içerisine diş alçısı dökecek ve ardından takma diş yapacak. Hastalar bu aşamada ayarlamalar yapmak için birkaç kez diş hekimine gelir. Bundan sonra takma dişiniz kullanmaya hazır olacaktır.Eğer işin içinde implantlar varsa bu süreç daha karmaşık ve uzun sürecektir."
+      }
+    }
+  },
+  "DentureOps":{
+    "title":"Protezlerin artıları ve eksileri",
+    "positiveOps":{
+      "title":"Artı Yönleri",
+      "item1":"Yemek yemeyi ve konuşmayı kolaylaştırabilir.",
+      "item2":"Alternatiflere kıyasla uygun maliyetli",
+      "item3":"Ağzınıza uyacak şekilde özel yapım"
+    },
+    "negativeOps":{
+      "item1":"Ağızda değilken suda tutulmalıdır",
+      "item2":"Tükürük akışı geçici olarak artar",
+      "item3":"Uyum düzenli olarak kontrol edilmeli ve ayarlanmalıdır",
+      "item4":"Birkaç yılda bir tamir ve yenilenmesi gerekebilir.",
+      "item5":"Yapıştırıcılar genellikle gereklidir.",
+      "item6":"Hastalar sert, yapışkan ve çiğneme gerektiren gıdalardan kaçınmalıdır",
+      "item7":"Yatağa gittiğinizde çıkartmanız gereklidir.",
+      "item8":"Bir süre dişsiz kalmanız gerekebilir.",
+      "item9":"Genellikle birkaç hafta alışma süreci vardır",
+      "item10":"Küçük tahriş ve ağrı yaygındır"
     }
   }
+}
 }

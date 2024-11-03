@@ -9,6 +9,7 @@ export default function CustomDivider() {
       alignItems: 'center',
       position: 'relative',
       width: '100%',
+      marginTop:10,
       //height: 0.3,
       backgroundColor: 'orange',
       '&::before': {
