@@ -29,11 +29,74 @@
       "item1": "Diş Tedavileri",
       "item2": "Dijital Diş Hekimliği",
       "item3": "Kliniğimiz",
-      "item4": "Hakkımızda",
-      "item5": "İletişim"
+      "item4": "Öncesi ve Sonrası",
+      "item5": "İletişim",
+      "item6":"Blog"
     },
     "urls": {
-      "item1": "dis-tedavileri"
+      "item1": "dis-tedavileri",
+      "item2":"dijital-dis-hekimligi",
+      "item3":"klinigimiz",
+      "item4":"oncesi-sonrasi",
+      "item6":"blog"
+    }
+  },
+  "BlogItems":{
+    "item1":{
+      "caption":"Diş Protezi Nedir ?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item2":{
+      "caption":"Bruksizm Nedir ?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item3":{
+      "caption":"İmplant Nedir ?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item4":{
+      "caption":"All-On-4” Nedir?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item5":{
+      "caption":"All-On-4” Nedir?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item6":{
+      "caption":"All-On-4 Dental İmplant Prosedürü Nasıl ?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item7":{
+      "caption":"All-On-4 Dental İmplantların İyileşme Süresi Nasıl ?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
+    },
+    "item8":{
+      "caption":"İmplantın iyileşmesini Beklerken Geçici Diş Seçenekleriniz Neler?",
+      "title":"",
+      "url":"",
+      "imgLink":"",
+      "imgAlt":""
     }
   },
   "Implants": {

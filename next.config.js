@@ -13,7 +13,10 @@ const nextConfig = {
         source: '/:locale/traitements-dentaires',
         destination: '/:locale/dental-treatments',
       },
-      // Diğer URL'ler buraya eklenebilir.
+      {
+        source: '/:locale/oncesi-sonrasi',
+        destination: '/:locale/before-after',
+      },
     ];
   },
 };

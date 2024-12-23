@@ -10,6 +10,7 @@ import { TransitionProps } from '@mui/material/transitions';
 import Slide from '@mui/material/Slide';
 import CloseRounded from "@mui/icons-material/CloseRounded";
 import SitemarkIcon from "./SitemarkIcon";
+import { Icon } from '@mui/material';
 
 const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afterImage, handleImage }) => {
   const [sliderPosition, setSliderPosition] = useState(50);
@@ -150,12 +151,21 @@ const BeforeAfter: React.FC<CustomBeforeAfterSliderProps> = ({ beforeImage, afte
         <DialogContent>
           <Grid2 size={{ xs: 12 }}>
             <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', paddingTop: 3 }}>
-              <SitemarkIcon />
+            <Icon sx={{ height: 'auto', width: 'auto', mr: 2, mb: -0.5 }}>
+      <img
+        src="/OrangeDentClinicBA.svg"
+        alt="Orange Dent Clinic"
+        //style={{ cursor: 'pointer' }}
+      />
+    </Icon>
             </div>
             <Grid2 size={{ xs: 12 }}>
               <img src={afterImage} style={{ borderWidth: 2, borderRadius: 3 }} width='100%' alt="" />
             </Grid2>
-            <Grid2 size={{ xs: 12 }}>İMZA</Grid2>
+            <Grid2 size={{ xs: 12 }}>
+            <img src="/images/Logo_MST_1.png" style={{ borderWidth: 2, borderRadius: 3 }} width='100%' alt="" />
+
+            </Grid2>
             <img src={beforeImage} style={{ borderWidth: 2, borderRadius: 3 }} width='100%' alt="" />
           </Grid2>
         </DialogContent>

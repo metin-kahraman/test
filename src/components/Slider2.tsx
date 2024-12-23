@@ -6,19 +6,25 @@ import { orange } from '@mui/material/colors';
 const sliderItems = [
   {
     description: 'Kaliteli hizmet için en iyi seçenekleri sunuyoruz.',
-    image: '/DSC_0077_2.JPG',
+    image: '/images/ODC_1099-min.png',
     buttonText: 'Daha Fazla Bilgi',
     buttonLink: '#',
   },
   {
     description: 'Diş sağlığınız için en iyi tedaviler burada.',
-    image: '/DSC_0077_2.JPG',
+    image: '/images/ODC_1191-min.png',
     buttonText: 'Tedavilere Göz At',
     buttonLink: '#',
   },
   {
     description: 'Uzman doktorlarımızla güvendesiniz.',
-    image: 'https://images.unsplash.com/photo-1504429494987-41305d3b8aef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxNDEyNjB8MHwxfGFsbHwzfHx8fHx8fHwxNjYwODUwODg3&ixlib=rb-1.2.1&q=80&w=1080',
+    image: '/images/ODC_1359-min.png',
+    buttonText: 'Randevu Alın',
+    buttonLink: '#',
+  },
+  {
+    description: 'Uzman doktorlarımızla güvendesiniz.',
+    image: '/images/ODC_1842-min.png',
     buttonText: 'Randevu Alın',
     buttonLink: '#',
   },

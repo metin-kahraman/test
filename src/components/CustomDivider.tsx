@@ -9,7 +9,7 @@ export default function CustomDivider() {
       alignItems: 'center',
       position: 'relative',
       width: '100%',
-      marginTop:10,
+      marginTop:20,
       //height: 0.3,
       backgroundColor: 'orange',
       '&::before': {
@@ -29,7 +29,7 @@ export default function CustomDivider() {
         transform: 'translateX(-50%)',
         width: 50,
         height: 50,
-        backgroundImage: '/img.jpeg',
+        backgroundImage: 'url("/img.jpeg")',
         backgroundSize: 'contain',
         backgroundRepeat: 'no-repeat',
         backgroundPosition: 'center',
