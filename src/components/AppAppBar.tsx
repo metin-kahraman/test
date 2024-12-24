@@ -75,7 +75,6 @@ const menuItems = [
 ];
 
 export default function AppAppBar() {
-  console.log(urlMappings);
   const [open, setOpen] = React.useState(false);
   const [modalOpen, setmodalOpen] = React.useState(false);
   const router = useRouter();
@@ -98,7 +97,7 @@ export default function AppAppBar() {
   };
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("en");
   const flagitemMobil = languages.find((language) => language.code === locale);
-  const [color, setColor] = React.useState('green'); React.useEffect(() => { const interval = setInterval(() => { setColor((prevColor) => (prevColor === 'green' ? '#f37418' : 'green')); }, 7000); return () => clearInterval(interval); }, []);
+  const [color, setColor] = React.useState('green'); React.useEffect(() => { const interval = setInterval(() => { setColor((prevColor) => (prevColor === 'green' ? '#f37418' : 'green')); }, 5000); return () => clearInterval(interval); }, []);
   const handleLanguageChange = (event: SelectChangeEvent<unknown> | string) => {
     const newLocale =
       typeof event === "string" ? event : (event.target.value as string);
@@ -150,7 +149,7 @@ export default function AppAppBar() {
                   variant="text"
                   sx={{
                     color: item.title == "item4" ?  color : "#388E3C",
-                    transition:item ?  'color 1.5s ease-in-out' : "none",
+                    transition:item ?  'color 1.7s ease-in-out' : "none",
                     fontWeight: "bold",
                     fontFamily: "oswald",
                     letterSpacing: "0.5px",

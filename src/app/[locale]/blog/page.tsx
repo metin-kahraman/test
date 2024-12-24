@@ -10,6 +10,9 @@ import Divider from '@mui/material/Divider';
 import FrequentlyAskedQuestions from '@/components/FrequentlyAskedQuestions';
 import ContentRightSlideMenu from '@/components/contentRightSlideMenu';
 import { styled } from '@mui/material/styles';
+import { usePathname, useRouter, useParams } from "next/navigation";
+
+import { MenuItemTranslations } from "@/types/menu";
 
 const treatments = [
   { img: 'https://picsum.photos/800/450?random=1', title: 'T1' },
@@ -64,7 +67,7 @@ const StyledTypography = styled(Typography)({
 });
 
 
-const itemList = ["item1", "item2", "item3", "item4", "item5", "item6", "item7", "item8"]
+const itemList = ["item1", "item2", "item3", "item4"]
 
 const cardData = [
   {
@@ -127,6 +130,10 @@ const cardData = [
 const DigitalDentistry: FC = () => {
   const t = useTranslations('BlogItems');
   const tt = useTranslations('TreatmentsPage.titles') as (key: keyof TreatmentsPageTranslations['titles']) => string;
+ const router = useRouter();
+  const pathname = usePathname();
+  const params = useParams();
+  const { locale } = params;
 
   return (
     <Grid container spacing={2} >
@@ -137,6 +144,7 @@ const DigitalDentistry: FC = () => {
             <SyledCard
               variant="outlined"
               tabIndex={0}
+              onClick={() => router.push(`/${locale}/blog/${t(`${item}.url`)}`)}
             >
               <CardMedia
                 component="img"

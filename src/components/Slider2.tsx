@@ -59,6 +59,7 @@ const MUISlider = () => {
             sx={{
               flex: '0 0 100%',
               height: '100%',
+              width: '100%',
               backgroundImage: `url(${item.image})`,
               backgroundSize: 'cover',
               backgroundPosition: 'center',
