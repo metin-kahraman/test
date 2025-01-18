@@ -5,17 +5,22 @@
   },
   "TreatmentsPage": {
     "titles": {
-      "T1": "İmplant Tedavisi",
-      "T2": "Diş Estetiği",
-      "T3": "Zirkonyum Diş",
-      "T4": "Porselen Diş",
-      "T5": "Dişteli Ortodontik Tedavi",
-      "T6": "Kanal Tedavisi",
-      "T7": "Diş Dolgusu",
-      "T8": "Diş Beyazlatma",
-      "T9": "Çocuk Diş Hekimliği",
-      "T10": "Ağız ve Çene Cerrahisi",
-      "T11": "Dijital Diş Hekimliği"
+      "T1": "Estetik Diş Hekimliği",
+      "T1Link":"dis-tedavileri/estetik-dis-hekimligi",
+      "T2": "Diş Beyazlatma",
+      "T2Link":"dis-tedavileri/dis-beyazlatma",
+      "T3": "Telsiz Ortodonti",
+      "T3Link":"dis-tedavileri/telsiz-ortodonti",
+      "T4": "Ortodonti (Tel Tedavisi)",
+      "T5": "Kanal Tedavisi (Endodonti)",
+      "T6": "Diş Eti Tedavileri (Periodontoloji)",
+      "T7": "Çocuk Diş Hekimliği (Periodontoloji)",
+      "T8": "İmplant Tedavisi",
+      "T9": "Ağız Diş ve Çene Çerrahileri",
+      "T10":"Frenektomi (Dudak-Dil Bağı Alınması)",
+      "T11": "All - On - 4 Tedaviler",
+      "T12": "Dolgu Tedavisi",
+      "T13": "Sabit Protetik Uygulamalar"
     },
     "seo": {
       "title": "Diş Tedavileri - Orange Dent Clinic",
@@ -39,6 +44,517 @@
       "item3":"klinigimiz",
       "item4":"oncesi-sonrasi",
       "item6":"blog"
+    }
+  },
+  "Treatmans":{
+    "AESTHETICDENTISTRY":{
+      "item1":{
+        "title":"Estetik Diş Hekimliği",
+        "subTitle":"Orange Dent ve Estetik Diş Hekimliği",
+        "value":"Orange Dent, estetik diş hekimliği alanında uzmanlaşmış bir klinik olarak, hastalarına sadece sağlıklı bir ağız ve diş yapısı değil, aynı zamanda estetik açıdan mükemmel sonuçlar sunmaktadır. Estetik diş hekimliği, dişlerin görünümünü iyileştirmek amacıyla yapılan tedavi yöntemlerini kapsar. Orange Dent, modern teknolojisi, deneyimli diş hekimleri ve kişiye özel tedavi planlarıyla estetik diş hekimliğini bir adım öteye taşımaktadır. Estetik diş tedavileri, hem bireylerin kendine olan güvenini artırır hem de genel ağız sağlığını iyileştirir."
+      },
+      "item2":{
+        "title":"Orange Dent’te Estetik Diş Hekimliği Uygulamaları",
+        "value":"Orange Dent, estetik diş hekimliği uygulamalarıyla dişlerin doğal güzelliğini ortaya çıkaran ve ağız sağlığını koruyan çeşitli tedavi yöntemleri sunmaktadır. Klinik, her hasta için kişisel ihtiyaçlara uygun, doğal ve estetik sonuçlar elde etmeyi amaçlayan bir yaklaşım sergiler."
+      },
+      "item3":{
+        "title":"Beyazlatma (Diş Bleaching)",
+        "value":"Diş beyazlatma, estetik diş hekimliğinde en popüler tedavi yöntemlerinden biridir. *Orange Dent, güvenli ve etkili diş beyazlatma yöntemleri sunarak, hastaların dişlerinin birkaç ton daha beyaz olmasını sağlar. Klinik, ofis tipi beyazlatma ve ev tipi beyazlatma seçenekleriyle her hasta için en uygun tedavi planını oluşturur."
+      },
+      "item4":{
+        "title":"Veneer Uygulamalar",
+        "value":"Veneer (lamine) tedavisi, dişlerin ön yüzeyine ince porselen kaplamalar yerleştirerek dişlerin şeklini, rengini ve boyutunu düzeltmeyi sağlar. Orange Dent, özel olarak tasarlanmış porselen veneer ve kompozit veneer seçenekleriyle, dişlerindeki estetik sorunları gidermek isteyen hastalarına kusursuz sonuçlar sunar. Veneer uygulamaları, dişlerin doğal görünümünü bozmadan mükemmel estetik sonuçlar elde edilmesini sağlar."
+      },
+      "item5":{
+        "title":"Kompozit Dolgular",
+        "value":"Kompozit dolgular, estetik açıdan dişlere uyumlu, dişin rengini taklit edebilen dolgular olup, özellikle ön dişlerde tercih edilmektedir. Orange Dent, doğal görünümlü kompozit dolgular ile dişlerdeki kırıklar, çürükler veya boşlukları estetik bir şekilde giderir. Bu dolgular, hem fonksiyonel hem de estetik açıdan mükemmel sonuçlar verir."
+      },
+      "item6":{
+        "title":"Dijital Gülüş Tasarımı (Digital Smile Design - DSD)",
+        "value":"Orange Dent, dijital gülüş tasarımı teknolojisi kullanarak, hastaların estetik diş hekimliği tedavilerine en iyi şekilde hazırlanmasını sağlar. **Dijital Gülüş Tasarımı (DSD)*, hastaların diş yapısının dijital ortamda analiz edilmesini ve istedikleri gülüşün simülasyonunun oluşturulmasını sağlar. Bu teknoloji sayesinde, hastalar tedavi öncesi gülüşlerinin nasıl görüneceğini görebilir ve tedavi sürecine karar verirken daha bilinçli bir seçim yapabilirler."
+      },
+      "item7":{
+        "title":"Diş Çekimi ve İmplant Uygulamaları",
+        "value":"Bazı estetik tedavi planları, diş çekimi ve sonrasında implant yerleştirilmesini gerektirebilir. Orange Dent, estetik diş hekimliği tedavileri kapsamında kaybolan dişlerin yerine doğal görünümlü implantlar yerleştirir. İmplantlar, diş yapısına uygun olarak estetik açıdan mükemmel sonuçlar verir ve hastaların gülüşünü iyileştirir."
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Dişlere Zarar Veriyor Muyuz?",
+          "value":"Özellikle yaprak porselen uygulamaları diş dokusuna en korumacı yaklaşan kaplama uygulamasıdır. Kimi durumlarda var olan dişe dokunmaya gerek bile kalmaz.Kron tedavisi dişin çepeçevre prepare edildiği uygulamalardır. Doğru uygulamalarda kron tedavisinin de dişe zarar vermesi imkansızdır."
+        },
+        "item2":{
+          "title":"Bu Uygulamaların Ömrü Ne Kadar?",
+          "value":"Doğru ağız bakımıyla çok uzun süreler kullanılabilirler. Bir ömür biçmek doğru değildir. Düzenli kontroller oluşabilecek komplikasyonları minimuma indirger."
+        }
+      }
+    },
+    "DENTALBLEACHING":{
+      "item1":{
+        "title":"Diş Beyazlatma",
+        "subTitle":"Orange Dent ve Diş Beyazlatma",
+        "value":"Orange Dent, diş sağlığı ve estetiği konusunda sunduğu kaliteli hizmetlerle, hastalarının en sağlıklı ve estetik gülüşlere sahip olmasını sağlamaktadır. Diş beyazlatma, son yıllarda en popüler estetik diş tedavilerinden biri haline gelmiştir. Orange Dent, diş beyazlatma alanındaki uzmanlığı ve modern teknikleriyle, hastalarına doğal, beyaz ve pürüzsüz gülüşler sunmaktadır. Sağlıklı ve parlak dişler, hem görsel olarak hem de özgüven açısından büyük bir fark yaratabilir. Orange Dent, güvenli, etkili ve hızlı sonuçlar sağlayarak, diş beyazlatma tedavisinde mükemmel sonuçlar elde edilmesini sağlar."  
+      },
+      "item2":{
+        "title":"Diş Beyazlatma Nedir?",
+        "value":"Diş beyazlatma, dişlerin rengini açmak ve daha beyaz, parlak bir görünüm elde etmek amacıyla uygulanan bir tedavi yöntemidir. Dişlerdeki sararma ve lekeler, genellikle sigara kullanımı, çay, kahve, kola gibi içeceklerin tüketimi veya yaşlanma gibi sebeplerle meydana gelir. Beyazlatma tedavisi, bu lekeleri ve sararmaları gidermeyi sağlar. Orange Dent, hastalarına etkili beyazlatma yöntemleri sunarak, dişlerinin doğal beyazlığını geri kazandırmalarına yardımcı olur."
+      },
+      "item3":{
+        "title":"Orange Dent’te Diş Beyazlatma Yöntemleri",
+        "value":"Orange Dent, farklı diş beyazlatma seçenekleriyle hastalarına kişiye özel tedavi planları sunar. Hem ofis tipi beyazlatma hem de ev tipi beyazlatma yöntemleriyle, hastaların ihtiyaçlarına göre en uygun çözüm sağlanır."
+      },
+      "item4":{
+        "title":"Ofis Tipi Diş Beyazlatma",
+        "value":"Ofis tipi beyazlatma, klinik ortamda, diş hekimi tarafından uygulanan bir beyazlatma yöntemidir. Orange Dent, modern teknolojiler ve yüksek kaliteli beyazlatma ürünleri kullanarak, dişleri birkaç ton beyazlatır. Bu işlem genellikle 45 dakika ile 1 saat arasında sürer. Beyazlatıcı jel, dişlerin üzerine uygulanır ve özel bir ışık veya lazerle aktif hale getirilir. Bu yöntem, hızlı ve etkili sonuçlar sağlar.",
+        "value2":"Ofis tipi beyazlatma, daha hızlı sonuç almak isteyen ve profesyonel bir ortamda tedavi görmek isteyen hastalar için idealdir. Tedavi sırasında, hastalar herhangi bir ağrı veya rahatsızlık hissetmezler. Orange Dent, hastaların konforunu göz önünde bulundurarak, tedavi sürecini ağrısız ve rahat bir hale getirir. "
+      },
+      "item5":{
+        "title":"Ev Tipi Diş Beyazlatma",
+        "value":"Ev tipi beyazlatma, hastaların diş hekimi tarafından verilen özel beyazlatma kitleriyle evde kendi başlarına yapabileceği bir beyazlatma yöntemidir. Bu yöntem, genellikle dişlere zarar vermemek ve tedavi sürecini kontrollü bir şekilde yönetmek isteyenler için tercih edilir. Orange Dent, ev tipi beyazlatma kitlerini, hastaların dişlerine uygun şekilde özelleştirerek sunar. Bu kitler, hastanın diş yapısına uygun beyazlatma jelleri ve ağız kalıpları içerir.",
+        "value2":"Ev tipi beyazlatma yöntemi, biraz daha uzun süreli bir süreçtir. Ancak hastalar, tedavi sürecini evlerinde kendi konforlarında gerçekleştirir ve beyazlatma işlemi zamanla daha belirgin hale gelir. Orange Dent, ev tipi beyazlatma tedavisiyle hastalarına güvenli, etkili ve uygun maliyetli bir seçenek sunar. "
+      },
+      "item6":{
+        "title":"Dijital Beyazlatma ve İleri Teknolojiler",
+        "value":"Orange Dent, diş beyazlatma tedavisinde dijital teknolojiyi de kullanarak, tedavi sürecini daha hassas ve kişiye özel hale getirir. Dijital beyazlatma simülasyonları ile hastalar, tedavi öncesinde gülüşlerinin nasıl görüneceğini görebilirler. Bu teknoloji sayesinde, tedavi planı hastanın beklentilerine tam olarak uygun şekilde hazırlanır. "
+      }
+
+    },
+    "INVISALIGN":{
+      "item1":{
+        "title":"Telsiz Ortodonti(İnvisalign)",
+        "subTitle":"Orange Dent ve Invisalign Ortodontik Tedavi",
+        "value":"Orange Dent, estetik ve fonksiyonel diş sağlığına büyük önem veren, modern diş tedavi yöntemleriyle en iyi sonuçları hedefleyen bir kliniktir. Ortodontik tedavi alanında, özellikle estetik kaygıları olan hastalar için ideal bir çözüm sunan Invisalign, Orange Dent’teki uzman kadro tarafından başarıyla uygulanmaktadır. Invisalign, geleneksel diş tellerine alternatif olarak, şeffaf ve çıkarılabilir plaklarla yapılan bir tedavi yöntemidir. Dişlerinizi düzeltirken görünümünüzü etkilemeden, konforlu bir tedavi süreci geçirmenizi sağlar."
+      },
+      "item2":{
+        "title":"Invisalign Nedir?",
+        "value":"Invisalign, dişlerinizi düzeltmek için kullanılan şeffaf, çıkarılabilir plaklar (aligner) ile yapılan bir ortodontik tedavi yöntemidir. Geleneksel metal diş tellerinin aksine, Invisalign plakları neredeyse görünmezdir ve ağız içinde çok daha rahat bir kullanım sunar. Invisalign tedavisi, dişlerinizi sırasıyla hareket ettirerek, doğru hizalamayı sağlar ve tedavi süreci boyunca estetik açıdan büyük bir avantaj sunar.",
+        "value2":"Invisalign tedavisi, özellikle yetişkinler ve estetik kaygısı taşıyan bireyler için ideal bir çözüm sunar. Diğer tedavi yöntemlerine göre daha rahat, estetik ve pratik olması sayesinde Invisalign, günümüzde oldukça popüler hale gelmiştir."
+      },
+      "item3":{
+        "title":"Orange Dent’te Invisalign Ortodontik Tedavi Süreci",
+        "value":"Orange Dent, Invisalign tedavisini, her hasta için özel olarak planlanan kişiye özel çözümlerle uygular. Invisalign tedavisinde, diş hekimleri, hastanın ağız yapısını dijital olarak analiz eder ve tedavi sürecini başlatmak için gerekli adımları atar. İşte Orange Dent'teki Invisalign tedavi süreci:"
+      },
+      "item4":{
+        "title":"1. İlk Muayene ve Değerlendirme",
+        "value":"Invisalign tedavisine başlamadan önce, *Orange Dent*’teki ortodonti uzmanları, hastanın diş yapısını ve çene ilişkisini detaylı bir şekilde inceler. Röntgen, 3D görüntüleme ve dijital analizler ile tedavi süreci planlanır. Bu aşamada, hastanın tedaviye uygunluğu belirlenir ve tedavi hedefleri netleştirilir."
+      },
+      "item5":{
+        "title":"2. Kişiye Özel Tedavi Planı",
+        "value":"Invisalign tedavisinde en önemli adımlardan biri, kişiye özel tedavi planının oluşturulmasıdır. Orange Dent, dijital teknolojiler kullanarak, her bir dişin hareketini ve tedavi sürecini simüle eder. Bu sayede, tedavi süreci hakkında önceden ayrıntılı bir bilgi elde edilir ve hasta, tedavi sürecinin nasıl ilerleyeceğini görsel olarak izleyebilir. Bu kişiye özel planlama, tedavinin en hızlı ve etkili şekilde sonuçlanmasını sağlar."
+      },
+      "item6":{
+        "title":"3. Invisalign Aligner'larının Hazırlanması",
+        "value":"Dijital taramalar ve ölçümler alındıktan sonra, Invisalign şeffaf plakları (aligner’lar) kişiye özel olarak üretilir. Orange Dent, tedavi sürecinde kullanılacak aligner’ların kalitesini ön planda tutar ve yüksek kaliteli, güvenilir malzemeler kullanır. Invisalign aligner’ları, her iki haftada bir değiştirilerek dişlerin sırasıyla hareket etmesini sağlar."
+      },
+      "item7":{
+        "title":"4. Aligner’ların Yerleştirilmesi ve Kullanımı",
+        "value":"İlk Invisalign aligner'ı hastaya yerleştirildikten sonra, tedavi başlar. Aligner’lar, hastalar tarafından gün boyu takılabilir ve sadece yemek yerken, dişleri fırçalarken çıkarılabilir. Orange Dent, hastalara aligner’ların doğru şekilde takılması ve çıkarılması konusunda detaylı bilgi verir, tedavi sürecinin her aşamasında rehberlik eder."
+      },
+      "item8":{
+        "title":"5. Takip Randevuları ve İlerleme Kontrolleri",
+        "value":"Invisalign tedavisi sırasında, Orange Dent’teki uzman diş hekimleri, hastaları düzenli olarak takip eder ve tedavi sürecinin ilerleyişini izler. Dişler, aligner’ların her yeni setiyle yavaşça hareket eder. Tedavi süresi boyunca, her iki haftada bir yeni aligner’lar kullanılır. Orange Dent, tedavi sürecinin her aşamasında düzenli kontroller yaparak, dişlerin doğru hareket ettiğinden ve tedavi sürecinin planlandığı gibi ilerlediğinden emin olur."
+      },
+      "item9":{
+        "title":"6. Tedavi Sonrası Kontroller ve Sonuç",
+        "value":"Invisalign tedavisi tamamlandığında, Orange Dent’teki diş hekimi, hastanın gülüşünü ve diş sağlığını değerlendiren son bir kontrol yapar. Tedavi başarıyla tamamlandığında, hastalara retainer (koruma aparatı) kullanmaları önerilir. Bu, dişlerin yeni pozisyonlarını korumaya yardımcı olur ve tedavinin kalıcı olmasını sağlar."
+      }
+    },
+    "ORTHODONTIC":{
+      "item1":{
+        "title":"Ortodonti(Tel tedavisi)",
+        "subTitle":"Orange Dent ve Ortodonti",
+        "value":"Orange Dent, diş sağlığının yanı sıra estetik gülüşün de önemini bilen, ortodonti alanında yüksek kalitede hizmet veren bir kliniktir. Ortodonti, dişlerin, çene yapısının ve yüz estetiğinin düzeltilmesi amacıyla yapılan tedavi yöntemlerini kapsar. Orange Dent, modern teknoloji ve deneyimli kadrosuyla, dişlerin düzgün sıralanması ve çene uyumu için en uygun tedavi planlarını sunar. Gülüş estetiğinizin yanı sıra fonksiyonel diş sağlığınız için de ortodontik tedavi büyük bir öneme sahiptir."
+      },
+      "item2":{
+        "title":"Ortodonti Nedir?",
+        "value":"Ortodonti, diş ve çene bozukluklarını düzeltmek amacıyla uygulanan bir diş hekimliği dalıdır. Dişlerin düzgün sıralanması, çene ilişkilerinin doğru şekilde yerleşmesi, ısırma problemlerinin çözülmesi ve estetik açıdan daha uyumlu bir gülüş elde edilmesi hedeflenir. Ortodontik tedavi, genellikle diş telleri (braketler) ve benzeri aparatlar kullanılarak yapılır. Ancak teknolojinin gelişmesiyle birlikte, görünmeyen tel sistemleri ve şeffaf plaklar gibi alternatif tedavi seçenekleri de sunulmaktadır."
+      },
+      "item3":{
+        "title":"Orange Dent’te Ortodontik Tedavi Süreci",
+        "value":"Orange Dent, ortodontik tedaviye başlamadan önce her hasta için detaylı bir muayene ve değerlendirme süreci uygular. Ortodontik tedavi, kişiye özel bir yaklaşım gerektirir ve bu süreç,hastanın yaşına, diş yapısına ve çene durumuna göre şekillendirilir. Orange Dent’te ortodontik tedavi şu adımları içerir: "
+      },
+      "item4":{
+        "title":"1. İlk Muayene ve Değerlendirme",
+        "value":"Ortodontik tedaviye başlamadan önce, Orange Dent'teki uzman diş hekimleri, hastaların diş yapısını, çene ilişkilerini ve yüz estetiğini detaylı bir şekilde inceler. Bu muayene, röntgen, fotoğraf ve 3D görüntüleme teknolojileriyle desteklenebilir. Bu sayede, ortodontik tedaviye uygunluk ve tedavi sürecinin doğru bir şekilde planlanması sağlanır."
+      },
+      "item5":{
+        "title":"2. Tedavi Planı ve Seçenekler",
+        "value":"Ortodontik tedavi, hastanın durumuna göre kişiye özel olarak planlanır. Orange Dent, geleneksel metal diş tellerinin yanı sıra şeffaf plaklar (Invisalign), seramik braketler ve lingual braketler gibi farklı tedavi seçenekleri sunar. Hangi tedavi yönteminin kullanılacağı, hastanın estetik beklentilerine, tedavi süresine ve tedaviye uyumuna göre belirlenir."
+      },
+      "item6":{
+        "title":"3. Diş Teli ve Braket Yerleştirilmesi",
+        "value":"Ortodontik tedaviye karar verildikten sonra, diş teli veya braketler yerleştirilir. Orange Dent, tedavi sürecinde kullanılan tüm materyallerin en kaliteli ve dayanıklı olmasına özen gösterir. Metal braketler, dişlerin sıralanmasını sağlayan klasik yöntemdir, ancak estetik kaygıları olan hastalar için seramik braketler veya şeffaf plaklar da tercih edilebilir. Braketler, dişlerin üzerine yerleştirilerek tedavi sürecinin başlangıcını başlatır."
+      },
+      "item7":{
+        "title":"4. Takip Randevuları ve Ayarlamalar",
+        "value":"Ortodontik tedavi süresi boyunca, Orange Dent, hastalarını düzenli olarak takip eder ve diş teli veya braketlerin ayarlarını yapar. Dişler, tedavi süreci boyunca yavaşça hareket eder ve her randevuda diş hekimi, tedavi ilerlemesini değerlendirir. Orange Dent, tedavi sürecinin her aşamasında hastaları bilgilendirir ve tedaviye olan uyumu artırmak için destek sağlar."
+      },
+      "item8":{
+        "title":"5. Tedavi Sonrası Kontroller ve Sonuç",
+        "value":"Ortodontik tedavi tamamlandıktan sonra, Orange Dent hastaların gülüşünü ve diş sağlığını korumak için takip randevuları yapar. Dişler tamamen yerleştikten sonra, koruyucu bir süreç başlar ve bu dönemde hastaya sabırlı bir şekilde yardımcı olunur. Orange Dent, tedavi sonrası en iyi sonuçları elde etmenizi sağlamak için gerekli tüm kontrolleri yapar."
+      }
+    },
+    "ENDODONTI":{
+      "item1":{
+        "title":"Kanal Tedavisi (Endodonti)",
+        "subTitle":"Orange Dent ve Kanal Tedavisi",
+        "value":"Orange Dent, diş sağlığı konusunda kapsamlı bir yaklaşım sergileyerek, hastalarına en kaliteli tedavi hizmetlerini sunmaktadır. Kanal tedavisi, dişin iç kısmındaki sinirlerin veya kanalların enfekte olduğu durumlarda uygulanan, dişi kurtarmayı amaçlayan bir tedavi yöntemidir. Orange Dent, kanal tedavisinde modern teknolojileri kullanarak, hastalarına ağrısız, hızlı ve etkili bir tedavi süreci sunar."
+      },
+      "item2":{
+        "title":"Kanal Tedavisi Nedir?",
+        "value":"Kanal tedavisi, dişin pulpa adı verilen, içinde damar ve sinir bulunan kısmının enfekte olduğu ya da hasar gördüğü durumlarda yapılan bir tedavi işlemidir. Pulpa, dişin iç kısmında yer alan yumuşak dokudur ve bu doku enfekte olduğunda diş ağrısı, şişlik ve iltihap gibi belirtiler ortaya çıkabilir. Kanal tedavisi, bu enfekte dokuya müdahale ederek, dişi kurtarmayı ve ağrıyı gidermeyi amaçlar."
+      },
+      "item3":{
+        "title":"Orange Dent’te Kanal Tedavisi Süreci",
+        "value":"Orange Dent, kanal tedavisinde en son teknoloji ekipmanları kullanarak, hastalarına hızlı, ağrısız ve etkili bir tedavi süreci sunar. Klinik, kanal tedavisinin her aşamasını özenle takip eder ve hastaların konforunu her zaman ön planda tutar. Kanal tedavisi süreci genellikle şu aşamalardan oluşur:"
+      },
+      "item4":{
+        "title":"1. İlk Muayene ve Röntgen Çekimi",
+        "value":"Kanal tedavisi, öncelikle dişin durumu hakkında net bir değerlendirme yapmak için yapılacak detaylı muayene ve röntgen ile başlar. Orange Dent, dijital röntgen teknolojisini kullanarak, dişin iç yapısının detaylı bir şekilde görüntülenmesini sağlar. Bu sayede, enfekte alanlar ve tedavi gereksinimleri belirlenir. "
+      },
+      "item5":{
+        "title":"2. Dişin Temizlenmesi ve Kanalın Hazırlanması",
+        "value":"Kanal tedavisinin ilk adımında, enfekte olmuş doku, özel aletlerle temizlenir. Orange Dent, hastaların ağrı hissetmemesi için gelişmiş anestezi yöntemleri kullanır. Dişin iç kısmı temizlendikten sonra, kanal alanı şekillendirilir ve dezenfekte edilir. "
+      },
+      "item6":{
+        "title":"3. Kanalın Doldurulması ",
+        "value":"Dişin iç kısmı temizlendikten ve şekillendirildikten sonra, kanal alanı biyouyumlu bir malzeme ile doldurulur. Bu malzeme, dişin doğal yapısını korur ve enfeksiyonun tekrar oluşmasını engeller. Orange Dent, kaliteli ve güvenli malzemeler kullanarak dişin uzun süre sağlıklı kalmasını sağlar. "
+      },
+      "item7":{
+        "title":"4. Dişin Restorasyonu ",
+        "value":"Kanal tedavisi tamamlandıktan sonra, dişin üzerine kalıcı dolgu veya kaplama yapılır. Bu işlem, dişin fonksiyonunu geri kazandırır ve estetik açıdan doğal bir görünüm sağlar. Orange Dent, dişin estetik yapısına uyumlu restorasyon seçenekleri sunarak, tedavi sonrasında mükemmel bir gülüş sağlar. "
+      }
+    },
+    "PERIODONTOLOJI":{
+      "item1":{
+        "title":"Diş Eti Tedavileri(Periodontoloji)",
+        "subTitle":"Orange Dent ve Diş Eti Tedavisi",
+        "value":"Orange Dent, diş sağlığının yanı sıra diş eti sağlığının da büyük önem taşıdığının farkında olan, alanında uzman bir kliniktir. Diş etleri, ağız sağlığımızın temel yapı taşlarından biridir. Diş eti hastalıkları, diş kaybına yol açabilecek ciddi sağlık sorunlarına neden olabileceğinden, zamanında tedavi edilmesi oldukça önemlidir. Orange Dent, diş eti tedavisi konusunda son teknolojiye sahip ekipmanlar ve uzman kadrosu ile hastalarına sağlıklı ve güvenli bir tedavi süreci sunmaktadır. "
+      },
+      "item2":{
+        "title":"Diş Eti Tedavisi Nedir?",
+        "value":"Diş eti tedavisi, diş etlerinin iltihaplanması, şişmesi, kanaması ve daha ciddi sorunlar yaşanması durumunda yapılan bir tedavi sürecidir. Diş etleri, dişleri destekleyen ve çevreleyen dokulardır. Sağlıklı diş etleri, dişlerinizi düzgün ve sağlam bir şekilde tutar. Ancak diş eti hastalıkları, özellikle diş eti iltihaplanması (gingivit) ve diş eti hastalığı (periodontitis), tedavi edilmediği takdirde diş kaybına yol açabilir. "
+      },
+      "item3":{
+        "title":"Diş eti hastalıklarının başlıca belirtileri şunlardır:",
+        "value":"- Diş eti kanaması, özellikle diş fırçalama veya diş ipi kullanma sırasında",
+        "value2":"- Diş etlerinin şişmesi ve kırmızı renkte olması",
+        "value3":"- Ağızda kötü koku ve tat",
+        "value4":"- Dişlerde gevşeme veya ayrılma",
+        "value5":"- Diş etlerinde çekilme",
+        "value6":"Diş eti hastalıkları erken evrede tedavi edilebilirken, ilerleyen aşamalarda daha kapsamlı tedaviler gerektirir. Orange Dent, her evre için etkili tedavi yöntemleri sunarak, hastaların sağlıklı diş etlerine kavuşmalarını sağlar. "
+      },
+      "item4":{
+        "title":"Orange Dent’te Diş Eti Tedavisi Süreci ",
+        "value":"Orange Dent, diş eti tedavisini, her hastanın ihtiyaçlarına uygun bir şekilde kişiye özel planlayarak gerçekleştirir. Diş eti tedavi süreci aşağıdaki adımlardan oluşur: "
+      },
+      "item5":{
+        "title":"1. İlk Muayene ve Değerlendirme ",
+        "value":"Diş eti tedavisi sürecinin ilk adımı, diş hekimleri tarafından yapılan kapsamlı bir muayenedir. Orange Dent’teki uzman diş hekimleri, diş etlerinin sağlığını değerlendirir, diş eti hastalıklarının seviyesini belirler ve tedavi için bir plan oluşturur. Gerekirse röntgen çekilir ve diş eti iltihaplarının derinliği ölçülür. "
+      },
+      "item6":{
+        "title":"2. Diş Eti Temizliği (Detertraj)",
+        "value":"Diş eti hastalıklarının ilk aşamasında, diş etlerinde biriken plak ve tartarların temizlenmesi önemlidir. Orange Dent'te, diş hekimleri, profesyonel detertraj yöntemi ile dişlerinizdeki plak ve tartarları temizler. Bu temizlik, diş eti iltihaplarının azalmasına ve diş etlerinin sağlıklı hale gelmesine yardımcı olur. "
+      },
+      "item7":{
+        "title":"3. Derin Diş Eti Temizliği (Kök Planlaması) ",
+        "value":"Eğer diş eti hastalığı daha ileri seviyedeyse, kök planlaması adı verilen derin temizlik işlemi uygulanır. Bu işlemde, diş etlerinin altına yerleşen enfekte olmuş plaklar ve tartarlar temizlenir. Orange Dent, kök yüzeylerinin düzgünleştirilmesi ve diş etlerinin yeniden sağlıklı hale gelmesi için bu tedaviye başvurur. Kök planlaması, diş etlerini yeniden sağlıklı bir seviyeye getirmek için kritik bir adımdır. "
+      },
+      "item8":{
+        "title":"4. Diş Eti Cerrahisi (Gerekirse) ",
+        "value":"Diş eti hastalıkları ilerlediğinde, daha ileri tedavi yöntemlerine ihtiyaç duyulabilir. Orange Dent’te, diş eti cerrahisi ile diş etlerindeki kalıcı hasarlar onarılabilir. Diş etlerinin estetik ve fonksiyonel olarak iyileştirilmesi için çeşitli cerrahi teknikler uygulanabilir. Örneğin, diş eti çekilmesi yaşayan hastalarda, diş etlerinin yeniden yapılandırılması veya yumuşak doku greftleri ile diş etlerinin güçlendirilmesi sağlanabilir. "
+      },
+      "item9":{
+        "title":"5. Takip Randevuları ve Bakım ",
+        "value":"Diş eti tedavisinden sonra, hastaların iyileşme sürecinin izlenmesi çok önemlidir. Orange Dent, tedavi sonrası düzenli takip randevuları ile hastalarının iyileşme sürecini gözlemler. Diş eti tedavisinin başarıyla tamamlanabilmesi için, hastaların tedavi sonrasında ağız bakımına dikkat etmeleri ve diş etlerinin sağlıklı kalmasını sağlamaları gerekmektedir. "
+      }
+    },
+    "PEDODONTICS":{
+      "item1":{
+        "title":"Çocuk Diş Hekimliği(Pedodonti)",
+        "subTitle":"Orange Dent ve Pedodonti Alanındaki Hizmetleri",
+        "value":"Orange Dent, pedodonti alanında uzmanlaşmış bir klinik olarak, çocukların ağız ve diş sağlığını korumak ve tedavi etmek için yüksek kaliteli hizmetler sunmaktadır. Pedodonti, çocuk diş hekimliği olarak, çocukların diş gelişimini izleme, ağız sağlığını koruma ve tedavi süreçlerini yönetme konusunda uzmanlaşmış bir disiplindir. Orange Dent, bu alandaki derin bilgi birikimi ve modern tedavi yaklaşımlarıyla, çocuk hastaların diş sağlığını en iyi şekilde korumayı hedeflemektedir. "
+      },
+      "item2":{
+        "title":"Orange Dent’te Pedodonti Uygulamaları",
+        "value":"Orange Dent klinikleri, çocuk hastaların özel ihtiyaçlarını göz önünde bulundurarak, diş hekimliği alanında pek çok yenilikçi uygulamayı hayata geçirmektedir. Klinik, sadece tedavi değil, aynı zamanda çocukların diş hekimi korkularını yenmelerine yardımcı olacak bir yaklaşım sergileyerek, diş muayenelerini ve tedavi süreçlerini çocuklar için daha rahat hale getirir."
+      },
+      "item3":{
+        "title":"Erken Dönem Koruyucu Tedaviler ",
+        "value":"Orange Dent, çocukların diş sağlığını korumak adına erken dönemde çeşitli koruyucu tedavi yöntemleri uygular. Fissür örtücü uygulamaları ve Florür tedavileri gibi önleyici tedavi yöntemleri, çocukların dişlerinde çürüklerin oluşmasını engellemeye yardımcı olur. Ayrıca, dijital röntgen sistemleri sayesinde tedavi süreci daha hızlı ve güvenli bir şekilde izlenebilir. "
+      },
+      "item4":{
+        "title":"Estetik ve Fonksiyonel Diş Dolguları",
+        "value":"Çocuklar için özel olarak tasarlanmış renkli kompozit dolgular ve estetik dolgular, Orange Dent’in pedodonti uygulamalarında sıkça tercih edilen seçeneklerdir. Bu dolgular, çocukların dişlerinin doğal rengini taklit eder ve aynı zamanda tedavi sürecini estetik açıdan tatmin edici hale getirir. Ayrıca, diş çekimi ve kanal tedavisi gibi daha ileri düzey tedavi uygulamaları da klinikte uzman hekimler tarafından başarılı bir şekilde yapılmaktadır. "
+      },
+      "item5":{
+        "title":"Çocuk Diş Hekimliği ve Psikolojik Destek",
+        "value":"Orange Dent’in en önemli özelliklerinden biri, çocukların diş hekimliği süreçlerinde yaşadıkları korkuları ve kaygıları minimize etmek için psikolojik destek sunmasıdır. Diş hekimliği prosedürlerini çocuklara daha anlaşılır bir şekilde açıklamak, onların rahatlamasını sağlamak, tedavi sürecinin en başından itibaren kritik öneme sahiptir. Klinik, çocukları eğlenceli bir ortamda tedavi ederek diş hekimliği korkularını aşmalarına yardımcı olur. "
+      },
+      "item6":{
+        "title":"Orange Dent ve Ebeveynlerle İş Birliği",
+        "value":"Orange Dent, pedodonti alanındaki uzmanlığıyla ebeveynlere de rehberlik eder. Çocukların diş sağlığını korumak, diş fırçalama alışkanlıkları geliştirmek ve doğru beslenme alışkanlıkları kazandırmak için ebeveynlerle iş birliği yapar. Klinik, çocukların diş sağlığını sadece tedavi ile değil, aynı zamanda eğitimle de destekler."
+      },
+      "item7":{
+        "title":"Sonuç Olarak ",
+        "value":"Orange Dent, pedodonti alanında çocukların ağız ve diş sağlığını korumak için modern ve etkili çözümler sunan bir klinik olarak, uzman hekim kadrosu ve yenilikçi tedavi yöntemleriyle fark yaratmaktadır. Çocukların rahatlığı ve güvenliği her şeyin önünde tutulurken, aynı zamanda estetik ve fonksiyonel açıdan kaliteli tedavi uygulamaları sağlanmaktadır. Orange Dent, pedodonti alanındaki liderliğini sürdürerek, çocuk diş hekimliğini daha erişilebilir, etkili ve eğlenceli hale getirmeyi amaçlamaktadır. "
+      }
+    },
+    "IMPLANT":{
+      "item1":{
+        "title":"İmplant Tedavisi",
+        "subTitle":"Orange Dent ve İmplant Tedavileri ",
+        "value":"Orange Dent, diş hekimliğinde kapsamlı hizmetler sunan bir klinik olarak, hastalarının ağız ve diş sağlığını korumak ve iyileştirmek için çeşitli tedavi yöntemleri sunmaktadır. Diş kayıplarının tedavisinde en etkili yöntemlerden biri olan implant tedavileri, klinikte büyük bir uzmanlıkla uygulanmaktadır. İmplant tedavisi, dişlerin kaybedilmesinin ardından doğal dişlerin yerine konan yapay diş kökleri ile yapılan bir tedavi yöntemidir. Orange Dent, bu alandaki deneyimi ve modern teknolojisi ile, hastalarına uzun ömürlü ve estetik açıdan tatmin edici çözümler sunmaktadır. "
+      },
+      "item2":{
+        "title":"Orange Dent'te İmplant Tedavisi ",
+        "value":"Diş kaybı, sadece estetik bir sorun değil, aynı zamanda fonksiyonel problemler de yaratabilir. İmplant tedavisi, kaybolan dişlerin yerine yerleştirilen titanyum vidalarla, çene kemiğine uyum sağlayan yapay diş kökleri oluşturur. Bu yöntem, doğal dişin işlevini yerine getirir ve estetik açıdan da tatmin edici sonuçlar sağlar. Orange Dent, implant tedavileri konusunda son derece deneyimli bir ekip ve son teknoloji cihazlarla çalışarak, hastalarına güvenli, hızlı ve başarılı tedavi süreçleri sunar. "
+      },
+      "item3":{
+        "title":"İmplant Tedavisi Süreci",
+        "value":"Orange Dent’te implant tedavisi süreci, her hastanın bireysel ihtiyaçları doğrultusunda özelleştirilir. İlk aşama, hastanın ağız yapısının detaylı bir şekilde değerlendirilmesi için yapılan detaylı muayene ve dijital görüntüleme testleri ile başlar. Bu aşamada, diş hekimi, çene kemiği yapısını ve implant yerleştirilmesi için uygun alanları belirler.  "
+      },
+      "item4":{
+        "title":"Tedavi süreci, genellikle üç ana aşamadan oluşur: ",
+        "value":"1. İmplantın Yerleştirilmesi: İmplant, çene kemiğine cerrahi bir işlemle yerleştirilir. Orange Dent, bu aşamada, konforlu ve ağrısız bir tedavi süreci için gelişmiş anestezi teknikleri kullanır. ",
+        "value2":"2. İyileşme Süreci: İmplant yerleştirildikten sonra, çene kemiğiyle kaynaşması için belirli bir süre geçmesi gerekir. Bu süre zarfında, hasta normal yaşamına devam edebilir ancak sert yiyeceklerden kaçınması önerilir.",
+        "value3":"3. Protez Uygulaması: İmplant kemiğe tamamen entegre olduktan sonra, estetik ve fonksiyonel olarak doğal dişi taklit eden implant üstü protezler yerleştirilir. Bu aşamada, Orange Dent'in uzman kadrosu, hastanın estetik beklentilerini karşılayan en uygun protez çözümünü sunar. "
+      },
+      "item5":{
+        "title":"Dijital İmplant Planlaması ve Güvenlik ",
+        "value":"Orange Dent, implant tedavisinde dijital teknolojiler kullanarak tedavi süreçlerini daha hassas ve güvenli hale getirir. Dijital röntgen ve 3D tomografi gibi gelişmiş görüntüleme teknikleri, çene kemiği yapısını ve implant yerleştirme alanını detaylı bir şekilde incelemeyi mümkün kılar. Bu sayede, tedavi süreci daha hızlı ve başarılı olur. "
+      },
+      "item6":{
+        "title":"Neden Orange Dent?",
+        "value":"Orange Dent, implant tedavilerinde hastalarına pek çok avantaj sunar:",
+        "value2":"1. Uzmanlık ve Deneyim: Orange Dent, diş hekimliğinde uzun yıllara dayanan deneyime sahip bir klinik olarak, implant tedavisinde uzman bir kadro sunmaktadır. Her hastanın ihtiyaçlarına yönelik özelleştirilmiş tedavi planları oluşturulur.",
+        "value3":"2. Modern Teknoloji: Klinik, son teknoloji cihazlar ve dijital tedavi yöntemleri kullanarak, implant sürecini daha verimli, konforlu ve güvenli hale getirir.",
+        "value4":"3. Estetik ve Fonksiyonellik: Orange Dent, implant tedavisinin sadece fonksiyonel değil, aynı zamanda estetik açıdan da tatmin edici olmasını sağlar. Protezler, hastanın doğal dişleriyle uyumlu şekilde tasarlanır.",
+        "value5":"4. Ağrısız ve Konforlu Tedavi: İmplant tedavisi sırasında hastaların ağrı hissetmemesi için gelişmiş anestezi teknikleri kullanılır. Ayrıca, tedavi sonrası süreçlerde hastalar minimum rahatsızlık hissiyle iyileşir. "
+      },
+      "item7":{
+        "title":"Sonuç Olarak ",
+        "value":"Orange Dent, diş kaybı yaşayan hastalarına güvenli, hızlı ve estetik açıdan tatmin edici implant tedavileri sunmaktadır. Modern teknoloji ve uzmanlık ile, implant tedavisinin her aşaması özenle yönetilir ve hasta memnuniyeti en üst seviyeye çıkarılır. Orange Dent, implant tedavilerinde sağladığı başarı ve hastalarına sunduğu kaliteli hizmet ile, diş hekimliği alanında güvenilir bir seçenek olmaya devam etmektedir. "
+      }
+    },
+    "JAWSURGERY":{
+      "item1":{
+        "title":"Ağız, Diş ve Çene Tedavileri",
+        "subTitle":"Orange Dent ve Ağız, Diş ve Çene Cerrahisi",
+        "value":"Orange Dent, ağız, diş ve çene cerrahisi alanında kapsamlı hizmetler sunan, uzman kadrosu ve son teknoloji ekipmanlarıyla fark yaratan bir kliniktir. Ağız, diş ve çene cerrahisi, diş hekimliğinin önemli bir dalı olup, çene ve ağız bölgesindeki çeşitli hastalıkların, yaralanmaların, enfeksiyonların ve estetik sorunların tedavisini içerir. Orange Dent, bu alanda kaliteli tedavi yöntemleri ve hasta odaklı yaklaşımıyla, ağrı ve kaygıyı en aza indirerek başarılı sonuçlar elde etmektedir."
+      },
+      "item2":{
+        "title":"Orange Dent’te Ağız, Diş ve Çene Cerrahisi Uygulamaları",
+        "value":"Orange Dent, ağız, diş ve çene cerrahisi konusunda geniş bir tedavi yelpazesi sunmaktadır. Klinik, her türlü cerrahi müdahale için modern teknolojileri kullanarak, tedavi sürecini daha verimli ve hastalar için daha konforlu hale getirir. "
+      },
+      "item3":{
+        "title":"Diş Çekimi ve Zor Diş Çekimleri ",
+        "value":"Diş çekimi, genellikle dişin ciddi şekilde çürüdüğü veya enfekte olduğu durumlarda tercih edilir. Orange Dent, rutin diş çekimlerinden, gömülü dişlerin ve dişeti problemleri nedeniyle zor diş çekimlerine kadar her türlü müdahaleyi güvenle yapmaktadır. Gömülü dişlerin çekimi, genellikle cerrahi bir işlem gerektirir ve bu tür işlemler için Orange Dent, hastaların rahatını sağlamak amacıyla gelişmiş anestezi teknikleri kullanır. "
+      },
+      "item4":{
+        "title":"İmplant Cerrahisi",
+        "value":"Orange Dent, kaybolan dişlerin yerine modern dijital implant tedavisi uygulayarak, çene kemiğine titanyum vidalar yerleştirir. Bu işlem, doğal dişi taklit eden sağlam ve estetik sonuçlar sağlar. Diş implantları, diş kaybı yaşayan hastalar için önemli bir çözüm sunar. İmplant cerrahisi, doğru planlama ve uzmanlık gerektiren bir alandır ve Orange Dent, deneyimli cerrahlarıyla, hastaların çene yapısına uygun implantları yerleştirerek uzun ömürlü ve estetik sonuçlar elde eder. "
+      },
+      "item5":{
+        "title":"Diş Eti Hastalıkları ve Cerrahi Tedavi ",
+        "value":"Diş eti hastalıkları, dişlerin çevresindeki yumuşak dokularda meydana gelen enfeksiyonlardır. Orange Dent, diş eti hastalıklarının cerrahi tedavisinde etkili yöntemler kullanır. Diş eti çekilmesi, periodontal hastalıklar ve dental enfeksiyonlar gibi sorunlar cerrahi müdahale ile tedavi edilir. Ayrıca, diş eti estetiği için yapılacak cerrahi işlemlerle, hastaların gülüşleri doğal ve sağlıklı bir şekilde iyileştirilir. "
+      },
+      "item6":{
+        "title":"Neden Orange Dent? ",
+        "value":"Orange Dent, ağız, diş ve çene cerrahisi alanında sağladığı birçok avantajla öne çıkar: ",
+        "value2":"1. Uzman Cerrah Kadrosu: Orange Dent, ağız, diş ve çene cerrahisi konusunda deneyimli, uzman diş hekimleri ve cerrahlar ile hizmet verir. Her bir tedavi süreci özenle planlanır ve uygulanır. ",
+        "value3":"2. Modern Teknoloji ve Ekipmanlar: Klinik, cerrahi müdahalelerde en son teknoloji ekipmanları kullanarak, tedavi sürecini daha hızlı ve güvenli hale getirir. Dijital görüntüleme sistemleri ve 3D planlama yazılımları, tedavi sürecini en hassas şekilde yönlendirmeye olanak tanır. ",
+        "value4":"3. Ağrısız ve Konforlu Tedavi: Orange Dent, hastalarının tedavi sürecinde maksimum konforu sağlamak amacıyla ağrısız tedavi yöntemleri ve rahatlatıcı anestezi teknikleri kullanır.",
+        "value5":"4. Kapsamlı Tedavi Yöntemleri: Diş çekiminden, implant cerrahisine, çene kistlerinden, ortognatik cerrahiyi içeren kapsamlı bir hizmet yelpazesi sunar. Hastalar, her türlü cerrahi müdahale için tek bir klinikte tedavi olabilirler.",
+        "value6":"5. Hasta Odaklı Yaklaşım: Orange Dent, her hastanın ihtiyaçlarına ve beklentilerine uygun kişiselleştirilmiş tedavi planları sunar. Hastaların her aşamada bilgilendirilmesi ve rahatlatılması sağlanır."
+      },
+      "item7":{
+        "title":"Sonuç Olarak ",
+        "value":"Orange Dent, ağız, diş ve çene cerrahisi alanındaki kapsamlı tedavi seçenekleri ve uzmanlık ile hastalarına güvenli, etkili ve estetik çözümler sunmaktadır. İster diş çekimi, ister implant yerleştirme, ister çene estetiği veya çene hastalıklarının cerrahi tedavisi olsun, Orange Dent, her aşamada kaliteli hizmet sunarak, hastalarının sağlıklı ve estetik bir gülüşe sahip olmalarını sağlar. "
+      }
+    },
+    "FRENECTOMY":{
+      "item1":{
+        "title":"Frenektomi (Dudak-Dil Bağı Alınması)",
+        "subTitle":"Orange Dent ve Frenektomi ",
+        "value":"Orange Dent, diş sağlığı ve estetiği konusunda uzmanlaşmış bir klinik olarak, hastalarına geniş bir tedavi yelpazesi sunmaktadır. Frenektomi, özellikle diş hekimliği ve ağız cerrahisi alanında önemli bir prosedürdür. Frenektomi, ağızda bulunan fren adı verilen bağ dokularının cerrahi olarak çıkarılması işlemidir. Bu prosedür, ağız içindeki çeşitli problemleri çözmeye yönelik uygulanır ve hastaların rahatlıkla çiğneyebilmesi, konuşabilmesi ve gülüşünü estetik açıdan iyileştirebilmesi için önemli bir adımdır. Orange Dent, frenektomi işlemlerini son derece güvenli ve ağrısız bir şekilde, modern teknikler kullanarak gerçekleştirir. "
+      },
+      "item2":{
+        "title":"Frenektomi Nedir? ",
+        "value":"Fren, diş etlerine, dudağa veya dilin altına bağlanan ince bir dokudur. Ağızda en yaygın fren türleri dudak frenleri (üst dudağın diş etlerine bağlandığı fren) ve dil frenleri (dilin alt kısmındaki fren) olarak bilinir. Bu frenler, genellikle dişlerin düzgün gelişmesini engellemeyip, ancak bazen bu frenler fazla gerildiğinde veya anormal bir şekilde büyüdüğünde, çeşitli sorunlara yol açabilirler.",
+        "value2":"Frenektomi, bu anormal frenlerin cerrahi olarak çıkarılması işlemidir. Orange Dent, frenektomi prosedürünü genellikle, dudak veya dil freninin aşırı gerilmesi sonucu oluşan çürükler, dişlerin ayrılması, beslenme ve konuşma zorlukları gibi sorunları gidermek amacıyla uygular."
+      },
+      "item3":{
+        "title":"Frenektomi Ne Zaman Gereklidir? ",
+        "value":"Frenektomi, aşağıdaki durumlarda gerekli olabilir:",
+        "value2":"1. Dil Bağlantı Sorunları (Ankyloglossia): Dilin altındaki frenin çok kısa olması durumunda, dilin hareket kabiliyeti sınırlı hale gelir. Bu durum, konuşma, yutma ve hatta diş hijyenini olumsuz etkileyebilir. Orange Dent, ankyloglossia (dilin kısa fren bağlanması) sorunu yaşayan hastalarda frenektomi uygulayarak, bu durumu düzeltir.",
+        "value3":"2. Dudak Freni Sorunları: Üst dudağın diş etlerine çok yakın bir yerde fren olması durumunda, dişlerin arasının açılmasına neden olabilir. Bu, estetik ve fonksiyonel sorunlara yol açar. Orange Dent, bu gibi sorunları gidermek için dudak frenini cerrahi olarak çıkarabilir.",
+        "value4":"3. Yutma ve Konuşma Sorunları: Kısa veya sıkı frenler, doğru yutma hareketini ve düzgün konuşmayı zorlaştırabilir. Orange Dent, bu tür sorunları ortadan kaldırmak için frenektomi işlemi uygulayarak, hastaların yaşam kalitesini artırır.",
+        "value5":"4. Ağız Hijyeni Sorunları: Kısa bir fren, dişlerin arasında temizlik yapmayı zorlaştırabilir, bu da çürüklerin oluşumuna neden olabilir. Orange Dent, frenektomi ile dişler arasındaki temizlik sorunlarını ortadan kaldırır."
+      },
+      "item4":{
+        "title":"Orange Dent’te Frenektomi Süreci",
+        "value":"Orange Dent, frenektomi işlemini en son teknolojiler ve modern tekniklerle gerçekleştirmektedir. Bu işlemin süreci genellikle şu adımlardan oluşur:"
+      },
+      "item5":{
+        "title":"1. İlk Muayene ve Değerlendirme",
+        "value":"Frenektomi işlemine başlamadan önce, diş hekimi hastayı detaylı bir şekilde muayene eder. Orange Dent, frenin boyutunu ve bağlı olduğu dokunun durumunu değerlendirerek, hangi tedavi seçeneğinin en uygun olduğunu belirler. Bu değerlendirme, tedavi planının başarılı olması için kritik öneme sahiptir."
+      },
+      "item6":{
+        "title":"2. Anestezi Uygulaması ",
+        "value":"Frenektomi, genellikle lokal anestezi altında yapılan bir işlemdir. Orange Dent, hastaların herhangi bir ağrı hissetmemesi için modern anestezi yöntemleri kullanır. Anestezi, işlemin rahat bir şekilde yapılmasını sağlar. "
+      },
+      "item7":{
+        "title":"3. Cerrahi Müdahale ",
+        "value":"Anestezi etkisini gösterdikten sonra, diş hekimi, frenin bulunduğu alana küçük bir kesik yaparak, fren dokusunu cerrahi olarak çıkarır. Orange Dent, işlem sırasında hassasiyetle çalışarak, hastanın konforunu en üst seviyeye çıkarır. "
+      },
+      "item8":{
+        "title":"4. İyileşme Süreci ve Kontroller ",
+        "value":"Frenektomi sonrası iyileşme süreci genellikle hızlıdır. Orange Dent, hastaların iyileşme sürecinde dikkat etmesi gereken noktaları anlatır ve gerekli kontrollere çağırır. Genellikle bir hafta içinde iyileşme sağlanır ve komplikasyon riski minimuma indirilir. "
+      }
+    },
+    "ALLONFOUR":{
+      "item1":{
+        "title":"All-On-4 Tedaviler",
+        "subTitle":"Orange Dent ve All-on-4 Diş İmplant Tedavisi ",
+        "value":"Orange Dent, diş sağlığınızla ilgili tüm ihtiyaçlarınıza yüksek kaliteli ve modern çözümler sunan bir kliniktir. Diş kayıpları, günümüzün en yaygın diş sağlığı sorunlarından biridir. Ancak, teknolojinin gelişmesiyle birlikte, kaybolan dişlerin yerine uygulanan implant tedavileri, hem estetik hem de fonksiyonel açıdan mükemmel sonuçlar sunmaktadır. All-on-4, özellikle diş kaybı yaşayan hastalar için devrim niteliğinde bir tedavi yöntemidir ve Orange Dent'te uzman ekipler tarafından uygulanmaktadır. "
+      },
+      "item2":{
+        "title":"All-on-4 Nedir? ",
+        "value":"All-on-4, bir çene üzerinde, sadece dört adet implant kullanarak sabit dişler yerleştirilmesini sağlayan bir tedavi yöntemidir. Bu teknik, diş kaybı yaşayan hastalar için etkili ve ekonomik bir çözüm sunar. Diğer geleneksel implant tedavilerine kıyasla, All-on-4 yöntemi, daha az sayıda implantla dişlerin yeniden fonksiyonel ve estetik bir şekilde yerine konulmasını sağlar. Ayrıca, işlem süresi de daha kısa olup, hastaların iyileşme süreci de hızlanır. ",
+        "value2":"Orange Dent'te uygulanan All-on-4 tedavisi, son derece güvenli ve etkin bir yöntem olup, hastalarına hızlı ve kalıcı çözümler sunar. All-on-4, özellikle tam dişsizlik (edentülizm) yaşayan ve diş implantına uygun olan hastalar için ideal bir seçenektir. "
+      },
+      "item3":{
+        "title":"All-on-4’ün Avantajları",
+        "value":"Orange Dent'te uygulanan All-on-4 tedavisinin pek çok avantajı vardır. Bu avantajlar, hastaların tedavi sürecini kolaylaştırır ve daha estetik, fonksiyonel sonuçlar elde etmelerini sağlar. "
+      },
+      "item4":{
+        "title":"1. Az Sayıda İmplant ile Tam Diş Seti ",
+        "value":"All-on-4 yöntemi, bir çene üzerine yalnızca dört implant yerleştirerek tam bir diş seti sağlar. Diğer implant tedavi yöntemlerine göre daha az sayıda implant kullanılması, tedavi sürecini hızlandırır ve cerrahi müdahaleyi en aza indirir. Orange Dent’te, uzman diş hekimleri, her hastanın çene yapısına en uygun şekilde implant yerleştirir. "
+      },
+      "item5":{
+        "title":"2. Hızlı Sonuçlar ve Kısa İyileşme Süreci ",
+        "value":"All-on-4, hastalara daha kısa sürede sonuçlar sunar. Bu tedavi yöntemi sayesinde, implantlar yerleştirildikten sonra, genellikle aynı gün içinde sabit dişler yerleştirilebilir. Orange Dent’teki uzman ekip, hızlı ve güvenli bir iyileşme süreci için gereken tüm önlemleri alır. "
+      },
+      "item6":{
+        "title":"3. Estetik ve Fonksiyonel Avantajlar ",
+        "value":"All-on-4 tedavisi, hastaların doğal görünümlü dişlere sahip olmasını sağlar. Dişlerin yerleştirilmesi sırasında estetik kaygılar da göz önünde bulundurulur. Dişlerin doğal renginde ve şekil uyumunda olması, hastaların estetik açıdan tatmin olmasını sağlar. Ayrıca, fonksiyonel açıdan da hastalar, doğal dişlerine çok yakın bir hisse sahip olurlar. "
+      },
+      "item7":{
+        "title":"4. Kemik Kaybı Riski Azalır ",
+        "value":"All-on-4 yöntemi, çene kemiğinin kaybını engellemeye yardımcı olur. Çene kemiğinin yeterli olduğu durumlarda, All-on-4 ile implantlar doğru açılarla yerleştirilir. Bu sayede, kemik kaybı riski en aza indirgenmiş olur. Orange Dent'te, her hastanın çene yapısı dikkatlice incelenir ve implant yerleştirme planı buna göre hazırlanır. "
+      },
+      "item8":{
+        "title":"5. Az Sayıda Cerrahi Müdahale ",
+        "value":"All-on-4 tedavisinde, diş implantları genellikle yalnızca dört adet yerleştirildiği için cerrahi müdahale sayısı da sınırlıdır. Bu, hastaların iyileşme sürecinin hızlanmasına ve komplikasyon riskinin azalmasına yardımcı olur. "
+      },
+      "item9":{
+        "title":"All-on-4 Tedavi Süreci ",
+        "value":"Orange Dent'te All-on-4 tedavisi, titizlikle planlanan ve dikkatle uygulanan bir süreçtir. Bu süreç şu adımlardan oluşur: "
+      },
+      "item10":{
+        "title":"1. İlk Muayene ve Değerlendirme ",
+        "value":"İlk aşama, hastanın genel ağız sağlığını değerlendiren bir muayenedir. Diş hekiminiz, çene yapısına, mevcut diş ve diş eti sağlığına bakarak tedaviye uygun olup olmadığınızı belirler. Röntgen ve 3D tarama gibi dijital teknolojiler kullanılarak çene yapısı detaylı bir şekilde incelenir. Ayrıca, hastanın genel sağlık durumu da göz önünde bulundurulur. "
+      },
+      "item11":{
+        "title":"2. İmplant Planlaması ve Yerleştirilmesi ",
+        "value":"Eğer hasta All-on-4 tedavisi için uygunsa, diş hekimi özel bir tedavi planı hazırlar. Orange Dent'teki uzmanlar, çene kemiğinin durumuna göre en uygun yerleştirme açısını belirler ve dört implantı titizlikle yerleştirir. İmplantlar doğru açıyla yerleştirildiği için daha az kemik gereksinimi ile sabit dişler yerleştirilebilir. "
+      },
+      "item12":{
+        "title":"3. Geçici Dişlerin Yerleştirilmesi ",
+        "value":"İmplantlar yerleştirildikten sonra, genellikle aynı gün içinde geçici dişler yerleştirilir. Bu dişler, hastaların iyileşme sürecinde estetik bir görünüm sunar.Orange Dent’teki uzmanlar, geçici dişlerin fonksiyonel ve estetik açıdan hastaya uyumlu olmasını sağlar. "
+      },
+      "item13":{
+        "title":"4. Kalıcı Dişlerin Hazırlanması ",
+        "value":"İmplantlar çene kemiğiyle kaynaştıktan sonra (bu süreç genellikle 3-6 ay sürer), kalıcı sabit dişler hazırlanır ve yerleştirilir. Kalıcı dişler, hastanın doğal dişlerine en yakın şekilde tasarlanır ve ağız yapısına uyumlu hale getirilir. "
+      },
+      "item14":{
+        "title":"5. Takip ve Bakım ",
+        "value":"İmplantların başarılı olabilmesi için düzenli kontroller önemlidir. Orange Dent’te, tedavi sonrası hastalar takip edilir ve ağız bakımına yönelik rehberlik sağlanır. Diş hekimleri, hastaların ağız hijyenini koruması için gerekli önerilerde bulunur."
+      }
+    },
+    "FILLINGTREATMENT":{
+      "item1":{
+        "title":"Dolgu tedavisi",
+        "subTitle":"Orange Diş Kliniği ile Sağlıklı Gülüşler: Dolgu Uygulamasının Önemi",
+        "value":"Diş sağlığı, genel sağlığımızın önemli bir parçasıdır ve zaman zaman çürükler ya da dişlerdeki hasarlar, tedavi gerektirir. Bu durumda diş dolguları, en yaygın ve etkili tedavi yöntemlerinden biridir. Orange Diş Kliniği, modern teknoloji ve uzman kadrosu ile, diş dolgusu uygulamalarında her zaman en iyi sonucu almanızı sağlar. Hem estetik hem de fonksiyonel açıdan mükemmel sonuçlar elde etmenizi sağlamak için, Orange Diş Kliniği, her hastasına kişiselleştirilmiş bir tedavi planı sunar. "
+      },
+      "item2":{
+        "title":"Dolgu Nedir?",
+        "value":"Diş dolgusu, dişteki çürük, kırılma veya hasar nedeniyle kaybolan doku yerine yapılan bir restorasyon işlemi olarak tanımlanabilir. Bu tedavi, dişin hem sağlığını hem de estetik görünümünü geri kazandırır. Çürükler tedavi edilmezse, ilerleyen zamanla daha büyük sağlık sorunlarına yol açabilir. Orange Diş Kliniği’nde kullanılan dolgular, dişin doğal yapısıyla uyumlu olup, ağrı ve hassasiyetin önlenmesine yardımcı olur. "
+      },
+      "item3":{
+        "title":"Orange Diş Kliniği’nde Kullanılan Dolgu Türleri ",
+        "value":"Orange Diş Kliniği’nde, farklı dolgu türleri ile her hastanın ihtiyacına uygun tedavi yapılır. İşte bunlardan bazıları: ",
+        "value2":"Kompozit Dolgular",
+        "value3":"Dişin doğal renginde ve estetik açıdan mükemmel bir seçenek olan kompozit dolgular, özellikle ön dişlerde tercih edilir. Bu dolgular, dişin doğal görünümünü koruyarak, sağlam bir yapı oluşturur. ",
+        "value4":"Amalgam Dolgular",
+        "value5":"Gri renkte olan bu dolgular, dayanıklıdır ve genellikle arka dişlerde tercih edilir. Orange Diş Kliniği, bu dolguları da uygulayarak, fonksiyonel tedavi sağlar. ",
+        "value6":"Porselen Dolgular",
+        "value7":"Estetik açıdan en iyi sonuçları veren porselen dolgular, dişinize doğal bir görünüm kazandırır. Ayrıca, dayanıklılığı ile uzun yıllar boyunca kullanım sağlar.",
+        "value8":"Altın Dolgular",
+        "value9":"Altın dolgular, uzun ömürlü ve son derece dayanıklıdır. Özellikle arka dişlerde, güçlü çiğneme fonksiyonu gerektiren durumlarda kullanılır. "
+      },
+      "item4":{
+        "title":"Dolgu Uygulaması Nasıl Yapılır?",
+        "value":"Orange Diş Kliniği’nde dolgu işlemi, uzman diş hekimlerimiz tarafından büyük bir titizlikle yapılır. İşlem genellikle şu adımlarla gerçekleştirilir: ",
+        "value2":"1 Muayene ve Değerlendirme",
+        "value3":"Diş hekiminiz, dişinizi detaylı bir şekilde inceler ve çürüğün durumuna göre uygun tedavi planı oluşturur.",
+        "value4":"2 Anestezi Uygulaması",
+        "value5":"Dolgu işlemi sırasında ağrı hissetmemeniz için lokal anestezi uygulanır.",
+        "value6":"3 Çürüğün Temizlenmesi",
+        "value7":"Çürük dokular dikkatlice temizlenir.",
+        "value8":"4 Dolgu Malzemesinin Uygulanması",
+        "value9":"Seçilen dolgu malzemesi, dişe özenle yerleştirilir. Dişinize en uygun şekilde şekillendirilir.",
+        "value10":"5 Son Rötuşlar",
+        "value11":"Dolgularınızın son hali, dişinize tam uyum sağlayacak şekilde şekillendirilir ve pürüzsüz bir yüzey elde edilir. "
+      },
+      "item5":{
+        "title":"Dolgu Sonrası Bakım",
+        "value":"Dolgu sonrası bakım, tedavinin uzun ömürlü olmasını sağlar. İlk birkaç saat boyunca, anestezi etkisi geçtiği için dikkatli olmanız ve sert yiyeceklerden kaçınmanız önemlidir. Ayrıca, düzenli diş bakımı yaparak dolgunuzun sağlıklı kalmasını sağlayabilirsiniz. "
+      },
+      "item6":{
+        "title":"Sonuç olarak",
+        "value":"Orange Diş Kliniği, diş dolgusu uygulamalarıyla sağlıklı, güçlü ve estetik gülüşler sunar. Diş sağlığınızı önemseyen ve profesyonel bir yaklaşım arayanlar için, kliniğimiz en iyi tedavi hizmetlerini sunmaya devam etmektedir. Sağlıklı bir gülüş için Orange Diş Kliniği’ne başvurabilirsiniz. "
+      }
+    },
+    "FIXEDPROSTHETICAPPLICATIONS":{
+      "item1":{
+        "title":"Sabit Protetik Uygulamalar",
+        "subTitle":"Orange Dent ve Sabit Protetik Restorasyonlar",
+        "value":"Orange Dent, modern diş hekimliği alanında geniş bir yelpazede hizmet sunan bir kliniktir. Diş sağlığının korunması ve estetik gülüşler elde edilmesi konusunda büyük bir öneme sahip olan sabit protetik restorasyonlar, Orange Dent'teki uzman kadro tarafından yüksek hassasiyetle uygulanmaktadır. Sabit protetik restorasyonlar, diş kayıplarını tedavi etmenin ve fonksiyonel ve estetik açıdan tatmin edici sonuçlar elde etmenin etkili bir yoludur."
+      },
+      "item2":{
+        "title":"Sabit Protetik Restorasyon Nedir? ",
+        "value":"Sabit protetik restorasyonlar, kaybolan veya hasar gören dişlerin yerine yapılan diş restorasyonlarıdır. Bu restorasyonlar, hastanın ağzında sabit kalan ve çıkarılamayan diş kaplamaları, köprüler ve kronlar gibi uygulamaları içerir. Sabit protetik restorasyonlar, estetik, fonksiyonel ve uzun ömürlü bir çözüm sunar. ",
+        "value2":"Orange Dent'te, sabit protetik restorasyonlar, her hastanın ihtiyaçlarına göre kişiselleştirilir. Estetik ve fonksiyonel açıdan mükemmel sonuçlar elde edilmesi için son teknoloji malzemeler ve gelişmiş teknikler kullanılır. Sabit restorasyonlar, diş kaybını telafi etmek, dişlerin fonksiyonlarını geri kazandırmak ve doğal bir gülüş elde etmek için ideal bir çözüm sunar."
+      },
+      "item3":{
+        "title":"Sabit Protetik Restorasyon Türleri ",
+        "value":"Orange Dent'te, hastaların ihtiyaçlarına göre farklı sabit protetik restorasyon türleri uygulanmaktadır: ",
+        "value2":"1. Diş Kaplamaları (Kronlar) ",
+        "value3":"Diş kaplamaları, bir dişi tamamen kaplayarak onun şeklini ve fonksiyonunu eski haline getiren sabit restorasyonlardır. Dişin üzerinde oluşan çürükler, kırıklar veya estetik problemleri düzeltmek için kullanılır. Orange Dent, porselen, zirkonyum ve metal destekli kaplama seçenekleri ile hastaların estetik ve fonksiyonel beklentilerini karşılar. Porselen kaplamalar, dişin doğal görünümünü sağlamak için mükemmel bir tercihtir. ",
+        "value4":"2. Diş Köprüleri",
+        "value5":"Diş köprüleri, bir veya daha fazla kayıp dişi yerine koymak için kullanılan sabit protezlerdir. Bir köprü, kaybolan dişin her iki tarafındaki sağlıklı dişlere yerleştirilen kaplamalarla desteklenir ve eksik dişi yerine geçirir. Orange Dent, diş köprülerini kişiye özel olarak tasarlar ve uyumlu bir şekilde yerleştirir. Köprüler, hem estetik açıdan hoş hem de uzun ömürlü bir çözüm sunar.",
+        "value6":"3. Zirkonyum Kronlar",
+        "value7":"Zirkonyum, son yıllarda diş hekimliğinde en çok tercih edilen materyallerden biri haline gelmiştir. Zirkonyum kronlar, son derece dayanıklı, doğal bir görünüme sahip ve biyolojik olarak uyumludur. Orange Dent, zirkonyum kronlarla dişlerinizi estetik ve fonksiyonel açıdan iyileştirirken, uzun süreli ve sağlıklı sonuçlar elde etmenizi sağlar.",
+        "value8":"4. Porselen Lamina",
+        "value9":"Porselen lamina, dişlerin ön yüzeyine uygulanan ince porselen kaplamalardır. Estetik amacıyla kullanılır ve dişlerin renk, şekil veya boyutunu düzeltmek için tercih edilir. Orange Dent, porselen lamina tedavisini estetik açıdan mükemmel sonuçlarla uygular. Bu tedavi, dişlerinizin görünümünü dramatik şekilde değiştirebilir. "
+      },
+      "item4":{
+        "title":"Orange Dent’te Sabit Protetik Restorasyon Süreci ",
+        "value":"Sabit protetik restorasyonlar, her hastanın özel ihtiyaçları doğrultusunda dikkatle planlanır ve uygulanır. Orange Dent’te, tedavi süreci şu adımları takip eder: ",
+        "value2":"1. İlk Muayene ve Değerlendirme ",
+        "value3":"İlk adım, Orange Dent'teki uzman diş hekimi tarafından yapılan detaylı bir muayenedir. Diş hekimi, ağız yapısını ve dişlerin mevcut durumunu değerlendirir. Röntgen, dijital taramalar ve diğer tanı yöntemleri kullanılarak diş kaybının derecesi belirlenir. Ayrıca, hastanın estetik ve fonksiyonel beklentileri de göz önünde bulundurularak bir tedavi planı oluşturulur. ",
+        "value4":"2. Kişiye Özel Tasarım ",
+        "value5":"Sabit protetik restorasyonlar kişiye özel olarak tasarlanır. Orange Dent, dijital ölçümler ve 3D taramalar kullanarak her hastanın ağız yapısına tam uyum sağlayacak restorasyonları planlar. Dişlerin estetik uyumu ve fonksiyonel gereksinimleri göz önünde bulundurularak, tedaviye başlanır.",
+        "value6":"3. Prototip Hazırlığı ve Test",
+        "value7":"Restorasyon uygulanmadan önce, hastaya geçici bir prototip yerleştirilebilir. Bu, dişin yeni şeklini ve fonksiyonunu test etmek için kullanılır. Orange Dent, hastalarına estetik açıdan tatmin edici ve fonksiyonel açıdan uygun sonuçlar elde etmek için titizlikle çalışır. Prototip üzerinde yapılan düzenlemeler, final restorasyon öncesinde son bir kontrol sağlar.",
+        "value8":"4. Sabit Restorasyonun Yerleştirilmesi",
+        "value9":"Hazırlanan sabit protetik restorasyonlar (kaplama, köprü, kron vb.), dişlere yerleştirilir. Orange Dent, restorasyonların hastanın ağız yapısına mükemmel uyum sağlamasını ve uzun ömürlü olmasını garantiler. Diş hekimleri, yerleştirme işlemi sırasında dişlerin doğal görünümünü ve fonksiyonlarını en iyi şekilde geri kazandırmak için detaylı çalışmalar yapar.",
+        "value10":"5. Takip Randevuları ve Bakım ",
+        "value11":"Restorasyon yerleştirildikten sonra, Orange Dent’teki uzman diş hekimleri hastaların iyileşme sürecini izler. Sabit protetik restorasyonların uzun ömürlü olması için, düzenli bakım ve kontroller gereklidir. Diş hekimi, hastaların ağız hijyenini koruması için gerekli tavsiyelerde bulunur ve restorasyonların sağlıklı bir şekilde kullanılması için rehberlik eder."
+      }
     }
   },
   "BlogItems":{

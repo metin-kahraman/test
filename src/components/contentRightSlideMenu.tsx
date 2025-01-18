@@ -16,6 +16,10 @@ const treatments = [
     { img: 'https://picsum.photos/800/450?random=9', title: 'T9' },
     { img: 'https://picsum.photos/800/450?random=10', title: 'T10' },
     { img: 'https://picsum.photos/800/450?random=11', title: 'T11' },
+    { img: 'https://picsum.photos/800/450?random=11', title: 'T12' },
+    { img: 'https://picsum.photos/800/450?random=11', title: 'T13' },
+
+
 ];
 
 

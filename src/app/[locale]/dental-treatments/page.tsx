@@ -79,7 +79,7 @@ const CustomDivider = styled(Box)(({ theme }) => ({
 }));
 
 const cardData = [
-  { img: 'https://picsum.photos/800/450?random=1', title: 'T1' },
+  { img: '/images/treatmentsPage/estetikdishekimligi.jpeg', title: 'T1' },
   { img: 'https://picsum.photos/800/450?random=2', title: 'T2' },
   { img: 'https://picsum.photos/800/450?random=3', title: 'T3' },
   { img: 'https://picsum.photos/800/450?random=4', title: 'T4' },
@@ -90,6 +90,10 @@ const cardData = [
   { img: 'https://picsum.photos/800/450?random=9', title: 'T9' },
   { img: 'https://picsum.photos/800/450?random=10', title: 'T10' },
   { img: 'https://picsum.photos/800/450?random=11', title: 'T11' },
+  { img: 'https://picsum.photos/800/450?random=11', title: 'T12' },
+  { img: 'https://picsum.photos/800/450?random=11', title: 'T13' },
+
+
 ];
 
 const TreatmentsPage = () => {
@@ -128,7 +132,7 @@ const TreatmentsPage = () => {
                     component="img"
                     alt={`Dental treatment: ${t(card.title)}`}
                     image={card.img}
-                    sx={{ borderBottom: '1px solid', borderColor: 'divider' }}
+                    sx={{ borderBottom: '1px solid', borderColor: 'divider',objectFit: "cover"}}
                   />
                   <StyledCardContent>
                     <Typography sx={{ textAlign: 'center', alignSelf: 'center' }} gutterBottom variant="h6" component="div">

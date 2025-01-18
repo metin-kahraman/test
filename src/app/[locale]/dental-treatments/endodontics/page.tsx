@@ -14,14 +14,14 @@ import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
 import { styled } from '@mui/material/styles';
 import { TreatmentsPageTranslations } from '@/types';
-import TreatmansImplant from '@/components/PageContent/treatments/Implant';
-const TreatmansImplantPage = () => {
+import TreatmansEndo from '@/components/PageContent/treatments/Endodontics';
+const TreatmansEndoPage = () => {
 
   return (
     <Container maxWidth="lg" component="main" sx={{ display: 'flex', flexDirection: 'column', mt: 16, mb: 16, gap: 4 }}>
-    <TreatmansImplant></TreatmansImplant>
+    <TreatmansEndo></TreatmansEndo>
    </Container>
   );
 };
 
-export default TreatmansImplantPage;
+export default TreatmansEndoPage;
