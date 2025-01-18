@@ -107,8 +107,11 @@ const SliderContainer = styled('div')({
 const SliderWrapper = styled('div')<{ isPaused: boolean; currentIndex: number }>(({ isPaused, currentIndex }) => ({
   display: 'flex',
   width: '100%',
-  transition: isPaused ? 'none' : 'transform 0.5s ease-in-out',
+  transition: isPaused ? 'transform 0.1s ease-in-out' : 'transform 0.5s ease-in-out',
   transform: `translateX(-${currentIndex * 50}%)`, // 50% burada iki kartın genişliğini ifade eder
+  '@media (max-width: 600px)': {
+    transform: `translateX(-${currentIndex * 100}%)`, // 50% burada iki kartın genişliğini ifade eder
+  },
   willChange: 'transform',
 }));
 
@@ -140,6 +143,8 @@ function DentalApplications() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);
   const slideCount = treatments.length;
+  const extendedTreatments = [...treatments, ...treatments]; // Sonsuz döngü için diziyi genişletiyoruz
+
   const tt = useTranslations('TreatmentsPage.titles') as (key: keyof TreatmentsPageTranslations['titles']) => string;
 
   useEffect(() => {
@@ -239,7 +244,7 @@ function DentalApplications() {
         </Grid>
         <SliderContainer>
           <SliderWrapper isPaused={isPaused} currentIndex={currentIndex}>
-            {treatments.map((app) => (
+            {extendedTreatments.map((app) => (
               <SliderItem key={app.title}>
                 <Card sx={{ m: 1 }}>
                   <CardMedia

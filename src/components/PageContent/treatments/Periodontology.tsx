@@ -9,15 +9,21 @@ import {
   } from "@mui/material";
   import { useTranslations } from "next-intl";
   
-  const TreatmansEndo = () => {
+  const TreatmansPeri = () => {
     const t = useTranslations("Treatmans.PERIODONTOLOJI");
   
     return (
       <Box p={2}>
+<img
+        style={{
+          borderRadius: 20,
+          width: '100%',
+        }}
+        srcSet={`/images/treatmentsPage/disetitedavileri.jpeg`}
+        src={`/images/treatmentsPage/disetitedavileri.jpeg`}
+        loading="lazy"
+      />
         <Typography align="center" variant="h5" gutterBottom>
-        {t(`item1.title`)}
-        </Typography>
-        <Typography align="center" variant="h6" gutterBottom>
         {t(`item1.subTitle`)}
         </Typography>
         <Typography gutterBottom>
@@ -93,5 +99,5 @@ import {
     );
   };
   
-  export default TreatmansEndo;
+  export default TreatmansPeri;
   

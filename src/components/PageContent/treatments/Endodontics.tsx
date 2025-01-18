@@ -14,10 +14,17 @@ import {
   
     return (
       <Box p={2}>
+
+<img
+        style={{
+          borderRadius: 8,
+          width: '100%',
+        }}
+        srcSet={`/images/treatmentsPage/kanaltedavisi.jpeg`}
+        src={`/images/treatmentsPage/kanaltedavisi.jpeg`}
+        loading="lazy"
+      />
         <Typography align="center" variant="h5" gutterBottom>
-        {t(`item1.title`)}
-        </Typography>
-        <Typography align="center" variant="h6" gutterBottom>
         {t(`item1.subTitle`)}
         </Typography>
         <Typography gutterBottom>

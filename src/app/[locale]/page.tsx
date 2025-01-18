@@ -30,7 +30,11 @@ export default function Blog() {
   
   const blogTheme = createTheme(getBlogTheme(mode));
 
-
+  const imageUrls = [
+    "https://picsum.photos/800/450?random=1",
+    "https://picsum.photos/800/450?random=2",
+    "https://picsum.photos/800/450?random=3"
+];
 
   const toggleColorMode = () => {
     const newMode = mode === 'dark' ? 'light' : 'dark';

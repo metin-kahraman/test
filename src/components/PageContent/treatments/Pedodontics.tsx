@@ -10,14 +10,20 @@ import {
   import { useTranslations } from "next-intl";
   
   const TreatmansPedo = () => {
-    const t = useTranslations("Treatmans.ORTHODONTIC");
+    const t = useTranslations("Treatmans.PEDODONTICS");
   
     return (
       <Box p={2}>
+<img
+        style={{
+          borderRadius: 8,
+          width: '100%',
+        }}
+        srcSet={`/images/treatmentsPage/cocukdishek.jpeg`}
+        src={`/images/treatmentsPage/cocukdishek.jpeg`}
+        loading="lazy"
+      />
         <Typography align="center" variant="h5" gutterBottom>
-        {t(`item1.title`)}
-        </Typography>
-        <Typography align="center" variant="h6" gutterBottom>
         {t(`item1.subTitle`)}
         </Typography>
         <Typography gutterBottom>

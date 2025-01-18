@@ -80,20 +80,18 @@ const CustomDivider = styled(Box)(({ theme }) => ({
 
 const cardData = [
   { img: '/images/treatmentsPage/estetikdishekimligi.jpeg', title: 'T1' },
-  { img: 'https://picsum.photos/800/450?random=2', title: 'T2' },
-  { img: 'https://picsum.photos/800/450?random=3', title: 'T3' },
-  { img: 'https://picsum.photos/800/450?random=4', title: 'T4' },
-  { img: 'https://picsum.photos/800/450?random=5', title: 'T5' },
-  { img: 'https://picsum.photos/800/450?random=6', title: 'T6' },
-  { img: 'https://picsum.photos/800/450?random=7', title: 'T7' },
-  { img: 'https://picsum.photos/800/450?random=8', title: 'T8' },
-  { img: 'https://picsum.photos/800/450?random=9', title: 'T9' },
-  { img: 'https://picsum.photos/800/450?random=10', title: 'T10' },
-  { img: 'https://picsum.photos/800/450?random=11', title: 'T11' },
-  { img: 'https://picsum.photos/800/450?random=11', title: 'T12' },
-  { img: 'https://picsum.photos/800/450?random=11', title: 'T13' },
-
-
+  { img: '/images/treatmentsPage/beyazlatma.jpg', title: 'T2' },
+  { img: '/images/treatmentsPage/invisalign.jpeg', title: 'T3' },
+  { img: '/images/treatmentsPage/teltedavisi.jpeg', title: 'T4' },
+  { img: '/images/treatmentsPage/kanaltedavisi.jpeg', title: 'T5' },
+  { img: '/images/treatmentsPage/disetitedavileri.jpeg', title: 'T6' },
+  { img: '/images/treatmentsPage/cocukdishek.jpeg', title: 'T7' },
+  { img: '/images/treatmentsPage/implant.jpg', title: 'T8' },
+  { img: '/images/treatmentsPage/agizdisvecene.jpeg', title: 'T9' },
+  { img: '/images/treatmentsPage/frenektomi.jpg', title: 'T10' },
+  { img: '/images/treatmentsPage/allon4tedaviler.jpeg', title: 'T11' },
+  { img: '/images/treatmentsPage/dolgu.jpg', title: 'T12' },
+  { img: '/images/treatmentsPage/sabitprotetikrestorasyonlar.jpeg', title: 'T13' },
 ];
 
 const TreatmentsPage = () => {
@@ -131,9 +129,10 @@ const TreatmentsPage = () => {
                   <CardMedia
                     component="img"
                     alt={`Dental treatment: ${t(card.title)}`}
-                    image={card.img}
-                    sx={{ borderBottom: '1px solid', borderColor: 'divider',objectFit: "cover"}}
+                    image={`${card.img}`}
+                    sx={{ borderBottom: '1px solid', borderColor: 'divider',objectFit: "cover",width: '100%',height: 200}}
                   />
+                  
                   <StyledCardContent>
                     <Typography sx={{ textAlign: 'center', alignSelf: 'center' }} gutterBottom variant="h6" component="div">
                       {t(card.title)}

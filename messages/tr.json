@@ -10,17 +10,27 @@
       "T2": "Diş Beyazlatma",
       "T2Link":"dis-tedavileri/dis-beyazlatma",
       "T3": "Telsiz Ortodonti",
-      "T3Link":"dis-tedavileri/telsiz-ortodonti",
+      "T3Link":"dis-tedavileri/telsiz-ortodonti-tedavisi",
       "T4": "Ortodonti (Tel Tedavisi)",
+      "T4Link": "dis-tedavileri/dis-teli-tedavisi",
       "T5": "Kanal Tedavisi (Endodonti)",
+      "T5Link":"dis-tedavileri/kanal-tedavisi",
       "T6": "Diş Eti Tedavileri (Periodontoloji)",
-      "T7": "Çocuk Diş Hekimliği (Periodontoloji)",
+      "T6Link":"dis-tedavileri/dis-eti-tedavisi",
+      "T7": "Çocuk Diş Hekimliği (Pedodontoloji)",
+      "T7Link":"dis-tedavileri/cocuk-dis-hekimligi",
       "T8": "İmplant Tedavisi",
-      "T9": "Ağız Diş ve Çene Çerrahileri",
+      "T8Link":"dis-tedavileri/implant-tedavisi",
+      "T9": "Ağız Diş ve Çene Cerrahileri",
+      "T9Link":"dis-tedavileri/agiz-dis-ve-cene-cerrahileri",
       "T10":"Frenektomi (Dudak-Dil Bağı Alınması)",
+      "T10Link":"dis-tedavileri/dudak-dil-bagi-alinmasi",
       "T11": "All - On - 4 Tedaviler",
+      "T11Link":"dis-tedavileri/all-on-four-implant",
       "T12": "Dolgu Tedavisi",
-      "T13": "Sabit Protetik Uygulamalar"
+      "T12Link":"dis-tedavileri/dolgu-tedavisi",
+      "T13": "Sabit Protetik Uygulamalar",
+      "T13Link":"dis-tedavileri/sabit-protetik-uygulamalar"
     },
     "seo": {
       "title": "Diş Tedavileri - Orange Dent Clinic",
@@ -116,6 +126,41 @@
       "item6":{
         "title":"Dijital Beyazlatma ve İleri Teknolojiler",
         "value":"Orange Dent, diş beyazlatma tedavisinde dijital teknolojiyi de kullanarak, tedavi sürecini daha hassas ve kişiye özel hale getirir. Dijital beyazlatma simülasyonları ile hastalar, tedavi öncesinde gülüşlerinin nasıl görüneceğini görebilirler. Bu teknoloji sayesinde, tedavi planı hastanın beklentilerine tam olarak uygun şekilde hazırlanır. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Hangi Durumlarda Uygulanır? ",
+          "value":"Bazı renklenmeler diş taşı temizliği ve polisaj işlemleri ile giderilememektedir. Bu durumlarda, arzu edilen görüntüye ulaşmak için beyazlatma işlemi gerekmektedir. Beyazlatma (Bleaching) işlemi ofis tipi ve ev tipi beyazlatma olarak 2 ana yöntem ile uygulanır. Hekim kontrolü altında yapılması ve kısa sürede sonuca ulaşılması sebepleri ile ofis tipi beyazlatma daha çok uygulanan ve tavsiye edilen beyazlatma yöntemidir."
+        },
+        "item2":{
+          "title":"Ofis Tipi Diş Beyazlatma Nedir?",
+          "value":"Hekim kontrolünde, klinik ortamında gerçekleştirilen bu yöntem, dişlerin durumuna ve hastadaki hassasiyet durumuna bağlı olacak şekilde, ortalama 45 dakika süren bir işlemdir. İşlem öncesinde diş taşı temizliği yapılarak ağız içerisi temiz hale getirilmelidir. Temiz diş yüzeylerine uygulanan beyazlatıcı jel ve bu jeli aktive eden güçlü bir ışık kaynağı kullanılarak yapılır."
+        },
+        "item3":{
+          "title":"Diş Beyazlatma Riskli Midir? Başarı Oranı Nedir? ",
+          "value":"İşlem boyunca hastanın diş etlerini korumak için diş eti bariyeri, gözlerini güçlü ışık kaynaklarından korumak için de beyazlatma işlemi için özel üretilmiş gözlük kullanılır. Beyazlatma endikasyonu doğru konulmuş ve iyi bir beyazlatma sistemi kullanılmışsa istenilen sonuca ulaşma oranı çok yüksektir. Beyazlatmanın kalıcılığı, tedavi sonrasında fırçalama düzeni, kahve, sigara gibi alışkanlıklara bağlı olarak 6 ay ile 2 yıl arasıdır."
+        },
+        "item4":{
+          "title":"İşlem Sonrası Ne Yapılmalıdır? ",
+          "value":"Temizlik sonrası dişler renklemeye, normalde olduklarından daha hassastırlar. Bu nedenle, ilk 1 hafta boyunca sigara, çay, kahve, vişne suyu, şarap, salça gibi koyu renkli gıdalar tüketilmemelidir. ● İlk günlerde hassasiyeti önlemek için soğuk ve sıcak yiyeceklerden uzak durulmalıdır. Diş fırçalamaya devam edilmelidir."
+        },
+        "item5":{
+          "title":"Diş Beyazlatma Sonrası Hassasiyet Olur Mu?",
+          "value":"Tedavi esnasında ve takip eden 2 gün boyunca hassasiyet olması normaldir. Tedavi sonrasında bu hassasiyeti minimuma indirmek için dişlere krem sürülür. "
+        },
+        "item6":{
+          "title":"Diş Beyazlatma İşlemi Kaç Seans Sürüyor?",
+          "value":"Standart prosedürde aynı gün içerisinde 3 seanslık uygulama şeklinde uygulanır. Ancak kimi zaman hekiminiz uygulamayı aralıklı günler takibi ile yapabilir."
+        },
+        "item7":{
+          "title":"Beyazlatma İşlemi Dişlere Zarar Verir Mi? ",
+          "value":"Hayır. Sertifikası olan, kaliteli ajanlar dişte herhangi kalıcı bir hasara yol açmaz."
+        },
+        "item8":{
+          "title":"İnternette Kendi Başıma Uygulayabileceğim Beyazlatma Ajanları Satılıyor. Kullanmalı Mıyım? ",
+          "value":"İstisnasız tamamının dişler üzerinde kalıcı tahribata yol açtığı kanıtlanmış bu ürünleri, kesinlikle kullanmamanızı tavsiye ediyoruz "
+        }
       }
 
     },
@@ -192,6 +237,17 @@
       "item8":{
         "title":"5. Tedavi Sonrası Kontroller ve Sonuç",
         "value":"Ortodontik tedavi tamamlandıktan sonra, Orange Dent hastaların gülüşünü ve diş sağlığını korumak için takip randevuları yapar. Dişler tamamen yerleştikten sonra, koruyucu bir süreç başlar ve bu dönemde hastaya sabırlı bir şekilde yardımcı olunur. Orange Dent, tedavi sonrası en iyi sonuçları elde etmenizi sağlamak için gerekli tüm kontrolleri yapar."
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Ortodontik Tedavi Kimlere Uygulanır?",
+          "value":"Dişlerinde çapraşıklık, boşluk, çenelerarası ilişki bozuklukları, altçenenin önde-geride olma durumları ve üst çenenin önde-geride olma durumları gibi problemlere sahip kişilerde uygulanır."
+        },
+        "item2":{
+          "title":"Ortodontik Tedavi Hangi Yaşta Yapılır?",
+          "value":"Herhangi bir yaşta yapılabilir; ancak en uygun yaş grubu 13-17 arasıdır."
+        }
       }
     },
     "ENDODONTI":{
