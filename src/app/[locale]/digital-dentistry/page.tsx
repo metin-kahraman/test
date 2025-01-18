@@ -7,7 +7,6 @@ import SvgIcon from '@mui/material/SvgIcon';
 import { useTranslations } from 'next-intl';
 import { TreatmentsPageTranslations } from '@/types';
 import Divider from '@mui/material/Divider';
-import FrequentlyAskedQuestions from '@/components/FrequentlyAskedQuestions';
 import ContentRightSlideMenu from '@/components/contentRightSlideMenu';
 const treatments = [
     { img: 'https://picsum.photos/800/450?random=1', title: 'T1' },
@@ -72,7 +71,6 @@ const DigitalDentistry: FC = () => {
                 <ContentRightSlideMenu />
 
             </Grid>
-            <FrequentlyAskedQuestions />
 
         </Grid>
 

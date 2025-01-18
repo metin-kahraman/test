@@ -13,7 +13,6 @@ import SvgIcon from "@mui/material/SvgIcon";
 import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 import Divider from "@mui/material/Divider";
-import FrequentlyAskedQuestions from "@/components/FrequentlyAskedQuestions";
 import AllOnFourProcedure from "@/components/PageContent/AllOnFourProcedure";
 import AllOnFourHealingProcess from "@/components/PageContent/AllOnFourHealingProcess";
 import AllOnFourGeneralProblems from "@/components/PageContent/AllOnFourGeneralProblems";
@@ -96,7 +95,6 @@ const AllOnFour = () => {
                     </Paper>
                 </Box>
             </Grid>
-            <FrequentlyAskedQuestions />
         </Grid>
     );
 };
