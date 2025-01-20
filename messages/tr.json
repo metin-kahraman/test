@@ -202,6 +202,17 @@
       "item9":{
         "title":"6. Tedavi Sonrası Kontroller ve Sonuç",
         "value":"Invisalign tedavisi tamamlandığında, Orange Dent’teki diş hekimi, hastanın gülüşünü ve diş sağlığını değerlendiren son bir kontrol yapar. Tedavi başarıyla tamamlandığında, hastalara retainer (koruma aparatı) kullanmaları önerilir. Bu, dişlerin yeni pozisyonlarını korumaya yardımcı olur ve tedavinin kalıcı olmasını sağlar."
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Ortodontik Tedavi Kimlere Uygulanır?",
+          "value":"Dişlerinde çapraşıklık, boşluk, çenelerarası ilişki bozuklukları, altçenenin önde-geride olma durumları ve üst çenenin önde-geride olma durumları gibi problemlere sahip kişilerde uygulanır."
+        },
+        "item2":{
+          "title":"Ortodontik Tedavi Hangi Yaşta Yapılır?",
+          "value":"Herhangi bir yaşta yapılabilir; ancak en uygun yaş grubu 13-17 arasıdır."
+        }
       }
     },
     "ORTHODONTIC":{
@@ -279,6 +290,25 @@
       "item7":{
         "title":"4. Dişin Restorasyonu ",
         "value":"Kanal tedavisi tamamlandıktan sonra, dişin üzerine kalıcı dolgu veya kaplama yapılır. Bu işlem, dişin fonksiyonunu geri kazandırır ve estetik açıdan doğal bir görünüm sağlar. Orange Dent, dişin estetik yapısına uyumlu restorasyon seçenekleri sunarak, tedavi sonrasında mükemmel bir gülüş sağlar. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Kanal Tedavisi Ağrılı Bir Işlem Midir? ",
+          "value":"Hayır. Lokal veya blok anestezi ile hastanın tedavi konforu oldukça yüksektir."
+        },
+        "item2":{
+          "title":"Kanal Tedavisi Kaç Seans Sürer?",
+          "value":"Bu tamamen dişin durumu ile alakaladır. Günümüz teknolojisi, tek seanslık endodontik tedavileri mümkün hale getirmiştir; ancak kökteki durum, bazen ilaç konulması ve seanslar arası değiştirilerek iyileşmenin sağlanmasını kaçınılmaz hale getirebilir. "
+        },
+        "item3":{
+          "title":"Kanal Tedavisi Pahalı Mıdır?",
+          "value":"Hayır. Çünkü varolan durumun tedavi edilmemesi çok daha külfetli tedavi maliyetleri doğuracaktır."
+        },
+        "item4":{
+          "title":"Kanal Tedavisi Ve Dolgu Farklı Şeyler Mi?",
+          "value":"Evet. Dolgu dişin pulpal dokusunun etkilenmediği durumlarda, mine ve dentin seviyesindeki işlemlerde uygulanır. Dişin damar, sinir dokusuna müdahale edilmez.Ancak kanal tedavisinde pulpa odası temizlenip doldurulur ve dişin üst kısmına dolgu yapılır.Yani her kanal tedavisi dolguyu da içerir; ancak her dolgu kanal tedavisine gerek duymaz. "
+        }
       }
     },
     "PERIODONTOLOJI":{
@@ -323,6 +353,25 @@
       "item9":{
         "title":"5. Takip Randevuları ve Bakım ",
         "value":"Diş eti tedavisinden sonra, hastaların iyileşme sürecinin izlenmesi çok önemlidir. Orange Dent, tedavi sonrası düzenli takip randevuları ile hastalarının iyileşme sürecini gözlemler. Diş eti tedavisinin başarıyla tamamlanabilmesi için, hastaların tedavi sonrasında ağız bakımına dikkat etmeleri ve diş etlerinin sağlıklı kalmasını sağlamaları gerekmektedir. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Diş Taşı Temizliği Ne Kadar Sürer? Ağrılı Bir Işlem Midir? ",
+          "value":"Extrem durumlar dışında yaklaşık 30 dk. süren seans sonunda diş taşlarından kurtulabilirsiniz. Genellikle hastalarımızın tolere edemediği ağrılar açığa çıkmaz. Ancak muayene sonucu daha derin temizlik gerekiyorsa lokal anestezikler ile konforlu bir tedavi süreci geçirebilirsiniz. "
+        },
+        "item2":{
+          "title":"Sürekli Yaptırmam mı Gerekiyor? ?",
+          "value":"Hayır. Buradaki en önemli nokta ağzınıza uyguladığınız bakımı arttırmak. Unutmayın diş taşı oluşumunun en büyük sebebi ağız bakım eksikliğinizdir. İşlem sonucu uzman hekimimiz size detaylı bir ağız hijyen eğitimi verecektir, size düşen ise elinizden geldiğince yeni ve doğru ağız bakım protokolünü uygulamak. Her zaman kullandığınız fırçayı daha etkin kullanmanız ve olmazsa olmazımız diş ipine başlamanız diş taşı temizliği sıklığını azaltacak en temel koruma önlemleridir. "
+        },
+        "item3":{
+          "title":"Diş Taşı Temizliği Sonrası Hassasiyet Olur Mu ?",
+          "value":"Diş taşı temizliği sonrası hastalarımızda soğuk hassasiyeti görülebilir ancak 2-3 gün içinde bu durum kendiliğinden geçer. Dış etkenler temizlendikten sonra diş yapısı bir iki hafta içinde sağlıklı görünümüne kavuşur ve koku, kanama şikayetleri azalarak biter."
+        },
+        "item4":{
+          "title":"Diş Taşı Temizliği Sürekli Yaprılmalı Mı?",
+          "value":"Hayır 6 ayda bir kontrol yapılması duruma göre değerlendirilmesi gerekir."
+        }
       }
     },
     "PEDODONTICS":{

@@ -130,7 +130,7 @@ const TreatmentsPage = () => {
                     component="img"
                     alt={`Dental treatment: ${t(card.title)}`}
                     image={`${card.img}`}
-                    sx={{ borderBottom: '1px solid', borderColor: 'divider',objectFit: "cover",width: '100%',height: 200}}
+                    sx={{ borderBottom: '1px solid', borderColor: 'divider',objectFit: "cover",width: '100%',height: 140}}
                   />
                   
                   <StyledCardContent>
