@@ -8,7 +8,9 @@ import {
     Paper,
   } from "@mui/material";
   import { useTranslations } from "next-intl";
-  
+  import FrequentlyAskedQuestions from "@/components/FrequentlyAskedQuestions";
+  const questionList: string[] = ["item1", "item2","item3","item4","item5","item6","item7","item8","item9","item10"];
+
   const TreatmansImplant = () => {
     const t = useTranslations("Treatmans.IMPLANT");
   
@@ -87,7 +89,10 @@ import {
         <Typography gutterBottom>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item7.value`)}
         </Typography>
-
+      <FrequentlyAskedQuestions
+        translateKey={"Treatmans.IMPLANT.FREQUENTLYASKEDQUESTIONS"}
+        questionList={questionList}
+      />
 
       </Box>
     );

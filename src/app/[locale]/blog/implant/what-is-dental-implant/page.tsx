@@ -13,11 +13,10 @@ import SvgIcon from "@mui/material/SvgIcon";
 import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 import Divider from "@mui/material/Divider";
-import TemporaryDentalOptions from "@/components/PageContent/TemporaryDentalOptions";
-import TemporaryDentalOptionsOne from "@/components/PageContent/TemporaryDentalOptionsOne";
-import TemporaryDentalOptionsTwo from "@/components/PageContent/TemporaryDentalOptionsTwo";
-import TemporaryDentalOptionsThree from "@/components/PageContent/TemporaryDentalOptionsThree";
-import TemporaryDentalOptionsFour from "@/components/PageContent/TemporaryDentalOptionsFour";
+import WhatIsDentalImplantItem1 from "@/components/PageContent/WhatIsDentalImplantItem1";
+import TypeOfDentalImplant from "@/components/PageContent/TypoOfDentalImplant";
+import QuestionsToAskBeforeGettingDentalImplants from "@/components/PageContent/QuestionsToAskBeforeGettingDentalImplants";
+import ImplantsFinaly from "@/components/PageContent/ImplantsFinaly";
 const treatments = [
     { img: "https://picsum.photos/800/450?random=1", title: "T1" },
     { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -43,7 +42,7 @@ const keysSub = {
 } as const;
 
 
-const TemporaryDentalOptionsPage = () => {
+const WhatIsDentalImplant = () => {
     const t = useTranslations("Implants");
     const tt = useTranslations("TreatmentsPage.titles") as (
         key: keyof TreatmentsPageTranslations["titles"]
@@ -54,7 +53,7 @@ const TemporaryDentalOptionsPage = () => {
             {/* Sol taraf (9 birim genişlik) */}
             <Grid size={{ xs: 12, md: 9 }}>
                 <Paper sx={{ backgroundColor: "white" }}>
-                <TemporaryDentalOptions />
+                <WhatIsDentalImplantItem1 />
                 <img
         style={{
           borderRadius: 8,
@@ -67,10 +66,9 @@ const TemporaryDentalOptionsPage = () => {
         src={`/images/blog/stemporary-options.png`}
         loading="lazy"
       />
-                <TemporaryDentalOptionsOne />
-                <TemporaryDentalOptionsTwo />
-                <TemporaryDentalOptionsThree />
-                <TemporaryDentalOptionsFour />
+        <TypeOfDentalImplant />
+        <QuestionsToAskBeforeGettingDentalImplants></QuestionsToAskBeforeGettingDentalImplants>
+        <ImplantsFinaly></ImplantsFinaly>
 
 
                 </Paper>
@@ -116,5 +114,5 @@ const TemporaryDentalOptionsPage = () => {
     );
 };
 
-export default TemporaryDentalOptionsPage;
+export default WhatIsDentalImplant;
 

@@ -403,6 +403,29 @@
       "item7":{
         "title":"Sonuç Olarak ",
         "value":"Orange Dent, pedodonti alanında çocukların ağız ve diş sağlığını korumak için modern ve etkili çözümler sunan bir klinik olarak, uzman hekim kadrosu ve yenilikçi tedavi yöntemleriyle fark yaratmaktadır. Çocukların rahatlığı ve güvenliği her şeyin önünde tutulurken, aynı zamanda estetik ve fonksiyonel açıdan kaliteli tedavi uygulamaları sağlanmaktadır. Orange Dent, pedodonti alanındaki liderliğini sürdürerek, çocuk diş hekimliğini daha erişilebilir, etkili ve eğlenceli hale getirmeyi amaçlamaktadır. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Çocuklarda süt dişleri önemli midir? ",
+          "value":"Süt dişleri, hem daimi dişler gelene kadar estetik, fonksiyon ve fonasyonu sağlar hem de ağızda yerini bırakacakları daimi dişler için yer hazırlarlar. Bu sebeple süt dişleri korunmalı, mümkün olduğunca ağızda tutulmalıdır. "
+        },
+        "item2":{
+          "title":"Çocuğun ağzındaki her diş büyüyünce düşecek mi? ",
+          "value":"Süt dişleri bir diş hariç daimi dentisyona kadar rezorbe olarak kendiliğinden düşer. Problem olmadıkça çektirmeye gerek yoktur. Daimi dentisyon istisnalar olabileceği gibi genelde 6 yaş civarında başlar ve 13-14 yaşına dek devam eder. Ancak 1. azı dişler (6 yaş dişleri) ağızda 6 yaşında oluşur ve daimidir. Süt dişi değildir."
+        },
+        "item3":{
+          "title":"Süt dişlerini çektirmek gerekir mi? ",
+          "value":"Genelde kendiliğinden düşerler; ancak bir hekim tarafından muayene edildikten sonra çekimine karar verilebilir. Sebep bazen çürük de olabilir. Amaç alttaki diş germini korumaktır. Erken kaybedilen süt dişleri ağız yapısında ciddi bozukluklara sebebiyet vereceği için önlem almak zorunludur. Burada devreye YER TUTUCULAR girer.Hem daimi dişin çıkacağı boşluğu korur;Hem de ortodontik hareketler sonrası dişlerde oluşabilecek çürükleri engellerler. "
+        },
+        "item4":{
+          "title":"Ne sıklıkla pedodontist muayenesi gereklidir?",
+          "value":"Özellikle süt ve karışık dentisyon döneminde 6 ayda bir Çocuk Diş Hekimi muayenesi, hastamızı ciddi oranda korur. Koruyucu uygulamalar ile invasiv bir tedaviye gerek kalmadan hastanın ömür boyu faydasını göreceği uygulamalar yapılır. "
+        },
+        "item5":{
+          "title":"Koruyucu uygulamalar nelerdir? ",
+          "value":"Flor uygulamaları ,pit ve fissur örtücüler ve oral hijyen eğitimleridir. "
+        }
       }
     },
     "IMPLANT":{
@@ -440,6 +463,49 @@
       "item7":{
         "title":"Sonuç Olarak ",
         "value":"Orange Dent, diş kaybı yaşayan hastalarına güvenli, hızlı ve estetik açıdan tatmin edici implant tedavileri sunmaktadır. Modern teknoloji ve uzmanlık ile, implant tedavisinin her aşaması özenle yönetilir ve hasta memnuniyeti en üst seviyeye çıkarılır. Orange Dent, implant tedavilerinde sağladığı başarı ve hastalarına sunduğu kaliteli hizmet ile, diş hekimliği alanında güvenilir bir seçenek olmaya devam etmektedir. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Diş İmplantı Tedavi Süreci Nasıl İşliyor? ",
+          "value":"Kemik içine yerleştirilecek implanta karar verildikten ve kemik ölçümleri yapıldıktan sonra ilk randevunuzda implantın vida kısmı kemik içine yerleştiriliyor ve üzeri dikilerek kemik içinde iyileşme sürecine bırakılıyor. Yaklaşık 8-12 hafta sonra ise implantın üzerine gelecek kron yapısı için ölçüler alıyor ve3-5 iş gününde implant tedaviniz tamamıyla bitmiş oluyor."
+        },
+        "item2":{
+          "title":"Çok Zor Bir İşlem Değil Mi? Korkmalı Mıyım?",
+          "value":"Neredeyse her hastamız bu şekilde bir düşünceye sahip, ta ki implant tedavileri yapılana kadar. Lokal anestezi altında oldukça kısa sürelerde tamamen ağrısı tedaviler sizin de önyargınızı kıracaktır. Günümüz teknolojisi ile çok konforlu tedaviler geçirmekteyiz."
+        },
+        "item3":{
+          "title":"İmplant Tedavisi Pahalı Mı? ",
+          "value":"İmplant tedavisi pahalı gibi görünse de detaylı incelediğimizde ve ömür boyu garantiyi de göz önüne aldığımızda çok uygun bir tedavi oluyor."
+        },
+        "item4":{
+          "title":"İmplant Tedavisinin Ömrü Var Mı? ",
+          "value":"Klniğimizde uyguladığımız implantlar ömür boyu garanti altındadır. Kullandığımız implantlar garantili ve uluslararası sertifikalıdır."
+        },
+        "item5":{
+          "title":"İmplant Yaptırmak İstiyorum Ama Çok Zamanım Yok",
+          "value":"İmplant tedavileri ertesi gün günlük hayatınıza devam edeceğiniz kadar konforlu tedavilerdir. Yaklaşık 30-60 dakikalık bir operasyon ardından hayatınıza devam edebilirsiniz."
+        },
+        "item6":{
+          "title":"Hangi Marka İmplant Tercih Etmeliyim? ",
+          "value":"Burada önemli nokta ülke menşeinden ziyade uygulanan kliniğin marka ile ne kadar süredir çalıştığı ve size vereceği güvencedir. Çünkü sadece vida kısmı değil kaplama aşamasında da çeşitli materyallere ihtiyaç duyulacağı için kliniğimizin bu materyalleri temini, hızlı işlem süresi ve garantili operasyon vaati sayesinde çok güvenilir tedaviler sunmaktayız."
+        },
+        "item7":{
+          "title":"Dental Implant Uygulaması Zor Mu? ",
+          "value":"Hastalarımızın tamamının merak ettiği bir soru bu.Günümüz teknolojisinde, işlemler oldukça basite indirgenmiştir. Hastamız tek implant için diş çektireceği kadar lokal anestezi uygulanıp yaklaşık 5-10 dakika gibi bir sürede koltuktan kalkabilir ve hayatına devam edebilir."
+        },
+        "item8":{
+          "title":"Her Implant Aynı Mıdır? Fiyatlar Neden Çok Değişken? ",
+          "value":"İmplantları birkaç sınıfa ayırabiliriz. Bunlardan ilki çok lüks bir araç, ikincisi çok lüks değil ancak çok güven veren bir fiyat-performans aracı, diğeri ise tercih etmenizin mümkün olmadığı bir araç olarak düşünebiliriz.Maalesef ülkemizde, herhangi ARGE yatırımı olmadan, uzun dönem başarının hiçe sayıldığı birçok tercih etmeyeceğiniz araçla muadil seviyede implant markası bulunmakta. Bu konuda hastanın ihtiyacı olan şey, kliniğin hastaya verdiği güvence, uygulanan markanın bilinirliği ve şirket geçmişidir.Kliniğimiz pratiğinde 1. ve 2. sınıfa dahil implant markaları uyulanmaktadır."
+        },
+        "item9":{
+          "title":"İmplant Tedavisi Ne Kadar Sürüyor?",
+          "value":"İmplantın uygulanması 10 dakika sürmektedir. Ardından implant ve kemik yüzeyi arasında biyokimyasal bir süreç başlar. Buna osseointegrasyon süresi denir. Günümüzde kullanılan tekniklerde, bu süre genelde 10-16 hafta arası sürmektedir. Bu sürede kişinin tedavisi pasif olarak devam eder; primer iyileşme dönemi bitince hastanın yaklaşık 10-14 günlük protetik tedavisi başlar. "
+        },
+        "item10":{
+          "title":"İmplant Uyguladım; Ama Diş Yok? ",
+          "value":"Dental implantlar, kemik içine uygulanan; çoğunlukla titanyum, kimi zaman seramik ve zirkonyadan üretilebilen silindirik parçalardır. Hastanın iyileşme periyodunda implant kemiğin içinde iyileşir. Dişin ağızda görünen kron kısmı ise iyileşme tamamlandıktan sonra uygulanır."
+        }
       }
     },
     "JAWSURGERY":{
@@ -476,6 +542,21 @@
       "item7":{
         "title":"Sonuç Olarak ",
         "value":"Orange Dent, ağız, diş ve çene cerrahisi alanındaki kapsamlı tedavi seçenekleri ve uzmanlık ile hastalarına güvenli, etkili ve estetik çözümler sunmaktadır. İster diş çekimi, ister implant yerleştirme, ister çene estetiği veya çene hastalıklarının cerrahi tedavisi olsun, Orange Dent, her aşamada kaliteli hizmet sunarak, hastalarının sağlıklı ve estetik bir gülüşe sahip olmalarını sağlar. "
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Yirmilik Dişim Başıma Bela Oldu, Ne Yapacağım?  ",
+          "value":"Yirmi yaş dişi, gömülü olduğu durumlarda sorun yaratan dişlerdir. Gömülü yirmi yaş dişi çene kemiği içerisinde iltihap, kist, şiddetli ağrılar ve yüzde şişliklere sebep olmaktadır. Tüm bunların önlenmesi ise oldukça basit! Yapılan muayene sonrasında uygunluğu bulunan dişler çok kısa bir süre içerisinde bulunduğu yerden lokal anestezi ile alınabilir ve yaşanan tüm sorunlar bir çırpıda düzeltilebilir."
+        },
+        "item2":{
+          "title":"Defalarca Kanal Tedavisi Yaptırdım Fakat Ağrım Bir Türlü Geçmiyor, Ne Yapacağım? ",
+          "value":"Kanal tedavisi çoğu zaman dişimizi kaybetmemize engel olsa da bazı durumlarda diş tedaviye cevap vermeyebilir ve şikayetlerde azalma olmayabilir. Böyle durumlarda dişin çekimine karar vermeden önce cerrahi müdahale seçenekleri düşünülmelidir. Apikal rezeksiyon tam olarak böyle durumlarda başvurulan ve tedavinin başarı oranını oldukça yükselten bir operasyon olup lokal anestezi ile ilgili bölge uyuşturulduktan sonra diş kökünde enfeksiyon olan parçanın çıkarılması işlemidir. Böylece ağrılarımız biter ve eski hayat konforumuza geri dönebiliriz. "
+        },
+        "item3":{
+          "title":"Eyvah! Yüzüm Şişti, Ne Yapacağım? ",
+          "value":"Şişlik ve ağrı olan durumlarda uygun ilaç tedavisi ile şişlik meydana gelen bölgeye ve şişliğin şiddetine bağlı olarak, cerrahi müdahaleler ile şişliğin kolayca inmesi ve yüzde kalıcı hasar oluşmasının önüne geçilebilir. Ancak böyle durumlarda erken müdahale oldukça önemli olup, ihmal edilmemesi gerekmektedir."
+        }
       }
     },
     "FRENECTOMY":{
@@ -659,6 +740,25 @@
         "value9":"Hazırlanan sabit protetik restorasyonlar (kaplama, köprü, kron vb.), dişlere yerleştirilir. Orange Dent, restorasyonların hastanın ağız yapısına mükemmel uyum sağlamasını ve uzun ömürlü olmasını garantiler. Diş hekimleri, yerleştirme işlemi sırasında dişlerin doğal görünümünü ve fonksiyonlarını en iyi şekilde geri kazandırmak için detaylı çalışmalar yapar.",
         "value10":"5. Takip Randevuları ve Bakım ",
         "value11":"Restorasyon yerleştirildikten sonra, Orange Dent’teki uzman diş hekimleri hastaların iyileşme sürecini izler. Sabit protetik restorasyonların uzun ömürlü olması için, düzenli bakım ve kontroller gereklidir. Diş hekimi, hastaların ağız hijyenini koruması için gerekli tavsiyelerde bulunur ve restorasyonların sağlıklı bir şekilde kullanılması için rehberlik eder."
+      },
+      "FREQUENTLYASKEDQUESTIONS":{
+        "title":"Sıkça Sorulan Sorular",
+        "item1":{
+          "title":"Köprü tedavisi nedir? ",
+          "value":"Köprü tedavisi, eksik dişlerin yerine sabit protezlerin yerleştirilmesi işlemidir. Köprüler, eksik dişin yanındaki sağlıklı dişlere tutturularak boşluğun kapatılmasını sağlar. Bu yöntem, eksik dişlerin fonksiyonunu ve estetiğini geri kazandırır."
+        },
+        "item2":{
+          "title":"İmplant tedavisi nedir? ",
+          "value":"İmplant tedavisi, eksik dişlerin yerine titanyum implantların yerleştirilmesi ve üzerine protez dişlerin sabitlenmesi işlemidir. İmplantlar, doğal diş köküne en yakın çözüm olup, uzun ömürlü ve dayanıklıdır."
+        },
+        "item3":{
+          "title":"Köprü ve implant tedavisi arasındaki fark nedir? ",
+          "value":"Köprü tedavisinde, eksik dişin yanındaki sağlıklı dişler destek olarak kullanılırken, implant tedavisinde eksik dişin yerine doğrudan çene kemiğine titanyum implant yerleştirilir. İmplantlar, daha kalıcı ve doğal bir çözüm sunar, köprüler ise daha hızlı bir tedavi seçeneğidir. "
+        },
+        "item4":{
+          "title":"Hangi tedavi seçeneği benim için uygun? ",
+          "value":"Hangi tedavi seçeneğinin sizin için uygun olduğuna karar vermek, diş hekiminizin yapacağı detaylı bir değerlendirme ile belirlenir. Dişlerinizin durumu, çene kemiğinizin sağlığı ve kişisel tercihleriniz göz önünde bulundurularak en uygun tedavi planı oluşturulur. "
+        }
       }
     }
   },
@@ -692,6 +792,88 @@
       "imgAlt":""
     }
   },
+  "Blog":{
+    "Same-dayDentalImplants":{
+      "item1":{
+        "title":"Aynı Günde Yapılan Diş İmplantı",
+        "subTitle":"Riskler, Faydalar ve Prosedür",
+        "value":"Yeni diş yaptırma sürecinde dişsiz kalmak ‘özellikle de çalışma hayatının içerisindeysek’ rahatsız edici ve utanç verici olabilir. Yeni diş protezinizi beklemek son sadece sinir bozucudur.",
+        "value2":"İşte bu aşamada aynı gün dental implantlar imdadımıza yetişir.",
+        "value3":"Çevrenizdeki birçok insan hatta siz bile diş implantı yaptırmış olabilirsiniz. Ancak bazen, yeni bir diş protezi için bekleme süresi uzun ve can sıkıcıdır. Bu nedenle aynı gün ‘immediat’ diş implantları birçok hasta için mükemmel bir seçenektir.",
+        "value4":"İsterseniz bu fikre daha yakından bakalım…",
+        "value5":"• Immediat ve geleneksel implantlar karşılaştırılması",
+        "value6":"• Kimler adaydır?",
+        "value7":"• Nasıl bir diş hekimi?",
+        "value8":"• Riskler",
+        "value9":"• Yararları",
+        "value10":"• Prosedür"
+      },
+      "item2":{
+        "title":"Immediat Diş İmplantları ve Geleneksel İmplantlar",
+        "value":"Diş hekiminizin ‘immediat’ implant hakkında konuştuğunu duyduğunuzda, dişinizi çeker çekmez aynı anda implantını yerleştirmekten hatta üzerine geçici protezinizi yerleştirmekten bahsediyordur.",
+        "value2":"Geleneksel dental implantlarda bu süreç şöyle işlemektedir; herhangi bir dişinizi kaybettiğinizde o bölgeye dental implant uygulamak için en azından 1 aylık bir süre geçmesini beklemelisiniz. Bu sürenin sonunda implant yapıldıktan sonra, 3 aylık bir bekleme süreci daha vardır. Diş protezinizin yapımı ile birlikte toplamda bu süre 4 ila 5 aydır.",
+        "value3":"Esas olarak estetik amaçlı olarak ortaya çıkmış olsa da fonksiyon ve zaman olarak hasta ve hekime birçok avantajlar sağlamaktadır. Ayrıca hemen yüklenmiş implantlar da fonksiyonel olabilir. Bu, o gün yaptırdığınız implantlar ile yumuşak gıdalar yiyip, onları fırçalayabileceğiniz anlamına gelir. Bir günde tam bir diş protezi sahibi olabilirsiniz. Yani şu anlama gelir; sadece tek bir diş için değil, birden fazla diş veya tüm dişleriniz için de bu yöntem geçerli olabilir.",
+        "value4":"Hemen yüklenmiş diş implantlarının bir tipi All-On-4 konseptidir. Bu prosedür, tüm protezinize destek vermek için çene kemiğine dört implant uygulanıp aynı gün içinde geçici protezi yerleştirmek demektir. All-On-4 prosedüründe diş hekimi, implantlar kemiğe kaynaşırken doğal bir görünüm için implantların üzerine geçici bir protez yerleştirir.",
+        "value5":"Dental implantlar ile geleneksel implantlar arasındaki fark, implantların yerleştirilmesi ile protezin yerleştirilmesi arasındaki zamandır. Geleneksel implantlarda, diş hekiminiz protezi implantın üzerine yerleştirmeden önce en az 3 ay beklemek isteyebilir. Çünkü kemiğinizin implantı kabul etmesi ve kaynaşması gerekir.",
+        "value6":"Hemen yüklenen bir diş implantında, diş hekimi implantı yerleştirdikten hemen sonra geçici bir porselen takar. Geleneksel bir dental implantta, implantın yerleştirilmesi ile porselenin yerleştirilmesi 3-6 ay sürebilir.",
+        "value7":"Standart bir dental implantın tamamlanması aylar alabilirken, immediat dental implant aynı gün içinde yeni bir diş protezi sağlayabilir."
+      },
+      "item3":{
+        "title":"Aynı Gün ‘Immediat’ Dental İmplantlar - Aday Kimdir?",
+        "value":"Immediat dental implant istiyorsanız, buna uygun olup olmadığınızı görmek için diş hekiminizle konuşmanız gerekir. Her şeyden önce diş hekiminiz, sizi uygun olup olmadığını görmek için muhtemelen çok kapsamlı bir tarama sürecinden geçirecektir.",
+        "value2":"İyi ağız sağlığına ve genel fiziksel sağlığa sahip olmalısınız. Bu; eğer sigara içiyorsanız, otoimmün bir hastalığınız varsa, kronik sistemik rahatsızlıklarınız varsa, hijyen sorunlarınız varsa, immediat implantları hemen yaptıramayacağınız anlamına gelir.",
+        "value3":"Ayrıca,  diş gıcırdatma (bruksizm) veya diş sıkmadan muzdaripseniz, immediat implant sizin için en iyi çözüm olmayabilir, çünkü bunlar implant tedavisinin uzun süreli prognozunu, başarı şansını etkileyebilir.",
+        "value4":"Temel olarak, diş implantı yaptırmak istiyorsanız - immediat veya geleneksel - sağlıklı bir vücuda sahip olmanız tek başına yeterli olmayabilir. Mutlaka ağız hijyeninize de dikkat etmeniz gerekir. Evet, başta cerrahi ve diş protezi olarak başarıya ulaşmış diş implantlarının %10’luk kısmının ilk 10 yıl sonunda kötü ağız hijyeni nedeniyle kaybedildiği bildirilmiştir.",
+        "value5":"İyi bir ağız ve fiziksel sağlığınız varsa ve sigara içmiyorsanız, otoimmün bir hastalığınız olsa veya reçeteli bisfosfonat ilaçları (ileri düzey kemik erimesinde reçete edilir) kullanıyor dahi olsanız, immediat implantlara aday olabilirsiniz. Emin olmak için mutlaka bunları bildirip doktorunuzla konuşun."
+      },
+      "item4":{
+        "title":"Nasıl Bir Diş Hekimi?",
+        "value":"Peki, immediat dental implantı nasıl bir diş hekimi yapar? ",
+        "value2":"Diş implantı yapan herhangi bir diş hekimi bir günlük implantı da yapabilir, ancak her diş hekimi bunları yapamaz.",
+        "value3":"Bu yüzden önce tercih ettiğiniz diş hekimiyle konuşmalısınız. Her diş hekiminin immediat diş implantları yapmamasının nedeni, çeşitli risklere girmek istememeleridir. Bir komplikasyon yapılan implantı ve diş hekiminin itibarını tehlikeye atabilir.",
+        "value4":"Immediat dental implantların bunlarla ilişkili birçok riski vardır, bu nedenle sizin için iyi bir seçenek olup olmadığını görmek için diş hekiminizle konuşmanız gerekir."
+      },
+      "item5":{
+        "title":"Aynı Gün Dental İmplant Riskleri",
+        "value":"İşte immediat diş implantlarıyla ilgili bazı riskler ve potansiyel komplikasyonlar. Bu nedenlerden dolayı bazı diş hekimleri bu hizmeti sunmamaktadır.",
+        "value2":"İmplantın Hareketi Riski Artırır",
+        "value3":"Immediat dental implantın başarılı olması için implant kesinlikle hareket etmemelidir. Bu nedenle, prosedürün kendisi çok hassastır. Diş hekimi implantı hiç hareket etmeyecek şekilde yerleştirmelidir. Bunun için hastanın çene kemiğinin kalitesinin yanında hekim tecrübesi öne çıkmaktadır.",
+        "value4":"Sadece Belirli Durumlar İçin",
+        "value5":"Immediat dental implantın güçlü bir kemikle kaynaşması gerekir ve büyük olasılıkla belirli bir torka (implantı sıkma gücüne) dayanabilmesi gerekir. Immediat implantlar için en iyi adaylar, nispeten sağlıklı ve güçlü kemiklere sahip kişilerdir.",
+        "value6":"Dental İmplant Cerrahisi, İçinde Riskleri Barındırır",
+        "value7":"Immediat implantların riskleri diğer diş prosedürlerinden farklı değildir. Bir diş hekimi herhangi bir cerrahi işlem (diş çekimi, dişeti ameliyatı vb…) yaptığında, riskler ve olası komplikasyonlar olacaktır. İmplantın başarısızlığı, enfeksiyon ve ağrı gibi risklerin tümü implant cerrahisinin komplikasyon olasılıklarıdır.",
+        "value8":"Standart dental implantlarda olduğu gibi, immediat dental implantların en büyük riskleri arasında implantın hareketi, implant başarısızlığı, ağrı ve enfeksiyondur."
+      },
+      "item6":{
+        "title":"Bir Gün Dental İmplantların Faydaları",
+        "value":"Aynı zamanda, immediat dental implant prosedürünün faydaları çoktur.İşte immediat diş implantlarının bazı faydaları.",
+        "value2":"Daha Kısa Zaman",
+        "value3":"Immediat diş implantı prosedürünün bariz yararı, sadece bir ziyarette bazen de birkaç ziyarette tamamlanmasıdır. Bu, hem diş hekimi koltuğunda geçirilen zamanı hem de dişsiz geçirilen zamanı önemli ölçüde azaltır. Unutmayın, geleneksel implantlar ve diş protezleri için 3 ila 6 ay süre gerekebilir.",
+        "value4":"Dişeti Protez ile Daha İyi Uyum Sağlar",
+        "value5":"Protez implantın hemen üzerine konduğundan, diş etleri genellikle etrafında büyür ve ona göre şekil alarak daha doğal görünmesini sağlar. Bununla birlikte, geleneksel diş implantlarında 3 ay sonra, protezin yerleştirilmesi için tekrardan diş etinin açılıp yeniden şekillenmesi gerekebilir.",
+        "value6":"Immediat diş implantlarının faydaları açıktır: daha hızlıdırlar, bir ameliyat içerirler ve diş etleri protez çevresinde daha iyi büyüyüp şekillenir.",
+        "value7":"Burada şunu kesinlikle unutmamamız gerekir, geleneksel implantların başarısı daha çok hekime bağlıysa da immediat implantların başarısı hekim ve hastanın uyumuna bağlıdır. Immediat implantların başarı oranı geleneksel implantlar ile hemen hemen aynıdır.",
+        "value8":"Immediat implantlar, size yeni dişlerinize daha hızlı kavuşmanızı sağlar. Buda eksik dişlerle uzun süre geçirmek zorunda kalmayacağınız anlamına gelir."
+      },
+      "item7":{
+        "title":"Aynı Gün Dental İmplant Prosedürü Adım Adım",
+        "value":"Peki diş implantlarını bir günde nasıl yapıyorlar?",
+        "value2":"Her şeyden önce, diş hekiminiz sizi kapsamlı bir muayeneden geçirecektir. Çene ve diş röntgenlerinizin çekileceği, sizin sorularınızı cevaplayabilecekleri ve size neler olacağını özetleyebilecekleri yer burasıdır. Ayrıca diş hekiminiz gerekli görürse, BT taraması ve ağzınızın fotoğrafları gibi bazı teşhis testleri de yapabilirler. Görüntüleri analiz edecekler ve esas olarak ağzınızın ve prosedür planınızın bir taslağını yapacaklardır.",
+        "value3":"Ameliyatın her bölümü belirli adımlar ve hedefler göz önünde bulundurularak planlanmalıdır. Burada hastaya gereksiz ve çok yüksek vaatlerde bulunmak gereklidir.",
+        "value4":"Ameliyat",
+        "value5":"Öncelikle, diş hekimleri lokal anesteziyi tercih etmesine rağmen, bazen büyük çaplı ameliyatlarda uyumanızı sağlayan bir anestezi alabilirsiniz. Uyuştuktan sonra prosedüre başlayacaklardır.",
+        "value6":"Kılavuzu kullanarak, implantı çene kemiğine yerleştirecektir. Bu adım nispeten hızlı bir adımdır.",
+        "value7":"Ameliyattan hemen sonra geçici diş protezi takacaklar. Protezin takılması ve uyumlanması, implantın yerleştirilmesine nispeten çok daha vakit alan bir süreçtir.",
+        "value8":"Immediat Diş İmplantı Ağrısı",
+        "value9":"Anestezi bittikten sonra biraz ağrı ve rahatsızlık hissedersiniz. Ağrı, şişme ya da biraz morarma bu sürecin çok doğal ve tabii bir sonucudur.",
+        "value10":"İyi haber şu ki, diş hekimi ağrı kesici ilaçlar reçete edecek ve buz paketleri size verecektir. Bu dönemde yapabileceğiniz en iyi şey; ağrıkesici ve diğer ilaçlarınızı düzenli kullandığınızdan emin olun, dinlenmeye özen gösterin. Tüm bunlara rağmen beklenmedik kanama, şişlik ya da dinmeyen ağrı şikâyetiniz olursa mutlaka hekiminizi arayın.",
+        "value11":"Immediat diş implantları için prosedür; anestezi uygulanması, cerrahi alanın temizlenmesi, implantın çene kemiğine yerleştirilmesi, daha sonra hemen diş protezinin takılmasıdır.",
+        "value12":"Tüm bu prosedürler, sizin sağlık durumunuz çene kemiğinizin sağlamlığı ve de diş hekiminizin deneyimine bağlı olarak değişiklik gösterebilir.",
+        "value13":"Ancak, her diş cerrahisinin -diş implantı için bile- artıları ve eksileri, faydaları ve riskleri olduğunu unutmayın ve immediat implantlarının tüm yönlerini tarttıktan sonra, siz ve diş hekiminiz sizin için en doğru olanı seçebilirsiniz."
+      }
+
+    }
+  },
   "Implants": {
     "whatisImplant": "İmplant Nedir ?",
     "whatistypofImplants": "İmplant Türleri Nelerdir ?",
@@ -718,15 +900,15 @@
           "title": "Diş implantları bir vidadan (çene kemiğine yerleştirilen), bir dayanaktan (vidayla implanta tutturulan) ve krondan (dayanağın üstüne tutturulan ve doğal bir diş gibi görünen kısım) oluşur.",
           "item1": {
             "title": "Vida (titanyum veya zirkondan yapılmış)",
-            "value": "bu implantın kendisidir ve sizin çene kemiğinizin içerisine yerleştirilir. İmplantınız çene kemiğinizin içerisinde kalacağı için sadece diş röntgenleri ile görebilirsiniz. Diş implantını basitçe bir vida dübeline benzetmek hiçte yanlış olmaz. Diş protezini tutacak tüm ara parçalar implanta vida ile tutturulur."
-          },
+            "value": "Bu implantın kendisidir ve sizin çene kemiğinizin içerisine yerleştirilir. İmplantınız çene kemiğinizin içerisinde kalacağı için sadece diş röntgenleri ile görebilirsiniz. Diş implantını basitçe bir vida dübeline benzetmek hiçte yanlış olmaz. Diş protezini tutacak tüm ara parçalar implanta vida ile tutturulur."
+          },  
           "item2": {
             "title": "Dayanak (Abutment)",
-            "value": "implantınız ile yapılacak protez dişinizi birbirine tutturan ara parçadır. Dübelin içine giren bir vida gibi implantınızın içine vidalanır."
+            "value": "İmplantınız ile yapılacak protez dişinizi birbirine tutturan ara parçadır. Dübelin içine giren bir vida gibi implantınızın içine vidalanır."
           },
           "item3": {
             "title": "Kron",
-            "value": "protez dişinizdir. Esasında direkt implantınıza tutturulmaz. Aradaki dayanak ‘abutment’ parçasına tutturulur."
+            "value": "Protez dişinizdir. Esasında direkt implantınıza tutturulmaz. Aradaki dayanak ‘abutment’ parçasına tutturulur."
           }
         }
       },
@@ -763,7 +945,7 @@
             "value": "Eğer diş hekiminiz uygun görürse size bu süreçte kullanmanız için geçici bir protez verebilir. Ama unutmayın ki bu her zaman mümkün olmayabilir."
           },
           "item8": {
-            "title": "8.)",
+            "title": "8.",
             "value": "Osseointegrasyon süreci tamamlandıktan sonra (muhtemelen 3 ile 6 ay arası), diş hekiminiz diş protezine başlamak için sizden ölçü alacak. Daha sonra laboratuvardan gelen diş protezini implantın üstüne yerleştirilen dayanak diye tabir edilen ‘abutment’e bağlar."
           },
           "item9": {
@@ -771,6 +953,13 @@
             "value": "Aynı gün dental implantlarda prosedürün biraz farklı olduğunu unutmayın."
           }
         }
+      },
+      "itemplus1":{
+        "title":"Diş İmplantlarını Kimler Yaptırabilir?",
+        "value":"Genel sağlık durumunuzun iyi olması ve temiz bir ağız hijyeninin olması implant için çok önemlidir.  Bunlardan sonra bir implantı destekleyecek kadar kemiğiniz varsa, diş implantı için iyi bir aday olabilirsiniz. Bazen ‘kemik grefti’ diye tabir edilen yapay kemik tozu gerekebilir.",
+        "value2":"Kronik bir hastalığınız veya otoimmün bir hastalığınız varsa, implant yaptırmadan önce diş hekiminiz sizden bazı testler isteyebilir.",
+        "value3":"Ayrıca, sigara kullanımı, implantın başarı şansını çok büyük oranda etkileyecektir. Sigara içmenin yara iyileşmesinde negatif etkileri çok net ortaya konmuştur. İmplant yaptırma öncesinde, sırasında ve sonrasında titiz bir ağız hijyenine sahip olmanız gerekir.",
+        "value4":"Kronik veya otoimmün bir hastalığı olmayan, aşırı sigara ve alkol kullanmayan çoğu kişi diş implantları için risk grubunda değillerdir."
       },
       "item5": {
         "title": "Dental İmplant Çeşitleri",
@@ -793,7 +982,8 @@
       "item7": {
         "title": "İmplant Destekli Köprüler ve Protezler",
         "value": {
-          "title": "Diş implantları, bir ya da birden fazla dişiniz eksik olduğunda (tüm dişleriniz bile eksikse) diş protezinin desteklenmesine yardımcı olur. İmplant destekli bir köprü, çevresindeki diğer dişlerden destek almak yerine implantları kullanır.   Diş hekiminizin seçtiği diş implantının türü durumunuza göre çeşitlilik gösterecektir. Bu her hastanın diş implantı diğeri ile aynı olamayacağı anlamına gelir.Geleneksel implant köprüleri: diş protezleri implantın üzerindeki dayanak parçasına ‘abutment’ yapıştırılır. Bunun iki dezavantajı vardır.",
+          "title": "Diş implantları, bir ya da birden fazla dişiniz eksik olduğunda (tüm dişleriniz bile eksikse) diş protezinin desteklenmesine yardımcı olur. İmplant destekli bir köprü, çevresindeki diğer dişlerden destek almak yerine implantları kullanır. Diş hekiminizin seçtiği diş implantının türü durumunuza göre çeşitlilik gösterecektir. Bu her hastanın diş implantı diğeri ile aynı olamayacağı anlamına gelir.",
+          "subTitle":"Geleneksel implant köprülerinde diş protezleri implantın üzerindeki dayanak parçasına ‘abutment’ yapıştırılır. Bunun iki dezavantajı vardır.",
           "item1": {
             "title": "1.",
             "value": "Birincisi; ileride tekrar protezin değiştirilmesi ya da bir problemle karşılaşıldığında sökülmesi gerektiğinde tek yapılabilecek şey, diş hekiminiz mini bir çekiç ile vurarak protezi oradan sökmesidir. Bu çekiç darbeleri implantınız ve hatta çene kemiğinize zarar verme riski elbette vardır."
@@ -820,6 +1010,117 @@
         "title": "Eksileri",
         "value": "İmplant yaptırmanın en büyük olumsuz yanı maliyettir. Dünyanın hemen hemen her ülkesinde olduğu gibi ülkemizde de, genel sağlık sigortası implantı “kozmetik” seçmeli prosedür olarak (zirkonyum kronlar, diş beyazlatma gibi…) sınıflandıracağı için kapsamaz.Diş tedavi maliyetlerini azaltmanın en makul yolu elinizden geldiğince diş hekiminize düzenli kontrollere gitmektir. İyi bilinmelidir ki ertelenen her diş problemi daha büyük sorunlara buda çok daha büyük maliyetlere neden olacaktır. Başlangıçta kolaylıkla ve az maliyetle halledilebilecek bir diş problemi ertelendikçe daha büyük maddi külfetlerin yanında ayrıca daha zorlu ve uzun bir sürece sokacaktır.Tabii ki de diş implantları mükemmel ve kusursuz değildir. Sigara içmek, otoimmün bir rahatsızlık veya kontrol altında olmayan diyabet (diabetes mellitus, diabetes insipidus ) gibi çeşitli nedenlerden dolayı başarısız olabilirler (implant failure). Bunlar ayrıca implantın gevşek veya ağrılı olmasına neden olabilir, her iki durumda da çıkarılması gerekebilir."
       }
+    }
+  },
+  "QuestionsToAskBeforeGettingDentalImplants":{
+    "title":"Dental İmplant Yaptırmadan Önce Sorulması Gereken Sorular",
+    "value":"Diş hekiminize soru sormaktan çekinmeyin, özellikle bu sizin diş sağlığınız ile ilgiliyse. Aşağıda, diş hekiminize ameliyattan önce sormanız için bazı temel sorular verilmiştir.",
+    "value2":"● Eksik bir dişi tamamlamak için hangi tedavi seçeneklerini sunuyorsunuz?",
+    "value3":"● Diş implantı prosedürlerini kaç kez yaptınız?",
+    "value4":"● Diş hekimliği ve dental implantlarla ilgili eğitim ve öğretim geçmişiniz nedir?",
+    "value5":"● Benim için en iyi dental implant seçenekleri nelerdir? Neden?",
+    "value6":"● İmplantlarınızı hangi şirket üretiyor?",
+    "value7":"● Süreçteki adımlar nelerdir?",
+    "value8":"● İşlemden önce, işlem sırasında ve sonrasında neler yaşayacağım?",
+    "value9":"● Çok acı çekecek miyim?",
+    "value10":"● İyileşme süresi nedir?",
+    "value11":"● Dişsiz ne kadar bir süre kalacağım?",
+    "value12":"● Prosedürün riskleri nelerdir? Avantajları nelerdir?",
+    "value13":"● Tedavi ettiğiniz diğer hastaların öncesi ve sonrası fotoğraflarını görebilir miyim?"
+  },
+  "ImplantsFinaly":{
+    "title":"Özetle",
+    "value":"Diş implantları, çene kemiğinize vidalandığından size ağrılı bir işlem gibi gelebilir. Ancak lokal anestezi (duruma göre genel anestezi de alabilirsiniz) uygulanacağı için ağrı hissetmeyeceksiniz.",
+    "value2":"Dental implant protezleri uzun vadede geleneksel protezlerden çok daha güvenli ve rahattırlar. Genellikle hareket etmedikleri için ve doğal dişler gibi hissedersiniz.",
+    "value3":"Dental implantlar size fonksiyon (yeme-içme), fonasyon (konuşma) ve estetiği geri vermenin en konforlu, en güvenilir ve en yeni yoludur.",
+    "value4":"Tüm bunların yanında dental implantlar birer mucize değildirler. Mutlaka hekiminizin uyarılarını dikkate almalı ve ağız hijyeninize yeterli önemi göstermelisiniz."
+  },
+  "ImplantHealingProcess":{
+    "title":"Diş İmplantı Cerrahisi İyileşme Dönemi",
+    "subTitle":"Diyet, Mücadele Ağrısı ve Diğer İpuçları",
+    "value":"Dental implant cerrahisi ciddiye alınması gereken bir müdahaledir. Kimse olmasını istemez ancak diğer herhangi bir ameliyat türü gibi iyileşme süresi gerektirir.",
+    "value2":"Bir veya daha fazla dental implant yerleştirildikten sonra; hastanın uyarıları dikkate alması ve diş hekiminizin deneyimi iyileşme sürecini belirleyecektir. Bununla birlikte iyileşme süresi, ameliyat bölgesinin zorluğuna, daha sonra kendinize ne kadar iyi baktığınıza ve vücudunuzun implanta nasıl tepki verdiğine bağlı olarak değişebilir. Unutulmamalıdır ki her bireyin ameliyata karşı verdiği tepki farklı farklıdır.",
+    "value3":"Bunların hepsini ve daha fazlasını aşağıda ele alacağız.",
+    "item1":{
+      "title":"Dental İmplant Süresi",
+      "value":"Dental implant ameliyatından sonraki iyileşme süresi nedir?",
+      "value2":"Genel olarak, tüm semptomların azalması 5-7 gün sürer. Bununla birlikte, bazı hastalar farklı faktörler nedeniyle (kemik tozu ilavesi, sinüs yükseltme vb.) daha uzun iyileşme süresi yaşayabilir.",
+      "value3":"İyileşme sürenizin değişmesinin nedenlerinden bazıları şunlardır."
+    },
+    "item2":{
+      "title":"Kaç İmplant Yaptırdığınız ?",
+      "value":"Tek bir implant, birden fazla implant veya All-On-4 implant yapılmasına bağlı olarak iyileşme süreniz değişebilir. Temel olarak, daha fazla implant daha uzun ve daha fazla ameliyat alanı anlamına gelir; bu da iyileşme süresinin biraz daha uzun olması anlamına gelir."
+    },
+    "item3":{
+      "title":"Sinüs Yükseltme",
+      "value":"Sinüs yükseltme ameliyatı da iyileşme sürenizi uzatabilir. Bu, üst azı dişleriniz bölgesinde yeterli kemik dokusu bulunmaması durumunda yapay kemik tozu eklenen bir ameliyattır. Diş hekiminin, ilave kemiğin oturması için sinüs zarını yukarı doğru hareket ettirmesi (veya kaldırması) gerekecektir."
+    },
+    "item4":{
+      "title":"Kemik Aşılama",
+      "value":"Çene kemiğiniz bir implantı sabitleyecek kadar kalın olmadığında kemik grefti gereklidir. İmplantı yaptırdıktan sonra, çiğneme kuvvetleri kemiğe çok fazla baskı uygular ve mümkün olduğunca güçlü olması gerekir.",
+      "value2":"Bir kemik greftine ihtiyacınız varsa, diş hekiminiz vücudunuzdaki başka bir yerden (kalçanız gibi) kemik alacak ve çene kemiğinize nakledecektir. Yapay kemik de kullanabilirler.",
+      "value3":"Her iki durumda da, iyileşmenin gerçekleşmesi için fazladan birkaç aya daha gerek duyulur. Ancak minimal kemik grefti gerekiyorsa, bu kadar uzun sürmeyebilir."
+    },
+    "item5":{
+      "title":"Osseointegrasyon",
+      "value":"Osseointegrasyon, çene kemiğinizle diş implantının bütünleşme (kaynaşma) sürecidir. Bunun başarılı bir şekilde gerçekleşmesi zaman alır “ve her hasta için farklı olabilir” Bu nedenle iyileşme süresine diş hekimi, kemik doku kalitesi, hastanın yaşı, hastanın sistemik rahatsızlıkları, hastanın daimi kullandığı ilaçlara göre her hastada farklı süreler öngörebilir.",
+      "value2":"Prosedürün iyi gittiğini ve sonrasında herhangi bir komplikasyon olmadığını varsayarsak, iyileşme süresi yaklaşık bir hafta-on gün sürmelidir. İmplantın tamamen kemiğe kaynaşma süresi ise 3 ay olarak öngörülebilir."
+    },
+    "item6":{
+      "title":"Dental İmplant Cerrahisinden Hemen Sonraki Birkaç Gün",
+      "value":"Şimdi toparlanma süresini ele aldığımıza göre, toparlanma sürecinin nasıl görüneceğini, başarılı olmasını sağlamak için neler yapabileceğinizi ve nasıl hızlandıracağınızı ele alalım .",
+      "value2":"İlk Gün Ne Beklenir?",
+      "value3":"Ameliyattan sonraki ilk 30 dakika, ısırıklarınızla gazlı bez paketleri üzerinde sağlam ancak hafif bir baskı tutmak isteyeceksiniz. Bu onları yerinde tutacaktır.",
+      "value4":"Hemen hemen herkes için kanama ilk 30 dakika içinde durur. 30 dakikalık sıkı bir baskıdan sonra hala kanamışsanız; yeni gazlı bezi 30 dakika daha yerine koyun. Bundan sonra, kanama durana kadar gazlı bezi her 30 ila 45 dakikada bir değiştirmelisiniz.",
+      "value5":"İlk gün yaşayabileceğiniz bazı belirtiler şunlardır:",
+      "value6":"• Oozing",
+      "value7":"• Kalıcı kanama",
+      "value8":"• Şişme",
+      "value9":"• Ağrı",
+      "value10":"Bunların hepsi vücudunuzun kendini iyileştirdiğine dair beklenen işaretlerdir.",
+      "value11":"İyileştirmenizi hızlandırmaya ve ağrıyı en aza indirmeye yardımcı olmak için izlemeniz gereken bazı diş implantı kurtarma ipuçları:",
+      "value12":"• Cerrahi alanları rahatsız etmemeye dikkat edin",
+      "value13":"• Ameliyat gecesi diş fırçası ile dişlerinizi nazikçe fırçalayın",
+      "value14":"• 24 saat sonra, günde 2-3 kez tuzlu suyla durulayın.",
+      "value15":"• Mümkün olduğunca dinlenin",
+      "value16":"• İhtiyaca göre buz uygulayın",
+      "value17":"Ameliyattan sonraki ikinci ve üçüncü günlerde vücudunuz kendini iyileştirmeye devam edecektir, ancak sürece yardımcı olması için ağzınıza dikkat etmelisiniz .",
+      "value18":"Cerrahi alanların çevresinde yeşilimsi-sarımsı bir renk değişikliği veya morarma görebilirsiniz, ancak bu normaldir ve ameliyattan sonra sadece 2-3 gün sürmelidir. Bundan sonra, renk değişikliğini azaltmak için bölgeye nemli ısı uygulayabilirsiniz.",
+      "value19":"Keskin bir çıkıntı veya dişinizin bir kenarı hissederseniz, bu da yaygındır. Sizi ilgilendiriyorsa, diş hekiminize başvurmaktan çekinmeyin.",
+      "value20":"Ayrıca kuru dudaklar, boğaz ağrısı ve sert çene kasları, ağzınızda gazlı bez olması beklenen tüm belirtiler yaşayabilirsiniz. Bütün bunlar yaklaşık 2-3 gün sonra ortadan kalkmalıdır.",
+      "value21":"İyileşme sürenize yardımcı olmak için prosedürü izleyen günlerde implantların bakımı için bazı genel talimatlar :",
+      "value22":"• 8 onsluk bir bardağın tamamını kullanmak için beş dakika ayırarak ağzınızı tuzlu suyla durulayın. Bunu istediğiniz sıklıkta, günde en az iki kez yapabilirsiniz.",
+      "value23":"• İşlemden sonra mümkün olan en kısa sürede dişlerinizi nazikçe fırçalayın. Ağrınız ve şişlikiniz olabileceğinden, normal bir güçle fırçalayamayabilirsiniz (veya yapmak istemeyebilirsiniz). Ancak bu iyileşme süresi boyunca büyük ağız hijyenine sahip olmak önemlidir.",
+      "value24":"İyileşme sırasında göz önünde bulundurmanız gereken başka bir şey, bir sonraki bölümde tartışacağımız diyetinizi değiştirmek.",
+      "value25":"İyileşme süresi boyunca muhtemelen sızma, kanama, şişme ve ağrı yaşayacaksınız. İyi ağız hijyenine de devam etmek isteyeceksiniz."
+    },
+    "item7":{
+      "title":"Dental İmplant İyileştirme Diyeti",
+      "value":"Ağzınızın hızlı ve düzgün bir şekilde iyileşmesine yardımcı olmak için diyetinizi geçici olarak değiştirmeyi düşünmek akıllıca bir fikirdir . Kulağa eğlenceli gelmiyor, ama çok yardımcı olabilir.",
+      "value2":"Diyetinizle ilgili yapabileceğiniz en iyi şey, implantla mümkün olduğunca uzun süre doğrudan temastan kaçınmaktır. Bu, alan tamamen iyileşene kadar sert yiyecekler olmadığı anlamına gelir.",
+      "value3":"Ameliyattan Sonra Yemeniz Gereken (ve Yememeniz Gereken) Yiyecekler",
+      "value4":"Genel olarak konuşursak, implantın yerleştirildiği yerden ağzınızın karşı tarafında çiğnemeye çalışırken, çoğunlukla yumuşak yiyecekler yemelisiniz.",
+      "value5":"İşte ameliyattan sonra yemek için iyi olan bazı gıda fikirleri:",
+      "value6":"• Avokado",
+      "value7":"• Kuru fasulye",
+      "value8":"• Muz",
+      "value9":"• Yumurtalar",
+      "value10":"• Balık (narenciye kullanmayın)",
+      "value11":"• Sağlıklı meyve suyu veya smoothies",
+      "value12":"• Yulaf ezmesi",
+      "value13":"• Erişte",
+      "value14":"• Pirinç",
+      "value15":"Kapak tarafında, ameliyattan hemen sonra kaçınılması gereken birçok yiyecek vardır:",
+      "value16":"• Cips, fındık veya elma gibi sert yiyecekler",
+      "value17":"• Domates, limon, limon, portakal suyu gibi asitli yiyecekler",
+      "value18":"• Patlamış mısır",
+      "value19":"• Baharatlı yiyecekler rahatsızlığa neden olabilirler",
+      "value20":"İyileşme sırasında yumuşak ve duygusal yiyeceklere sadık kalın ve sert, yapışkan ve baharatlı yiyeceklerden kaçının."
+    },
+    "item8":{
+      "title":"Sonuç",
+      "value":"Şimdi bu makaleyi okuduğunuza göre, dental implant ameliyatınızdan sonra ne bekleyeceğinizi, beklenen iyileşme süresini, potansiyel semptomları ve tüm süreci kolaylaştırmak için neler yapabileceğinizi biliyorsunuz.",
+      "value2":"Doktorunuzun önerileriyle birlikte, ihtiyacınız olan diş prosedürüne hazır olmalısınız."
     }
   },
   "ALLONFOUR": {
