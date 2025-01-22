@@ -159,21 +159,6 @@ import {
 
 
 
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value4`)}
-        </Typography>
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value5`)}
-        </Typography>
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value6`)}
-        </Typography>
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value7`)}
-        </Typography>
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value8`)}
-        </Typography>
       </Box>
     );
   };
