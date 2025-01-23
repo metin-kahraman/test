@@ -49,7 +49,7 @@ const ContentRightSlideMenu: FC = () => {
           */}
 
         {/* Başlık */}
-        <Typography align="center" sx={{ pt: 2 }} variant="h5" gutterBottom>
+        <Typography align="center"sx={{ fontWeight: 'bold', pt: 2 }}color="#388E3C" variant="h5" gutterBottom>
           Tedaviler
         </Typography>
         {/* Liste */}
@@ -61,17 +61,21 @@ const ContentRightSlideMenu: FC = () => {
                 href={`/${locale}/`+tt(item.title+"Link")} // Her öğenin URL'sini buraya koyun
                 passHref
                 style={{
+                  //textDecoration: "underline",
                   textDecoration: "none",
+                  //textDecorationColor:"#ed6c02",
                   color: 'inherit', // Varsayılan metin rengini kullanır
                   width: "100%", // Tıklanabilir alanı genişletmek için
                   display: "block",
                 }}
-              >
+              > 
                 <ListItemText
                   primaryTypographyProps={{
                     fontFamily: "oswald",
                     align: "center",
-                    fontWeight: "400",
+                    fontWeight: "600",
+                    color:"#ed6c02",
+                    variant:"subtitle2",
                   }}
                   primary={tt(item.title)}
                 />

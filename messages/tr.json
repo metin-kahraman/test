@@ -1123,6 +1123,166 @@
       "value2":"Doktorunuzun önerileriyle birlikte, ihtiyacınız olan diş prosedürüne hazır olmalısınız."
     }
   },
+  "BoneGraft":{
+    "item1":{
+      "title":"Dental İmplantlar İçin Kemik Grefti",
+      "value":"Kemik grefti ya da halk arasında bilindiği adıyla yapay kemik tozu. İlk başta kulağa hiçte hoş gelmiyor değil mi?",
+      "value2":"Kemik greftinin ne olduğunu öğrendikten sonra korkmuş olabilirsiniz. Ama aslında korkmak için bir neden yok - diş hekimleri bunları her zaman yapıyor."
+    },
+    "item2":{
+      "title":"Şimdi kemik greftinin ne olduğunu birlikte öğrenelim… ",
+      "value":"Türleri",
+      "value2":"Kurtarma",
+      "value3":"Komplikasyonlar",
+      "value4":"Maliyet"
+    },
+    "item3":{
+      "title":"İmplantlar İçin Kemik Grefti Gerekli mi?",
+      "value":"Kemik grefti, diş hekiminin kemiği başka bir yerden alıp implant bölgesine yerleştirmesidir. Her zaman gerekli değildir.",
+      "value2":"Kemik grefti yerleştirme, diş hekiminin implantın yerleştirileceği alanı desteklemek ve/veya daha kalın bir alan oluşturmak amacıyla; o bölgeye yapay ya da başka bir bölgeden alınma kemik yerleştirdiği bir prosedürdür.",
+      "value3":"Bir vida yerleştirilirken nasıl ince ve zayıf alçıpan yerine kalın ve sağlam bir duvar tercih edilirse; aynı öyle de implantların da yapılacak dişlere uzun süreli güvenilir destek sağlaması için yeterli kalınlık ve yoğunlukta kemik tarafından desteklenmesi gerekir.",
+      "value4":"Sık kullanılsalar da, diş implantları için kemik greftleri her zaman gerekli değildir.",
+      "value5":"Diş hekiminiz, çene kemiğinizin çok ince, yumuşak veya yetersiz olduğunu görürse muhtemelen kemik grefti hakkında konuşacaktır. Yeterli kemik olmadığı durumlarda implant ilk başlarda olmasa bile uzun dönemde başarısız olacaktır.",
+      "value6":"Diş hekiminizin başka bir bölgeden kemik alıp implant bölgesine yerleştirebileceği gibi bu yetersiz ya da olanaksızsa tamamen yapay bir kemik grefti de uygulayabilir."
+    },
+    "item4":{
+      "title":"Kemik Grefti Tedavinin Süresini Etkiler mi?",
+      "value":"Kemik grefti uygulanırsa bu tedavinizin genel seyrini ve zamanını etkileyecektir. Diş implantı yaptırırken birçok aşama olduğu için, birde kemik greftini buna ilave etmek hem zaman olarak süreyi uzatacak hem de ek maliyetler getirecektir.",
+      "value2":"Kemik grefti tedavi sürenizi birkaç ay uzatabilir (3 ila 6 ay), ancak bu ne kadar greft uygulandığına, nereye yerleştirildiğine ve planlanan diş protezin tipine bağlıdır.",
+      "value3":"Ancak birçok zaman kemik grefti gerekli ve mecburi bir adımdır."
+    },
+    "item5":{
+      "title":"Dental İmplant Kemik Greft Çeşitleri",
+      "value":"Bir greft kemiği; çene, çenenin arkası, kalça veya bacak gibi kendi vücudunuzdan alınabilir. Bunlar kendi vücudunuzdan geldikleri için ‘otogreft’ olarak bilinir.",
+      "value2":"Bazen kemik, kadavra kaynaklı bir ‘allogreft’ olabilir. Bu tür kemik, herhangi bir bakteri veya diğer biyolojik materyali ortadan kaldırmak için özel olarak işlenir. Bu kemik tamamen steril olduğundan, reddedilme riski çok azdır veya hiç yoktur ve kemik greftleme prosedürü vücudunuzda ikincil bir cerrahi bölge olmadan yapılabilir. Ancak en yüksek maliyetteki greftlerdir.",
+      "value3":"Kemik grefti ayrıca sığır gibi hayvan kaynaklarından da gelebilir ve ‘ksenogreft’ olarak bilinir. Hayvan kaynaklarından gelen kemik tıpkı bir insan kaynağından gelen kemik gibidir ve kullanım için güvenli hale getirmek için bir dizi işlemlere tabi tutulur.",
+      "value4":"Diş hekiminizin hangi kemik greftini ne oranda kullanmaya karar vermesi, sizin için en iyi olacak yönteme ve miktara göre değişiklik gösterebilir. Ne kadar ihtiyaç duyulduğuna bağlı olarak farklı boyutlarda kemik greftleri de vardır."
+    },
+    "item6":{
+      "title":"Küçük Kemik Grefti",
+      "value":"Diş hekiminiz hasarlı dişleri çektikten sonra, küçük bir kemik grefti kullanabilir. Bunun anlamı, boş diş soketine granül formundaki kemik grefti (kaba kum gibi görünür) yerleştirilir.",
+      "value2":"Daha sonra diş boşluğunu dikişler kullanarak koruyucu bir zar ‘kolajen membran’ ile kapatır. Sonraki haftalarda, orijinal kemik yüksekliğini koruyarak diş boşluğunun içinde doğal kemik oluşacaktır. Bu süreç ortalama (sistemik rahatsızlığınızın, sigara-alkol kullanmanıza, ağız hijyeninize balı olarak) bir ay kadardır."
+    },
+    "item7":{
+      "title":"Orta Kemik Grefti",
+      "value":"Orta kemik grefti, daha belirgin kemik kaybının meydana geldiği ve hem yükseklik hem de genişliğin yetersiz olduğu durumlarda gerektiğidir.",
+      "value2":"Diş hekimi gerekli olan kemik bölgesine küçük bir kesi yapacak ve daha sonra yeterli kemik granüllerini yerleştirecektir. Bu işlem implantı yerleştirebilmek için gerekli alanın oluşmasına yardımcı olacak ve iyileştikçe genişlik ve yükseklik sağlayacaktır."
+    },
+    "item8":{
+      "title":"Büyük Kemik Grefti",
+      "value":"Bir kişi uzun süre birden fazla dişini kaybettiğinde, sıklıkla ciddi miktarda kemik kaybı yaşayacaktır. Diş hekimleri böylesi durumlarda büyük bir kemik grefti önerebilirler.",
+      "value2":"Kullanılan materyalin implant bölgesindeki kemik dokusu ile uyum sağlama olasılığı çok daha yüksek olması için, diş hekiminiz yapay kemik tozu kullanmak yerine, vücudunuzun başka bir yerlerinden kemik bloğu kullanmayı tercih edebilir.",
+      "value3":"Düzgün bir yüzey oluşturmak için ihtiyaç duyulan küçük alanlara kemik granülleri ile doldururlar. Daha sonra dikiş kullanarak tüm bölgeyi tamamen kapatırlar. Bu büyüklükte bir kemik tozu kullanımı, diş protezi yapımı için bekleyeceğimiz süreyi 3 ila 6 ay arasında uzatacaktır."
+    },
+    "item9":{
+      "title":"Sinüs Yükseltme (üst çenede)",
+      "value":"Başka bir kemik grefti türüne ‘sinüs yükseltme’ denir. Üst çene azı dişlerinin olduğu bölgelerde oldukça sık görülen bir durumdur. Bu bölgelerde birden fazla diş kayıplarının olduğu durumlarda, aşırı kemik erimesi ve/veya sinüslerin aşağıya doğru sarkması görülebilir.",
+      "value2":"Diş implantları, içi boş bir alana (sinüs) yerleştirilemez, bu nedenle diş hekiminin bu boşluğu doldurması için sinüs tabanını yükseltmesi gerekecektir.",
+      "value3":"Dişetinin kenarından bir kesi yapacaklar ve sinüs boşluğuna küçük bir pencere açacaklar. Diş hekimi dikkatle sinüs zarını sinüs duvarlarından ayırır ve kaldırır. Daha sonra zar ile sinüs tabanı arasına yapay kemik tozu yerleştirilir.",
+      "value4":"Bölgeye yeterli kemik dokusu yerleştirildiğinde, diş hekimi yapay kemik dokusunu korumak için bir zar ‘kolajen membran’ ile üstünü kapatır. Sonra açılan küçük pencere dikişler ile tamamen kapatılır.",
+      "value5":"İmplantın ne zaman yerleştirileceği önemli bir sorundur. Eğer implantınızın başlangıçta sabit durmasını sağlayacak çok az da olsa kemik kalınlığınız varsa aynı anda implantınız da yerleştirilir ve en az 6 ay bekleme süresinden sonra diş protezleriniz yapılabilir. Fakat bu kadar bile yeterli kemiğin olmadığı bazı durumlarda, sinüs yükseltmenin tamamen iyileşmesi için 4-6 ay beklendikten sonra implant yerleştirilir. Birde 3 ay implant yerleştirildikten sonra bekleme süresi vardır. Bu sürenin sonunda diş protezi yapımına geçilebilir.",
+      "value6":"Bu süreler ve hangi yöntem ile implantınızın uygulanacağını, diş hekiminiz sizin için en doğru olanı karar verdikten sonra başlamalısınız."
+    },
+    "item10":{
+      "title":"Kemik Aşılama İşleminden Sonra Ne Olur?",
+      "value":"Dental implant sürecinizin sonunda; muhtemelen diş etlerinizde şişme, yüzünüz ve cildinizde hafif morarma, sızıntı şeklinde kanama, ağrı ve rahatsızlık yaşamanız bu işlemin doğal bir sonucudur. Böyle durumlar ile karşılaşırsanız kesinlikle panik ya da endişe yapmamanızı tavsiye ederiz. Bu, vücudunuzun kendini iyileştirdiği anlamına gelir ve bunu için zamana ihtiyacı vardır.",
+      "value2":"Diş hekiminiz, ağrılarınız için bazı ilaçların yanı sıra enfeksiyonu önlemek için antibiyotikler reçete edecektir. Diş hekiminizin önerilerine uyun ve ilaçları talimatlara göre alın.",
+      "value3":"Farkında olmayabileceğiniz olumsuz yan etkileri olabileceğinden, önce diş hekiminizle görüşmeden alternatif tedavileri veya ilaçları denemekten kaçının.",
+      "value4":"Bu durumlardan herhangi biri size aşırı gibi görünüyorsa ya da durmayan kanama, dinmeyen ağrınız varsa tavsiye için diş hekiminize mutlaka başvurun. Ağrı kesici ilacın dozunuzu artırabilir veya bazı başka çözüm yolları size önerebilir."
+    },
+    "item11":{
+      "title":"Kemik Greftinin İyileşmesi",
+      "value":"Yukarıda belirtildiği gibi, iyileşme süresi değişebilir, birkaç aydan bir yıla kadar sürebilir. Prosedürünüzün neler içerdiğine, implantın çene kemiğinize kaynama ‘osseointegrasyon’ aşamasının nasıl gittiğine ve kullanılan yöntemlere bağlı olarak değişebilir. Bazen diş hekiminiz başlangıçta öngördüğü süreyi uzatabilir ya da kısaltabilir.",
+      "value2":"Dental implantların başarı oranı dünya genelinde yaklaşık %95 kadar çok yüksek bir orandır. Hatta ülkemizde bu oran %96 civarındadır. Ancak bunun kesinlikle %100 olmadığını söylemek zorundayız.  Bu sürece her aşamada yardımcı olmak için elinizden gelen her şeyi yapmanız çok önemlidir. Diş hekiminizin tüm tavsiyelerine ve yasaklarına harfiyen uyduğunuzdan emin olun.",
+      "value3":"Örneğin, doktorunuz cerrahi bölgelere baskı yapmamak için sadece yumuşak yiyecekler yemenizi isteyebilir. Ayrıca, iyileşme sürecine yardımcı olmak ve implantın kemiğe kaynaşmasında problem çıkmaması için çok iyi bir ağız hijyenine sahip olmanız gerekir.",
+      "value4":"Oral cerrahiden hemen sonra sigara içmek kesinlikle önerilmez. Tütün dumanı iyileşme sürecine negatif yönde etki eder ve greftin daha yavaş iyileşmesine ve hatta başarısız olmasına neden olabilir. Diş implantlarının en büyük başarısızlık sebebi sigara-alkol ve kötü ağız hijyeni olduğu yapılan çalışmalarla ortaya konmuştur.",
+      "value5":"Kontrolsüz diyabet gibi sistemik sağlık sorunları da iyileşme sürecini olumsuz etkiler. ",
+      "value6":"Diş hekiminiz, yapay kemik tozu işleminden ve implant cerrahisinden önce size olası riskler hakkında bilgi verecek ve tavsiyelerde bulunacaktır."
+    },
+    "item12":{
+      "title":"Diş implantınızın yanı sıra doğal dişlerinize de bakmak için yapabileceğiniz bazı şeyler:",
+      "value":"• Günde 2-3 kez alkolsüz ağız gargarası ile fırçalayın, diş ipi kullanın ve durulayın. Ayrıca bir diş fırçasının veya diş ipinin ulaşamayacağı yerlere ulaşabilen özel dental implant fırçaları da kullanmanızı tavsiye ederiz.",
+      "value2":"• Diş hekiminize düzenli olarak, tercihen altı ayda bir kontrollerinizi aksatmayın. Bu, implantınızın düzgün bir şekilde iyileşmesini sağlar ve iyi performans göstermeye devam eder.",
+      "value3":"• Doğal ve yapay dişlerinize zarar vereceğinden tütün ve aşırı kafeinden kaçının."
+    },
+    "item13":{
+      "title":"Olası Komplikasyonlar",
+      "value":"Dental greftler, lisanslı ve deneyimli bir diş hekimi tarafından gerçekleştirildiğinde güvenlidir. Unutmayın, yapılan implantların çoğunluğu (%95 oranında) başarılı olmaktadır ve birçoğu kemik grefti içerir.",
+      "value2":"Bunun yanında, herhangi bir cerrahide olduğu gibi, kemik grefti ve Dental implant uygulamalarında nadir olmalarına rağmen komplikasyonlar meydana gelebilir. Dikkat etmeniz gereken bazı potansiyel riskler şunlardır:",
+      "value3":"• Enfeksiyon",
+      "value4":"• Doğal dişlerde, kan damarlarında veya sinirlerde hasar",
+      "value5":"• Uyuşma, dudaklarda, dilde ve yanaklarda karıncalanma",
+      "value6":"• Sinüs problemleri (üst çene implantları)",
+      "value7":"• Şişme, ağrı, morarma"
+    },
+    "item14":{
+      "title":"Kemik Aşılama Maliyeti",
+      "value":"Bir kemik greftinin maliyeti; kullanılan greftin türüne,  gerekli kemik miktarına ve ameliyat bölgesine bağlı olarak değişebilir. Üst çene implantlarında sinüs yükseltme operasyonu birçok bölgeye göre daha zor ve komplike vaka vakalardır. Bu nedenle maliyeti artıracaktır. Tüm bunların yanında başvurduğunuz diş hekiminin bilgi ve becerisine göre maliyetler değişkenlik gösterebilir.",
+      "value2":"• Kemik grefti, diş hekiminin kemiği başka bir yerden alıp implant yapılacak bölgeye yerleştirmesidir. Her zaman gerekli değildir, ancak diş hekiminizin sizin için planladığı diş protezi türüne bağlı olarak gerekli olabilir.",
+      "value3":"• Dört ana kemik grefti türü vardır: minör, orta, majör ve sinüs yükseltme. Hangisinin size uygulanacağı ne kadar kemiğe ihtiyaç duyulduğuna bağlıdır.",
+      "value4":"• Herhangi bir ameliyat gibi, kemik grefti uygulamaları da şişlik, ağrı ve iyileşme süresince rahatsızlığa yol açabilir. ",
+      "value5":"• Herhangi bir ameliyatta olduğu gibi, kemik grefti uygulamalarında da enfeksiyon, ağrı, şişme ve uyuşma gibi komplikasyonlar meydana gelebilir.",
+      "value6":"• Kemik grefti operasyonunun iyileşmesi için birkaç aydan bir yıla kadar süreye ihtiyaç duyulur.",
+      "value7":"• Dental implant için kemik greftine ihtiyacınız varsa, bu size ek maliyetler getirecektir."
+    }
+  },
+  "GumRecessionAndSensitivity":{
+    "item1":{
+      "title":"Diş Eti Çekilmesi Ve Hassasiyet",
+      "value":"En az altı ayda bir kez diş hekimi kontrolüne gitmelisiniz. Bu düzenli kontroller birçok ağız problemlerini daha başlangıç aşamasında engellemenizi sağlar. Bu kontrollerde hastaların daha farkında olmadıkları en çok diş çürükleri ile dişeti çekilmeleri fark edilmektedir.",
+      "value2":"Diş eti çekilmesi bazen hassasiyet ile hemen kendini belli etse de, bazen de hiç ya da çok az belirtiler ile gözden kaçabilir. Diş eti çekilmeleri uzun dönemde diş kayıplarına kadar ciddi sonuçlara yol açabilir.",
+      "value3":"Bu makalede, eğer diş eti çekilmeniz varsa çok fazla endişe duymadan ve bunu görmezlikten de gelmeden neler yapmanız gerektiğini ve nasıl bir yol izlemeniz gerektiğini birlikte tartışacağız."
+    },
+    "item2":{
+      "title":"Öncelikle diş eti çekilmesi nedir?",
+      "value":"Diş eti çekilmesi; dişleri çevreleyen diş etinin, dişlerin köklerinden aşağıya doğru çekilmesi anlamına gelir.  İlk önce şu çok iyi anlaşılmalıdır ki, dişeti çekilirken alttaki dişi çevreleyen çene kemiği de onunla birlikte aşağıya doğru çekilmekte yani erimeye başlamaktadır.",
+      "value2":"Diş eti çekilmesi iki büyük probleme yol açar.",
+      "value3":"Birincisi; herkes tarafından da bilindiği gibi hassasiyete yol açar. Bu ileri seviyelerde hayat standartlarını etkileyecek hatta çeşme suyunu dahi ağza alamayacak seviyelere ulaşabilir.",
+      "value4":"İkinci olarak; diş eti çekilmesi ile birlikte kemik kaybının da olmasıyla zamanla dişlerde sallanmalar başlayacaktır. Diş eti çekilmelerinin ileri durumlarında diş kaybına kadar gidebilir. Bu durum erozyon ile toprağını kaybettikten sonra kökleri açığa çıkan ve nihayetinde devrilmek zorunda kalan bir ağaç gibidir. Çevrenizde sıkça duyduğunuz bir durumdur. ‘dişimde hiç çürük yoktu ama sallandığı için dişimi kaybettim, çektirmek zorunda kaldım’"
+    },
+    "item3":{
+      "title":"Diş eti çekilmesine neler sebep olur?",
+      "value":"Diş Eti Hastalığı (gingivitis)",
+      "value2":"Dişeti hastalığı (gingivitis), diş eti dokusunu ve dişlerinizin çevresindeki kemiğe zarar veren diş etlerinin bakteri kaynaklı bir enfeksiyonudur. Diş eti iltihabı olarak da adlandırılan dişeti hastalığı, diş eti çekilmesinin en önde gelen sebebidir. Yetişkin bireylerin yaklaşık üçte birinde bu problem gözükmektedir.",
+      "value3":"Diş eti iltihabına genel olarak; diş eti dokusunun etrafında plak birikimi, bazı otoimmün hastalıklar, ağız kuruluğuna neden olan ilaçlar, sigara içilmesi neden olmaktadır.",
+      "value4":"Genetik",
+      "value5":"Bazılarımızın dişlerine ne kadar iyi önemsediğine bakılmaksızın, diş eti çekilmesine daha yatkındır. Burada genetik sistemik rahatsızlıklar (diyabet, kalp rahatsızlıkları gibi…) çok önemli rol oynamaktadır.",
+      "value6":"Agresif Sert Fırçalama",
+      "value7":"Çok fazla basınç veya sert kıllı bir diş fırçası kullanarak dişlerinizi fırçalamak diş etlerinizi tahriş edebilir ve çekilmelerine yol açar. Bu durum sigara içen ve sigara renklenmelerini gidermek için çok baskı uygulayan kişilerde sıklıkla görülür. Ayrıca bazı bireylerin diş renkleri doğuştan daha sarı ya da daha koyu olabilir.   Böyle durumlarda kişiler dişlerini daha beyaz yapmak için farkında olarak ya da olmayarak daha sert fırçalarlar. Her iki durumda sadece diş etlerine zarar verir ve dahi diş köklerinin yüzeylerinde abrazyona (kuytu şeklinde aşınmalar) neden olurlar.",
+      "value8":"Kötü Ağız Hijyeni",
+      "value9":"Fırçalama, diş ipi ve antibakteriyel ağız gargarası yapılmaması, dişler üzerindeki plağın tartar ‘diş taşı’ haline gelmesini sağlar. Tartar birikmesi diş etlerini dişten uzaklaştırır ve diş etlerinin iltihaplanmasına neden olur. Tartar birikintisi, diş etleri ile diş arasında bir boşluk veya cep meydana getirir ve bakteriyel büyüme ve diş eti hastalığı için ideal bir ortam oluşturur.",
+      "value10":"Hormonal Değişiklikler",
+      "value11":"Eğer bir kadınsanız, ergenlik, adet kanamaları, hamilelik ve menopoz sırasında karşılaşılan hormonal dalgalanmalar diş etinizin daha hassas hale gelmesine ve çekilmesine yol açabilir.",
+      "value12":"Tütün kullanımı",
+      "value13":"İster sigara, ister çiğneme tütünü, isterse nargile olsun; tütün dişlerin üzerinde çıkarılması zor olan ve diş eti çekilmesine neden olan yapışkan bir plak oluşturur. Unutmayın, dişlerinizde oluşan plak tartar haline gelir ve diş ile diş etleri arasında o kötü bakterin üremesine neden olan cepleri meydana getirir.",
+      "value14":"Stres",
+      "value15":"Yaşamlarımızdaki stres genellikle diş gıcırdatmaya neden olur. Diş sıkma ve gıcırdatma dişlerimize ve çevresindeki kemiğe aşırı baskı uygulayarak dişleri yuvalarında tutan bağları tahriş eder ve iltihaplandırır. Bu tahriş, diş etlerinin daha hassas hale gelmesine ve geri çekilmesine neden olabilir. Ayrıca dişi tutan çevresindeki kemik kaybıyla birlikte diş sallanmalarına da neden olur.",
+      "value16":"Anormal Çene Kapanışları",
+      "value17":"Dişlerimizi ısırdığımızda, hepsi aynı anda bir araya gelmiyorsa bir problem var demektir. Bu dişlerin ısırırken dişlerin ilk temas ettiği ağız bölgelerindeki diş etlerine ve kemiğe çok fazla baskı uygulandığı anlamına gelir. Aşırı ısırma kuvveti diş etlerini tahriş eder ve iltihaplandırarak diş  eti çekilmelerine neden olur.",
+      "value18":"Dişler Arasındaki Boşluklar",
+      "value19":"Diş kayıplarından veya diş eti çekilmesinden dişlerimiz arasında boşluklar oluşabilir. Bu boşluklarda biriken yiyecekler sadece ağız kokusuna değil, diş etlerinde ve alttaki kemikte tahrişe ve iltihaplanmaya neden olur. Bu iltihaplanma diş etlerinin daha da çekilmesine neden olur.",
+      "value20":"Travma",
+      "value21":"Bir darbe yada yaralanma, tahriş, iltihaplanma, enfeksiyon ve diş eti çekilmesine de neden olabilir. Aynı şekilde balık kılçığının batması ya da ekmeğin sert köşesinin diş etini zedelemesi enfeksiyon, iltihaplanmaya neden olabilir."
+    },
+    "item4":{
+      "title":"Diş eti Çekilmesi Hakkında Ne Yapabilirim?",
+      "value":"Bir diş hekiminin, diş etlerini tedavi ederken göz önünde bulunduracağı üç tedavi seviyesi vardır. ",
+      "value2":"Seviye I En Küçük İnvaziv",
+      "value3":"Seviye I tedavisi, diş eti çekilmesinin ilk seviyelerinde sadece reçete ile tedavi edilir. Bu seviyedeki bir çekilme yılda iki kez diş temizliği ve iyi bir ağız hijyeni ile çok rahatlıkla düzelir.",
+      "value4":"Dişeti tahrişinizin kaynağına bağlı olarak, sadece etkeni ortadan kaldırmak bile tek başına yeterli olacaktır. Orta sert bir diş fırçası ile günde iki kez doğru fırçalayın ve diş ipi kullanın. Dişeti çekilmesine; diş sıkma veya gıcırdatma neden oluyorsa, dişlerinizi sıkarken ve gıcırdatırken dişlerinize binen yükü azaltmak için ağız koruyucusu hakkında diş hekiminizle konuşun. Tütün kullanıyorsanız, bırakmak için elinizden geleni yapın. Şu bilinmelidir ki; en doğru tedaviyi yaptırsanız en iyi diş kliniğine gitseniz dahi tütün kullanmaya devam ettikçe tüm yapılanlar ya sonuçsuz kalacak ya da tekrar diş eti problemleri geri başlayacaktır.",
+      "value5":"Seviye II Orta derecede İnvaziv",
+      "value6":"Erken hafif şiddetli diş eti çekilmesi nispeten daha kolay tedavi edilebilir. Bu durumda diş hekiminizi iki ya da üç kez ziyaret etmeniz gerekebilir. İlk önce standart diş taşı temizliği (detertraj ve polisaj) yapılacaktır. Diş taşı temizliği yeterli olmazsa; bu durumda 7 gün sonra etkilenen bölgede derinlemesine temizlik yapılır. Bu prosedür, diş eti seviyesinin altında biriken plak ve tartarları temizlemek içindir. Diş hekimi ayrıca bölgedeki kalan bakterileri temizlemek için bir antibiyotik reçete edecektir.",
+      "value7":"Seviye III En İnvaziv",
+      "value8":"Çekilmiş diş etleri için Seviye III tedavisi cerrahiyi içerir ve bu nedenle en invazivdir. Diş eti ve diş arasındaki boşluklar ve cepler çok derinse veya büyük kemik kaybı varsa gerekli olur. Üç farklı cerrahi seçenek vardır; açık flep tekniği, rejenerasyon ve yumuşak doku grefti. Diş hekiminiz sizin için en iyi seçeneğe karar verecektir.",
+      "value9":"1. Açık Flep Tekniği",
+      "value10":"Doktorunuz açık flep tekniğinin diş etlerinizi tedavi etmek için en iyi seçenek olduğuna karar verirse, dişeti ve diş arasındaki ceplerin derinliğini en aza indirmek için etkilenen bölgelerde küçük kesiler yapar. Diş eti dokusunu dişinizin kökü ile aynı hizaya getirir.",
+      "value11":"2. Doku Yenileme (rejenerasyon)",
+      "value12":"Dişlerinizi destekleyen kemik azalmışsa, diş hekimi kayıp kemik ve dokuyu yenilemek veya değiştirmek için bu yöntemi düşünebilir. Diş hekimi dişeti dokusunu dişinizden ayırdıktan sonra; eksik kemik ve dişeti dokusunun doğal seviyesine çıkmasına yardımcı olmak için etkilenen bölgeye rejeneratif ‘yenileyici’ bir malzeme yerleştirecektir.",
+      "value13":"3. Yumuşak Doku Grefti",
+      "value14":"Bu prosedürde yumuşak doku, yeterli dişeti dokusu veya damak veya ağzınızın çatısının bulunduğu bitişik bir dişten çıkarılır. Bu doku daha sonra sakız çekilmesi yerinde sakız dokusuna dikilir.",
+      "value15":"Her ne kadar dişeti çektiğinizin gününüzün en önemli olayı olmadığı söylense de, en azından mevcut diş eti resesyonunu düzeltmek ve daha fazla hasarı durdurmak için alabileceğiniz önlemler vardır. Artık diş etlerinin azalmasına sahip olduğunuza göre, önerilen tedavi planını planlamak için diş hekiminize danışın. Bu chompers size hayatınızın geri kalanı boyunca sürmek zorunda ve güzel bir gülümseme en iyi varlıktır."
+    }
+  },
   "ALLONFOUR": {
     "MainContent": {
       "item1": {
