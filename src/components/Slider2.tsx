@@ -61,7 +61,8 @@ const MUISlider = () => {
               height: '100%',
               width: '100%',
               backgroundImage: `url(${item.image})`,
-              backgroundSize: 'cover',
+              backgroundSize: '100% 100%',
+              backgroundRepeat: 'no-repeat',
               backgroundPosition: 'center',
               position: 'relative',
             }}
