@@ -67,7 +67,7 @@ const StyledTypography = styled(Typography)({
 });
 
 
-const itemList = ["item1", "item2", "item3", "item4"]
+const itemList = ["item2", "item3", "item4","item5","item6","item7","item8","item9","item10","item11"]
 
 const cardData = [
   {
@@ -149,8 +149,9 @@ const DigitalDentistry: FC = () => {
               <CardMedia
                 component="img"
                 alt="green iguana"
-                image={cardData[0].img}
+                image={t(`${item}.imgLink`)}
                 aspect-ratio="16 / 9"
+                height={220}
                 sx={{
                   borderBottom: '1px solid',
                   borderColor: 'divider',
@@ -162,7 +163,7 @@ const DigitalDentistry: FC = () => {
                 {t(`${item}.caption`)}
                 </Typography>
                 <StyledTypography variant="body2" color="text.secondary" gutterBottom>
-                  {cardData[0].description}
+                {t(`${item}.title`)}
                 </StyledTypography>
               </SyledCardContent>
             </SyledCard>

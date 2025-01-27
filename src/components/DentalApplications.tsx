@@ -6,7 +6,8 @@ import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import Grid from '@mui/material/Grid2';
 import { useTranslations } from 'next-intl';
 import { TreatmentsPageTranslations } from '@/types';
-
+import Link from '@mui/material/Link';
+import { usePathname } from 'next/navigation'; // `locale` için gerekli
 // Type definitions
 interface DentalApplication {
   title: string;
@@ -84,20 +85,22 @@ const dentalApplications: DentalApplication[] = [
     image: 'https://via.placeholder.com/200'
   },
 ];
-const treatments = [
-  { img: 'https://picsum.photos/800/450?random=1', title: 'T1' },
-  { img: 'https://picsum.photos/800/450?random=2', title: 'T2' },
-  { img: 'https://picsum.photos/800/450?random=3', title: 'T3' },
-  { img: 'https://picsum.photos/800/450?random=4', title: 'T4' },
-  { img: 'https://picsum.photos/800/450?random=5', title: 'T5' },
-  { img: 'https://picsum.photos/800/450?random=6', title: 'T6' },
-  { img: 'https://picsum.photos/800/450?random=7', title: 'T7' },
-  { img: 'https://picsum.photos/800/450?random=8', title: 'T8' },
-  { img: 'https://picsum.photos/800/450?random=9', title: 'T9' },
-  { img: 'https://picsum.photos/800/450?random=10', title: 'T10' },
-  { img: 'https://picsum.photos/800/450?random=11', title: 'T11' },
-];
 
+const treatments = [
+  { img: '/images/treatmentsPage/estetikdishekimligi.jpeg', title: 'T1' },
+  { img: '/images/treatmentsPage/beyazlatma.jpg', title: 'T2' },
+  { img: '/images/treatmentsPage/invisalign.jpeg', title: 'T3' },
+  { img: '/images/treatmentsPage/teltedavisi.jpeg', title: 'T4' },
+  { img: '/images/treatmentsPage/kanaltedavisi.jpeg', title: 'T5' },
+  { img: '/images/treatmentsPage/disetitedavileri.jpeg', title: 'T6' },
+  { img: '/images/treatmentsPage/cocukdishek.jpeg', title: 'T7' },
+  { img: '/images/treatmentsPage/implant.jpg', title: 'T8' },
+  { img: '/images/treatmentsPage/agizdisvecene.jpeg', title: 'T9' },
+  { img: '/images/treatmentsPage/frenektomi.jpg', title: 'T10' },
+  { img: '/images/treatmentsPage/allon4tedaviler.jpeg', title: 'T11' },
+  { img: '/images/treatmentsPage/dolgu.jpg', title: 'T12' },
+  { img: '/images/treatmentsPage/sabitprotetikrestorasyonlar.jpeg', title: 'T13' },
+];
 const SliderContainer = styled('div')({
   position: 'relative',
   overflow: 'hidden',
@@ -144,6 +147,8 @@ function DentalApplications() {
   const [isPaused, setIsPaused] = useState(false);
   const slideCount = treatments.length;
   const extendedTreatments = [...treatments, ...treatments]; // Sonsuz döngü için diziyi genişletiyoruz
+  const pathname = usePathname();
+  const locale = pathname.split('/')[1] || 'en';
 
   const tt = useTranslations('TreatmentsPage.titles') as (key: keyof TreatmentsPageTranslations['titles']) => string;
 
@@ -184,7 +189,9 @@ function DentalApplications() {
           Dental Uygulamalarımız
         </Typography>
         <Grid container spacing={3} sx={{ mr: 1, ml: 1, mb: 1, mt: 4 }}>
-          <Grid size={{ xs: 12, md: 6 }} sx={{ height:344,maxHeight:480}} >
+          <Grid size={{ xs: 12, md: 6 }} sx={{ height:320,maxHeight:480}} >
+          <Link underline="none" href={locale+'/'+tt('T1Link')}>
+
             <SyledCard
               variant="outlined"
               tabIndex={0}
@@ -192,7 +199,7 @@ function DentalApplications() {
               <CardMedia
                 component="img"
                 alt="green iguana"
-                image={'/implant.jpeg'}
+                image={'/images/treatmentsPage/estetikdishekimligi.jpeg'}
                 aspect-ratio="16 / 9"
                 sx={{
                   borderBottom: '1px solid',
@@ -204,16 +211,20 @@ function DentalApplications() {
               <SyledCardContent sx={{height:144}}>
 
                 <Typography gutterBottom variant="h6" component="div">
-                  {"İmplant Tedavisi"}
+                {tt('T1')}
                 </Typography>
                 <StyledTypography variant="body2" color="text.secondary" gutterBottom>
-                  {"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}
+                {tt('T1')}
                 </StyledTypography>
               </SyledCardContent>
             </SyledCard>
+            </Link>
+
           </Grid>
           
-          <Grid size={{ xs: 12, md: 6 }} sx={{ height:344,maxHeight:480}} >
+          <Grid size={{ xs: 12, md: 6 }} sx={{ height:320,maxHeight:480}} >
+          <Link underline="none" href={locale+'/'+tt('T2Link')}>
+
             <SyledCard
               variant="outlined"
               tabIndex={0}
@@ -221,7 +232,7 @@ function DentalApplications() {
               <CardMedia
                 component="img"
                 alt="green iguana"
-                image={'/pediatricdentistry.jpg'}
+                image={'/images/treatmentsPage/beyazlatma.jpg'}
                 aspect-ratio="16 / 9"
                 sx={{
                   borderBottom: '1px solid',
@@ -233,19 +244,23 @@ function DentalApplications() {
               <SyledCardContent sx={{height:144}}>
 
                 <Typography gutterBottom variant="h6" component="div">
-                  {"Alignment Treatments"}
+                  {tt('T2')}
                 </Typography>
                 <StyledTypography variant="body2" color="text.secondary" gutterBottom>
-                  {"It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout."}
+                {tt('T2')}
                 </StyledTypography>
               </SyledCardContent>
             </SyledCard>
+            </Link>
+
           </Grid>
         </Grid>
         <SliderContainer>
           <SliderWrapper isPaused={isPaused} currentIndex={currentIndex}>
-            {extendedTreatments.map((app) => (
+            {extendedTreatments.slice(2).map((app) => (
               <SliderItem key={app.title}>
+              <Link underline="none" href={locale+'/'+tt(app.title+"Link")}>
+
                 <Card sx={{ m: 1 }}>
                   <CardMedia
                     component="img"
@@ -260,6 +275,7 @@ function DentalApplications() {
                     </Typography>
                   </CardContent>
                 </Card>
+                </Link>
               </SliderItem>
             ))}
           </SliderWrapper>

@@ -63,6 +63,26 @@ const TemporaryDentalOptionsFour = () => {
                     </Typography>
                 </Box>
             </Grid>
+            <Grid size={{ xs: 12, md: 12 }}>
+                <Box p={2}>
+                    <Typography align="center" gutterBottom color="#388E3C" variant="h5">
+                        {t(`Finally.title`)}
+                    </Typography>
+                    <Typography sx={{ pl: 3 }} gutterBottom >
+                        &nbsp;{t(`Finally.value`)}
+                    </Typography>
+                    <Typography sx={{ pl: 3 }} gutterBottom >
+                    &nbsp;{t(`Finally.value2`)}
+                    </Typography>
+                    <Typography sx={{ pl: 3 }} gutterBottom >
+                    &nbsp;{t(`Finally.value3`)}
+                    </Typography>
+                    <Typography sx={{ pl: 3 }} gutterBottom >
+                    &nbsp;{t(`Finally.value4`)}
+                    </Typography>
+                </Box>
+            </Grid>
+            
         </Grid>
     );
 };

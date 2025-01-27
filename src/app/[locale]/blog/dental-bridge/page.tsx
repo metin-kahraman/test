@@ -13,9 +13,7 @@ import SvgIcon from "@mui/material/SvgIcon";
 import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 import Divider from "@mui/material/Divider";
-import AllOnFourProcedure from "@/components/PageContent/AllOnFourProcedure";
-import AllOnFourHealingProcess from "@/components/PageContent/AllOnFourHealingProcess";
-import AllOnFourGeneralProblems from "@/components/PageContent/AllOnFourGeneralProblems";
+import DentalBridgeTypes from "@/components/PageContent/DentalBridgeTypes";
 const treatments = [
     { img: "https://picsum.photos/800/450?random=1", title: "T1" },
     { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -41,7 +39,7 @@ const keysSub = {
 } as const;
 
 
-const AllOnFour = () => {
+const DentalBridgeBlogPage = () => {
     const t = useTranslations("Implants");
     const tt = useTranslations("TreatmentsPage.titles") as (
         key: keyof TreatmentsPageTranslations["titles"]
@@ -52,21 +50,8 @@ const AllOnFour = () => {
             {/* Sol taraf (9 birim genişlik) */}
             <Grid size={{ xs: 12, md: 9 }}>
                 <Paper sx={{ backgroundColor: "white" }}>
-                <AllOnFourProcedure />
-                <img
-        style={{
-          borderRadius: 8,
-          width: '80%',
-          display:'block',
-          marginLeft:'auto',
-          marginRight:'auto',
-        }}
-        srcSet={`/images/blog/all-on-four.png`}
-        src={`/images/blog/all-on-four.png`}
-        loading="lazy"
-      />
-                <AllOnFourHealingProcess />
-                <AllOnFourGeneralProblems />
+                <DentalBridgeTypes />
+
 
                 </Paper>
             </Grid>
@@ -111,5 +96,5 @@ const AllOnFour = () => {
     );
 };
 
-export default AllOnFour;
+export default DentalBridgeBlogPage;
 

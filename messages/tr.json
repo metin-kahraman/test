@@ -763,34 +763,77 @@
     }
   },
   "BlogItems":{
-    "item1":{
-      "caption":"Diş Protezi Nedir ?",
-      "title":"",
-      "url":"denture",
-      "imgLink":"",
-      "imgAlt":""
-    },
     "item2":{
       "caption":"Bruksizm Nedir ?",
-      "title":"",
+      "title":"Neden Gece veya Gündüz Dişlerinizi Gıcırdatıyoruz ?, Bruksizm Nedir?, Gündüz Bruksizmi, Geceleri Dişlerinizi Öğütürseniz Nasıl Anlaşılır ?...",
       "url":"bruksizm",
-      "imgLink":"",
+      "imgLink":"/images/blog/bruxism.png",
       "imgAlt":""
     },
     "item3":{
       "caption":"All On 4 Implant Nedir?",
-      "title":"",
+      "title":"All-On-4 Dental İmplant Prosedürü Nasıl?,All-On-4 Dental İmplantların İyileşme Süresi,Ameliyatı Sonrası Yaşanma İhtimali Olan Bazı Genel Sorunlar...",
       "url":"implant/all-on-4",
-      "imgLink":"",
+      "imgLink":"/images/blog/all-on-four.png",
       "imgAlt":""
     },
     "item4":{
       "caption":"İmplantın İyileşmesini Beklerken Geçici Diş Seçenekleriniz Neler?",
-      "title":"implant/temporary-options",
+      "title":"Geçici Tek Diş Kaplaması,Geçici Damak,Geçici Diş Köprüleri,Essix Plaklar ve hepsini Artı ve Eksi yönleri...",
+      "url":"implant/temporary-options",
+      "imgLink":"/images/blog/temporary-options.png",
+      "imgAlt":""
+    },
+    "item5":{
+      "caption":"Dental İmplantlar İçin Kemik Grefti",
+      "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
       "url":"",
-      "imgLink":"",
+      "imgLink":"/images/blog/bonegraft.png",
+      "imgAlt":""
+    },
+    "item6":{
+      "caption":"Diş Eti Çekilmesi ve Hassasiyet",
+      "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
+      "url":"",
+      "imgLink":"/images/blog/GumRecessionAndSensitivity.png",
+      "imgAlt":""
+    },
+    "item7":{
+      "caption":"Dental Körüler",
+      "title":"Dental Köprü Çeşitleri,Dental Köprü Prosedürü Nasıldır?,Dental Köprü Maliyeti ve Sık Karşılaşılan Sorunlar",
+      "url":"",
+      "imgLink":"/images/blog/dental-bridge.png",
+      "imgAlt":""
+    },
+    "item8":{
+      "caption":"Dental İmplant Nedir ?",
+      "title":"Dental İmplantlar Nasıl Çalışır ? Diş İmplantlarını Kimler Yaptırabilir? Dental İmplant Çeşitleri? Dental İmplantların Artıları ve Eksileri",
+      "url":"",
+      "imgLink":"/images/blog/temporary-options.png",
+      "imgAlt":""
+    },
+    "item9":{
+      "caption":"Aynı Günde Yapılan Diş İmplantı",
+      "title":"Riskler, Faydalar ve Prosedür,Immediat Diş İmplantları ve Geleneksel İmplantlar,Aynı Gün Dental İmplant Riskleri",
+      "url":"",
+      "imgLink":"/images/treatmentsPage/implant.jpg",
+      "imgAlt":""
+    },
+    "item10":{
+      "caption":"Diş İmplantı Cerrahisi İyileşme Dönemi",
+      "title":"Dental implant ameliyatından sonraki iyileşme süresi nedir?, Kaç İmplant Yaptırdığınız ?,Sinüs Yükseltme ...",
+      "url":"",
+      "imgLink":"/images/treatmentsPage/implant.jpg",
+      "imgAlt":""
+    },
+    "item11":{
+      "caption":"Ağız kokusu (Halitosis) Nedir?",
+      "title":"Ağız kokusu kimlerde görülür?, Ağız kokusu nedenleri nelerdir?...",
+      "url":"halitosis",
+      "imgLink":"/images/blog/Halitosis.jpg",
       "imgAlt":""
     }
+    
   },
   "Blog":{
     "Same-dayDentalImplants":{
@@ -1283,6 +1326,140 @@
       "value15":"Her ne kadar dişeti çektiğinizin gününüzün en önemli olayı olmadığı söylense de, en azından mevcut diş eti resesyonunu düzeltmek ve daha fazla hasarı durdurmak için alabileceğiniz önlemler vardır. Artık diş etlerinin azalmasına sahip olduğunuza göre, önerilen tedavi planını planlamak için diş hekiminize danışın. Bu chompers size hayatınızın geri kalanı boyunca sürmek zorunda ve güzel bir gülümseme en iyi varlıktır."
     }
   },
+  "DentalBridge":{
+    "item1":{
+      "title":"DENTAL KÖPRÜLER",
+      "value":"Dental köprüler; kelimenin tam anlamıyla eksik dişlerinizin boşluğunu tamamlamak için bir köprüdür. Tek bir eksik diş veya birden fazla eksik dişin boşluğunu kapatırlar.",
+      "value2":"Boşluğun önündeki ve arkasındaki iki doğal diş köprü ayağı olarak kullanılır. Yani bir diş boşluğu doldurulacaksa iki tane dişiniz ayak olarak kullanmak için kesilip küçültülür.",
+      "value3":"Bu temel fikirdir, ancak köprüler kaç dişin eksik olduğuna, ağızda nerede bulunduğuna ve kullanılan köprü türüne bağlı olarak değişebilir.",
+      "value4":"Köprülerin, herhangi bir diş protezi gibi, artıları ve eksileri, riskleri ve faydaları vardır."
+    },
+    "item2":{
+      "title":"Dental Köprü Çeşitleri",
+      "value":"Ağzınızda eğer diş eksikliğiniz varsa, diş hekiminiz size birkaç dental köprü çeşidinden söz edebilir. Bunun için daha önceden bu konuya biraz aşina olmak sizin için daha iyi olabilir.",
+      "value2":"Geleneksel Diş Köprüsü",
+      "value3":"En sık kullanılan ve en çok bilinen tür olduğu için ‘geleneksel’ olarak adlandırılmıştır. Bir veya birden fazla eksik dişin tamamlanması için en yaygın kullanılan yöntemdir. Eksik dişin her iki yanındaki dişler kesip küçültülerek köprü şeklide protez dişler yapılır.",
+      "value4":"Geleneksel köprüler, eksik dişin veya dişlerin her iki tarafında doğal dişleriniz olduğu sürece ağızın herhangi bir yerinde kullanılabilir.",
+      "value5":"En büyük dezavantajı, protez dişinizi yerleştirmeden önce, dişin minesinin tamamen kesilip küçültülmesi gerekir. Unutulmamalıdır ki; mine geri büyümediğinden, bu dişlerin her zaman savunmasız olacağı ve çürümeye yatkın olacağı bilinmelidir.",
+      "value6":"Maryland Diş Köprüsü",
+      "value7":"Önde diş bulunan metal veya porselen bir çerçeve içeren, genellikle bitişik doğal dişlere bağlanan bir veya iki kanatlı bir takma köprüdür.",
+      "value8":"Maryland Köprüsü kullanmanın birçok faydası vardır. Çok güçlü olan muhafazakar, düşük riskli bir değiştirme seçeneğidir (yapıldığı kompozit reçine ve doğal dişlerinize yapışması sayesinde). Ayrıca çok gerçekçi görünebilirler ve kalıcı bir seçenek olabilirler.",
+      "value9":"Bununla birlikte, sahte dişi eksik dişin bıraktığı alanla mükemmel şekilde eşleştirmek zor olabilir. Bu nedenle, pontik (ler) in uygun şekilde oturmasını sağlamak için diş hekiminizin takma sırasında çevredeki dişlerinizi kesmesi gerekebilir. Bunun da ötesinde, bu en pahalı diş köprüsü türüdür.",
+      "value10":"Yapıştırıcı diş hekimliği son yıllarda birçok gelişme görse de, Maryland köprüleri çiğneme kuvvetleri nedeniyle gevşemesi durumunda protezi aspire etme endişeleri nedeniyle bir süredir gözden düştü. Bu tip bir köprü genellikle sadece ön dişlerin yerine geçmesi için endikedir, ancak belirli durumlarda posterior bölgede başarılı olabilir.",
+      "value11":"Konsol Diş Köprüsü",
+      "value12":"Abutment olarak kullanılabilecek sadece bir doğal dişinizin olduğu bir durum varsa, konsol köprüsü alabilirsiniz.",
+      "value13":"Geleneksel köprülere çok benziyorlar, ana fark, ağız boşluğunun her iki tarafında bir diş yerine sadece bir destek dişine sahip olmaları.",
+      "value14":"Emayeyi çıkarmak gibi geleneksel köprüye benzer artıları ve eksileri vardır. Ancak sadece bir destekleyici diş olduğu için, bu kırık bir diş veya tepenin gevşemesi gibi sorunlara yol açabilir.",
+      "value15":"İmplant Destekli Köprüler",
+      "value16":"İster üst üste ister ağzınız boyunca birden fazla dişi kaçırıyorsanız, implant destekli köprüleri düşünebilirsiniz.",
+      "value17":"Yan yana birkaç eksik diş olduğunda ideal olsa da, bu eksik dişlerin birbirine yakın olmayanlar için de mükemmel bir seçenektir.",
+      "value18":"Adından da anlaşılacağı gibi, bu köprüler diş implantları ile güvence altına alınmıştır . Genellikle, eksik olan her diş için bir implant alırsınız ve köprü bu implantlara yapışır. Bu mümkün olmasa da, diş hekiminiz tüm protezleri sadece iki implant destekli kuron ile güvence altına alabilir. Bu çok daha uygun fiyatlı bir seçenek olacaktır.",
+      "value19":"Her biri farklı bir amaca hizmet eden dört ana tip diş köprüsü vardır: Konsol, İmplant Destekli, Maryland ve Geleneksel."
+    },
+    "item3":{
+      "title":"Dental Köprü Prosedürü Nasıldır?",
+      "value":"Diş hekiminize danıştıktan ve bir diş köprüsüne karar verdikten sonra, prosedürü ilk ziyaretinizi planlayacaksınız .",
+      "value2":"Bu ilk ziyaret sırasında diş hekimi dayanak dişlerini hazırlayacaktır. Bu, kronların üzerine yerleştirilmesine izin vermek için bitişik dişlerdeki emayenin bir kısmının çıkarılmasını içerir.",
+      "value3":"Diş hekimi daha sonra mevcut olan en iyi malzemeden (genellikle porselen, seramik ve / veya metal) köprü, sahte diş ve kron oluşturmak için kullanacakları dişleriniz hakkında bir izlenim bırakacaktır. Köprü büyük olasılıkla bir diş laboratuvarı tarafından yapılacak olduğundan, o gün yenisini alamayabilirsiniz. Böylece diş hekiminiz takmanız için geçici olarak çıkarılabilir bir diş köprüsü oluşturacaktır. Maruz kalan dişlerin korunmasına yardımcı olur ve arada hala dişlerin olmasına izin verir.",
+      "value4":"İkinci ziyaret sırasında diş hekiminiz geçici köprüyü kaldıracak ve yeni, kalıcı diş köprüsünü yerleştirecektir. Porselen, metal veya her ikisinden de yapılabilir. Düzgün oturduğundan emin olmak için kontrol edecek ve gerektiği gibi ayarlayacaktır.",
+      "value5":"Diş hekiminizin uygunluğu kontrol etmeye ve güvenli ve rahat kalacak şekilde ayarlamaya devam edebilmesi için birden fazla ziyaret yapmanız gerekebilir.",
+      "value6":"Dental köprü yerleştirme prosedürü şu şekildedir: alanın tedavisi, geçici köprünün kaldırılması, kalıcı dental köprünün yerleştirilmesi ve takip ziyaretleri."
+    },
+    "item4":{
+      "title":"Dental Köprü Maliyeti",
+      "value":"Bir diş köprüsünün maliyeti nedir? Sigorta şirketi ne kadar karşılayacak? Medicaid diş köprünüz için ödeme yapacak mı?",
+      "value2":"Bu soruların cevapları çeşitli faktörlere bağlıdır, ancak bir diş köprüsünün ortalama maliyeti birim başına 500 ila 1.200 dolar arasında değişebilir (abutmentler ve pontikler dahil).",
+      "value3":"Ama işte bu belirleyici faktörlerden birkaçı:",
+      "value4":"• Materyaller",
+      "value5":"• Köprünün diş laboratuarında mı yoksa dişçi ofisinde mi yapılmış olduğu",
+      "value6":"• Dental köprü tipi",
+      "value7":"• Dişçinin bilgisi, deneyimi ve yeri",
+      "value8":"• Sigorta planınız veya Medicaid'in kapsamı",
+      "value9":"Diş köprünüzün maliyeti için daha doğru bir tahmin elde etmek için, neyin kapandığını görmek için diş hekiminizle ve sigorta şirketinizle konuşmak en iyisidir.",
+      "value10":"Bir diş köprüsünün maliyeti 1.200 $ veya daha fazla olabilir (sigorta ve karar verme faktörlerine bağlı olarak)."
+    },
+    "item5":{
+      "title":"Sık Karşılaşılan Sorunlar",
+      "value":"Dental Köprüm Acıya Neden Oluyor",
+      "value2":"Dişçinizi arayın ve bir randevu ayarlayın. Neden acıttığını ve nasıl düzeltileceğini anlayabilirler. Bu arada, rahatsızlığı yatıştırmaya yardımcı olmak için protez ağrı kremi alabilirsiniz.",
+      "value3":"Dental Köprüm Gevşek",
+      "value4":"Aşağıdaki belirtilerden herhangi birini yaşıyorsanız, gevşek bir diş köprünüz olabilir:",
+      "value5":"• Köprü dokunulduğunda hareket eder",
+      "value6":"• Dişleriniz ve / veya diş etleriniz çok hassastır",
+      "value7":"• Isırmanızla ilgili sorunlar",
+      "value8":"• Diş köprüsü giyen rahatsızlık",
+      "value9":"• Ağzınızda kötü bir tat (köprü veya ilgili diş çürüğü arasında sıkışmış yiyeceklerden)",
+      "value10":"Gevşek bir köprünüz varsa, en iyi seçenek diş hekiminizin ofisini en kısa zamanda ziyaret etmektir. Ancak, bazen bu hemen mümkün değildir ve bu arada bir çözüm isteyebilirsiniz. Kendiniz ayarlamalar yapmaktan rahatsanız, evde gevşek bir diş köprüsünü nasıl düzeltebileceğiniz aşağıda açıklanmıştır:",
+      "value11":"1. Yerel eczanenizden diş çimentosu satın alın",
+      "value12":"2. Köprünün içini temizleyin",
+      "value13":"3. Dişlerinizi ve köprüyü kurulayın",
+      "value14":"4. Dental çimento ile birlikte verilen talimatları izleyin (talimatlar değişir, bu nedenle bu adım önemlidir)",
+      "value15":"5. Fazla çimentoyu sertleştikten sonra temizleyin",
+      "value16":"Diş köprüm düştü",
+      "value17":"Diş köprünüz çıkıp düşerse, önce diş hekiminizle konuşmak istersiniz. Sizi bizzat görmek isteyebilirler. Bu arada, değiştirme işleminizi tekrar yerine koymak için şu adımları deneyebilirsiniz:",
+      "value18":"1. Diş / diş / kuron etrafındaki kalıntıları giderin",
+      "value19":"2. Testi yapmak için tepeyi istenen dişin üzerine koyun",
+      "value20":"3. Çok az basınçla veya hiç basınç olmadan, tepenin doğru şekilde açık olduğundan emin olmak için dişlerinizi birlikte kapatın",
+      "value21":"4. Sonra tacı çıkarın ve bir kısmını protez yapıştırıcısı ile doldurun",
+      "value22":"5. Kurma kolunu tekrar dişe koyun",
+      "value23":"6. Yine, çok az baskı ile veya hiç basınç olmadan, doğru şekilde çalıştığından emin olmak için dişlerinizi kapatın",
+      "value24":"7. Ekstra yapıştırıcıyı silin"
+    },
+    "item6":{
+      "title":"Sonuç",
+      "value":"Artık dört ana diş köprüsü türünü biliyorsunuz. Tıpkı bir tazeleme uzmanı olarak: Konsol, İmplant Destekli, Maryland ve Geleneksel. Her biri farklı bir amaca hizmet eder, bu nedenle siz ve diş hekiminiz en uygun seçeneği seçersiniz.",
+      "value2":"Umarım, bu rehber prosedür için zihinsel olarak nasıl hazırlanacağınızı bilmenize yardımcı olmuştur. Bu sürecin adımlarını ve uzunluğunu bilmek, hazırlık yapmanıza yardımcı olacaktır. Özetlemek gerekirse, diş hekiminiz önce bölgeyi tedavi edecek, daha sonra geçici köprüyü kaldıracak, kalıcı diş köprüsünü yerleştirecek ve takip ziyaretleri planlayacaktır."
+    },
+    "FREQUENTLYASKEDQUESTIONS":{
+      "title":"Sıkça Sorulan Sorular",
+      "item1":{
+        "title":"Bir Diş Köprüsü Ne Kadar Sürer?",
+        "value":"Köprünün türüne, prosedürün kalitesine ve vücudunuzun değiştirmelere nasıl tepki verdiğine ve ona nasıl uyum sağladığına bağlıdır. Ancak, genel olarak konuşursak, bir diş köprüsü beş ila 15 yıl arasında sürebilir."
+      },
+      "item2":{
+        "title":"Dental Köprü Almak Ağrılı mı?",
+        "value":"Kısa cevap evet, bazı durumlarda olabilir. Açıkçası, diş hekiminiz anestezi kullanacaktır, ancak işlemden sonra ve sonraki haftalarda biraz diş ve çene ağrısı yaşayabilirsiniz. Bununla birlikte, işlemden sonra hastaların mükemmel bir şekilde rahat olmaları çok yaygındır. Herkesin dişleri farklı tepki verir."
+      },
+      "item3":{
+        "title":"Dental Köprü Nasıl Onarılır?",
+        "value":"Basit cevap: onarım için diş hekiminize götürün. Kendiniz tamir etmeye çalışmak muhtemelen iyi bir fikir değildir."
+      },
+      "item4":{
+        "title":"Bir diş köprüsü almak ne kadar sürer?",
+        "value":"Genellikle sadece birkaç gün (yukarıdaki “Dental Köprü Prosedürü Nasıldır?” Bölümüne bakın)."
+      },
+      "item5":{
+        "title":"Bir Diş Köprüsü Nasıl Yapılır?",
+        "value":"Tipik olarak, bir köprü, genellikle metal çerçeveli porselen veya akrilik kullanılarak bir diş laboratuvarı tarafından yapılır. Her ne kadar bazen dişçi ofisi kendi içinde bir köprü yapabilir."
+      },
+      "item6":{
+        "title":"Dental Köprümü Nasıl Temizlemeliyim?",
+        "value":"Temel olarak, diş köprülerinizi doğal dişleriniz gibi temizlemeli ve bakım yapmalısınız. Bu fırçalama ve diş ipi kullanımını içerir. Ancak bir takma diş olduğu için takma diş fırçası veya oral sulama cihazı ile sahte dişin altına girmek isteyeceksiniz."
+      }
+    }
+  },
+  "Halitosis":{
+    "item1":{
+      "title":"Ağız kokusu (Halitosis) nedir?",
+      "value":"Ağızdaki çirkin ve rahatsız edici kokuya kısaca ağız kokusu veya 'halitosis' denir. Ağız kokusu tek başına hastalık olarak tanımlanamaz, fakat önemli hastalıkların ön habercisi olabilir.  Patolojik dediğimiz hastalıksal kaynaklı ağız kokusu bu sınıftandır, bir de  fizyolojik olarak tabir ettiğimiz sağlıklı bireylerde dahi olabilen ağız kokusu vardır. Yediğimiz yemekler kaynaklı yada sabah uyandığımızda oluşan ağız kokusu, fizyolojik ağız kokusudur ve bir hastalık belirtisi değildir.",
+      "value2":"Kötü ağız kokusu (halitosis)  kişinin çevresindeki insanlarla iletişimini olumsuz etkilediği gibi, kişide sosyal baskı ve özgüven sorunu oluşmasına da neden olmaktadır. Hastalar genellikle çevresindekilerin ikazı ile ağız kokusu için diş hekimlerine başvururlar. Hastaların, diş hekimlerine en sık başvuru nedeni diş çürükleri ve periodontal hastalıklardan sonra , ağız kokusudur. Halitozis nedeyse toplumun yarısında görülmesine rağmen çok az hasta tedavi için diş hekimine gelmektedir.",
+      "value3":"Ağız kokusunu açıklayan ağız kaynaklı bir neden yok ise, burun yollarının tıkanmasın yada geniz eti diye tabir edilen farinks tıkanıklıkları ağız solunumuna yol açar.  Ağız solunumu ağız içi kuruluğa neden olduğu için sadece  halitozise neden olmaz dişlerin yeterince temizlenemesi nedeniyle diş çürüklerine neden olacağı mutlaka akla getirilmelidir."
+    },
+    "item2":{
+      "title":"Ağız kokusu kimlerde görülür?",
+      "value":"Ağız kokusu orta yaş grubunda ve erkeklerde daha sıklıla görülmektedir. Ayrıca ileri yaşlarda kullanılan diş protezleri, tükrük akışındaki azalma ve sistemik hastalıklar halitosise neden olur."
+    },
+    "item3":{
+      "title":"Ağız kokusu nedenleri nelerdir?",
+      "value":"• Yediğimiz yemekler sonrasında yada uyanınca oluşan ağız kokusu; fizyolojik ağız kokusu olarak tanımlanır ve bir hastalık belirtisi değildir. Bunun dışında meydana gelen ağız kokusu genellikle bir hastalık belirtisi olarak kabul edilir ve patolojik ağız kokusu olarak tanımlanır.",
+      "value2":"• Diş aralarında biriken plak ve yemek artıkları; sadece diş fırçalama yeterli olmaz mutlaka diş ipi kullanılmalıdır. Diş fırçalamanın yanından diş ipi kullanmak bu sorunun çözmede büyük katkı sağlar.",
+      "value3":"• Sigara kullanımı; sigara kendi kötü kokusunun dışında, neden olduğu diş ve dişeti hastalıkları halitosize nedendir. Sigaranın kendi kokusu 24 saat devam eder.  Ayrıca aşırı sigara kullanımı dil üzerinde tüylenme ve kıllanmalara yol açar, buda gıda ve plak birikimine ('dil pası' diye adlandırılır) yol açar.",
+      "value4":"• Dil pası; dilin üzeri kahverengi bir pas benzeribir tabaka ile kaplandığında burada bulunan ve özellikle sülfür bileşikleri oluşturan bakteriler de ağız kokusu yapmaktadır. Dilin fırçalanması dil pasının ortadan kaldırılması için çok önemlidir.",
+      "value5":"• Diş plağı, diş taşı, diş eti hastalıkları; Bu sorunlar diş hekimleri tarafından kolaylıkla giderilebilirler. Yılda en az bir kez diş taşı temizliği dişeti sağlığı açasından çok önemlidir.",
+      "value6":"• Reflu, gastrit, ülser gibi miğde problemleri; sindirim sistemi (gastrointestinal sistem) rahatsızlıkları kötü ağız kokusu nedenlerinin en yaygın görülen sebeplerinden birisidir. Özellikle mevsim geçişleri diye tabir edilen bahar aylarında görülme sıklığı çok yükselmektedir. Hastalar genellikle ağız kokusu şikayeti ile diş hekimlerine başvururlar ancak ağız kokusundan ziyade nefes kokusu ile karıştırılmaktadır. Bu problemler için genel cerrahiye başvurup endoskopi önerilmektedir.",
+      "value7":"• Üst Solunum Yolu Enfeksiyonları(ÜSYE), faranjit, sinüzit; bu tür rahatsızlıklar geniz akıntısına neden oldukları için yine çok sık görülen ağız kokusu nedenlerindendir. Bunun ayrımı iyi bir şekilde tespit edilip KBB (Kulak, Burun, Boğaz) uzmanına yönlendirilmesi en uygun olanıdır."
+    }
+  },
   "ALLONFOUR": {
     "MainContent": {
       "item1": {
@@ -1461,6 +1638,13 @@
           "item4":"Eğer dikkatli değilsen kaybolabilir."
         }
       }
+    },
+    "Finally":{
+      "title":"Özetle",
+      "value":"Tüm dental implantlar kalıcı ve sabit değildir. Bu makalede görebileceğiniz gibi, geçici dental implant dişleri için birçok seçeneğiniz var.",
+      "value2":"Çok fazla seçeneğiniz var, kendinizin birini seçmeniz hem zor hem de tam doğru olamayabilir. Bu nedenle siz ve diş hekiminizin birlikte karar vermelisiniz.",
+      "value3":"Tedaviniz ile ilgili her şeyi diş hekiminize sorun ve tedavi seçeneklerinizi tam doğru anladığınızdan emin değilseniz tekrar ve tekrar sormaktan çekinmeyin.",
+      "value4":"Bu web sitesinin içeriği yalnızca bilgilendirme amaçlıdır. İçeriğin profesyonel tıbbi tavsiye, teşhis veya tedavinin yerini alması amaçlanmamıştır. Tıbbi bir durumla ilgili aklınıza gelebilecek her türlü sorunuz için daima doktorunuzun, diş hekiminizin veya diğer nitelikli sağlık uzmanınızın tavsiyelerine başvurun."
     }
   },
   "Burksizm":{
