@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import {
   Typography,
   Card,
@@ -10,6 +11,7 @@ import {
   ListItemText,
   Box,
   Paper,
+  Button,
 } from "@mui/material";
 import Image from "next/image"; // Logo için Next.js Image component'ini kullanıyoruz
 import { FC } from "react";
@@ -86,61 +88,15 @@ const itemList = [
   "item8",
 ];
 
-const cardData = [
-  {
-    img: "https://picsum.photos/800/450?random=1",
-    tag: "Engineering",
-    title: "Revolutionizing software development with cutting-edge tools",
-    description:
-      "Our latest engineering tools are designed to streamline workflows and boost productivity. Discover how these innovations are transforming the software development landscape.",
-    authors: [
-      { name: "Remy Sharp", avatar: "/static/images/avatar/1.jpg" },
-      { name: "Travis Howard", avatar: "/static/images/avatar/2.jpg" },
-    ],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=2",
-    tag: "Product",
-    title: "Innovative product features that drive success",
-    description:
-      "Explore the key features of our latest product release that are helping businesses achieve their goals. From user-friendly interfaces to robust functionality, learn why our product stands out.",
-    authors: [{ name: "Erica Johns", avatar: "/static/images/avatar/6.jpg" }],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=3",
-    tag: "Design",
-    title: "Designing for the future: trends and insights",
-    description:
-      "Stay ahead of the curve with the latest design trends and insights. Our design team shares their expertise on creating intuitive and visually stunning user experiences.",
-    authors: [{ name: "Kate Morrison", avatar: "/static/images/avatar/7.jpg" }],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=4",
-    tag: "Company",
-    title: "Our company's journey: milestones and achievements",
-    description:
-      "Take a look at our company's journey and the milestones we've achieved along the way. From humble beginnings to industry leader, discover our story of growth and success.",
-    authors: [{ name: "Cindy Baker", avatar: "/static/images/avatar/3.jpg" }],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=45",
-    tag: "Engineering",
-    title: "Pioneering sustainable engineering solutions",
-    description:
-      "Learn about our commitment to sustainability and the innovative engineering solutions we're implementing to create a greener future. Discover the impact of our eco-friendly initiatives.",
-    authors: [
-      { name: "Agnes Walker", avatar: "/static/images/avatar/4.jpg" },
-      { name: "Trevor Henderson", avatar: "/static/images/avatar/5.jpg" },
-    ],
-  },
-  {
-    img: "https://picsum.photos/800/450?random=6",
-    tag: "Product",
-    title: "Maximizing efficiency with our latest product updates",
-    description:
-      "Our recent product updates are designed to help you maximize efficiency and achieve more. Get a detailed overview of the new features and improvements that can elevate your workflow.",
-    authors: [{ name: "Travis Howard", avatar: "/static/images/avatar/2.jpg" }],
-  },
+const itemListImplant = [
+  "item1",
+  "item2",
+  "item3",
+  "item4",
+  "item5",
+  "item6",
+  "item7",
+  "item8",
 ];
 
 export default function Page(): React.JSX.Element {
@@ -148,9 +104,43 @@ export default function Page(): React.JSX.Element {
   const tt = useTranslations("TreatmentsPage.titles") as (
     key: keyof TreatmentsPageTranslations["titles"]
   ) => string;
+  const [implantLimit, setImplantLimit] = React.useState(3);
+
+
+  function showMore(type: number) {
+
+    switch (type) {
+      case 0:
+        if (itemListImplant.length > (implantLimit + 3)) {
+          setImplantLimit(implantLimit + 3)
+        } else {
+          setImplantLimit(itemListImplant.length)
+        }
+        break;
+
+      default:
+        console.log(`Sorry, we are out of ${type}.`);
+
+    }
+  }
+
+  function showLess(type: number) {
+
+    switch (type) {
+      case 0:
+        setImplantLimit(3)
+        break;
+
+      default:
+        console.log(`Sorry, we are out of ${type}.`);
+
+    }
+  }
+
+
 
   return (
-    <Grid container spacing={3} sx={{ mr: 1, ml: 1, mb: 1, mt: 4 }}>
+    <Grid container alignItems={'center'} spacing={3} sx={{ mr: 1, ml: 1, mb: 1, mt: 4 }}>
       <Grid size={{ xs: 12, md: 12 }}>
         <Typography
           variant="h5"
@@ -167,7 +157,7 @@ export default function Page(): React.JSX.Element {
         <CustomDivider></CustomDivider>
       </Grid>
 
-      {itemList.map(function (item) {
+      {itemListImplant.slice(0, implantLimit).map(function (item) {
         return (
           <Grid size={{ xs: 12, md: 4 }}>
             <CustomBeforeAfterSlider
@@ -180,7 +170,20 @@ export default function Page(): React.JSX.Element {
       })}
 
       <Grid size={{ xs: 12, md: 12 }}>
-      <Typography
+
+        <Typography align='center'>
+          {implantLimit == itemListImplant.length ? <Button sx={{ fontFamily: "oswald", letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showLess(0)}>Show less </Button>
+            : <Button sx={{ fontFamily: "oswald", letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showMore(0)}>Show more </Button>
+
+          }
+
+        </Typography>
+
+      </Grid>
+
+
+      <Grid size={{ xs: 12, md: 12 }}>
+        <Typography
           variant="h5"
           align="center"
           sx={{

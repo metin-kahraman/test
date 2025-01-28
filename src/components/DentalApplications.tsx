@@ -204,7 +204,8 @@ function DentalApplications() {
                 sx={{
                   borderBottom: '1px solid',
                   borderColor: 'divider',
-                  height:200
+                  height:200,
+                  objectFit:'fill'
 
                 }}
               />
@@ -237,7 +238,8 @@ function DentalApplications() {
                 sx={{
                   borderBottom: '1px solid',
                   borderColor: 'divider',
-                  height:200
+                  height:200,
+                  objectFit:'fill'
 
                 }}
               />
@@ -267,6 +269,9 @@ function DentalApplications() {
                     height="180"
                     image={app.img}
                     alt={app.title}
+                    sx={{
+                      objectFit:'fill'
+                    }}
                   />
                   <CardContent>
                     <Typography variant="h6">{tt(app.title)}</Typography>
