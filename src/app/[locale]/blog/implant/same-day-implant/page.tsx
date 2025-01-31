@@ -20,6 +20,7 @@ import SameDayImplantsItem4 from "@/components/PageContent/Same-dayDentalImplant
 import SameDayImplantsItem5 from "@/components/PageContent/Same-dayDentalImplantsItem5";
 import SameDayImplantsItem6 from "@/components/PageContent/Same-dayDentalImplantsItem6";
 import SameDayImplantsItem7 from "@/components/PageContent/Same-dayDentalImplantsItem7";
+import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
 const treatments = [
   { img: "https://picsum.photos/800/450?random=1", title: "T1" },
   { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -46,6 +47,18 @@ const TemporaryDentalOptionsPage = () => {
       <Grid size={{ xs: 12, md: 9 }}>
         <Paper sx={{ backgroundColor: "white" }}>
           <SameDayImplantsItem1 />
+          <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+        srcSet={`/images/treatmentsPage/implant.jpg`}
+        src={`/images/treatmentsPage/implant.jpg`}
+        loading="lazy"
+      />
           <SameDayImplantsItem2 />
           <SameDayImplantsItem3 />
           <SameDayImplantsItem4 />
@@ -57,39 +70,8 @@ const TemporaryDentalOptionsPage = () => {
 
       {/* Sağ taraf (3 birim genişlik) */}
       <Grid size={{ xs: 12, md: 3 }}>
-        <Box display="flex" flexDirection="column" alignItems="center">
-          <Paper sx={{ backgroundColor: "white" }}>
-            {/* Logo 
-                  <Image 
-            src="/img.jpeg" // Logonun dosya yolunu ayarla
-            alt="Logo"
-            width={24}
-            height={24}
-          />
-          */}
+      <ContentRightSlideMenu />
 
-            {/* Başlık */}
-            <Typography align="center" sx={{ pt: 2 }} variant="h5" gutterBottom>
-              Tedaviler
-            </Typography>
-            {/* Liste */}
-
-            <List>
-              {treatments.map((item, index) => (
-                <ListItem>
-                  <ListItemText
-                    primaryTypographyProps={{
-                      fontFamily: "oswald",
-                      align: "center",
-                      fontWeight: "400",
-                    }}
-                    primary={tt(item.title)}
-                  />
-                </ListItem>
-              ))}
-            </List>
-          </Paper>
-        </Box>
       </Grid>
     </Grid>
   );

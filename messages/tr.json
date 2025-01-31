@@ -787,42 +787,42 @@
     "item5":{
       "caption":"Dental İmplantlar İçin Kemik Grefti",
       "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
-      "url":"",
+      "url":"implant/bone-graft",
       "imgLink":"/images/blog/bonegraft.png",
       "imgAlt":""
     },
     "item6":{
       "caption":"Diş Eti Çekilmesi ve Hassasiyet",
       "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
-      "url":"",
+      "url":"/gum-recession-and-sensitivity",
       "imgLink":"/images/blog/GumRecessionAndSensitivity.png",
       "imgAlt":""
     },
     "item7":{
       "caption":"Dental Körüler",
       "title":"Dental Köprü Çeşitleri,Dental Köprü Prosedürü Nasıldır?,Dental Köprü Maliyeti ve Sık Karşılaşılan Sorunlar",
-      "url":"",
+      "url":"/dental-bridge",
       "imgLink":"/images/blog/dental-bridge.png",
       "imgAlt":""
     },
     "item8":{
       "caption":"Dental İmplant Nedir ?",
       "title":"Dental İmplantlar Nasıl Çalışır ? Diş İmplantlarını Kimler Yaptırabilir? Dental İmplant Çeşitleri? Dental İmplantların Artıları ve Eksileri",
-      "url":"",
+      "url":"implant/what-is-dental-implant",
       "imgLink":"/images/blog/temporary-options.png",
       "imgAlt":""
     },
     "item9":{
       "caption":"Aynı Günde Yapılan Diş İmplantı",
       "title":"Riskler, Faydalar ve Prosedür,Immediat Diş İmplantları ve Geleneksel İmplantlar,Aynı Gün Dental İmplant Riskleri",
-      "url":"",
+      "url":"implant/same-day-implant",
       "imgLink":"/images/treatmentsPage/implant.jpg",
       "imgAlt":""
     },
     "item10":{
       "caption":"Diş İmplantı Cerrahisi İyileşme Dönemi",
       "title":"Dental implant ameliyatından sonraki iyileşme süresi nedir?, Kaç İmplant Yaptırdığınız ?,Sinüs Yükseltme ...",
-      "url":"",
+      "url":"implant/implant-healing-process",
       "imgLink":"/images/treatmentsPage/implant.jpg",
       "imgAlt":""
     },

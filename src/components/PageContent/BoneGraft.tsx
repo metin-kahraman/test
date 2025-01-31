@@ -39,7 +39,20 @@ import {
         <Typography gutterBottom>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item2.value4`)}
         </Typography>
-        <Typography align="center" color="#ed6c02" sx={{ fontWeight: 'bold' }} gutterBottom>
+        <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+        srcSet={`/images/blog/bonegraft.png`}
+        src={`/images/blog/bonegraft.png`}
+        loading="lazy"
+      />
+
+        <Typography align="center" color="#ed6c02" sx={{ fontWeight: 'bold', pt:3 }} gutterBottom>
           {t(`item3.title`)}
         </Typography>
         <Typography gutterBottom>

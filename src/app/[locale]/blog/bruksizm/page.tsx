@@ -18,6 +18,7 @@ import BruksizmDnN from "@/components/PageContent/BruksizmDnN";
 import BruksizmSymptoms from "@/components/PageContent/BruksizmSymptoms";
 import SleepApnea from "@/components/PageContent/SleepApnea";
 import BruksizmHowToFx from "@/components/PageContent/BruksizmHowToFx";
+import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
 const treatments = [
     { img: "https://picsum.photos/800/450?random=1", title: "T1" },
     { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -65,39 +66,8 @@ const TemporaryDentalOptionsPage = () => {
 
             {/* Sağ taraf (3 birim genişlik) */}
             <Grid size={{ xs: 12, md: 3 }}>
-                <Box display="flex" flexDirection="column" alignItems="center">
-                    <Paper sx={{ backgroundColor: "white" }}>
-                        {/* Logo 
-                  <Image 
-            src="/img.jpeg" // Logonun dosya yolunu ayarla
-            alt="Logo"
-            width={24}
-            height={24}
-          />
-          */}
+            <ContentRightSlideMenu />
 
-                        {/* Başlık */}
-                        <Typography align="center" sx={{ pt: 2 }} variant="h5" gutterBottom>
-                            Tedaviler
-                        </Typography>
-                        {/* Liste */}
-
-                        <List>
-                            {treatments.map((item, index) => (
-                                <ListItem>
-                                    <ListItemText
-                                        primaryTypographyProps={{
-                                            fontFamily: "oswald",
-                                            align: "center",
-                                            fontWeight: "400",
-                                        }}
-                                        primary={tt(item.title)}
-                                    />
-                                </ListItem>
-                            ))}
-                        </List>
-                    </Paper>
-                </Box>
             </Grid>
         </Grid>
     );

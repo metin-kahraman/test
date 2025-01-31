@@ -30,6 +30,18 @@ import {
         <Typography gutterBottom>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`value3`)}
         </Typography>
+        <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+        srcSet={`/images/treatmentsPage/implant.jpg`}
+        src={`/images/treatmentsPage/implant.jpg`}
+        loading="lazy"
+      />
         <Typography align="center" color="#388E3C" variant="h5" gutterBottom>
         {t(`item1.title`)}
         </Typography>

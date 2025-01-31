@@ -17,6 +17,7 @@ import WhatIsDentalImplantItem1 from "@/components/PageContent/WhatIsDentalImpla
 import TypeOfDentalImplant from "@/components/PageContent/TypoOfDentalImplant";
 import QuestionsToAskBeforeGettingDentalImplants from "@/components/PageContent/QuestionsToAskBeforeGettingDentalImplants";
 import ImplantsFinaly from "@/components/PageContent/ImplantsFinaly";
+import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
 const treatments = [
     { img: "https://picsum.photos/800/450?random=1", title: "T1" },
     { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -76,39 +77,8 @@ const WhatIsDentalImplant = () => {
 
             {/* Sağ taraf (3 birim genişlik) */}
             <Grid size={{ xs: 12, md: 3 }}>
-                <Box display="flex" flexDirection="column" alignItems="center">
-                    <Paper sx={{ backgroundColor: "white" }}>
-                        {/* Logo 
-                  <Image 
-            src="/img.jpeg" // Logonun dosya yolunu ayarla
-            alt="Logo"
-            width={24}
-            height={24}
-          />
-          */}
+            <ContentRightSlideMenu />
 
-                        {/* Başlık */}
-                        <Typography align="center" sx={{ pt: 2 }} variant="h5" gutterBottom>
-                            Tedaviler
-                        </Typography>
-                        {/* Liste */}
-
-                        <List>
-                            {treatments.map((item, index) => (
-                                <ListItem>
-                                    <ListItemText
-                                        primaryTypographyProps={{
-                                            fontFamily: "oswald",
-                                            align: "center",
-                                            fontWeight: "400",
-                                        }}
-                                        primary={tt(item.title)}
-                                    />
-                                </ListItem>
-                            ))}
-                        </List>
-                    </Paper>
-                </Box>
             </Grid>
         </Grid>
     );
