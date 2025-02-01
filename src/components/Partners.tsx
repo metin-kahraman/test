@@ -20,8 +20,8 @@ const Partners: React.FC<PartnersProps> = ({ partners }) => {
     </Grid2>
 
       {partners.map((partner) => (
-        <Grid2  size={{xs:6, sm:4, md:3, lg:2}} key={partner.id}>
-          <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2, boxShadow: 3 }}>
+        <Grid2  size={{xs:4, sm:4, md:3, lg:2}} key={partner.id}>
+          <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2,height:160 ,boxShadow: 3 }}>
             <CardMedia
               component="img"
               image={partner.logo}

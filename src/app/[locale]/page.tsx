@@ -26,15 +26,15 @@ import { Opacity } from '@mui/icons-material';
 import Partners from '@/components/Partners';
 export default function Blog() {
   const partnersData = [
-    { id: 1, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
-    { id: 2, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 1, name: 'Dentsply Sirona', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 2, name: 'Nobel', logo: 'https://picsum.photos/800/450?random=1' },
     { id: 3, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
     { id: 4, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
     { id: 5, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
-    { id: 6, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
-    { id: 7, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
-    { id: 8, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
-    { id: 9, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 6, name: 'Firma', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 7, name: 'Firma', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 8, name: 'Firma', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 9, name: 'Firma', logo: 'https://picsum.photos/800/450?random=1' },
   ];
   const [mode, setMode] = React.useState<PaletteMode>('light');
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
