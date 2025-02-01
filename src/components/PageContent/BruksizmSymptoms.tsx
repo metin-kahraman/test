@@ -15,10 +15,10 @@ const BruksizmSymptoms = () => {
     const t = useTranslations("Burksizm");
 
     return (
-        <Grid container spacing={2} size={{ xs: 12, md: 12 }} component="div">
+        <Grid container spacing={2} size={{ xs: 12, md: 12 }}  sx={{p:4}} component="div">
             <Grid size={{ xs: 12, md: 12 }}>
                 <Typography align="center" gutterBottom color="#388E3C" variant="h5">
-                    {t(`item4.title`)}
+                    {t(`item4.titleSS`)}
                 </Typography>
                 <Typography gutterBottom>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item4.value`)}
@@ -81,7 +81,7 @@ const BruksizmSymptoms = () => {
                 <Typography align="center" gutterBottom color="#388E3C" variant="h5">
                     {t(`item5.title`)}
                 </Typography>
-                <Typography gutterBottom>
+                <Typography align="justify" gutterBottom>
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item5.value`)}
                 </Typography>
             </Grid>
