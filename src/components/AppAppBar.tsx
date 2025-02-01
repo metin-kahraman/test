@@ -341,6 +341,8 @@ export default function AppAppBar() {
                     variant="text"
                     color="info"
                     size="small"
+                    sx={{fontWeight: "600",color:"green",fontFamily: "oswald",}}
+                    fullWidth
                   >
                     {t(item.title)}
                   </Button>

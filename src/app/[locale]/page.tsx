@@ -23,8 +23,19 @@ import { Grid, Grid2 } from '@mui/material';
 import SitemarkIcon from '@/components/SitemarkIcon';
 import { alignProperty } from '@mui/material/styles/cssUtils';
 import { Opacity } from '@mui/icons-material';
+import Partners from '@/components/Partners';
 export default function Blog() {
-
+  const partnersData = [
+    { id: 1, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 2, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 3, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 4, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 5, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 6, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 7, name: 'Firma A', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 8, name: 'Firma B', logo: 'https://picsum.photos/800/450?random=1' },
+    { id: 9, name: 'Firma C', logo: 'https://picsum.photos/800/450?random=1' },
+  ];
   const [mode, setMode] = React.useState<PaletteMode>('light');
   const [showCustomTheme, setShowCustomTheme] = React.useState(true);
   
@@ -86,6 +97,8 @@ export default function Blog() {
         afterImage='/images/ba32.jpeg' handleImage='/img.jpeg'/>
         </Grid2>
         </Grid2>
+        
+        <Partners partners={partnersData} />
 
 
         </Container>
