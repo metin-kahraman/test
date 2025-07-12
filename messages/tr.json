@@ -56,6 +56,20 @@
       "item6":"blog"
     }
   },
+  "SingleToothImplant": {
+    "title": "Tek Diş İmplant Yapılır Mı?",
+    "content1": "Tek diş implant uygulaması çok kısa bir sürede ve başarılı bir şekilde tamamlanacak süreçlerin başlangıcıdır. İlk önce eksik diş olduğu bölge için yeterli derecede kemik dokusu olup olmadığı kontrol edilir. Operasyonla 15-30 dk sürecek işlemle tamamlanır. Eksik dişlerin boş bırakılması ileri dönemlerde birçok farklı problemlere neden olabilir.",
+    "advantagesTitle": "Tek Diş İmplantının Avantajı Nedir?",
+    "advantagesContent": "Önceki yıllarda tedavi olarak tek diş eksikliği, porselen köprüler ile tedavi edilmekteydi. Porselen köprü diş yapımı için ise, eksik olan dişin önü ve arkasında bulunan dişler küçültülerek 'köprü' yapımında destek ayak olarak kullanılmaktaydı. Böylece ayaklar ve eksik olan diş bölgesi toplamda üç diş üyeli bir köprü protez diş ile tedavi edilmekteydi. Tek diş eksikliğinde implant tedavisin avantajı ise, diğer sağlam dişlere dokunulmadan diş eksikliğinin giderilmesidir. Bu sayede eksik dişin çevresinde bulunan dişler sağlıklı bir şekilde fonksiyon görmeye devam ederler.",
+    "boneTitle": "Yeterli Kemik Bulunmadığı Durumda İmplant Tedavisi Uygulanabilir mi?",
+    "boneContent": "İmplant ömrünü en çok etkileyen faktörlerden biri de implantı çevreleyecek olan sağlıklı kemik varlığıdır. Eğer uygun bir kemik dokusu varsa implant sorunsuzca yerleştirilebilir. Yeterli kemiğin bulunmadığı durumlarda ise kemik tozu ya da hastanın kendi dokusundan alınan kemik grefti ile oldukça başarılı sonuçlar ortaya çıkmaktadır.",
+    "priceTitle": "İmplant Fiyatları Neden Değişiklik Göstermektedir?",
+    "priceContent": "Bize en çok gelen soruların başında fiyat gelmektedir. Bu fiyatlandırma dünyaca ünlü dental implantların İsveç, İsviçre, Alman ve Amerikan markaların kurlarına göre değişmektedir. En doğru bilgiyi alabilmek için bizimle iletişime geçiniz.",
+    "lifetimeTitle": "Tek Diş İmplant Ömrü Ne Kadardır?",
+    "lifetimeContent": "İmplant diş ömrü ağızda 30-40 yıl kadar hatta bir ömür boyu sorunsuz kalabildiği gözlenmiştir. İmplant ömrü ne kadar sorusu birçok etkene bağlıdır. Kişinin genel sağlığı ve daha önemlisi ağız ve diş sağlığı süreyi doğrudan etkilemektedir.",
+    "recoveryTitle": "İmplant Tedavisinden Sonra Kaç Günde İyileşir?",
+    "recoveryContent": "İmplant tedavisinden sonra iyileşme süreci nasıldır? Operasyon bölgesinin büyüklüğüne, yerleştirilen vida sayısına, cerrahi tekniğe ve hepsinden önemlisi bu süreci nasıl yönettiğinize bağlı olarak değişir. Tek bir implant yarasının iyileşmesi için gereken süre ile kemik tozu uygulamasının iyileşme süresi aynı olmayacaktır."
+  },
   "Treatmans":{
     "AESTHETICDENTISTRY":{
       "item1":{
