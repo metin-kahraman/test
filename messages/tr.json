@@ -850,6 +850,326 @@
     
   },
   "Blog":{
+    "toothYellowing": {
+      "title": "Diş Sararması Nasıl Engellenir? Dişler Neden Sararır?",
+      "intro": "Diş sararması birden fazla nedenden oluşabilir. Fakat hepsinin altında yatan asıl sebep ağız ve diş sağlığına yeteri kadar özen verilmemesidir. Peki, bu sararmalarının önüne nasıl geçilir? Oluşma sebepleri nelerdir?",
+      "methodsTitle": "Diş Hekimlerin Uyguladığı Diş Beyazlatma Yöntemleri Nelerdir?",
+      "sections": [
+        {
+          "title": "Diş Sararmasının Nedenleri Nelerdir?",
+          "items": [
+            "İlaç kullanımı",
+            "Genetik faktörler",
+            "Şarap, çay ve kahve gibi içecekler",
+            "Baharatlı yiyecekler",
+            "Tütün ürünleri kullanımı",
+            "Yaşın ilerlemesi",
+            "Çevresel etkenler"
+          ],
+          "image": "dis-sararmasi-1.jpeg"
+        },
+        {
+          "title": "Diş Sararmalarının Önüne Nasıl Geçilir?",
+          "content": "Öncelikle dikkat edilmesi gereken ilk şey yenilen yiyecek ve içeceklerdir. Günlük rutin beslenmeniz ağız diş sağlığının en temel nedenlerini yaratır. Bununla beraber diş fırçalama düzeniniz ve nasıl fırçaladığınız da çok önemlidir. Tatlı tüketimi sonrası ağzı temizlemek, diş ipi kullanmak çoğunlukla unutulur; ancak bu durum genel ağız ve diş sağlığını büyük ölçüde etkilemektedir. Yeme içme alışkanlıklarınıza dikkat ettiğiniz, tütün kullanmadığınız ve rutin diş bakımınızı yaptığınız halde hala sararma sorunlarını yaşıyorsanız, muhakkak bir diş hekimine görünmelisiniz.",
+          "image": "dis-sararmasi-2.jpeg"
+        },
+        {
+          "title": "Diş Sararmasında Tedavi Yöntemleri Nelerdir?",
+          "content": "Hastaların evde en çok uyguladığı yöntem karbonatla fırçalama tekniğidir. Bu teknik, hastanın dişlerine iyi gelecek bir tedavi yöntemi olduğuna onları inandırabilir. Ancak, uzun süreli karbonat kullanımı dişlerde kalıcı diş sağlığı problemleri yaratabilmektedir. Evde hastanın internetten gördüğü tekniklerle uzun vadede beyazlık sağlayabilmesi mümkün değildir. Bu tür alternatif yöntemler daha büyük diş sorunlarına neden olabilir. Dişlerinizdeki sarı lekelerden kurtulmak sağlıklı yöntemlerle beyazlatmak istiyorsanız, diş doktorunuza danışmanız en güvenilir yöntem olacaktır.",
+          "image": "dis-sararmasi-3.jpeg"
+        },
+        {
+          "title": "Diş Beyazlatmanın Etkisi Kalıcı mıdır? Beyazlatma İşleminin Etkisi Ne Kadar Sürer?",
+          "content": "Profesyonel yöntemler ile sarı diş ve dişte sarı leke oluşumunu uzun vadede giderebilirsiniz. Ancak diş beyazlatmanın etkisi kalıcı değildir. Diş sararmalarının tekrarlamaması için ise dişinizi temizlettikten sonra dişte sarı leke oluşumunu tetikleyen alışkanlıklarınızdan vazgeçmelisiniz. Örneğin, sigara kullanıcıysanız ve yoğun bir şekilde çay, kahve tüketiminiz varsa biraz azaltmakta fayda var. Çünkü bu alışkanlıklar diş minenize düşmandır ve kâbusunuz olan sarı diş lekelerinizi geri getirecektir."
+        }
+      ],
+      "methods": [
+        {
+          "title": "Ofis Tipi Beyazlatma",
+          "content": "Ofis tipi beyazlatma klinik ortamda uygulanan beyazlatma çeşididir. Tüm beyazlatma yöntemleri içerisinde en etkili ve güvenilir tercihtir. Yaklaşık bir saat süren tek seansta dişler 3-4 ton açılabilir. Bu işlem öncesi diş taşı temizliğinin yapılması ise etkisini daha çok arttıracaktır.",
+          "image": "dis-sararmasi-4.png"
+        },
+        {
+          "title": "Ev Tipi Beyazlatma",
+          "content": "Ev tipi beyazlatma, diş hekiminin tavsiyesi doğrultusunda hastanın evde kendi kendine uygulayarak yaptığı beyazlatma yöntemidir. Bu yönteme başlanmadan önce ilk olarak hastanın ağız ölçüsü alınır ve ona uygun plak hazırlanır. Sonrasında hazırlanan şeffaf plak ve beyazlatıcı ajan içeren set hastaya verilir. Böylece diş hekiminin talimatına göre hasta ev ortamında tedaviyi gönül rahatlığıyla yapabilir."
+        }
+      ]
+    },
+    "gumBleeding": {
+      "title": "Diş Eti Kanaması Neden Olur?",
+      "intro": "Diş eti kanamaları oldukça rahatsızlık veren bir durumdur. Bu tür kanamalar bir şeyler yediğinizde fark edilebilir. Bu durumla elma yerken veya dişlerinizi fırçaladığınızda görebilirsiniz.",
+      "mainContent": "Diş eti kanaması çoğunlukla diş eti çizgisinde plak ve/veya tartarın birikerek çoğalması nedeniyle oluşur. Plak, diş eti çizgisinde tahrişe neden olan yapışkan bir bakteri tabakasıdır ve yiyecek artıklarıyla birleşerek dişleri etkileyebilen asitler oluşturur.",
+      "causesTitle": "Diş Eti Kanamalarının Sebepleri",
+      "causes": [
+        "Diş fırçalama işleminde yanlış fırça kullanımı",
+        "Fırçalama işleminde yanlış hareketler ile fırçalama",
+        "Enfeksiyon geçiriyor olmak"
+      ],
+      "riskFactorsTitle": "Risk Faktörleri Nelerdir?",
+      "riskFactors": [
+        "Çok sert fırçalama",
+        "Gebelik sırasındaki hormonal değişiklikler",
+        "Hatalı diş ipi kullanımı",
+        "Maloklüzyon (kapanış bozukluğu)",
+        "Sigara içme",
+        "Enfeksiyon",
+        "Kötü beslenme",
+        "Kan sulandırıcı ilaçların kullanımı",
+        "C veya K vitamini eksikliği",
+        "Diyabet",
+        "Kalp hastalığı"
+      ],
+      "diseasesTitle": "Diş Eti Kanamalarına Sebep Olan Hastalıklar",
+      "diseases": [
+        {
+          "name": "Gingivitis",
+          "description": "Diş eti hastalıkların başlangıcı olarak gösterebilir. Diş etlerini oldukça hassaslaştırır."
+        },
+        {
+          "name": "Periodontitis",
+          "description": "Gingivitis evresinin ilerlemiş halidir. Dokularda hasar oluşturabilir. Bakteri oluşumu hızlanır."
+        },
+        {
+          "name": "Diyabet",
+          "description": "Diyabet hastalığı vücudunuzu oldukça hassaslaştırılabilir. Hassaslaşan ağzınızda bakterilere karşı gelemeyebilir."
+        }
+      ],
+      "vitaminTitle": "Vitamin Eksiklikleri Diş Eti Sorunlarına Yol Açar Mı?",
+      "vitaminContent": "Diş eti kanamalarına C veya K vitaminlerinin eksikliği de yol açabilir. Vücudunuzun genelini düşündüğümüzde beslenme oldukça değerli bir zincirde yer alıyor.",
+      "treatmentTitle": "Diş Eti Kanamaları Nasıl Tedavi Edilir?",
+      "treatmentContent": "Diş eti kanamalarında tedavi aksatılmamalıdır. Çünkü günlük hayatınızı etkileyecek bir sorundur. Gülüşlerinizi rahatça yapabilmek için diş bakımınızı ve diş eti kontrollerini aksatmayınız."
+    },
+    "bruxism": {
+      "title": "Diş Sıkma ve Gıcırdatma (Bruksizm) Tedavisi",
+      "intro": "Çene kası ağrısı veya baş ağrısı ile uyanıyorsanız, diş sıkma ve gıcırdatma anlamına gelen bruksizm yaşıyor olabilirsiniz. Bruksizm, uyku esnasında istemsiz çene hareketleridir.",
+      "doctorTitle": "Diş Sıkması İçin Hangi Doktora Başvurmalıyım?",
+      "doctorContent": "Dişlerinizi sıkıyorsanız mutlaka bir diş hekimine muayene olmalısınız. Aynı zamanda psikolojik nedenler ve stres için psikiyatriste danışmalısınız.",
+      "childrenTitle": "Çocuklarda Diş Sıkma Tedavisi",
+      "childrenContent": "Çocuklarda diş sıkma tedavisinin amacı dişlerde ve çene ekleminde oluşabilecek kalıcı zararları önlemektir. Kademeli takiple plaklar kullanılarak tedavi edilebilir.",
+      "symptomsTitle": "Diş Sıkmanın Belirtileri",
+      "symptoms": [
+        "Diş ve dolgu kırıkları",
+        "Diş köklerinde çatlaklar",
+        "Dişlerde hareketlilik artışı",
+        "Çiğneme kaslarında büyüme",
+        "Yüz, baş ve boyun ağrıları",
+        "Ağız açmada kısıtlılık",
+        "Çene ekleminden anormal sesler",
+        "Dil ve yanakta travma izleri"
+      ],
+      "treatmentsTitle": "Bruksizm Nasıl Tedavi Edilir?",
+      "treatments": [
+        {
+          "title": "Gece Plakları",
+          "content": "Diş hekimi tarafından hazırlanan kişiye özel gece plakları, dişlerin aşınmasını önler."
+        },
+        {
+          "title": "Stres Yönetimi",
+          "content": "Danışmanlık hizmeti alarak stresle başa çıkma yöntemleri öğrenilebilir. Ilık kompres kas ağrılarını hafifletebilir."
+        },
+        {
+          "title": "Çene Kapanışı Düzeltme",
+          "content": "Anormal kapanış, dolgu, kuron veya ortodonti tedavileri ile düzeltilebilir."
+        }
+      ]
+    },
+    "spacedTeeth": {
+      "title": "Ayrık Diş Tedavisi Nasıl Olur?",
+      "intro": "İki dişin arasında istenmeyen bir boşluğun bulunması durumu ayrık diş isimlendirilir. Dişler arasında boşluk olması gülümsemeyi ve kişinin öz güvenini olumsuz yönde etkileyebilir.",
+      "causesTitle": "Dişler neden ayrık kalır?",
+      "causes": [
+        "Dişlerin olması gerekenden küçük olması",
+        "Çene gelişiminin yeterli olmasına rağmen dişlerin yeterli gelişememesi",
+        "Yan keser dişlerde görülen gelişim bozukluğu (yan keser hipoplazisi)",
+        "Genetik olarak dişlerde sayısal eksiklik olması (konjenital lateral eksikliği)",
+        "Ön iki keser dişin arasında bulunan yüksek kas bağlantısı (yüksek frenulum bağlantısı)"
+      ],
+      "treatments": [
+        {
+          "title": "Kompozit Lamina ile Ayrık Diş Tedavisi",
+          "content": "Lokal anesteziye gereksinim duyulmayan bu tedavi dokularda aşındırma yapılmaz. Kompozit lamina detaylı polisaj ve cilalama süreçlerinin ardından doğal dişten ayırt edilemez. Ciddi düzeyde madde kaybı olması ve büyük boşluklarda uygun değildir."
+        },
+        {
+          "title": "Porselen Lamina ile Ayrık Diş Tedavisi",
+          "content": "Hastanın dişlerinden alınan ölçüler doğrultusunda minimal aşındırmalar uygulanarak estetik görünüm elde edilir. Cam seramik materyal kullanılır ve özel yapıştırıcılarla dişlere yapıştırılır. Uzun ömürlü kullanım imkânı sağlar."
+        },
+        {
+          "title": "Diş Teli ile Ayrık Diş Tedavisi",
+          "content": "Ortodontik tedavi geleneksel diş teli veya Invisalign ile yapılabilir. Tedavi öncesinde detaylı analizler yapılır. Diş teli tedavisi kalıcı bir çözümdür ancak diğer yöntemlere göre daha uzun sürer."
+        }
+      ],
+      "conclusion": "Ayrık diş tedavisinde ilk adım sorunun altında yatan nedenin belirlenmesidir. Muayene sonrasında uygun tedavi yöntemine karar verilebilir."
+    },
+  "ImpactedTeeth": {
+    "title": "Gömülü Diş Çekimi Tedavisi",
+    "definition": "Gömülü diş, çene kemiği içerisinde yeterli alana sahip olmadığı için diğer dişlerin arkasında veya yanında kalmış bir diştir...",
+    "extractionTitle": "Gömülü Dişler Nasıl Çıkartılır?",
+    "extractionProcess": "Gömülü dişler genellikle cerrahi olarak çıkarılırlar. Bu işlem diş hekimi veya ağız cerrahı tarafından lokal anestezi altında gerçekleştirilir...",
+    "recovery": "İyileşme süreci, kişinin yaşına, genel sağlığına ve işlemin zorluğuna bağlı olarak değişebilir, ancak genellikle birkaç gün veya hafta içinde tamamen iyileşir.",
+    "wisdomTeethTitle": "20 Yaş Dişleri Neden Gömülü Kalır?",
+    "wisdomTeethCauses": [
+      "Genetik uyumsuzluklar (küçük çene/büyük diş)",
+      "Beslenme alışkanlıkları",
+      "Süt dişlerinin erken kaybı",
+      "Çenede enfeksiyon veya kist varlığı",
+      "Rafine ve yumuşak besinlerle beslenme"
+    ],
+    "extractionNecessityTitle": "20 Yaş Dişi Çekilmek Zorunda Mıdır?",
+    "extractionNecessity": "Her yirmi yaş dişinin çekilmesi gerekmez. Diş hekiminiz klinik ve radyolojik muayene sonucunda karar verecektir...",
+    "extractionIndicationsTitle": "20 Yaş Dişleri Hangi Durumlarda Çekilir?",
+    "extractionIndications": [
+      "Çürük ve enfeksiyon oluşumunda",
+      "Kısmen sürmüş dişlerde enfeksiyon",
+      "Komşu dişlere baskı ve ağrı",
+      "Ortodontik tedavi gerektiren durumlar",
+      "Protez planlaması öncesi",
+      "Kist oluşumu riski"
+    ]
+  },
+  "DentalCrowns": {
+    "title": "Diş Kaplama Çeşitleri Nelerdir?",
+    "intro": "Diş kaplama çeşitleri, hastanın dişinde meydana gelen büyük bir çürük sebebiyle dişin kurtarılamayacağı fark edildiğinde uygulanan, diş yüzeyinin kaplanması işlemidir...",
+    "types": [
+      {
+        "name": "Zirkonyum Kaplama",
+        "description": "Zirkonyum kuronlar, günümüzde diş hekimleri tarafından en çok tavsiye edilen kaplama çeşididir...",
+        "advantages": [
+          "Doğal diş görünümüne yakın",
+          "Alerjik reaksiyon riski düşük",
+          "Leke tutmaz ve renk değiştirmez",
+          "20 yıldan fazla kullanım ömrü"
+        ],
+        "image": "dis-kaplama1.jpeg"
+      },
+      {
+        "name": "Lamina Kaplama",
+        "description": "Laminate veneer uygulamaları özellikle gülüş tasarımı kapsamında sıkça başvurulan tedavilerdendir...",
+        "advantages": [
+          "Diş yüzeyindeki sararmaları gizler",
+          "Kırık ve çatlaklar için ideal çözüm",
+          "Minimal diş aşındırması",
+          "İki farklı malzeme seçeneği (porselen/kompozit)"
+        ],
+        "image": "dis-kaplama2.png"
+      },
+      {
+        "name": "Metal Destekli Kaplama",
+        "description": "Metal destekli diş kaplamaları, en eski kaplama çeşididir...",
+        "advantages": [
+          "Diğer türlere göre daha ekonomik",
+          "Yüksek dayanıklılık",
+          "Uzun ömürlü kullanım",
+          "Arka dişler için uygun"
+        ]
+      }
+    ],
+    "advantagesTitle": "Diş Kaplama Çeşitlerinin Avantajları",
+    "generalAdvantages": [
+      "Estetik ve doğal görünüm sağlar",
+      "Kaybedilen diş fonksiyonunu geri kazandırır",
+      "Hasarlı dişleri kurtarma imkanı sunar",
+      "Kırık veya aşınmış dişleri restore eder"
+    ]
+  },
+  "OrthodonticTreatments": {
+    "title": "Ortodontik Tedaviler Nelerdir?",
+    "intro": "Gelişen tıp ve teknoloji ile birlikte ortodontik tedaviler artık daha estetik bir görünümle daha hızlı uygulanabilir durumdadır...",
+    "treatments": [
+      {
+        "name": "Şeffaf Aparey",
+        "description": "Bracesiz ve metal tel kullanılmayan tedavi yöntemlerinden biri olan şeffaf aparey ya da farklı bir deyişle alignerlar, dişlerdeki çapraşıklığın tedavisinde kullanılır. Kişinin kendisinin çıkarıp takabildiği apareyler, şeffaf olmalarından ötürü estetik bir tedavi yöntemidir.",
+        "image": "ortodontik-tedavi1.jpeg"
+      },
+      {
+        "name": "Braket",
+        "description": "Tel ve braketler ile uygulanan bu tedavi yönteminde braketler diş yüzeyine yapıştırılır. Braketlerin arasından geçirilen tel sayesinde dişlere kuvvet uygulanır. Tercihe göre renkli ya da şeffaf braket takılabilir.",
+        "image": "ortodontik-tedavi2.jpeg"
+      },
+      {
+        "name": "Sabit Yer Tutucu",
+        "description": "Süt dişlerinin erken kaybedildiği durumlarda uygulanan sabit yer tutucu, kalıcı diş çıkana kadar diş boşluğuna yerleştirilir. Böylece diğer dişlerin bu boşluğa kayması önlenir.",
+        "image": "ortodontik-tedavi3.jpeg"
+      },
+      {
+        "name": "Hareketli Pekiştirici",
+        "description": "Tedavi sonrasında diş pozisyonunun korunması için kullanılan hareketli pekiştirici, aynı zamanda parmak emme alışkanlığının bırakılması için de kullanılabilir."
+      },
+      {
+        "name": "Çene Apareyleri",
+        "description": "Splint olarak da bilinen bu aparey türü alt ya da üst çeneye yerleştirilir ve çenenin doğru bir şekilde kapanması sağlanır. Ayrıca temporomandibular eklem bozukluklarının tedavisinde de kullanılır."
+      },
+      {
+        "name": "Çene Genişletici",
+        "description": "Üst çenenin genişlemesini sağlayan çene genişletici, damağa oturan plastik bir malzemeden oluşur."
+      },
+      {
+        "name": "Headgear",
+        "description": "Kafanın ön kısmına takılan teller, kafanın arkasındaki bant ile desteklenir. Üst çene gelişimi yavaşlatılarak arka dişlerin mevcut pozisyonu korunur. Aynı zamanda ön dişlerin arkaya doğru gitmesi hedeflenir."
+      }
+    ]
+  },
+  "Orthodontics": {
+    "title": "Ortodonti Nedir?",
+    "content1": "Ortodonti, diş ve çenelerin uygun olmayan pozisyonlarının teşhisi, önlenmesi ve tedavisi ile ilgilenen diş hekimliğinin bir dalıdır...",
+    "whoNeedsTitle": "Kimler Ortodonti Tedavisine İhtiyaç Duyar?",
+    "whoNeedsList": [
+      "Yer darlığından dolayı dişlerin düzgün yerleşemediği durumlar",
+      "Dişlerin çok aralıklı dizildiği vakalar",
+      "Ön dişlerin çok ilerde durduğu ve dudakların birbirine değdiği durumlar",
+      "Normal kapanışın tersi durumlar",
+      "Ön dişler arasında büyük boşluk olması",
+      "Çiğneme veya konuşmada güçlük çekilmesi",
+      "4 yaşını geçmiş çocuklarda parmak emme alışkanlığı",
+      "Süt dişlerinin erken kaybı"
+    ],
+    "startingAgeTitle": "Ortodonti Tedavisine Kaç Yaşında Başlanır?",
+    "startingAgeContent": "Ortodonti tedavisi erken kontroller ile başlamaktadır. Bundan dolayı 6 yaş civarı çocuk mutlaka kontrol edilmelidir...",
+    "durationTitle": "Ortodontik Tedavi Ne Kadar Sürer?",
+    "durationContent": "Ortodonti tedavileri sınıflandırmalarına bağlı olarak 1 sene ile 3 sene arası sürebilmektedir...",
+    "careTipsTitle": "Ortodonti Tedavisinde Dikkat Edilmesi Gerekenler",
+    "careTipsList": [
+      "Sert yiyeceklerden kaçınılmalı",
+      "Yumuşak yiyecekler seçilmeli",
+      "Düzenli bakım yapılmalı",
+      "Kontroller aksatılmamalı",
+      "Yiyecekler küçük parçalara ayrılmalı"
+    ]
+  
+},
+  "ImplantLifetime": {
+    "title": "İmplant Diş Ömrü Ne Kadardır?",
+    "content1": "İmplant diş ömrü ağızda 30-40 yıl kadar hatta bir ömür boyu sorunsuz kalabildiği gözlenmiştir...",
+    "factorsTitle": "İmplant Ömrünü Etkileyen Faktörler",
+    "factorsContent": "Kişinin genel sağlığı ve daha önemlisi ağız ve diş sağlığı süreyi doğrudan etkilemektedir...",
+    "extendLifeTitle": "Diş İmplantının Ömrünü Uzatmak İçin Yapılması Gerekenler Nelerdir?",
+    "extendLifeList": [
+      "Ağız ve diş sağlığına özen gösterilmesi",
+      "Düzenli diş hekimi kontrolleri",
+      "Diş ipi ve ağız duşu kullanımı",
+      "Sigara ve alkol kullanımından kaçınma",
+      "İmplant çevresinin özenle temizlenmesi",
+      "Sert kabuklu besinlerden uzak durma"
+    ],
+    "hygieneTitle": "İmplant Hijyeni",
+    "hygieneContent": "İmplantların çürüme ve yıpranma riski taşımıyor olmalarına güvenerek implant bakımı aksatılmamalıdır..."
+  },
+  "ImplantRecovery": {
+    "title": "İmplant İyileşme Süreci",
+    "content1": "İlerleyen teknoloji sayesinde yaşanan diş kayıpları tedavisinde neredeyse gerçeğe yakın sonuçlar elde edilmektedir...",
+    "healingProcessTitle": "İmplant tedavisinden sonra iyileşme süreci nasıldır?",
+    "healingProcessContent": "İmplant tedavisinden sonra iyileşme süreci; operasyon bölgesinin büyüklüğüne, yerleştirilen vida sayısına, cerrahi tekniğe ve hepsinden önemlisi bu süreci nasıl yönettiğinize bağlı olarak değişir...",
+    "woundHealingTitle": "İmplant yarası kaç günde iyileşir?",
+    "woundHealingContent": "Tipik bir İmplant tedavisinden sonra iyileşme süreci birkaç gün süren hafif şişlik, basit ağrı kesiciler ile kontrol altına alınabilen sızlama ve bazen de morarma olabilir...",
+    "postOpCareTitle": "İmplant Tedavisi Tamamlandıktan Sonra Dikkat Edilmesi Gerekenler Nelerdir?",
+    "postOpCareContent": "İmplant tedavisi bittikten sonra hastalar en az 2 saat hiçbir şey yememeli ve içmemelidir...",
+    "completeHealingTitle": "İmplant tamamen ne zaman iyileşir?",
+    "completeHealingContent": "Sizin fark edebileceğiniz yumuşak doku iyileşmesi yaklaşık 4-7 gün arasında tamamlanır...",
+    "painTitle": "İmplantlar iyileşirken acı hissedilir mi?",
+    "painContent": "Çoğu implant tedavisinde ağrı beklediğinizden çok daha azdır...",
+    "smokingTitle": "İyileşme döneminde sigara kullanabilir miyim?",
+    "smokingContent": "Tütün ve tütün ürünleri implantınızın iyileşme sürecine zarar verebilir..."
+  },
+
     "Same-dayDentalImplants":{
       "item1":{
         "title":"Aynı Günde Yapılan Diş İmplantı",

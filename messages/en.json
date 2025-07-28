@@ -3,6 +3,328 @@
     "title": "Hello world!",
     "about": "Go to the about page"
   },
+  "Blog": {
+    "gumBleeding": {
+      "title": "What Causes Gum Bleeding?",
+      "intro": "Gum bleeding is quite an uncomfortable condition. You may notice this type of bleeding when you eat something. You can see this when eating an apple or brushing your teeth.",
+      "mainContent": "Gum bleeding mostly occurs due to the accumulation and proliferation of plaque and/or tartar along the gum line. Plaque is a sticky bacterial layer that causes irritation at the gum line and combines with food residues to form acids that can affect teeth.",
+      "causesTitle": "Causes of Gum Bleeding",
+      "causes": [
+        "Using the wrong brush during tooth brushing",
+        "Brushing with incorrect movements",
+        "Having an infection"
+      ],
+      "riskFactorsTitle": "What Are the Risk Factors?",
+      "riskFactors": [
+        "Brushing too hard",
+        "Hormonal changes during pregnancy",
+        "Incorrect use of dental floss",
+        "Malocclusion (misalignment)",
+        "Smoking",
+        "Infection",
+        "Poor nutrition",
+        "Use of blood thinners",
+        "Vitamin C or K deficiency",
+        "Diabetes",
+        "Heart disease"
+      ],
+      "diseasesTitle": "Diseases That Cause Gum Bleeding",
+      "diseases": [
+        {
+          "name": "Gingivitis",
+          "description": "It can be shown as the beginning of gum diseases. It makes the gums very sensitive."
+        },
+        {
+          "name": "Periodontitis",
+          "description": "It is the advanced stage of gingivitis. It can cause tissue damage. Bacterial formation accelerates."
+        },
+        {
+          "name": "Diabetes",
+          "description": "Diabetes can make your body very sensitive. Your sensitized mouth may not be able to resist bacteria."
+        }
+      ],
+      "vitaminTitle": "Do Vitamin Deficiencies Cause Gum Problems?",
+      "vitaminContent": "Deficiency of vitamins C or K can also lead to gum bleeding. When we consider your body as a whole, nutrition is in a very valuable chain.",
+      "treatmentTitle": "How Is Gum Bleeding Treated?",
+      "treatmentContent": "Treatment for gum bleeding should not be neglected. Because it is a problem that will affect your daily life. Do not neglect your dental care and gum checks to smile comfortably."
+    },
+    "bruxism": {
+      "title": "Teeth Grinding and Clenching (Bruxism) Treatment",
+      "intro": "If you wake up with jaw muscle pain or headache, you may be experiencing bruxism, which means teeth grinding and clenching. Bruxism is involuntary jaw movements during sleep.",
+      "doctorTitle": "Which Doctor Should I Consult for Teeth Clenching?",
+      "doctorContent": "If you clench your teeth, you must definitely see a dentist. You should also consult a psychiatrist for psychological reasons and stress.",
+      "childrenTitle": "Teeth Grinding Treatment in Children",
+      "childrenContent": "The aim of teeth grinding treatment in children is to prevent permanent damage to teeth and jaw joints. It can be treated gradually with follow-up using plates.",
+      "symptomsTitle": "Symptoms of Teeth Clenching",
+      "symptoms": [
+        "Tooth and filling fractures",
+        "Cracks in tooth roots",
+        "Increased tooth mobility",
+        "Hypertrophy in chewing muscles",
+        "Face, head and neck pain",
+        "Limited mouth opening",
+        "Abnormal sounds from jaw joint",
+        "Trauma marks on tongue and cheek"
+      ],
+      "treatmentsTitle": "How is Bruxism Treated?",
+      "treatments": [
+        {
+          "title": "Night Guards",
+          "content": "Custom-made night guards prepared by the dentist prevent tooth wear."
+        },
+        {
+          "title": "Stress Management",
+          "content": "Counseling services can teach stress coping methods. Warm compresses can relieve muscle pain."
+        },
+        {
+          "title": "Bite Correction",
+          "content": "Abnormal bite can be corrected with fillings, crowns or orthodontic treatments."
+        }
+      ]
+    },
+    "spacedTeeth": {
+      "title": "How is Spaced Teeth Treatment Done?",
+      "intro": "The presence of an unwanted gap between two teeth is called diastema. Gaps between teeth can negatively affect a person's smile and self-confidence.",
+      "causesTitle": "Why do teeth remain spaced?",
+      "causes": [
+        "Teeth being smaller than they should be",
+        "Insufficient development of teeth despite adequate jaw growth",
+        "Developmental disorder mostly seen in lateral incisors (lateral incisor hypoplasia)",
+        "Genetic numerical deficiency in teeth (congenital lateral deficiency)",
+        "High frenulum attachment between the two front incisors"
+      ],
+      "treatments": [
+        {
+          "title": "Spaced Teeth Treatment with Composite Veneers",
+          "content": "This treatment does not require local anesthesia and no tissue abrasion is performed. After detailed polishing and finishing processes, composite veneers become indistinguishable from natural teeth. Not suitable for cases with significant material loss or large gaps."
+        },
+        {
+          "title": "Spaced Teeth Treatment with Porcelain Veneers",
+          "content": "Aesthetic appearance is achieved with minimal abrasions based on measurements taken from the patient's teeth. Glass ceramic material is used and bonded to teeth with special adhesives. Provides long-term use."
+        },
+        {
+          "title": "Spaced Teeth Treatment with Braces",
+          "content": "Orthodontic treatment can be done with traditional braces or Invisalign. Detailed analyses are performed before treatment. Braces treatment is a permanent solution but takes longer than other methods."
+        }
+      ],
+      "conclusion": "The first step in spaced teeth treatment is to determine the underlying cause of the problem. After examination, the appropriate treatment method can be decided."
+    },
+    "toothYellowing": {
+      "title": "How to Prevent Tooth Yellowing? Why Do Teeth Turn Yellow?",
+      "intro": "Tooth yellowing can occur for several reasons. However, the underlying cause is not paying enough attention to oral and dental health. So, how can we prevent these yellowing? What are the reasons for its occurrence?",
+      "methodsTitle": "What are the Teeth Whitening Methods Applied by Dentists?",
+      "sections": [
+        {
+          "title": "What are the Causes of Tooth Yellowing?",
+          "items": [
+            "Medication use",
+            "Genetic factors",
+            "Beverages such as wine, tea, and coffee",
+            "Spicy foods",
+            "Use of tobacco products",
+            "Aging",
+            "Environmental factors"
+          ],
+          "image": "dis-sararmasi-1.jpeg"
+        },
+        {
+          "title": "How to Prevent Tooth Yellowing?",
+          "content": "The first thing to pay attention to is the food and drinks consumed. Your daily routine diet creates the most basic causes of oral and dental health. Along with this, your tooth brushing routine and how you brush are also very important. Cleaning the mouth after consuming sweets and using dental floss are often forgotten; however, this situation greatly affects overall oral and dental health. If you pay attention to your eating habits, do not use tobacco, and perform routine dental care but still experience yellowing problems, you should definitely see a dentist.",
+          "image": "dis-sararmasi-2.jpeg"
+        },
+        {
+          "title": "What are the Treatment Methods for Tooth Yellowing?",
+          "content": "The most commonly applied method by patients at home is the brushing technique with baking soda. This technique can convince them that it is a treatment method that will be good for their teeth. However, long-term use of baking soda can cause permanent dental health problems. It is not possible for the patient to achieve long-term whiteness with techniques they see on the internet at home. Such alternative methods can cause bigger dental problems. If you want to get rid of yellow stains on your teeth and whiten them with healthy methods, consulting your dentist will be the most reliable method.",
+          "image": "dis-sararmasi-3.jpeg"
+        },
+        {
+          "title": "Is the Effect of Teeth Whitening Permanent? How Long Does the Whitening Effect Last?",
+          "content": "With professional methods, you can eliminate yellow teeth and yellow stain formation on teeth in the long term. However, the effect of teeth whitening is not permanent. To prevent tooth yellowing from recurring, after having your teeth cleaned, you should give up habits that trigger the formation of yellow stains on teeth. For example, if you are a smoker and consume a lot of tea and coffee, it is beneficial to reduce it a bit. Because these habits are enemies of your tooth enamel and will bring back the yellow tooth stains that are your nightmare."
+        }
+      ],
+      "methods": [
+        {
+          "title": "In-Office Whitening",
+          "content": "In-office whitening is a type of whitening applied in a clinical setting. It is the most effective and reliable choice among all whitening methods. In a single session lasting about one hour, teeth can lighten by 3-4 shades. Having dental tartar cleaning done before this procedure will further increase its effectiveness.",
+          "image": "dis-sararmasi-4.png"
+        },
+        {
+          "title": "At-Home Whitening",
+          "content": "At-home whitening is a whitening method that the patient applies by themselves at home under the recommendation of the dentist. Before starting this method, first, the patient's mouth measurement is taken, and a suitable tray is prepared. Then, the prepared set containing a transparent tray and whitening agent is given to the patient. Thus, the patient can perform the treatment at home with peace of mind according to the dentist's instructions."
+        }
+      ]
+    },
+  "ImpactedTeeth": {
+    "title": "Impacted Tooth Extraction Treatment",
+    "definition": "An impacted tooth is a tooth that has not erupted properly due to lack of space in the jawbone...",
+    "extractionTitle": "How Are Impacted Teeth Removed?",
+    "extractionProcess": "Impacted teeth are usually removed surgically. This procedure is performed by a dentist or oral surgeon under local anesthesia...",
+    "recovery": "Recovery time varies depending on the patient's age, general health and procedure difficulty, but usually heals completely within a few days or weeks.",
+    "wisdomTeethTitle": "Why Do Wisdom Teeth Become Impacted?",
+    "wisdomTeethCauses": [
+      "Genetic mismatch (small jaw/large teeth)",
+      "Dietary habits",
+      "Early loss of baby teeth",
+      "Presence of infection or cyst in the jaw",
+      "Diet of refined and soft foods"
+    ],
+    "extractionNecessityTitle": "Is Wisdom Tooth Extraction Necessary?",
+    "extractionNecessity": "Not all wisdom teeth need to be extracted. Your dentist will decide after clinical and radiological examination...",
+    "extractionIndicationsTitle": "When Should Wisdom Teeth Be Extracted?",
+    "extractionIndications": [
+      "Tooth decay and infection",
+      "Infection in partially erupted teeth",
+      "Pressure and pain on adjacent teeth",
+      "Cases requiring orthodontic treatment",
+      "Before prosthetic planning",
+      "Risk of cyst formation"
+    ]
+  },
+  "DentalCrowns": {
+    "title": "What Are the Types of Dental Crowns?",
+    "intro": "Dental crowns are procedures applied when a tooth cannot be saved due to extensive decay...",
+    "types": [
+      {
+        "name": "Zirconium Crown",
+        "description": "Zirconium crowns are currently the most recommended type of crown by dentists...",
+        "advantages": [
+          "Close to natural tooth appearance",
+          "Low risk of allergic reactions",
+          "Stain-resistant and color-stable",
+          "Over 20 years of lifespan"
+        ],
+        "image": "dis-kaplama1.jpeg"
+      },
+      {
+        "name": "Laminate Veneer",
+        "description": "Laminate veneer applications are among the frequently preferred treatments especially in smile design...",
+        "advantages": [
+          "Covers tooth discoloration",
+          "Ideal solution for cracks and chips",
+          "Minimal tooth reduction",
+          "Two material options (porcelain/composite)"
+        ],
+        "image": "dis-kaplama2.png"
+      },
+      {
+        "name": "Metal-Based Crown",
+        "description": "Metal-based dental crowns are the oldest type of crowns...",
+        "advantages": [
+          "More economical than other types",
+          "High durability",
+          "Long-lasting use",
+          "Suitable for back teeth"
+        ]
+      }
+    ],
+    "advantagesTitle": "Advantages of Dental Crown Types",
+    "generalAdvantages": [
+      "Provides aesthetic and natural appearance",
+      "Restores lost tooth function",
+      "Offers chance to save damaged teeth",
+      "Restores broken or worn teeth"
+    ]
+  },
+  "OrthodonticTreatments": {
+    "title": "What Are Orthodontic Treatments?",
+    "intro": "With advancing medicine and technology, orthodontic treatments can now be applied more quickly with a more aesthetic appearance...",
+    "treatments": [
+      {
+        "name": "Clear Aligner",
+        "description": "Clear aligners, one of the treatment methods without braces or metal wires, are used to treat dental crowding. Since they are removable and transparent, they provide an aesthetic treatment option.",
+        "image": "ortodontik-tedavi1.jpeg"
+      },
+      {
+        "name": "Braces",
+        "description": "In this treatment method with wires and brackets, brackets are bonded to the tooth surface. The wire passing through the brackets applies force to the teeth. Colored or clear brackets can be chosen as preferred.",
+        "image": "ortodontik-tedavi2.jpeg"
+      },
+      {
+        "name": "Fixed Space Maintainer",
+        "description": "Applied when baby teeth are lost early, the fixed space maintainer is placed in the tooth gap until the permanent tooth erupts, preventing other teeth from shifting into the space.",
+        "image": "ortodontik-tedavi3.jpeg"
+      },
+      {
+        "name": "Removable Retainer",
+        "description": "Used to maintain tooth position after treatment, the removable retainer can also help in breaking thumb-sucking habits."
+      },
+      {
+        "name": "Jaw Appliances",
+        "description": "Also known as splints, these appliances are placed on the upper or lower jaw to ensure proper jaw closure and are also used in treating temporomandibular joint disorders."
+      },
+      {
+        "name": "Palatal Expander",
+        "description": "A palatal expander, made of plastic material that sits on the palate, helps widen the upper jaw."
+      },
+      {
+        "name": "Headgear",
+        "description": "Wires attached to the front of the head are supported by a band at the back. It slows upper jaw growth while maintaining the position of back teeth and aims to move front teeth backward."
+      }
+    ]
+  },
+  "ImplantRecovery": {
+    "title": "Implant Recovery Process",
+    "content1": "Thanks to advancing technology, almost natural results are achieved in the treatment of tooth loss...",
+    "healingProcessTitle": "What is the recovery process like after implant treatment?",
+    "healingProcessContent": "The recovery process after implant treatment varies depending on the size of the operation area, the number of screws placed, the surgical technique, and most importantly, how you manage this process...",
+    "woundHealingTitle": "How many days does the implant wound heal?",
+    "woundHealingContent": "After a typical implant treatment, the recovery process may include mild swelling lasting a few days, tingling that can be controlled with simple painkillers, and sometimes bruising...",
+    "postOpCareTitle": "What Should Be Considered After Implant Treatment is Completed?",
+    "postOpCareContent": "After the implant treatment is finished, patients should not eat or drink anything for at least 2 hours...",
+    "completeHealingTitle": "When does the implant heal completely?",
+    "completeHealingContent": "The soft tissue healing that you can notice is completed in about 4-7 days...",
+    "painTitle": "Is there pain while implants are healing?",
+    "painContent": "In most implant treatments, the pain is much less than you expect...",
+    "smokingTitle": "Can I smoke during the recovery period?",
+    "smokingContent": "Tobacco and tobacco products can harm your implant's healing process..."
+  },
+  "ImplantLifetime": {
+    "title": "How Long Do Dental Implants Last?",
+    "content1": "Dental implants have been observed to last 30-40 years in the mouth, and sometimes even a lifetime without problems...",
+    "factorsTitle": "Factors Affecting Implant Longevity",
+    "factorsContent": "The person's general health and, more importantly, oral and dental health directly affect the duration...",
+    "extendLifeTitle": "What Should Be Done to Extend the Life of Dental Implants?",
+    "extendLifeList": [
+      "Pay attention to oral and dental health",
+      "Regular dental check-ups",
+      "Use of dental floss and oral irrigators",
+      "Avoiding smoking and alcohol",
+      "Careful cleaning around the implant",
+      "Avoiding hard-shelled foods"
+    ],
+    "hygieneTitle": "Implant Hygiene",
+    "hygieneContent": "Implant care should not be neglected just because implants are not at risk of decay and wear..."
+},
+  "Orthodontics": {
+    "title": "What is Orthodontics?",
+    "content1": "Orthodontics is a branch of dentistry that deals with the diagnosis, prevention and treatment of improper positions of teeth and jaws...",
+    "whoNeedsTitle": "Who Needs Orthodontic Treatment?",
+    "whoNeedsList": [
+      "Cases where teeth cannot align properly due to lack of space",
+      "Cases where teeth are too spaced out",
+      "Cases where front teeth protrude excessively",
+      "Reverse of normal bite",
+      "Large gaps between front teeth",
+      "Difficulty in chewing or pronouncing",
+      "Thumb sucking habit in children over 4 years",
+      "Early loss of baby teeth"
+    ],
+    "startingAgeTitle": "At What Age Should Orthodontic Treatment Begin?",
+    "startingAgeContent": "Orthodontic treatment begins with early check-ups. Therefore, children around 6 years old should definitely be examined...",
+    "durationTitle": "How Long Does Orthodontic Treatment Take?",
+    "durationContent": "Depending on the classification, orthodontic treatments can take between 1 to 3 years...",
+    "careTipsTitle": "Things to Consider During Orthodontic Treatment",
+    "careTipsList": [
+      "Avoid hard foods",
+      "Choose soft foods",
+      "Maintain regular care",
+      "Don't skip check-ups",
+      "Cut food into small pieces"
+    ]
+  }
+
+
+  },
   "TreatmentsPage": {
     "titles": {
       "T1": "Implant Treatment",
