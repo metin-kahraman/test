@@ -36,7 +36,7 @@ export default function Footer() {
 
   return (
     <React.Fragment>
-                  <CustomDivider />
+                  <CustomDivider text="" />
         <Container
         sx={{
           display: 'flex',

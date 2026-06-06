@@ -147,7 +147,7 @@ const TreatmentsPage = () => {
                (isXl && index < cardData.length - 1 && (index + 1) % 4 === 0)
               ? (
                 <Grid item xs={12}>
-                  <CustomDivider />
+                  <CustomDivider  />
                 </Grid>
               ) : null}
             </React.Fragment>
