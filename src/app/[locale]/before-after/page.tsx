@@ -155,7 +155,7 @@ export default function Page(): React.JSX.Element {
         >
           Implant
         </Typography>
-        <CustomDivider></CustomDivider>
+        <CustomDivider text="" />
       </Grid>
 
       {itemListImplant.slice(0, implantLimit).map(function (item) {

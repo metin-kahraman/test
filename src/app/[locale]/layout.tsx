@@ -11,6 +11,7 @@ import Container from "@mui/material/Container";
 import Footer from "@/components/Footer";
 import FloatingActionButtons from "@/components/FloatingActionButtons";
 import { Metadata } from "next";
+import ModernBannerWrapper from "@/components/ModernBannerWrapper";
 export const metadata: Metadata = {
   title: 'Orange Dent Clinic',
   description: 'Uzman doktorlarımızla gülüşünüzü güvence altına alın.',
@@ -43,7 +44,7 @@ export default async function LocaleLayout({
               
               {/* Navbar tam genişlik */}
               <AppAppBar />
-
+              <ModernBannerWrapper />
               {/* Container: Mobildeki yan boşlukları yüzde (%) ile yönetiyoruz */}
               <Container
                 maxWidth={false}

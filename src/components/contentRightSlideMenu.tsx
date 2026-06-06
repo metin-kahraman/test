@@ -48,8 +48,8 @@ const ContentRightSlideMenu: FC = () => {
     const restChars = chars.slice(1).join('');
     return (
       <>
-        <span style={{ fontSize: '100%', display: 'inline-block' }}>{firstChar}</span>
-        <span style={{ fontSize: '70%', display: 'inline-block' }}>{restChars}</span>
+        <span style={{ fontSize: '100%', display: 'inline' }}>{firstChar}</span>
+        <span style={{ fontSize: '70%', display: 'inline' }}>{restChars}</span>
       </>
     );
   };
@@ -95,7 +95,7 @@ const ContentRightSlideMenu: FC = () => {
                 sx={{
                   fontFamily: nunito.style.fontFamily,
                   textAlign: "center",
-                  fontWeight: 600,
+                  fontWeight: 800,
                   color: "#ed6c02",
                   letterSpacing: '0.05em',
                   transition: 'color 0.2s',

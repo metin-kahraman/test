@@ -3,7 +3,6 @@ import * as React from 'react';
 import { AppBar, Toolbar, Typography, Button, IconButton, Box, Drawer, List, ListItem, ListItemText } from '@mui/material';
 import MenuIcon from '@mui/icons-material/Menu';
 import { theme } from './theme';
-
 const navItems = ['DİŞ TEDAVİLERİ', 'DİJİTAL DİŞ HEKİMLİĞİ', 'KLİNİĞİMİZ', 'ÖNCESİ VE SONRASI', 'BLOG', 'İLETİŞİM'];
 
 export default function Navbar() {
@@ -65,7 +64,7 @@ export default function Navbar() {
           </IconButton>
         </Toolbar>
       </AppBar>
-
+            
       {/* Mobil Çekmece */}
       <Drawer
         variant="temporary"
