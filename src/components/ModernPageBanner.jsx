@@ -166,10 +166,11 @@ const ModernPageBanner = () => {
               '&:hover': { textDecoration: 'underline' },
             }}
           >
+            Orange
           </Typography>
           
           <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.95rem' }, color: 'rgba(255,255,255,0.7)' }}>
-           -
+           Dent
           </Typography>
 
           <Typography
@@ -179,7 +180,7 @@ const ModernPageBanner = () => {
               fontWeight: 500,
             }}
           >
-            
+            Clinic
           </Typography>
         </Box>
       </Box>
