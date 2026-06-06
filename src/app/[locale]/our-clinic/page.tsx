@@ -110,16 +110,15 @@ const DigitalDentistry: FC = () => {
       />
           </Grid>
 
-          <Grid size={{ xs: 12, md: 6 }} sx={{mt:10}}>
-            <Typography variant='h5' align='center'> </Typography>
+          <Grid size={{ xs: 12, md: 6 }} sx={{mt:5 , p:5}}>
           <img
         style={{
           borderRadius: 8,
-          width: "80%",
+          width: "100%",
           display: "block",
           marginLeft: "10%",
-          marginRight: "10%",
-          paddingTop: 10
+          //marginRight: "10%",
+          paddingTop: '5%'
         }}
         srcSet={`/images/our-clinic-3.jpeg`}
         src={`/images/our-clinic-3.jpeg`}
@@ -127,57 +126,56 @@ const DigitalDentistry: FC = () => {
       />
           </Grid>
 
-          <Grid size={{ xs: 12, md: 6 }} sx={{mt:10}}>
+          <Grid size={{ xs: 12, md: 6 }} sx={{mt:5 , p:5}}>
           <img
         style={{
           borderRadius: 8,
-          width: "80%",
+          width: "100%",
           display: "block",
-          marginLeft: "10%",
-          marginRight: "10%",
+          //marginLeft: "10%",
+          //marginRight: "10%",
+          paddingTop: '5%',
+          alignItems: 'right',
         }}
         srcSet={`/images/our-clinic-1.jpeg`}
         src={`/images/our-clinic-1.jpeg`}
         loading="lazy"
       />
-                  <Typography variant='h5' align='center'></Typography>
 
           </Grid>
 
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant='h5' align='center'></Typography>
+         <Grid size={{ xs: 12, md: 6 }} sx={{ p:5 ,pt:0}}>
           <img
         style={{
           borderRadius: 8,
-          width: "80%",
+          width: "100%",
           display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-        srcSet={`/images/our-clinic-2.jpeg`}
-        src={`/images/our-clinic-2.jpeg`}
-        loading="lazy"
-      />
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }}>
-          <img
-        style={{
-          borderRadius: 8,
-          width: "80%",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
+          marginLeft: "10%",
+          //marginRight: "10%",
+          //paddingTop: '5%'
         }}
         srcSet={`/images/our-clinic-3.jpeg`}
         src={`/images/our-clinic-3.jpeg`}
         loading="lazy"
       />
-                  <Typography variant='h5' align='center'> </Typography>
-
           </Grid>
 
+          <Grid size={{ xs: 12, md: 6 }} sx={{ p:5, pt:0}}>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "100%",
+          display: "block",
+          //marginLeft: "10%",
+          //marginRight: "10%",
+          //paddingTop: '5%',
+        }}
+        srcSet={`/images/our-clinic-1.jpeg`}
+        src={`/images/our-clinic-1.jpeg`}
+        loading="lazy"
+      />
 
+          </Grid>
     </Grid>
 
   );
