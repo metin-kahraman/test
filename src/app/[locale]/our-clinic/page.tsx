@@ -78,10 +78,9 @@ const DigitalDentistry: FC = () => {
   const { locale } = params;
 
   return (
-    <Grid container spacing={2} >
+    <Grid container spacing={2}>
 
-          <Grid size={{ xs: 12, md: 12 }}>
-            <Typography variant='h5' align='center'> Alan 1</Typography>
+          <Grid size={{ xs: 12, md: 12 ,}} sx={{ mt:10}} >
           <img
         style={{
           borderRadius: 8,
@@ -90,14 +89,13 @@ const DigitalDentistry: FC = () => {
           marginLeft: "auto",
           marginRight: "auto",
         }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
+        srcSet={`/images/our-clinic-1.jpeg`}
+        src={`/images/our-clinic-1.jpeg`}
         loading="lazy"
       />
           </Grid>
 
-          <Grid size={{ xs: 12, md: 12 }}>
-            <Typography variant='h5' align='center'> Alan 2</Typography>
+          <Grid size={{ xs: 12, md: 12 }} sx={{mt:10}}>
           <img
         style={{
           borderRadius: 8,
@@ -106,14 +104,63 @@ const DigitalDentistry: FC = () => {
           marginLeft: "auto",
           marginRight: "auto",
         }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
+        srcSet={`/images/our-clinic-2.jpeg`}
+        src={`/images/our-clinic-2.jpeg`}
+        loading="lazy"
+      />
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }} sx={{mt:10}}>
+            <Typography variant='h5' align='center'> </Typography>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "10%",
+          marginRight: "10%",
+          paddingTop: 10
+        }}
+        srcSet={`/images/our-clinic-3.jpeg`}
+        src={`/images/our-clinic-3.jpeg`}
+        loading="lazy"
+      />
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }} sx={{mt:10}}>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "10%",
+          marginRight: "10%",
+        }}
+        srcSet={`/images/our-clinic-1.jpeg`}
+        src={`/images/our-clinic-1.jpeg`}
+        loading="lazy"
+      />
+                  <Typography variant='h5' align='center'></Typography>
+
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }}>
+            <Typography variant='h5' align='center'></Typography>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "80%",
+          display: "block",
+          marginLeft: "auto",
+          marginRight: "auto",
+        }}
+        srcSet={`/images/our-clinic-2.jpeg`}
+        src={`/images/our-clinic-2.jpeg`}
         loading="lazy"
       />
           </Grid>
 
           <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant='h5' align='center'> Alan 3</Typography>
           <img
         style={{
           borderRadius: 8,
@@ -122,59 +169,11 @@ const DigitalDentistry: FC = () => {
           marginLeft: "auto",
           marginRight: "auto",
         }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
+        srcSet={`/images/our-clinic-3.jpeg`}
+        src={`/images/our-clinic-3.jpeg`}
         loading="lazy"
       />
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }}>
-          <img
-        style={{
-          borderRadius: 8,
-          width: "80%",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
-        loading="lazy"
-      />
-                  <Typography variant='h5' align='center'> Alan 4</Typography>
-
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }}>
-            <Typography variant='h5' align='center'> Alan 5</Typography>
-          <img
-        style={{
-          borderRadius: 8,
-          width: "80%",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
-        loading="lazy"
-      />
-          </Grid>
-
-          <Grid size={{ xs: 12, md: 6 }}>
-          <img
-        style={{
-          borderRadius: 8,
-          width: "80%",
-          display: "block",
-          marginLeft: "auto",
-          marginRight: "auto",
-        }}
-        srcSet={`/images/treatmentsPage/implant.jpg`}
-        src={`/images/treatmentsPage/implant.jpg`}
-        loading="lazy"
-      />
-                  <Typography variant='h5' align='center'> Alan 6</Typography>
+                  <Typography variant='h5' align='center'> </Typography>
 
           </Grid>
 

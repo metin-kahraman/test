@@ -1,113 +1,81 @@
-"use client";
-
+'use client';
 import * as React from 'react';
-import {
-  createTheme,
-  ThemeProvider,
-  PaletteMode,
-  styled,
-} from '@mui/material/styles';
-import Select, { SelectChangeEvent } from '@mui/material/Select';
-import MenuItem from '@mui/material/MenuItem';
-import FormControl from '@mui/material/FormControl';
-import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import Box from '@mui/material/Box';
-import AppBar from '@mui/material/AppBar';
-import Toolbar from '@mui/material/Toolbar';
-import Container from '@mui/material/Container';
-import ArrowBackRoundedIcon from '@mui/icons-material/ArrowBackRounded';
-import ToggleColorMode from '../components/ToggleColorMode';
-import getBlogTheme from './theme/getBlogTheme';
-import theme from "@/theme";
+import { AppBar, Toolbar, Typography, Button, IconButton, Box, Drawer, List, ListItem, ListItemText } from '@mui/material';
+import MenuIcon from '@mui/icons-material/Menu';
+import { theme } from './theme';
 
+const navItems = ['DİŞ TEDAVİLERİ', 'DİJİTAL DİŞ HEKİMLİĞİ', 'KLİNİĞİMİZ', 'ÖNCESİ VE SONRASI', 'BLOG', 'İLETİŞİM'];
 
-const StyledAppBar = styled(AppBar)(({ theme }) => ({
-  position: 'fixed',
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'space-between',
-  flexShrink: 0,
-  borderBottom: '1px solid',
-  borderColor: theme.palette.divider,
-  backgroundColor: theme.palette.background.paper,
-  boxShadow: theme.shadows[1],
-  backgroundImage: 'none',
-  padding: 4,
-}));
+export default function Navbar() {
+  const [mobileOpen, setMobileOpen] = React.useState(false);
 
-
-
-interface NavBarProps {
-  showCustomTheme: boolean;
-  toggleCustomTheme: (theme: boolean) => void;
-  mode: PaletteMode;
-  toggleColorMode: () => void;
-}
-
-export default function NavBar({
-  showCustomTheme,
-  toggleCustomTheme,
-  mode,
-  toggleColorMode,
-}: NavBarProps) {
-  const handleChange = (event: SelectChangeEvent) => {
-    toggleCustomTheme(event.target.value === 'custom');
+  const handleDrawerToggle = () => {
+    setMobileOpen(!mobileOpen);
   };
-  const blogTheme = createTheme(getBlogTheme('light'));
+
+  const drawer = (
+    <Box onClick={handleDrawerToggle} sx={{ textAlign: 'center' }}>
+      <Typography variant="h6" sx={{ my: 2 }}>
+        Orange Dent Clinic
+      </Typography>
+      <List>
+        {navItems.map((item) => (
+          <ListItem key={item} disablePadding>
+            <ListItemText primary={item} sx={{ textAlign: 'center' }} />
+          </ListItem>
+        ))}
+      </List>
+    </Box>
+  );
 
   return (
-    <ThemeProvider theme={theme}>
-      <StyledAppBar>
-        <Container maxWidth="lg">
-          <Toolbar
-            variant="dense"
-            disableGutters
-            sx={{ display: 'flex', justifyContent: 'space-between' }}
+    <>
+      <AppBar component="nav" position="sticky" sx={{ backgroundColor: '#ffffff', boxShadow: '0px 1px 0px rgba(0,0,0,0.05)', color: '#000' }}>
+        <Toolbar sx={{ justifyContent: 'space-between', px: { xs: 2, md: 5 } }}>
+          {/* Logo */}
+          <Typography
+            variant="h6"
+            component="div"
+            sx={{ flexGrow: { xs: 1, md: 0 }, display: 'flex', alignItems: 'center', fontWeight: 'bold', letterSpacing: '1px', color: 'secondary.main' }}
           >
-            <Button
-              variant="text"
-              size="small"
-              aria-label="Back to templates"
-              startIcon={<ArrowBackRoundedIcon />}
-              component="a"
-              href="/material-ui/getting-started/templates/"
-              sx={{ display: { xs: 'none', sm: 'flex' } }}
-            >
-              Back to templates
+            ORANGE <Typography component="span" variant="caption" sx={{ ml: 1, color: 'text.secondary' }}>DENTAL CLINIC</Typography>
+          </Typography>
+
+          {/* Desktop Menü */}
+          <Box sx={{ display: { xs: 'none', md: 'flex' }, gap: 3, alignItems: 'center' }}>
+            {navItems.map((item) => (
+              <Button key={item} sx={{ color: 'text.primary', fontSize: '0.75rem', fontWeight: 'bold', letterSpacing: '0.05em' }}>
+                {item}
+              </Button>
+            ))}
+            <Button variant="outlined" color="primary" sx={{ ml: 2, borderRadius: 0, borderWidth: 1, px: 3 }}>
+              RANDEVU ALIN
             </Button>
-            <IconButton
-              size="small"
-              aria-label="Back to templates"
-              component="a"
-              href="/material-ui/getting-started/templates/"
-              sx={{ display: { xs: 'auto', sm: 'none' } }}
-            >
-              <ArrowBackRoundedIcon />
-            </IconButton>
-            <Box sx={{ display: 'flex', gap: 1 }}>
-              <FormControl variant="outlined" sx={{ minWidth: 180 }}>
-                <Select
-                  size="small"
-                  labelId="theme-select-label"
-                  id="theme-select"
-                  value={showCustomTheme ? 'custom' : 'material'}
-                  onChange={handleChange}
-                  label="Design Language"
-                >
-                  <MenuItem value="custom">Custom Theme</MenuItem>
-                  <MenuItem value="material">Material Design 2</MenuItem>
-                </Select>
-              </FormControl>
-              <ToggleColorMode
-                data-screenshot="toggle-mode"
-                mode={mode}
-                toggleColorMode={toggleColorMode}
-              />
-            </Box>
-          </Toolbar>
-        </Container>
-      </StyledAppBar>
-    </ThemeProvider>
+          </Box>
+
+          {/* Mobil Menü İkonu */}
+          <IconButton
+            color="inherit"
+            aria-label="open drawer"
+            edge="start"
+            onClick={handleDrawerToggle}
+            sx={{ display: { md: 'none' } }}
+          >
+            <MenuIcon />
+          </IconButton>
+        </Toolbar>
+      </AppBar>
+
+      {/* Mobil Çekmece */}
+      <Drawer
+        variant="temporary"
+        open={mobileOpen}
+        onClose={handleDrawerToggle}
+        ModalProps={{ keepMounted: true }}
+        sx={{ display: { xs: 'block', md: 'none' } }}
+      >
+        {drawer}
+      </Drawer>
+    </>
   );
 }

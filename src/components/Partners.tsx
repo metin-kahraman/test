@@ -1,5 +1,5 @@
 import React from 'react';
-import { Card, CardContent, CardMedia, Typography, Grid2 } from '@mui/material';
+import { Card, CardContent, CardMedia, Typography, Grid2 , Container, Box } from '@mui/material';
 
 interface Partner {
   id: number;
@@ -13,30 +13,37 @@ interface PartnersProps {
 
 const Partners: React.FC<PartnersProps> = ({ partners }) => {
   return (
+    <Container sx={{ py: 8 }}>
+      <Box sx={{ textAlign: 'center', mb: 6 }}>
+        <Typography variant="caption" component="div" sx={{ color: 'primary.main', letterSpacing: '0.1em' }}>
+          KALİTELİ DİŞ SAĞLIĞI
+        </Typography>
+        <Typography variant="h4" component="h2" sx={{ color: '#1a1a1a', mt: 1 }}>
+          İş Ortaklarımız
+        </Typography>
+        <Box sx={{ width: '40px', height: '2px', bgcolor: 'primary.main', mx: 'auto', mt: 2 }} />
+      </Box>
+
     <Grid2 container spacing={3} justifyContent="center" alignItems="center">
     <Grid2  size={{xs:12, sm:12, md:12, lg:12}}>
-    <Typography variant="h5" align='center'>İş Ortakları</Typography>
 
     </Grid2>
 
       {partners.map((partner) => (
-        <Grid2  size={{xs:4, sm:4, md:3, lg:2}} key={partner.id}>
-          <Card sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', p: 2,height:160 ,boxShadow: 3 }}>
-            <CardMedia
+        <Grid2  size={{xs:12, sm:6, md:3, lg:2}} key={partner.id} sx={{ display: 'flex', justifyContent: 'center', alignItems: 'center' }} >
+                 <CardMedia
               component="img"
               image={partner.logo}
               alt={partner.name}
-              sx={{ width: 100, height: 100, objectFit: 'fill' }}
+              sx={{ width: 200, height: 120,p:2, objectFit: 'contain' }}
             />
-            <CardContent>
-              <Typography variant="h6" align="center">
-                {partner.name}
-              </Typography>
-            </CardContent>
-          </Card>
         </Grid2>
       ))}
     </Grid2>
+      </Container>
+
+
+
   );
 };
 

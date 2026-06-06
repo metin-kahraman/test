@@ -182,7 +182,7 @@ const Blog: FC = () => {
                                 <ListItem>
                                     <ListItemText
                                         primaryTypographyProps={{
-                                            fontFamily: "oswald",
+                                            //fontFamily: "oswald",
                                             align: "center",
                                             fontWeight: "400",
                                         }}

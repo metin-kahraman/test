@@ -3,17 +3,18 @@ import {
   Typography,
   List,
   ListItem,
-  ListItemIcon,
-  ListItemText,
   Box,
-  Paper,
 } from "@mui/material";
 import Link from "next/link";
 import { FC } from "react";
 import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
-import { usePathname } from 'next/navigation'; // `locale` için gerekli
-
+import { usePathname } from 'next/navigation';
+import { Nunito } from 'next/font/google';
+const nunito = Nunito({
+  subsets: ["latin"],
+  weight: ["400", "600", "700"],
+});
 const treatments = [
   { img: "https://picsum.photos/800/450?random=1", title: "T1" },
   { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -36,54 +37,79 @@ const ContentRightSlideMenu: FC = () => {
   ) => string;
   const pathname = usePathname();
   const locale = pathname.split('/')[1] || 'en';
+
+  // Metni istenen formata dönüştüren yardımcı fonksiyon
+  const formatMenuItemText = (text: string) => {
+    if (!text) return null;
+    const upperText = text.toUpperCase();
+    const chars = upperText.split('');
+    if (chars.length === 0) return null;
+    const firstChar = chars[0];
+    const restChars = chars.slice(1).join('');
+    return (
+      <>
+        <span style={{ fontSize: '100%', display: 'inline-block' }}>{firstChar}</span>
+        <span style={{ fontSize: '70%', display: 'inline-block' }}>{restChars}</span>
+      </>
+    );
+  };
+
   return (
     <Box display="flex" flexDirection="column" alignItems="center">
-      <Paper sx={{ backgroundColor: "white" }}>
-        {/* Logo 
-                  <Image 
-            src="/img.jpeg" // Logonun dosya yolunu ayarla
-            alt="Logo"
-            width={24}
-            height={24}
-          />
-          */}
+      <Typography
+        align="center"
+        sx={{ fontWeight: 'bold', pt: 2 }}
+        color="#388E3C"
+        variant="h5"
+        gutterBottom
+      >
+        Tedaviler
+      </Typography>
 
-        {/* Başlık */}
-        <Typography align="center"sx={{ fontWeight: 'bold', pt: 2 }}color="#388E3C" variant="h5" gutterBottom>
-          Tedaviler
-        </Typography>
-        {/* Liste */}
-
-        <List>
-          {treatments.map((item, index) => (
-            <ListItem>
-              <Link
-                href={`/${locale}/`+tt(item.title+"Link")} // Her öğenin URL'sini buraya koyun
-                passHref
-                style={{
-                  //textDecoration: "underline",
-                  textDecoration: "none",
-                  //textDecorationColor:"#ed6c02",
-                  color: 'inherit', // Varsayılan metin rengini kullanır
-                  width: "100%", // Tıklanabilir alanı genişletmek için
-                  display: "block",
+      <List sx={{ width: '100%' }}>
+        {treatments.map((item, index) => (
+          <ListItem
+            key={index}
+            sx={{
+              transition: 'all 0.2s ease',
+              borderRadius: 1,
+              mb: 0.5,
+              '&:hover': {
+                backgroundColor: 'rgba(0,0,0,0.04)',
+                transform: 'translateX(4px)',
+              },
+            }}
+          >
+            <Link
+              href={`/${locale}/` + tt(item.title + "Link")}
+              passHref
+              style={{
+                textDecoration: "none",
+                color: 'inherit',
+                width: "100%",
+                display: "block",
+              }}
+            >
+              <Typography
+                variant="body1"
+                sx={{
+                  fontFamily: nunito.style.fontFamily,
+                  textAlign: "center",
+                  fontWeight: 600,
+                  color: "#ed6c02",
+                  letterSpacing: '0.05em',
+                  transition: 'color 0.2s',
+                  '&:hover': {
+                    color: '#388E3C',
+                  },
                 }}
-              > 
-                <ListItemText
-                  primaryTypographyProps={{
-                    fontFamily: "oswald",
-                    align: "center",
-                    fontWeight: "600",
-                    color:"#ed6c02",
-                    variant:"subtitle2",
-                  }}
-                  primary={tt(item.title)}
-                />
-              </Link>
-            </ListItem>
-          ))}
-        </List>
-      </Paper>
+              >
+                {formatMenuItemText(tt(item.title))}
+              </Typography>
+            </Link>
+          </ListItem>
+        ))}
+      </List>
     </Box>
   );
 };

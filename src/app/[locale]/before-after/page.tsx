@@ -78,25 +78,26 @@ const StyledTypography = styled(Typography)({
 });
 
 const itemList = [
-  "item1",
-  "item2",
-  "item3",
-  "item4",
-  "item5",
-  "item6",
-  "item7",
-  "item8",
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba22.jpeg", after:"/images/ba21.jpeg"},
+  {before:"/images/ba32.jpeg", after:"/images/ba31.jpeg"},
+  {before:"/images/ba42.jpeg", after:"/images/ba41.jpeg"},
+  {before:"/images/ba52.jpeg", after:"/images/ba51.jpeg"},
+  {before:"/images/ba62.jpeg", after:"/images/ba61.jpeg"},
+  {before:"/images/ba72.jpeg", after:"/images/ba71.jpeg"},
+  {before:"/images/ba82.jpeg", after:"/images/ba81.jpeg"},
 ];
 
 const itemListImplant = [
-  "item1",
-  "item2",
-  "item3",
-  "item4",
-  "item5",
-  "item6",
-  "item7",
-  "item8",
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba22.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
 ];
 
 export default function Page(): React.JSX.Element {
@@ -148,7 +149,7 @@ export default function Page(): React.JSX.Element {
           sx={{
             color: "#388E3C",
             fontWeight: "bold",
-            fontFamily: "oswald",
+            //fontFamily: "oswald",
             letterSpacing: "0.5px",
           }}
         >
@@ -172,8 +173,8 @@ export default function Page(): React.JSX.Element {
       <Grid size={{ xs: 12, md: 12 }}>
 
         <Typography align='center'>
-          {implantLimit == itemListImplant.length ? <Button sx={{ fontFamily: "oswald", letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showLess(0)}>Show less </Button>
-            : <Button sx={{ fontFamily: "oswald", letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showMore(0)}>Show more </Button>
+          {implantLimit == itemListImplant.length ? <Button sx={{ /*fontFamily: "oswald",*/ letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showLess(0)}>Show less </Button>
+            : <Button sx={{ /*fontFamily: "oswald", letterSpacing: "0.5px",*/ backgroundColor: '#eb984f',borderRadius:0 , fontSize:'0.875rem', fontWeight:'600', transform:0}}  variant='contained' onClick={() => showMore(0)}>Show more </Button>
 
           }
 
@@ -183,19 +184,23 @@ export default function Page(): React.JSX.Element {
 
 
       <Grid size={{ xs: 12, md: 12 }}>
+                     <CustomDivider text="Diş Taşı Temizliği" />
+
+
         <Typography
-          variant="h5"
+          //variant="h5"
+
           align="center"
           sx={{
             color: "#388E3C",
-            fontWeight: "bold",
-            fontFamily: "oswald",
-            letterSpacing: "0.5px",
+            fontFamily: "gowunBatang",
+                    fontWeight: "bold",
+                    //fontFamily: "oswald",
+                    letterSpacing: "0.7px",
+                    fontSize: "22px",
           }}
-        >
-          Diş Taşı Temizliği
+        >Diş Taşı Temizliği
         </Typography>
-        <CustomDivider></CustomDivider>
 
       </Grid>
 
@@ -203,8 +208,8 @@ export default function Page(): React.JSX.Element {
         return (
           <Grid size={{ xs: 12, md: 4 }}>
             <CustomBeforeAfterSlider
-              beforeImage="/images/ba12.jpeg"
-              afterImage="/images/ba11.jpeg"
+              beforeImage={item.before}
+              afterImage={item.after}
               handleImage="/img.jpeg"
             />
           </Grid>

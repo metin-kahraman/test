@@ -1,7 +1,7 @@
 import { useTranslations } from 'next-intl';
-import { Container, Typography, Box, Paper, Divider, Grid, Card, CardContent, List, ListItem, ListItemText } from '@mui/material';
+import { Container, Typography, Box, Paper, Divider, Grid, Card, CardContent, List, ListItem, ListItemText, Grid2 } from '@mui/material';
 import Image from 'next/image';
-
+import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
 interface Treatment {
   title: string;
   content: string;
@@ -14,8 +14,12 @@ export default function BruxismPage() {
   const treatments = t.raw('treatments') as Treatment[];
 
   return (
-    <Container maxWidth="lg" sx={{ py: 4 }}>
-      <Paper elevation={3} sx={{ p: 4, mb: 4, borderRadius: 3 }}>
+
+<Box sx={{ display: 'flex', backgroundColor: 'background.paper', flexDirection: { xs: 'column', md: 'row' }, gap: 4 }}>
+  {/* Sol taraf – ana içerik */}
+  <Box sx={{ flex: { xs: '1 1 auto', md: '0 0 75%' }, width: '100%' }}>
+    
+          <Paper elevation={3} sx={{ pl: '10%', mb: 4, borderRadius: 3 }}>
         {/* Başlık ve Giriş */}
         <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold', mb: 3, textAlign: 'center' }}>
           {t('title')}
@@ -104,6 +108,22 @@ export default function BruxismPage() {
           ))}
         </Grid>
       </Paper>
-    </Container>
+  </Box>
+
+  {/* Sağ taraf – sticky menu */}
+  <Box sx={{ 
+    flex: { xs: '1 1 auto', md: '0 0 25%' }, 
+    width: '100%',
+    position: { xs: 'static', md: 'sticky' },
+    top: 80,                     // navbar varsa boşluk
+    alignSelf: 'flex-start',
+    height: { xs: 'auto', md: '100vh' },  // !!! KRİTİK
+    overflow: 'auto'            // menü içeriği taşarsa scroll
+  }}>
+    <ContentRightSlideMenu />
+  </Box>
+</Box>
   );
 }
+
+

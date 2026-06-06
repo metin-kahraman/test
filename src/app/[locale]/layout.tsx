@@ -4,12 +4,18 @@ import { getMessages } from 'next-intl/server';
 import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import CssBaseline from "@mui/material/CssBaseline";
+import GlobalStyles from "@mui/material/GlobalStyles"; // <-- EKLENDİ
 import theme from "@/theme";
 import AppAppBar from "@/components/AppAppBar";
 import Container from "@mui/material/Container";
 import Footer from "@/components/Footer";
-import { useTranslations } from 'next-intl';
 import FloatingActionButtons from "@/components/FloatingActionButtons";
+import { Metadata } from "next";
+export const metadata: Metadata = {
+  title: 'Orange Dent Clinic',
+  description: 'Uzman doktorlarımızla gülüşünüzü güvence altına alın.',
+};
+
 export default async function LocaleLayout({
   children,
   params: { locale }
@@ -17,7 +23,6 @@ export default async function LocaleLayout({
   children: React.ReactNode;
   params: { locale: string };
 }) {
-  // Sunucudan dil mesajlarını al
   const messages = await getMessages({ locale });
 
   return (
@@ -25,36 +30,47 @@ export default async function LocaleLayout({
       <body>
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
-            {/* CssBaseline: Uygulamanızın tutarlı bir temel stilini sağlar */}
+            {/* CssBaseline: Temel sıfırlama */}
             <CssBaseline />
-            <NextIntlClientProvider locale={locale} messages={messages}>
+            
+            {/* Yatay kaydırmayı kesin olarak engeller */}
+            <GlobalStyles styles={{
+              html: { overflowX: 'hidden', maxWidth: '100%' },
+              body: { overflowX: 'hidden', maxWidth: '100%', margin: 0, padding: 0 }
+            }} />
 
+            <NextIntlClientProvider locale={locale} messages={messages}>
+              
+              {/* Navbar tam genişlik */}
+              <AppAppBar />
+
+              {/* Container: Mobildeki yan boşlukları yüzde (%) ile yönetiyoruz */}
               <Container
                 maxWidth={false}
-                disableGutters={true}
-                //component="main"
+                disableGutters={false} // <-- false yaptık (ÖNEMLİ)
                 sx={{
-                  //display: "flex",
-                  flexDirection: "column",
-                  mb: 4,
-                  mt:14,
-                  pr:'4.1%',
-                  pl:'4.1%'
+                  display: 'flex',
+                  flexDirection: 'column',
+                  //pr:0,
+                  //pl:0,
+                  minHeight: '80vh',
+                  // Mobilde sağ/sol boşluklar
+                  px: { xs: '4.1%', md: '4.1%', lg:0, xl:0 }, 
+                  //mt: { xs: 12, md: 14 ,lg:'6.1%', xl:'5.1%'  }, // Navbar yüksekliğine göre margin top
+                  mb: 4
                 }}
               >
-                              <AppAppBar />
-
                 {children}
-                <FloatingActionButtons></FloatingActionButtons>
-                <Footer />
+                <FloatingActionButtons />
               </Container>
-            </NextIntlClientProvider>
 
+              {/* Footer tam genişlik */}
+              <Footer />
+
+            </NextIntlClientProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
-
       </body>
-      
     </html>
   );
 }

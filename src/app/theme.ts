@@ -1,35 +1,36 @@
-'use client';
-import { Roboto, Inter } from 'next/font/google';
+"use client";
 import { createTheme } from '@mui/material/styles';
-import { getDesignTokens } from './theme/themePrimitives';
 
-import {
-  inputsCustomizations,
-  dataDisplayCustomizations,
-  feedbackCustomizations,
-  navigationCustomizations,
-  surfacesCustomizations,
-} from '../app/theme/customizations';
-
-const roboto = Roboto({
-  weight: ['100', '300', '400', '500'],
-  subsets: ['latin'],
-  display: 'swap',
-});
-const inter = Inter({
-  weight: ['300', '400', '500', '700'],
-  subsets: ['latin'],
-});
-
-const theme = createTheme({
-  ...getDesignTokens('dark'),
-  components: {
-    ...inputsCustomizations,
-    ...dataDisplayCustomizations,
-    ...feedbackCustomizations,
-    ...navigationCustomizations,
-    ...surfacesCustomizations,
+export const theme = createTheme({
+  palette: {
+    primary: {
+      main: '#d3a572', // Tasarımdaki altın rengi tonu
+      light: '#f2d0a4',
+      dark: '#b08350',
+    },
+    secondary: {
+      main: '#2f4037', // Tasarımdaki koyu yeşil/antrasit tonu
+    },
+    background: {
+      default: '#fcfbf9', // Hafif krem tonu
+    },
+    text: {
+      primary: '#1a1a1a',
+      secondary: '#666666',
+    },
+  },
+  typography: {
+    fontFamily: '"Inter", "Roboto", "Helvetica", "Arial", sans-serif',
+    h1: {
+      fontWeight: 700,
+    },
+    h2: {
+      fontWeight: 400,
+      letterSpacing: '0.02em',
+    },
+    button: {
+      textTransform: 'none',
+      fontWeight: 600,
+    },
   },
 });
-
-export default theme;

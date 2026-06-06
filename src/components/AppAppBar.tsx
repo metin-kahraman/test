@@ -33,13 +33,13 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: "center",
   justifyContent: "space-between",
   flexShrink: 0,
-  borderRadius: `calc(${theme.shape.borderRadius}px + 8px)`,
-  backdropFilter: "blur(24px)",
-  border: "1px solid",
-  borderColor: theme.palette.divider,
-  backgroundColor: alpha(theme.palette.background.paper, 0.4),
-  boxShadow: theme.shadows[1],
-  padding: "8px 12px",
+  //borderRadius: `calc(${theme.shape.borderRadius}px + 8px)`,
+  //backdropFilter: "blur(24px)",
+  //border: "1px solid",
+  //borderColor: theme.palette.divider,
+  //backgroundColor: alpha(theme.palette.background.paper, 0.4),
+  //boxShadow: theme.shadows[1],
+  //padding: "8px 12px",
 }));
 
 const languages = [
@@ -110,7 +110,6 @@ export default function AppAppBar() {
     const newPath =
       urlMappings[newLocale as keyof typeof urlMappings]?.[currentPath] ||
       currentPath;
-    console.log("newPath", newPath);
     // Yönlendirme
     router.push(`/${newLocale}/${newPath}`);
     setSelectedLanguage(newLocale);
@@ -129,9 +128,10 @@ export default function AppAppBar() {
       position="fixed"
       sx={{
         boxShadow: 0,
-        bgcolor: "transparent",
+        bgcolor: "#fcfbf9",
         backgroundImage: "none",
-        mt: 2,
+        //mt: 2,
+        //mb: 2,
         pr: "2.2%",
         pl: "2.2%",
       }}
@@ -148,12 +148,13 @@ export default function AppAppBar() {
                   onClick={() => router.push(`/${locale}/${url(item.title)}`)}
                   variant="text"
                   sx={{
-                    color: item.title == "item4" ?  color : "#388E3C",
-                    transition:item ?  'color 1.7s ease-in-out' : "none",
+                    //color: item.title == "item4" ?  color : "#388E3C",
+                    color: "#d3a572",
+                    //transition:item ?  'color 1.7s ease-in-out' : "none",
                     fontWeight: "bold",
-                    fontFamily: "oswald",
-                    letterSpacing: "0.5px",
-                    fontSize: "12px",
+                    //fontFamily: "oswald",
+                    letterSpacing: "0.7px",
+                    fontSize: "14px",
                   }}
                 >
                   {t(item.title)}
@@ -163,11 +164,11 @@ export default function AppAppBar() {
                 onClick={() => handleScrollToBottom()}
                 variant="text"
                 sx={{
-                  color: "#388E3C",
+                  color: "#d3a572",
                   fontWeight: "bold",
-                  fontFamily: "oswald",
-                  letterSpacing: "0.5px",
-                  fontSize: "12px",
+                  //fontFamily: "oswald",
+                  letterSpacing: "0.7px",
+                  fontSize: "14px",
                 }}
               >
                 {t("item5")}
@@ -256,7 +257,7 @@ export default function AppAppBar() {
                   left: "50%",
                   transform: "translate(-50%, -50%)",
                   width: 300,
-                  bgcolor: "hsla(210, 100%, 95%, 0.8)",
+                  bgcolor: "hsla(31, 66%, 69%, 0.70)",
                   borderRadius: 2,
                   boxShadow: 24,
                   p: 4,
@@ -341,7 +342,7 @@ export default function AppAppBar() {
                     variant="text"
                     color="info"
                     size="small"
-                    sx={{fontWeight: "600",color:"green",fontFamily: "oswald",}}
+                    sx={{fontWeight: "600",color:"green",/*fontFamily: "oswald"*/}}
                     fullWidth
                   >
                     {t(item.title)}

@@ -2,43 +2,38 @@
 import React from 'react';
 import { styled } from '@mui/material/styles';
 import Box from '@mui/material/Box';
+import { Typography } from '@mui/material';
 
-export default function CustomDivider() {
-    const CustomDivider = styled(Box)(({ theme }) => ({
-      display: 'flex',
-      alignItems: 'center',
-      position: 'relative',
-      width: '100%',
-      marginTop:20,
-      //height: 0.3,
-      backgroundColor: 'orange',
-      '&::before': {
-        content: '""',
-        position: 'absolute',
-        left: 0,
-        right: 0,
-        top: '50%',
-        transform: 'translateY(-50%)',
-        borderBottom: `2px solid orange`,
-      },
-      '&::after': {
-        content: '""',
-        display: 'block',
-        position: 'absolute',
-        left: '50%',
-        transform: 'translateX(-50%)',
-        width: 50,
-        height: 50,
-        backgroundImage: 'url("/img.jpeg")',
-        backgroundSize: 'contain',
-        backgroundRepeat: 'no-repeat',
-        backgroundPosition: 'center',
-        borderRadius: '50%',
-      },
-    }));
-
-    return(
-        <CustomDivider />
-    )
+interface CustomDividerProps {
+  text: string;
 }
-  
+
+export default function CustomDivider({ text }: CustomDividerProps) {
+  const DividerContainer = styled(Box)(({ theme }) => ({
+    position: 'relative',
+    width: 50,
+    height: 50,
+    backgroundImage: 'url("/img.jpeg")',
+    backgroundSize: 'contain',
+    backgroundRepeat: 'no-repeat',
+    backgroundPosition: 'center',
+  }));
+
+  // Sayfayı kaplayan ve içeriği ortalar
+  const CenteredWrapper = styled(Box)({
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    //minHeight: '100vh', // tüm viewport yüksekliğini kaplar, dikey ortalama için
+    width: '100%',
+  });
+
+  return (
+    <CenteredWrapper>
+      <DividerContainer>
+
+      </DividerContainer>
+
+    </CenteredWrapper>
+  );
+}

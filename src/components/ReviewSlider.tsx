@@ -1,3 +1,4 @@
+"use client";
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Card, CardContent, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
@@ -29,6 +30,7 @@ const reviews = [
   },
 ];
 
+
 function ReviewSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -48,6 +50,7 @@ function ReviewSlider() {
   };
 
   return (
+    
     <Box
       sx={{
         width: '100%',
@@ -61,6 +64,7 @@ function ReviewSlider() {
         justifyContent: 'center',
       }}
     >
+      
       <IconButton
         onClick={handlePrev}
         sx={{

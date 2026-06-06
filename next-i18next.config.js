@@ -2,7 +2,7 @@
 const nextI18NextConfig = {
   i18n: {
     defaultLocale: 'en',
-    locales: ['en', 'tr', 'ru', 'fr'],
+    locales: ['en', 'tr', 'ru'],
   },
   detection: {
     order: ['querystring', 'cookie', 'localStorage', 'navigator'],

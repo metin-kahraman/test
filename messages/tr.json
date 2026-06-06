@@ -3,6 +3,12 @@
     "title": "Merhaba dünya!",
     "about": "Hakkında sayfasına gidin"
   },
+  "Buttons":{
+    "readMore":"Devamını Oku",
+    "getMoreInfo":"Daha Fazla Bilgi",
+    "allApplications":"Tüm Uygulamalar",
+    "showMore":"Daha Fazla Göster"
+  },
   "TreatmentsPage": {
     "titles": {
       "T1": "Estetik Diş Hekimliği",
@@ -20,17 +26,17 @@
       "T7": "Çocuk Diş Hekimliği (Pedodontoloji)",
       "T7Link":"dis-tedavileri/cocuk-dis-hekimligi",
       "T8": "İmplant Tedavisi",
-      "T8Link":"dis-tedavileri/implant-tedavisi",
+      "T8Link":"dis-tedavileri/implant",
       "T9": "Ağız Diş ve Çene Cerrahileri",
-      "T9Link":"dis-tedavileri/agiz-dis-ve-cene-cerrahileri",
+      "T9Link":"dis-tedavileri/agiz-cerrahi",
       "T10":"Frenektomi (Dudak-Dil Bağı Alınması)",
-      "T10Link":"dis-tedavileri/dudak-dil-bagi-alinmasi",
+      "T10Link":"dis-tedavileri/frenektomi",
       "T11": "All - On - 4 Tedaviler",
-      "T11Link":"dis-tedavileri/all-on-four-implant",
+      "T11Link":"dis-tedavileri/all-on-4",
       "T12": "Dolgu Tedavisi",
       "T12Link":"dis-tedavileri/dolgu-tedavisi",
       "T13": "Sabit Protetik Uygulamalar",
-      "T13Link":"dis-tedavileri/sabit-protetik-uygulamalar"
+      "T13Link":"dis-tedavileri/sabit-protez"
     },
     "seo": {
       "title": "Diş Tedavileri - Orange Dent Clinic",
@@ -41,7 +47,7 @@
   },
   "Menu": {
     "titles": {
-      "item1": "Diş Tedavileri",
+      "item1": "Tedaviler",
       "item2": "Dijital Diş Hekimliği",
       "item3": "Kliniğimiz",
       "item4": "Öncesi ve Sonrası",
