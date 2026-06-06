@@ -1,6 +1,5 @@
 import React from 'react';
 import { Grid, Typography, Paper } from '@mui/material';
-import theme from '@/app/theme';
 
 interface ImgCardProps {
   imageSrc: string;
