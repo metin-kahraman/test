@@ -17,7 +17,7 @@ export default function BruxismPage() {
 
 <Box sx={{ display: 'flex', backgroundColor: 'background.paper', flexDirection: { xs: 'column', md: 'row' }, gap: 4 }}>
   {/* Sol taraf – ana içerik */}
-  <Box sx={{ flex: { xs: '1 1 auto', md: '0 0 75%' }, width: '100%' }}>
+  <Box sx={{ flex: { xs: '1 1 auto', md: '0 0 75%' },mt: 4, width: '100%' }}>
     
           <Paper elevation={3} sx={{ pl: '10%', mb: 4, borderRadius: 3 }}>
         {/* Başlık ve Giriş */}
@@ -67,7 +67,7 @@ export default function BruxismPage() {
           {symptoms.map((symptom, index) => (
             <Grid item xs={12} sm={6} key={index}>
               <Paper elevation={1} sx={{ p: 2, display: 'flex', alignItems: 'center' }}>
-                <Box sx={{ width: 8, height: 8, bgcolor: 'primary.main', borderRadius: '50%', mr: 2 }} />
+                <Box sx={{ width: 8, height: 8, bgcolor: '#D3A572', borderRadius: '50%', mr: 2 }} />
                 <Typography variant="body1">{symptom}</Typography>
               </Paper>
             </Grid>
@@ -84,7 +84,7 @@ export default function BruxismPage() {
             <Grid item xs={12} md={4} key={index}>
               <Card sx={{ height: '100%', transition: 'transform 0.3s', '&:hover': { transform: 'translateY(-5px)' } }}>
                 <CardContent>
-                  <Typography variant="h5" component="h3" gutterBottom sx={{ fontWeight: 'bold', color: 'primary.main' }}>
+                  <Typography variant="h5" component="h3" gutterBottom sx={{ fontWeight: 'bold', color: '#D3A572' }}>
                     {treatment.title}
                   </Typography>
                   <Typography variant="body1">
@@ -126,4 +126,4 @@ export default function BruxismPage() {
   );
 }
 
-
+//#D3A572

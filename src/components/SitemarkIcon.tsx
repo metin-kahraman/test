@@ -8,7 +8,9 @@ export default function SitemarkIcon() {
   return (
     <Icon sx={{ height: 'auto', width: 'auto', mr: 2, mb: -0.5 }}>
       <img
-        src="/OrangeDentClinic.svg"
+        src="/img.jpeg"
+        width="32"
+        height="32"
         alt="Orange Dent Clinic"
         style={{ cursor: 'pointer' }}
         onClick={() => router.push('/')}

@@ -55,7 +55,7 @@ const ContentRightSlideMenu: FC = () => {
   };
 
   return (
-    <Box display="flex" flexDirection="column" alignItems="center">
+    <Box display="flex" flexDirection="column" alignItems="center" sx={{mt: 4}}>
       <Typography
         align="center"
         sx={{ fontWeight: 'bold', pt: 2 }}

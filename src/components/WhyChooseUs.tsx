@@ -20,7 +20,7 @@ export default function WhyChooseUs() {
           {/* Sol Taraf: Başlıklar */}
           <Grid item xs={12} md={4}>
             <Typography variant="caption" component="div" sx={{ letterSpacing: '0.1em', color: '#ccc', mb: 1 }}>
-              NEDEN SIRONA DENTAL?
+              Orange Dent Clinic
             </Typography>
             <Typography variant="h4" component="h2" sx={{ fontWeight: 300, fontSize: {xs: '1.8rem', md: '2.5rem'} }}>
               Sağlığınız ve gülüşünüz <br/> bizim önceliğimiz

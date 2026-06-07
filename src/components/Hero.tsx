@@ -1,7 +1,7 @@
 'use client';
 import { Box, Container, Typography, Button, Icon } from '@mui/material';
-import EventIcon from '@mui/icons-material/Event';
-
+//import EventIcon from '@mui/icons-material/Event';
+import WhatsappIcon from '@mui/icons-material/WhatsApp';
 export default function Hero() {
   return (
     <Box
@@ -54,10 +54,10 @@ export default function Hero() {
           </Typography>
           <Button
             variant="contained"
-            startIcon={<EventIcon />}
+            startIcon={<WhatsappIcon  /*color="success"*/ />}
             sx={{
               backgroundColor: '#d3a572',
-              color: '#fff',
+              color: '#ffffff',
               borderRadius: 0,
               px: 4,
               py: 1.5,
