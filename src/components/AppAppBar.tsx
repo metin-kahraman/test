@@ -342,7 +342,7 @@ export default function AppAppBar() {
                     variant="text"
                     color="info"
                     size="small"
-                    sx={{fontWeight: "600",color:"green",/*fontFamily: "oswald"*/}}
+                    sx={{fontWeight: "600",color:"#d3a572",/*fontFamily: "oswald"*/}}
                     fullWidth
                   >
                     {t(item.title)}
