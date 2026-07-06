@@ -5,7 +5,7 @@ import ModernPageBanner from "@/components/ModernPageBanner";
 
 export default function BannerWrapper() {
   const pathname = usePathname();
-  const isRootLocale = /^\/(tr|en)$/.test(pathname);
+  const isRootLocale = /^\/(tr|en|ru|pl|lt)$/.test(pathname);
 
   return !isRootLocale ? <ModernPageBanner /> : null;
 }

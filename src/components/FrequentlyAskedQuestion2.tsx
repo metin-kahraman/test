@@ -8,19 +8,19 @@ import { Grid2 } from "@mui/material";
 import { useTranslations } from "next-intl";
 
 
-interface FrequentlyAskedQuestionsProps {
+interface FrequentlyAskedQuestions2Props {
   translateKey: string;
   questionList: string[];
   startWith?: string;
   totalQuestionsValue?: number;
 }
 
-export default function FrequentlyAskedQuestions({
+export default function FrequentlyAskedQuestions2({
   translateKey,
   questionList,
   startWith = "",
   totalQuestionsValue = 0,
-}: FrequentlyAskedQuestionsProps) {
+}: FrequentlyAskedQuestions2Props) {
   const t = useTranslations(translateKey);
 
   return (

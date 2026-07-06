@@ -46,7 +46,9 @@ const languages = [
   { code: "en", flagUrl: "https://flagcdn.com/w320/gb.png" },
   { code: "tr", flagUrl: "https://flagcdn.com/w320/tr.png" },
   { code: "ru", flagUrl: "https://flagcdn.com/w320/ru.png" },
-  { code: "fr", flagUrl: "https://flagcdn.com/w320/fr.png" },
+  { code: "pl", flagUrl: "https://flagcdn.com/w320/pl.png" },
+  { code: "lt", flagUrl: "https://flagcdn.com/w320/lt.png" },
+
 ];
 
 const CustomSelect = styled(Select)(({ theme }) => ({
@@ -71,7 +73,9 @@ const menuItems = [
   { title: "item2" },
   { title: "item3" },
   { title: "item4" },
+  { title: "item5" },
   { title: "item6" },
+  { title: "item7" },
 ];
 
 export default function AppAppBar() {

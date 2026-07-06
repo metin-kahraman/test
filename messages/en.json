@@ -56,16 +56,19 @@
       "item1": "Dental Treatments",
       "item2": "Digital Dentistry",
       "item3": "Our Clinic",
-      "item4": "Before & After",
-      "item5": "Contact",
-      "item6": "Blog"
+      "item4": "About Us",
+      "item5": "Before & After",
+      "item6": "Contact",
+      "item7": "Blog"
     },
     "urls": {
       "item1": "dental-treatments",
       "item2": "digital-dentistry",
       "item3": "our-clinic",
-      "item4": "before-after",
-      "item6": "blog"
+      "item4": "about-us",
+      "item5": "before-after",
+      "item6": "contact",
+      "item7": "blog"
     },
     "seo": {
       "title": "Orange Dent Clinic - Menu",
@@ -73,6 +76,11 @@
       "keywords": "dental clinic menu, dental treatments, digital dentistry, contact",
       "url": "menu"
     }
+  },
+  "aboutUs": {
+  "title": "About Us",
+  "slogan": "YOUR SMILE IS YOUR MOST PRECIOUS SIGNATURE…",
+  "content": "As Orange Dent Clinic, we set out to bring modern dentistry practices to you in a sincere and peaceful atmosphere. Since 2018, in the Kemer region of Antalya, we have aimed to keep your health and aesthetic expectations at the highest level. Our team of specialist doctors offers personalized treatment protocols in a wide range from implantology to aesthetic smile design, orthodontics to pediatric dentistry. Our multidisciplinary team of experienced dentists and specialists creates the most accurate diagnosis and treatment plan even in complex cases. In our clinic, a comfortable environment and state-of-the-art equipment (such as 3D tomography, digital scanners, block scrapers, orthodontic clear aligners) are used to help you leave your treatment fears at the door. We closely follow technological developments and place digital dentistry solutions at the center of our clinic. For us, every patient is a new member of our family. We believe that every minute you spend in our clinic is a valuable investment in your health. Our goal is not only to solve your dental problems but also to ensure that you leave our clinic with confidence and a happy smile."
   },
   "SingleToothImplant": {
     "title": "Can a Single Tooth Implant Be Done?",

@@ -329,7 +329,7 @@ const nextConfig = {
         destination: '/tr/dental-treatments/fixed-prosthetic-applications',
       },
 
-      // ========== RUSÇA (ru) İÇİN YÖNLENDİRMELER (MEVCUT) ==========
+      // ========== RUSÇA (ru) İÇİN YÖNLENDİRMELER ==========
       {
         source: '/ru/dis-tedavileri',
         destination: '/ru/dental-treatments',
@@ -871,6 +871,364 @@ const nextConfig = {
       {
         source: '/en/blog/halitoz',
         destination: '/en/blog/halitosis',
+      },
+
+      // ========== LİTVANYACA (lt) İÇİN YÖNLENDİRMELER ==========
+      // Üst seviye sayfalar
+      {
+        source: '/lt/dantų-gydymas',
+        destination: '/lt/dental-treatments',
+      },
+      {
+        source: '/lt/skaitmeninė-odontologija',
+        destination: '/lt/digital-dentistry',
+      },
+      {
+        source: '/lt/mūsų-klinika',
+        destination: '/lt/our-clinic',
+      },
+      {
+        source: '/lt/apie-mus',
+        destination: '/lt/about-us',
+      },
+      {
+        source: '/lt/prieš-po',
+        destination: '/lt/before-after',
+      },
+      {
+        source: '/lt/kontaktai',
+        destination: '/lt/contact',
+      },
+      {
+        source: '/lt/tinklaraštis',
+        destination: '/lt/blog',
+      },
+
+      // Dental treatments alt sayfalar
+      {
+        source: '/lt/dantų-gydymas/estetinė-odontologija',
+        destination: '/lt/dental-treatments/aesthetic-dentistry',
+      },
+      {
+        source: '/lt/dantų-gydymas/dantų-balinimas',
+        destination: '/lt/dental-treatments/dental-bleaching',
+      },
+      {
+        source: '/lt/dantų-gydymas/invisalign-ortodontija',
+        destination: '/lt/dental-treatments/invisalign-orthodontics',
+      },
+      {
+        source: '/lt/dantų-gydymas/ortodontija-breketai',
+        destination: '/lt/dental-treatments/orthodontics',
+      },
+      {
+        source: '/lt/dantų-gydymas/endodontija',
+        destination: '/lt/dental-treatments/endodontics',
+      },
+      {
+        source: '/lt/dantų-gydymas/periodontologija',
+        destination: '/lt/dental-treatments/periodontology',
+      },
+      {
+        source: '/lt/dantų-gydymas/vaikų-odontologija',
+        destination: '/lt/dental-treatments/pediatric-dentistry',
+      },
+      {
+        source: '/lt/dantų-gydymas/implantai',
+        destination: '/lt/dental-treatments/implants',
+      },
+      {
+        source: '/lt/dantų-gydymas/burnos-žandikaulių-chirurgija',
+        destination: '/lt/dental-treatments/oral-jaw-surgery',
+      },
+      {
+        source: '/lt/dantų-gydymas/frenektomija',
+        destination: '/lt/dental-treatments/frenectomy',
+      },
+      {
+        source: '/lt/dantų-gydymas/all-on-4',
+        destination: '/lt/dental-treatments/all-on-4',
+      },
+      {
+        source: '/lt/dantų-gydymas/plombavimas',
+        destination: '/lt/dental-treatments/filling',
+      },
+      {
+        source: '/lt/dantų-gydymas/fiksuotos-protezavimo-procedūros',
+        destination: '/lt/dental-treatments/fixed-prosthetic-applications',
+      },
+
+      // Single tooth implant
+      {
+        source: '/lt/implantas/vieno-danties-implantas',
+        destination: '/lt/blog/implant/single-tooth',
+      },
+
+      // Blog yazıları (BlogItems)
+      {
+        source: '/lt/tinklaraštis/bruksizmas',
+        destination: '/lt/blog/bruxism',
+      },
+      {
+        source: '/lt/tinklaraštis/implantas/all-on-4',
+        destination: '/lt/blog/implant/all-on-4',
+      },
+      {
+        source: '/lt/tinklaraštis/implantas/laikinos-galybes',
+        destination: '/lt/blog/implant/temporary-options',
+      },
+      {
+        source: '/lt/tinklaraštis/implantas/kaulo-transplantatas',
+        destination: '/lt/blog/implant/bone-graft',
+      },
+      {
+        source: '/lt/tinklaraštis/dantenų-atsitraukimas-ir-jautrumas',
+        destination: '/lt/blog/gum-recession-and-sensitivity',
+      },
+      {
+        source: '/lt/tinklaraštis/dantų-tiltelis',
+        destination: '/lt/blog/dental-bridge',
+      },
+      {
+        source: '/lt/tinklaraštis/kas-yra-dantu-implantas',
+        destination: '/lt/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/lt/tinklaraštis/tos-pacios-dienos-dantu-implantas',
+        destination: '/lt/blog/implant/same-day-implant',
+      },
+      {
+        source: '/lt/tinklaraštis/implanto-gijimo-procesas',
+        destination: '/lt/blog/implant/healing-process',
+      },
+      {
+        source: '/lt/tinklaraštis/halitozė',
+        destination: '/lt/blog/halitosis',
+      },
+
+      // Blog papildomi straipsniai
+      {
+        source: '/lt/tinklaraštis/dantų-pageltimas',
+        destination: '/lt/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/dantenų-kraujavimas',
+        destination: '/lt/blog/tooth-bleeding',
+      },
+      {
+        source: '/lt/tinklaraštis/tarpelių-tarp-dantų-gydymas',
+        destination: '/lt/blog/spaced-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/uzdarame-kaule-esancio-danties-salinimas',
+        destination: '/lt/blog/impacted-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/dantų-karuneliu-tipai',
+        destination: '/lt/blog/dental-veneer-types',
+      },
+      {
+        source: '/lt/tinklaraštis/ortodontiniai-gydymai',
+        destination: '/lt/blog/what-are-orthodontic-treatments',
+      },
+      {
+        source: '/lt/tinklaraštis/ortodontija',
+        destination: '/lt/blog/orthodontics',
+      },
+      {
+        source: '/lt/tinklaraštis/dantų-implantai',
+        destination: '/lt/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/lt/tinklaraštis/klausimai-pries-dantu-implantus',
+        destination: '/lt/blog/questions-before-dental-implants',
+      },
+      {
+        source: '/lt/tinklaraštis/protezai',
+        destination: '/lt/blog/denture',
+      },
+      {
+        source: '/lt/tinklaraštis/protezai-privalumai-trūkumai',
+        destination: '/lt/blog/denture-pros-cons',
+      },
+
+      // ========== POLONCA (pl) İÇİN YÖNLENDİRMELER ==========
+      // Üst seviye sayfalar
+      {
+        source: '/pl/leczenie-zębów',
+        destination: '/pl/dental-treatments',
+      },
+      {
+        source: '/pl/stomatologia-cyfrowa',
+        destination: '/pl/digital-dentistry',
+      },
+      {
+        source: '/pl/nasza-klinika',
+        destination: '/pl/our-clinic',
+      },
+      {
+        source: '/pl/o-nas',
+        destination: '/pl/about-us',
+      },
+      {
+        source: '/pl/przed-po',
+        destination: '/pl/before-after',
+      },
+      {
+        source: '/pl/kontakt',
+        destination: '/pl/contact',
+      },
+      {
+        source: '/pl/blog',
+        destination: '/pl/blog',
+      },
+
+      // Dental treatments alt sayfalar
+      {
+        source: '/pl/leczenie-zębów/stomatologia-estetyczna',
+        destination: '/pl/dental-treatments/aesthetic-dentistry',
+      },
+      {
+        source: '/pl/leczenie-zębów/wybielanie-zębów',
+        destination: '/pl/dental-treatments/dental-bleaching',
+      },
+      {
+        source: '/pl/leczenie-zębów/invisalign-ortodoncja',
+        destination: '/pl/dental-treatments/invisalign-orthodontics',
+      },
+      {
+        source: '/pl/leczenie-zębów/ortodoncja-aparaty',
+        destination: '/pl/dental-treatments/orthodontics',
+      },
+      {
+        source: '/pl/leczenie-zębów/endodoncja',
+        destination: '/pl/dental-treatments/endodontics',
+      },
+      {
+        source: '/pl/leczenie-zębów/periodontologia',
+        destination: '/pl/dental-treatments/periodontology',
+      },
+      {
+        source: '/pl/leczenie-zębów/stomatologia-dziecięca',
+        destination: '/pl/dental-treatments/pediatric-dentistry',
+      },
+      {
+        source: '/pl/leczenie-zębów/implanty',
+        destination: '/pl/dental-treatments/implants',
+      },
+      {
+        source: '/pl/leczenie-zębów/chirurgia-jamy-ustnej-szczęki',
+        destination: '/pl/dental-treatments/oral-jaw-surgery',
+      },
+      {
+        source: '/pl/leczenie-zębów/frenektomia',
+        destination: '/pl/dental-treatments/frenectomy',
+      },
+      {
+        source: '/pl/leczenie-zębów/all-on-4',
+        destination: '/pl/dental-treatments/all-on-4',
+      },
+      {
+        source: '/pl/leczenie-zębów/wypełnienia',
+        destination: '/pl/dental-treatments/filling',
+      },
+      {
+        source: '/pl/leczenie-zębów/stale-uzupełnienia-protetyczne',
+        destination: '/pl/dental-treatments/fixed-prosthetic-applications',
+      },
+
+      // Single tooth implant
+      {
+        source: '/pl/implant/implant-pojedynczego-zeba',
+        destination: '/pl/blog/implant/single-tooth',
+      },
+
+      // Blog yazıları (BlogItems)
+      {
+        source: '/pl/blog/bruksizm',
+        destination: '/pl/blog/bruxism',
+      },
+      {
+        source: '/pl/blog/implant/all-on-4',
+        destination: '/pl/blog/implant/all-on-4',
+      },
+      {
+        source: '/pl/blog/implant/tymczasowe-opcje',
+        destination: '/pl/blog/implant/temporary-options',
+      },
+      {
+        source: '/pl/blog/implant/przeszczep-kosci',
+        destination: '/pl/blog/implant/bone-graft',
+      },
+      {
+        source: '/pl/blog/recesja-dziąseł-i-nadwrażliwość',
+        destination: '/pl/blog/gum-recession-and-sensitivity',
+      },
+      {
+        source: '/pl/blog/most-dentystyczny',
+        destination: '/pl/blog/dental-bridge',
+      },
+      {
+        source: '/pl/blog/co-to-jest-implant-dentystyczny',
+        destination: '/pl/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/pl/blog/implant-tego-samego-dnia',
+        destination: '/pl/blog/implant/same-day-implant',
+      },
+      {
+        source: '/pl/blog/proces-gojenia-implantu',
+        destination: '/pl/blog/implant/healing-process',
+      },
+      {
+        source: '/pl/blog/halitoza',
+        destination: '/pl/blog/halitosis',
+      },
+
+      // Blog papildomi straipsniai
+      {
+        source: '/pl/blog/zolkniecie-zebow',
+        destination: '/pl/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/pl/blog/krwawienie-dziąseł',
+        destination: '/pl/blog/tooth-bleeding',
+      },
+      {
+        source: '/pl/blog/leczenie-przerw-miedzy-zebami',
+        destination: '/pl/blog/spaced-teeth',
+      },
+      {
+        source: '/pl/blog/ekstrakcja-zeba-zatrzymanego',
+        destination: '/pl/blog/impacted-teeth',
+      },
+      {
+        source: '/pl/blog/rodzaje-koron-zebowych',
+        destination: '/pl/blog/dental-veneer-types',
+      },
+      {
+        source: '/pl/blog/leczenie-ortodontyczne',
+        destination: '/pl/blog/what-are-orthodontic-treatments',
+      },
+      {
+        source: '/pl/blog/ortodoncja',
+        destination: '/pl/blog/orthodontics',
+      },
+      {
+        source: '/pl/blog/implanty-dentystyczne',
+        destination: '/pl/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/pl/blog/pytania-przed-implantami',
+        destination: '/pl/blog/questions-before-dental-implants',
+      },
+      {
+        source: '/pl/blog/protezy',
+        destination: '/pl/blog/denture',
+      },
+      {
+        source: '/pl/blog/protezy-zalety-wady',
+        destination: '/pl/blog/denture-pros-cons',
       },
     ];
   },

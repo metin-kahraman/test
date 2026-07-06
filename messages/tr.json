@@ -50,17 +50,25 @@
       "item1": "Tedaviler",
       "item2": "Dijital Diş Hekimliği",
       "item3": "Kliniğimiz",
-      "item4": "Öncesi ve Sonrası",
-      "item5": "İletişim",
-      "item6":"Blog"
+      "item4": "Hakkımızda",
+      "item5": "Öncesi ve Sonrası",
+      "item6": "İletişim",
+      "item7":"Blog"
     },
     "urls": {
       "item1": "dis-tedavileri",
       "item2":"dijital-dis-hekimligi",
       "item3":"klinigimiz",
-      "item4":"oncesi-sonrasi",
-      "item6":"blog"
+      "item4":"hakkimizda",
+      "item5":"oncesi-sonrasi",
+      "item6":"iletisim",
+      "item7":"blog"
     }
+  },
+  "aboutUs":{
+    "title":"Hakkımızda",
+    "slogan":"GÜLÜŞÜNÜZ, EN DEĞERLİ İMZANIZDIR…",
+    "content":"Orange Dent Klinik olarak, modern diş hekimliği uygulamalarını samimi ve huzurlu bir atmosferde sizlerle buluşturmak için yola çıktık. 2018 yılından bu yana Antalya’nın Kemer bölgesinde, sağlığınızı ve estetik beklentilerinizi en üst düzeyde tutmayı amaç edindik.Uzman hekim kadromuz; implantolojiden estetik gülüş tasarımına, ortodontiden çocuk diş hekimliğine kadar geniş bir yelpazede kişiye özel tedavi protokolleri sunmaktadır. Deneyimli diş hekimleri ve uzmanlardan oluşan multidisipliner ekibimiz, karmaşık vakalarda dahi en doğru teşhis ve tedavi planını oluşturur. Kliniğimizde, tedavi korkunuzu kapıda bırakmanızı sağlayacak konforlu bir ortam ve en son teknolojiye sahip ekipmanlar  (örneğin; 3D tomografi, dijital tarayıcılar, blok kazıyıcılar, ortodontik şeffaf plak) kullanılmaktadır. Teknolojik gelişmeleri yakından takip ediyor ve dijital diş hekimliği çözümlerini kliniğimizin merkezine koyuyoruz.Bizim için her hasta, ailemizin yeni bir üyesidir. Kliniğimizde geçirdiğiniz her dakikanın, sağlığınıza yapılan değerli bir yatırım olduğuna inanıyoruz. Amacımız sadece diş problemlerinizi çözmek değil, aynı zamanda kliniğimizden güvenle ve mutlu gülümseyerek ayrılmanızı sağlamaktır."
   },
   "SingleToothImplant": {
     "title": "Tek Diş İmplant Yapılır Mı?",
@@ -977,7 +985,34 @@
           "title": "Çene Kapanışı Düzeltme",
           "content": "Anormal kapanış, dolgu, kuron veya ortodonti tedavileri ile düzeltilebilir."
         }
-      ]
+      ],
+      "FREQUENTLYASKEDQUESTIONS":{
+      "title":"Sıkça Sorulan Sorular",
+      "item1":{
+        "title":"Diş Sıkmasının (Bruksizm) Belirtileri Nelerdir?",
+        "value":"En yaygın belirtiler arasında şunlar yer alır",
+        "value2":"Sabahları uyanıldığında hissedilen çene ağrısı, baş ağrısı veya şakaklarda gerginlik.",
+        "value3":"Dişlerde çatlamalar, kırılmalar veya mine tabakasında gözle görülür aşınma.",
+        "value4":"Sıcak ve soğuk yiyeceklere karşı artan diş hassasiyeti.",
+        "value5":"⁠Çene eklemlerinden gelen klik sesleri ve çeneyi açıp kapatmada zorluk."
+      },
+      "item2":{
+        "title":"⁠Bruksizm Neden Olur?",
+        "value":"Hastalar tarafından diş problemi olarak görülse de asıl sebebi genellikle dişlerden bağımsız gelişebilir. Tek bir nedeni olmamakla birlikte, başlıca tetikleyiciler şunlardır",
+        "value2":"Stres ve Anksiyete: Günlük yaşam stresi, öfke veya yoğun kaygı durumları en büyük tetikleyicilerdendir.",
+        "value3":"Uyku Bozuklukları: Uyku apnesi veya horlama gibi durumlar uyku kalitesini düşürerek bruksizmi artırabilir.",
+        "value4":"⁠Diş Yapısı (Kapanış Bozuklukları): Alt ve üst dişlerin birbirine tam oturmaması, eksik veya çarpık dişler.",
+        "value5":"Yaşam Tarzı: Aşırı alkol, sigara veya kafein tüketimi."
+      },
+      "item3":{
+        "title":"Diş Sıkma Nasıl Tedavi Edilir?",
+        "value":"Gece Plağı (Oklüzal Splint): Diş hekimi tarafından kişiye özel üretilen şeffaf plaklar, uyku sırasında dişlerin birbirine sürtünmesini engeller. Gece Plakları bruksizm tedavisinden daha çok meydana gelebilecek diş ve eklem problemlerini engelleme amaçlıdır.",
+        "value2":"Botoks Tedavisi: Çiğneme kaslarına (masseter kas) uygulanan botoks, kasların istemsizce ortaya çıkardığı aşırı baskıyı hafifletir ve günümüzde en etkin tedavi yöntemi olarak kabul edilmektedir.",
+        "value3":"Stres Yönetimi: Psikolojik danışmanlık gibi yöntemler temel stres kaynağını azaltmada yardımcı olur.",
+        "value4":"Kas Gevşeticiler: Belirli süre ile (3 ila 5 ay arası) gece yatmadan önce doktorunuz size önereceği şekilde kas gevşeticiler, gece istemsiz diş sıkmalarını engellemede yardımcı olabilir.",
+        "value5":"Diş Restorasyonları: Uygun olmayan ya da fonksiyonu bozulmuş, eskimiş diş restorasyonları düzeltmek ve/veya dolgu, kaplama tedavileri uygulanabilir."
+      }
+    }
     },
     "spacedTeeth": {
       "title": "Ayrık Diş Tedavisi Nasıl Olur?",

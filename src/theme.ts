@@ -1,5 +1,5 @@
 'use client';
-import { Oswald, Gowun_Batang, Nunito } from 'next/font/google';
+import { Oswald, Gowun_Batang, Nunito, Handlee } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { getDesignTokens } from './app/theme/themePrimitives';
 import {
@@ -23,6 +23,12 @@ const nunito = Nunito({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
 });
+const handlee = Handlee({
+  weight: ['400'],
+  subsets: ['latin'],
+  display: 'swap',
+});
+
 
 const theme = createTheme({
   ...getDesignTokens('light'),

@@ -2,6 +2,7 @@ import { useTranslations } from 'next-intl';
 import { Container, Typography, Box, Paper, Divider, Grid, Card, CardContent, List, ListItem, ListItemText, Grid2 } from '@mui/material';
 import Image from 'next/image';
 import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
+import FrequentlyAskedQuestions from '@/components/FrequentlyAskedQuestions';
 interface Treatment {
   title: string;
   content: string;
@@ -12,6 +13,9 @@ export default function BruxismPage() {
   
   const symptoms = t.raw('symptoms') as string[];
   const treatments = t.raw('treatments') as Treatment[];
+
+    const questionList: string[] = ["item1", "item2","item3"];
+
 
   return (
 
@@ -106,7 +110,12 @@ export default function BruxismPage() {
               </Card>
             </Grid>
           ))}
+
         </Grid>
+                <Grid container spacing={4} sx={{ mb: 4 }}>
+
+                  <FrequentlyAskedQuestions translateKey={"Blog.bruxism.FREQUENTLYASKEDQUESTIONS"} questionList={questionList} startWith="•⁠" totalQuestionsValue={3}/>
+          </Grid>
       </Paper>
   </Box>
 

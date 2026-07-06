@@ -137,8 +137,8 @@ const DigitalDentistry: FC = () => {
           paddingTop: '5%',
           alignItems: 'right',
         }}
-        srcSet={`/images/our-clinic-1.jpeg`}
-        src={`/images/our-clinic-1.jpeg`}
+        srcSet={`/images/our-clinic-8.jpeg`}
+        src={`/images/our-clinic-8.jpeg`}
         loading="lazy"
       />
 
@@ -154,8 +154,8 @@ const DigitalDentistry: FC = () => {
           //marginRight: "10%",
           //paddingTop: '5%'
         }}
-        srcSet={`/images/our-clinic-3.jpeg`}
-        src={`/images/our-clinic-3.jpeg`}
+        srcSet={`/images/our-clinic-7.jpeg`}
+        src={`/images/our-clinic-7.jpeg`}
         loading="lazy"
       />
           </Grid>
@@ -170,12 +170,46 @@ const DigitalDentistry: FC = () => {
           //marginRight: "10%",
           //paddingTop: '5%',
         }}
-        srcSet={`/images/our-clinic-1.jpeg`}
-        src={`/images/our-clinic-1.jpeg`}
+        srcSet={`/images/our-clinic-4.jpeg`}
+        src={`/images/our-clinic-4.jpeg`}
         loading="lazy"
       />
 
           </Grid>
+
+                  <Grid size={{ xs: 12, md: 6 }} sx={{ p:5 ,pt:0}}>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "100%",
+          display: "block",
+          marginLeft: "10%",
+          //marginRight: "10%",
+          //paddingTop: '5%'
+        }}
+        srcSet={`/images/our-clinic-5.jpeg`}
+        src={`/images/our-clinic-5.jpeg`}
+        loading="lazy"
+      />
+          </Grid>
+
+          <Grid size={{ xs: 12, md: 6 }} sx={{ p:5, pt:0}}>
+          <img
+        style={{
+          borderRadius: 8,
+          width: "100%",
+          display: "block",
+          //marginLeft: "10%",
+          //marginRight: "10%",
+          //paddingTop: '5%',
+        }}
+        srcSet={`/images/our-clinic-6.jpeg`}
+        src={`/images/our-clinic-6.jpeg`}
+        loading="lazy"
+      />
+
+          </Grid>
+ 
     </Grid>
 
   );

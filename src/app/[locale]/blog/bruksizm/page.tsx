@@ -19,6 +19,8 @@ import BruksizmSymptoms from "@/components/PageContent/BruksizmSymptoms";
 import SleepApnea from "@/components/PageContent/SleepApnea";
 import BruksizmHowToFx from "@/components/PageContent/BruksizmHowToFx";
 import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
+import FrequentlyAskedQuestions from "@/components/FrequentlyAskedQuestions";
+
 const treatments = [
     { img: "https://picsum.photos/800/450?random=1", title: "T1" },
     { img: "https://picsum.photos/800/450?random=2", title: "T2" },
@@ -32,6 +34,8 @@ const treatments = [
     { img: "https://picsum.photos/800/450?random=10", title: "T10" },
     { img: "https://picsum.photos/800/450?random=11", title: "T11" },
 ];
+
+
 
 const typofImplants = ["item1", "item2", "item3", "item4"];
 

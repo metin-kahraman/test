@@ -161,31 +161,37 @@ const ModernPageBanner = () => {
             sx={{
               color: '#ffffff',
               textDecoration: 'none',
-              fontSize: { xs: '0.85rem', sm: '0.95rem' },
-              fontWeight: 400,
+              fontSize: { xs: '1.35rem', sm: '2rem' },
+              fontWeight: 800,
               '&:hover': { textDecoration: 'underline' },
             }}
           >
-            Orange
-          </Typography>
-          
-          <Typography sx={{ fontSize: { xs: '0.85rem', sm: '0.95rem' }, color: 'rgba(255,255,255,0.7)' }}>
-           Dent
+            Orange Dent Clinic
           </Typography>
 
-          <Typography
-            sx={{
-              color: '#ffffff',
-              fontSize: { xs: '0.85rem', sm: '0.95rem' },
-              fontWeight: 500,
-            }}
-          >
-            Clinic
-          </Typography>
         </Box>
       </Box>
     </Box>
   );
 };
 
+
+/*
+
+          
+          <Typography sx={{ fontSize: {fontSize: { xs: '1.35rem', sm: '2rem' }, }, color: 'rgba(255,255,255,0.7)' }}>
+           Dent
+          </Typography>
+
+          <Typography
+            sx={{
+              color: '#ffffff',
+              fontSize: { xs: '1.35rem', sm: '2rem' },
+              fontWeight: 500,
+            }}
+          >
+            Clinic
+          </Typography>
+
+*/
 export default ModernPageBanner;
