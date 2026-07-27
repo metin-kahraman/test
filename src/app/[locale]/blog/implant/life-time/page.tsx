@@ -1,13 +1,17 @@
 import { useTranslations } from 'next-intl';
-import { Container, Typography, Box, Paper, Divider, List, ListItem } from '@mui/material';
+import { Container, Typography, Box, Paper, Divider, List, ListItem ,Grid2 as Grid } from '@mui/material';
 import Image from 'next/image';
-
+import ContentRightSlideMenu from '@/components/contentRightSlideMenu';
 export default function ImplantLifetime() {
   const t = useTranslations('Blog.ImplantLifetime');
 
   return (
-    <Container maxWidth="md" sx={{ py: 4 }}>
-      <Paper elevation={3} sx={{ p: 4, mb: 4 }}>
+
+
+          <Grid container spacing={2} component="div">
+        {/* Sol taraf (9 birim genişlik) */}
+        <Grid size={{ xs: 12, md: 9 }}>
+       <Paper elevation={3} sx={{ p: 4, mb: 4 }}>
         <Typography variant="h3" component="h1" gutterBottom sx={{ fontWeight: 'bold', mb: 3 }}>
           {t('title')}
         </Typography>
@@ -53,6 +57,15 @@ export default function ImplantLifetime() {
           {t('hygieneContent')}
         </Typography>
       </Paper>
-    </Container>
+        </Grid>
+  
+        {/* Sağ taraf (3 birim genişlik) */}
+        <Grid size={{ xs: 12, md: 3 }}>
+        <ContentRightSlideMenu />
+
+        </Grid>
+      </Grid>
+
+  
   );
 }

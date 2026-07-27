@@ -882,132 +882,249 @@
   "BlogItems": {
     "item2": {
       "caption": "Kas yra bruksizmas?",
-      "title": "Kodėl mes griežiame dantis naktį arba dieną?, Kas yra bruksizmas?, Dieninis bruksizmas, Kaip suprasti, ar griežiate dantis naktį?...",
-      "url": "bruksizmas",
+      "title": "Kodėl naktį ar dieną griežiame dantimis?, Kas yra bruksizmas?, Dieninis bruksizmas, Kaip suprasti, kad naktį griežiate dantimis?...",
+      "url": "bruksizm",
       "imgLink": "/images/blog/bruxism.png",
-      "imgAlt": "Bruksizmas dantų griežimas",
+      "imgAlt": "Bruksizmas – dantų griežimas ir žandikaulio spaudimas",
       "seo": {
-        "title": "Bruksizmas (dantų griežimas) - priežastys ir gydymas",
-        "description": "Sužinokite apie bruksizmą, jo priežastis, simptomus ir gydymo galimybes, įskaitant naktinius apsauginius kapus ir streso valdymą.",
-        "keywords": "bruksizmas, dantų griežimas, žandikaulio suspaudimas, naktinis kapas, bruksizmo gydymas",
-        "url": "tinklaraštis/bruksizmas"
+        "title": "Bruksizmas (Dantų griežimas) - Priežastys ir Gydymas",
+        "description": "Sužinokite apie bruksizmo priežastis, simptomus ir veiksmingus gydymo būdus. Raskite sprendimą naktiniam dantų griežimui ir žandikaulio spaudimui.",
+        "keywords": "bruksizmas, dantų griežimas, žandikaulio spaudimas, naktinis bruksizmas, bruksizmo gydymas",
+        "url": "bruksizm"
       }
     },
     "item3": {
       "caption": "Kas yra All On 4 implantas?",
-      "title": "All-On-4 dantų implanto procedūra?, All-On-4 dantų implantų gijimo laikas, Kai kurios dažnos problemos, kurios gali kilti po operacijos...",
-      "url": "implantas/all-on-4",
+      "title": "Kaip atliekama All-On-4 implantų procedūra?, All-On-4 implantų gijimo laikas, Dažniausios problemos po operacijos...",
+      "url": "implant/all-on-4",
       "imgLink": "/images/blog/all-on-four.png",
-      "imgAlt": "All-on-4 dantų implantas",
+      "imgAlt": "All on 4 implantų gydymo procedūra",
       "seo": {
-        "title": "All-on-4 implantas - procedūra, gijimas ir kainos",
-        "description": "Išsamus All-on-4 dantų implantų vadovas: kaip tai veikia, atsigavimo laikas, dažnos problemos ir kainodaros veiksniai.",
-        "keywords": "All-on-4, pilnos burnos implantas, tie patys dantys per dieną, implantais paremtas protezas",
-        "url": "tinklaraštis/all-on-4-implantas"
+        "title": "All On 4 Implantas - Procedūra ir Privalumai",
+        "description": "Sužinokite, kas yra All on 4 implantas, kaip jis atliekamas, gijimo procesas ir viso lanko atkūrimo su 4 implantais privalumai.",
+        "keywords": "all on 4 implantas, all-on-4, dantų implantai, pilno lanko gydymas, implantai ant keturių",
+        "url": "implant/all-on-4"
       }
     },
     "item4": {
-      "caption": "Kokios yra jūsų laikinų dantų galimybės, laukiant implanto gijimo?",
-      "title": "Laikina vieno danties karūnėlė, laikinas protezas, laikini dantų tilteliai, Essix plokštelės ir jų privalumai bei trūkumai...",
-      "url": "implantas/laikinos-galybes",
+      "caption": "Kokie yra jūsų laikinųjų dantų pasirinkimai laukiant implanto gijimo?",
+      "title": "Laikinas vainikėlis vienam dantui, Laikinas protezas, Laikini tiltai, Essix plokštelės – jų privalumai ir trūkumai...",
+      "url": "implant/temporary-options",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Laikinos dantų galimybės",
+      "imgAlt": "Laikinųjų dantų pasirinkimai implanto gijimo metu",
       "seo": {
-        "title": "Laikinų dantų galimybės implanto gijimo metu",
-        "description": "Susipažinkite su laikinais dantų sprendimais, tokiais kaip plokštelės, Essix išlaikymo kapai ir laikini tilteliai, kol gyja jūsų dantų implantas.",
-        "keywords": "laikinas dantis, implanto gijimas, laikina karūnėlė, plokštelinis dantis, Essix kapas",
-        "url": "tinklaraštis/laikinu-dantu-galybes"
+        "title": "Laikini dantys implanto gijimo metu - Pasirinkimai",
+        "description": "Sužinokite apie laikinus dantų pasirinkimus implanto gijimo metu. Laikinų vainikėlių, tiltų, protezų ir Essix plokštelių privalumai bei trūkumai.",
+        "keywords": "laikinas dantis, implanto gijimas, laikinas vainikėlis, laikinas tiltas, essix plokštelė",
+        "url": "implant/temporary-options"
       }
     },
     "item5": {
-      "caption": "Kaulo transplantatas dantų implantams",
-      "title": "Ar kaulo transplantatas būtinas implantams? Ar kaulo transplantatas veikia gydymo laiką? Kaulo transplantato tipai...",
-      "url": "implantas/kaulo-transplantatas",
+      "caption": "Kaulo persodinimas dantų implantams",
+      "title": "Ar kaulo persodinimas būtinas implantams? Ar kaulo persodinimas turi įtakos gydymo trukmei? Kaulo persodinimo rūšys...",
+      "url": "implant/bone-graft",
       "imgLink": "/images/blog/bonegraft.png",
-      "imgAlt": "Kaulo transplantatas implantui",
+      "imgAlt": "Kaulo persodinimo procedūra dantų implantams",
       "seo": {
-        "title": "Kaulo transplantatas dantų implantams - tipai ir gijimas",
-        "description": "Sužinokite apie kaulo transplantavimą dantų implantams: kada to reikia, transplantatų tipai, atsigavimo laikas ir kainos.",
-        "keywords": "kaulo transplantatas, dantų implanto kaulo transplantatas, sinuso pakėlimas, žandikaulio kaulo didinimas",
-        "url": "tinklaraštis/kaulo-transplantatas-implantams"
+        "title": "Kaulo persodinimas implantams - Rūšys ir Procesas",
+        "description": "Ar kaulo persodinimas būtinas dantų implantams? Sužinokite apie kaulo persodinimo rūšis, jų poveikį gydymo laikui ir išsamią procedūrą.",
+        "keywords": "kaulo persodinimas, kaulo transplantacija implantams, sinuso liftas, autogeninis transplantatas, kaulo milteliai",
+        "url": "implant/bone-graft"
       }
     },
     "item6": {
-      "caption": "Dantenų atsitraukimas ir jautrumas",
-      "title": "Ar kaulo transplantatas būtinas implantams? Ar kaulo transplantatas veikia gydymo laiką? Kaulo transplantato tipai...",
-      "url": "/dantenų-atsitraukimas-ir-jautrumas",
+      "caption": "Dantenų recesija ir jautrumas",
+      "title": "Ar kaulo persodinimas būtinas implantams? Ar kaulo persodinimas turi įtakos gydymo trukmei? Kaulo persodinimo rūšys...",
+      "url": "/gum-recession-and-sensitivity",
       "imgLink": "/images/blog/GumRecessionAndSensitivity.png",
-      "imgAlt": "Dantenų atsitraukimas",
+      "imgAlt": "Dantenų recesija sukelia dantų jautrumą",
       "seo": {
-        "title": "Dantenų atsitraukimas ir dantų jautrumas - priežastys ir gydymas",
-        "description": "Supraskite dantenų atsitraukimo priežastis, simptomus ir gydymo būdus, įskaitant transplantavimą ir tinkamą burnos higieną.",
-        "keywords": "dantenų atsitraukimas, jautrūs dantys, atsitraukusios dantenos, dantenų transplantatas",
-        "url": "tinklaraštis/dantenų-atsitraukimas-jautrumas"
+        "title": "Dantenų recesija ir jautrumas - Priežastys ir Gydymas",
+        "description": "Kodėl atsiranda dantenų recesija ir jautrumas? Simptomai, rizikos veiksniai ir veiksmingi gydymo būdai dantų sveikatai apsaugoti.",
+        "keywords": "dantenų recesija, dantų jautrumas, dantenų gydymas, jautrumas karščiui/šalčiui, dantenų nuslūgimas",
+        "url": "/gum-recession-and-sensitivity"
       }
     },
     "item7": {
-      "caption": "Dantų tilteliai",
-      "title": "Dantų tiltelių tipai, kaip atliekama dantų tiltelio procedūra?, dantų tiltelio kaina ir dažnos problemos",
-      "url": "/dantų-tiltelis",
+      "caption": "Dantų tiltai",
+      "title": "Dantų tiltų rūšys, Kaip atliekama tilto procedūra?, Dantų tilto kaina ir dažnos problemos",
+      "url": "/dental-bridge",
       "imgLink": "/images/blog/dental-bridge.png",
-      "imgAlt": "Dantų tiltelis",
+      "imgAlt": "Dantų tiltų rūšys ir jų įdėjimas",
       "seo": {
-        "title": "Dantų tilteliai - tipai, procedūra, kaina ir problemos",
-        "description": "Išsamus dantų tiltelių vadovas: tradiciniai, Merilando, konsoliniai ir implantais paremti tilteliai. Palyginkite kainas ir ilgaamžiškumą.",
-        "keywords": "dantų tiltelis, dantų tiltas, trūkstami dantys, tiltelio kaina, fiksuotas protezas",
-        "url": "tinklaraštis/dantų-tilteliai"
+        "title": "Dantų tiltai - Rūšys, Procedūra ir Kainos",
+        "description": "Sužinokite apie dantų tiltų rūšis, įdėjimo procedūrą, kainas ir dažnas problemas. Raskite geriausią sprendimą trūkstamiems dantims.",
+        "keywords": "dantų tiltas, tiltinis protezas, trūkstamų dantų gydymas, implantas ar tiltas",
+        "url": "/dental-bridge"
       }
     },
     "item8": {
       "caption": "Kas yra dantų implantas?",
-      "title": "Kaip veikia dantų implantai? Kas gali turėti dantų implantus? Dantų implantų tipai? Dantų implantų privalumai ir trūkumai",
-      "url": "implantas/kas-yra-dantu-implantas",
+      "title": "Kaip veikia dantų implantai? Kas gali darytis implantus? Implantų rūšys? Implantų privalumai ir trūkumai",
+      "url": "implant/what-is-dental-implant",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Dantų implantas",
+      "imgAlt": "Dantų implantų apžvalga ir jų veikimas",
       "seo": {
-        "title": "Kas yra dantų implantas? Tipai, procedūra, privalumai ir trūkumai",
-        "description": "Viskas apie dantų implantus: kaip jie veikia, kas yra kandidatas, tipai, privalumai ir trūkumai.",
-        "keywords": "dantų implantas, implantų tipai, danties šaknies pakeitimas, implanto procedūra",
-        "url": "tinklaraštis/kas-yra-dantu-implantas"
+        "title": "Kas yra dantų implantas? - Veikimas ir Kam Tinka",
+        "description": "Kas yra dantų implantas ir kaip jis veikia? Sužinokite, kas gali turėti implantus, jų rūšis, privalumus, trūkumus ir viską apie implantų gydymą.",
+        "keywords": "dantų implantas, danties implantas, implantų rūšys, implantų gydymas, privalumai ir trūkumai",
+        "url": "implant/what-is-dental-implant"
       }
     },
     "item9": {
       "caption": "Tos pačios dienos dantų implantas",
-      "title": "Rizika, nauda ir procedūra, tiesioginiai dantų implantai vs tradiciniai implantai, tos pačios dienos dantų implanto rizika",
-      "url": "implantas/tos-pacios-dienos-implantas",
+      "title": "Rizikos, nauda ir procedūra, Greitieji implantai vs tradiciniai, Tos pačios dienos implantų rizika",
+      "url": "implant/same-day-implant",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Tos pačios dienos dantų implantas",
+      "imgAlt": "Tos pačios dienos neatidėliotino implantavimo procedūra",
       "seo": {
-        "title": "Tos pačios dienos dantų implantai - tiesioginio įkrovimo procedūra",
-        "description": "Sužinokite apie tiesioginius dantų implantus: nauda, rizika, tinkamumas ir nuosekli procedūra tiems patiems dantims per dieną.",
-        "keywords": "tos pačios dienos implantas, tiesioginis implantas, tiesioginis įkrovimas, tie patys dantys per dieną",
-        "url": "tinklaraštis/tos-pacios-dienos-dantu-implantas"
+        "title": "Tos pačios dienos implantas - Rizika ir Nauda",
+        "description": "Kas yra tos pačios dienos implantas (neatidėliotinas implantas)? Sužinokite apie procedūrą, riziką, naudą ir skirtumus nuo tradicinių implantų.",
+        "keywords": "tos pačios dienos implantas, neatidėliotinas implantas, implantas per vieną vizitą, greitas implantas, implantų rizika",
+        "url": "implant/same-day-implant"
       }
     },
     "item10": {
-      "caption": "Dantų implantų chirurgijos gijimo laikotarpis",
-      "title": "Koks yra atsigavimo laikas po dantų implantų chirurgijos?, Kiek implantų turėjote?, Sinuso pakėlimas...",
-      "url": "implantas/implanto-gijimo-procesas",
+      "caption": "Dantų implantų operacijos gijimo laikotarpis",
+      "title": "Koks gijimo laikotarpis po implantų operacijos?, Kiek implantų įdėta?, Sinuso liftas...",
+      "url": "implant/implant-healing-process",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Implanto gijimas",
+      "imgAlt": "Gijimo procesas po dantų implantacijos",
       "seo": {
-        "title": "Dantų implanto gijimo procesas - atsigavimo laikas",
-        "description": "Išsamus dantų implanto atsigavimo vadovas: gijimo etapai, mityba, skausmo valdymas ir patarimai greitam gijimui.",
-        "keywords": "implanto gijimas, atsigavimas po implanto, osseointegracija, priežiūra po operacijos",
-        "url": "tinklaraštis/implanto-gijimo-procesas"
+        "title": "Implantų gijimo procesas - Kiek Tai Užtrunka?",
+        "description": "Kiek laiko trunka gijimas po dantų implantacijos? Sužinokite apie sinuso liftą, būdus paspartinti gijimą ir priežiūrą po operacijos.",
+        "keywords": "implanto gijimas, po implantacijos, gijimo procesas, sinuso liftas, implantų priežiūra",
+        "url": "implant/implant-healing-process"
       }
     },
     "item11": {
-      "caption": "Kas yra blogas kvapas (halitozė)?",
-      "title": "Kas turi blogą kvapą?, Kokios yra blogo kvapo priežastys?...",
-      "url": "halitozė",
+      "caption": "Kas yra blogas kvapas iš burnos (Halitozė)?",
+      "title": "Kas turi blogą kvapą iš burnos?, Kokios yra blogo kvapo priežastys?...",
+      "url": "halitosis",
       "imgLink": "/images/blog/Halitosis.jpg",
-      "imgAlt": "Blogas kvapas halitozė",
+      "imgAlt": "Halitozės (burnos kvapo) priežastys ir sprendimai",
       "seo": {
-        "title": "Blogas kvapas (halitozė) - priežastys ir sprendimai",
-        "description": "Atraskite halitozės priežastis: prasta burnos higiena, dantenų ligos, burnos džiūvimas ir veiksmingi gydymo metodai.",
-        "keywords": "blogas kvapas, halitozė, burnos kvapas, blogo kvapo priežastys",
-        "url": "tinklaraštis/halitozė"
+        "title": "Blogas kvapas iš burnos (Halitozė) - Priežastys ir Sprendimai",
+        "description": "Sužinokite apie halitozės priežastis, rizikos veiksnius, gretutines ligas ir veiksmingus gydymo būdus, kaip atsikratyti burnos kvapo.",
+        "keywords": "blogas burnos kvapas, halitozė, burnos kvapas, halitozės priežastys, halitozės gydymas",
+        "url": "halitosis"
+      }
+    },
+    "item12": {
+      "caption": "Kiek laiko tarnauja dantų implantai?",
+      "title": "Kokie veiksniai turi įtakos implanto tarnavimo laikui?, Ką reikia daryti, kad prailgintumėte implanto tarnavimo laiką?",
+      "url": "implant/life-time",
+      "imgLink": "/images/implant-omur1.jpeg",
+      "imgAlt": "Dantų implantų tarnavimo laikas ir jį lemiantys veiksniai",
+      "seo": {
+        "title": "Kiek tarnauja dantų implantai? - Tarnavimo veiksniai",
+        "description": "Kiek metų tarnauja dantų implantai? Sužinokite apie veiksnius, turinčius įtakos jų tarnavimui, priežiūros patarimus ir rekomendacijas.",
+        "keywords": "implanto tarnavimo laikas, kiek tarnauja implantai, implantų priežiūra, implanto tarnavimo pratęsimas, ilgaamžiškumas",
+        "url": "implant/life-time"
+      }
+    },
+    "item13": {
+      "caption": "Ar galima daryti implantą ant vieno danties?",
+      "title": "Kokie yra vieno danties implanto privalumai?, Ar galima atlikti implantą, kai nepakanka kaulo?, Kodėl implantų kainos skiriasi?",
+      "url": "implant/vieno-danties-implantas",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Vieno danties implantavimo procedūra",
+      "seo": {
+        "title": "Vieno danties implantas - Privalumai ir Kainos",
+        "description": "Ar galima daryti implantą ant vieno danties? Sužinokite apie jo privalumus, galimybes esant kaulo trūkumui ir kainų svyravimo priežastis.",
+        "keywords": "vieno danties implantas, vienas implantas, implantų kainos, kaulo trūkumas, vieno danties trūkumas",
+        "url": "implant/vieno-danties-implantas"
+      }
+    },
+    "item14": {
+      "caption": "Kokios yra dantų vainikėlių rūšys?",
+      "title": "Cirkonio vainikėlis, Laminatinės faneros, Metalo keramikos vainikėlis",
+      "url": "implant/life-time",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Įvairios dantų vainikėlių rūšys (cirkonis, laminatai)",
+      "seo": {
+        "title": "Dantų vainikėlių rūšys - Cirkonis, Laminatai, Metalo keramika",
+        "description": "Kokios yra dantų vainikėlių rūšys? Sužinokite apie cirkonio, laminatinių ir metalo keramikos vainikėlių skirtumus, privalumus ir jų taikymą.",
+        "keywords": "dantų vainikėlis, cirkonio vainikėlis, laminatinė fanera, metalo keramika, porcelianinis vainikėlis",
+        "url": "implant/life-time"
+      }
+    },
+    "item15": {
+      "caption": "Kas yra ortodontija?",
+      "title": "Kam reikalingas ortodontinis gydymas?, Kiek trunka ortodontinis gydymas?, Nuo kokio amžiaus pradėti gydymą?, Į ką atkreipti dėmesį gydymo metu?",
+      "url": "ortodonti",
+      "imgLink": "/images/ortodontik-tedavi1.jpeg",
+      "imgAlt": "Ortodontinis gydymas ir breketai",
+      "seo": {
+        "title": "Kas yra ortodontija? - Gydymo procesas ir Amžius",
+        "description": "Kas yra ortodontija? Kam reikalingas ortodontinis gydymas? Sužinokite apie gydymo trukmę, pradžios amžių ir svarbius aspektus.",
+        "keywords": "ortodontija, breketai, ortodontinis gydymas, kreivi dantys, ortodontijos amžius",
+        "url": "ortodonti"
+      }
+    },
+    "item16": {
+      "caption": "Kokie yra ortodontinio gydymo būdai?",
+      "title": "Skaidrūs kapos (aligneriai), Breketai, Nuimamas retaineris, Fiksuotas vietos išlaikytuvas, Žandikaulių aparatai, Gomurio plėstuvas, Galvos traukos aparatas (Headgear)",
+      "url": "ortodontik-tedaviler-nelerdir",
+      "imgLink": "/images/ortodontik-tedavi2.jpeg",
+      "imgAlt": "Skirtingi ortodontinių aparatų tipai",
+      "seo": {
+        "title": "Ortodontiniai gydymo būdai - Kapos, Breketai ir Kiti",
+        "description": "Kokie yra ortodontinio gydymo būdai? Sužinokite apie skaidrių kapų, breketų, retainerių, gomurio plėstuvų ir headgear aparatų naudojimą.",
+        "keywords": "skaidrios kapos, aligneriai, breketai, retaineris, gomurio plėstuvas, headgear, ortodontiniai aparatai",
+        "url": "ortodontik-tedaviler-nelerdir"
+      }
+    },
+"item17": {
+  "caption": "Kaip gydomi tarpai tarp dantų?",
+  "title": "Kodėl dantys būna su tarpais?, Tarpų gydymas kompozitiniu laminatu, Tarpų gydymas breketais, Tarpų gydymas porcelianiniu laminatu",
+  "url": "tarpai-tarp-dantu",
+  "imgLink": "/images/spaced-teeth-1.jpeg",
+  "imgAlt": "Tarpų tarp dantų (diastemos) gydymo galimybės",
+  "seo": {
+    "title": "Tarpų tarp dantų gydymas - Laminatai ir Breketai",
+    "description": "Kaip gydomi tarpai tarp dantų? Sužinokite diastemos priežastis ir gydymo būdus: kompozitinis bei porcelianinis laminatas, breketai.",
+    "keywords": "tarpai tarp dantų, diastema, tarpų gydymas, laminatas tarpams, breketai diastemai",
+    "url": "tarpai-tarp-dantu"
+  }
+},
+"item18": {
+  "caption": "Kodėl kraujuoja dantenos?",
+  "title": "Dantenų kraujavimo priežastys, Kokie yra rizikos veiksniai?, Ligos sukeliančios dantenų kraujavimą, Ar vitaminų trūkumas turi įtakos dantenoms?, Kaip gydomas dantenų kraujavimas?",
+  "url": "dantenu-kraujavimas",
+  "imgLink": "/images/gum-bleeding-1.jpeg",
+  "imgAlt": "Dantenų kraujavimo priežastys ir gydymo būdai",
+  "seo": {
+    "title": "Dantenų kraujavimas - Priežastys ir Gydymas",
+    "description": "Kodėl kraujuoja dantenos? Sužinokite apie priežastis, rizikos veiksnius, vitaminų vaidmenį ir veiksmingus kraujuojančių dantenų gydymo būdus.",
+    "keywords": "dantenų kraujavimas, kraujuojančios dantenos, dantenų liga, gingivitas, vitaminų trūkumas",
+    "url": "dantenu-kraujavimas"
+  }
+},
+    "item19": {
+      "caption": "Kaip išvengti dantų pageltimo?",
+      "title": "Kodėl dantys pagelsta?, Kokios yra dantų pageltimo priežastys?, Kaip išvengti pageltimo?, Ar dantų balinimo poveikis yra pastovus? Kiek laiko išlieka balinimo efektas?, Kokius balinimo metodus taiko odontologai?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Dantų pageltimo prevencija ir gydymas",
+      "seo": {
+        "title": "Kaip išvengti dantų pageltimo? - Priežastys ir Balinimas",
+        "description": "Kaip išvengti dantų pageltimo? Sužinokite, kodėl dantys gelsta, prevencijos būdus, balinimo pastovumą ir profesionalius balinimo metodus.",
+        "keywords": "dantų pageltimas, dantų balinimas, dantų spalva, pageltimo prevencija, profesionalus balinimas",
+        "url": "dis-sararması"
+      }
+    },
+    "item20": {
+      "caption": "Kas yra dantų protezai?",
+      "title": "Koks protezo tipas jums tinkamiausias?, Pilni protezai, Daliniai protezai, Kaip gaminami protezai?, Iš ko gaminami protezai?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Dantų protezų tipai ir naudojamos medžiagos",
+      "seo": {
+        "title": "Kas yra dantų protezai? - Pilni ir Daliniai",
+        "description": "Kas yra dantų protezas? Sužinokite, kuris tipas jums tinka, pilnų ir dalinių protezų skirtumus, gamybos procesą ir medžiagas.",
+        "keywords": "dantų protezas, pilnas protezas, dalinis protezas, nuimamas protezas, protezų gamyba, protezų medžiagos",
+        "url": "dis-sararması"
       }
     }
   },

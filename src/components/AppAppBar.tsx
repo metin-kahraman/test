@@ -189,6 +189,8 @@ export default function AppAppBar() {
             <IconButton
               aria-label="Instgram"
               size="small"
+              href="https://www.instagram.com/orangedentclinic" 
+              target="_blank"
               sx={{ color: "#E4405F" }}
             >
               <InstagramIcon />
@@ -196,12 +198,14 @@ export default function AppAppBar() {
             <IconButton
               aria-label="Telefon"
               size="small"
+              href="tel:+905324401740"
               sx={{ color: "#f37418" }}
             >
               <PhoneIcon />
             </IconButton>
-            <IconButton aria-label="WhatsApp" size="small" color="success">
+            <IconButton aria-label="WhatsApp" size="small" color="success" href="https://wa.me/905324401740">
               <WhatsAppIcon />
+              
             </IconButton>
 
             <CustomSelect

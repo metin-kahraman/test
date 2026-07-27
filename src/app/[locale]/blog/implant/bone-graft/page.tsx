@@ -38,7 +38,7 @@ import {
     return (
       <Grid container spacing={2} component="div">
         {/* Sol taraf (9 birim genişlik) */}
-        <Grid size={{ xs: 12, md: 9 }}>
+        <Grid maxWidth="lg" size={{ xs: 12, md: 9 }}>
           <Paper sx={{ backgroundColor: "white" }}>
             <BoneGraft></BoneGraft>
           </Paper>

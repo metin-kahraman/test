@@ -18,7 +18,7 @@ const questionList: string[] = [
 ];
 
 const Halitosis = () => {
-  const t = useTranslations("Halitosis");
+  const t = useTranslations("Blog.Halitosis");
 
   return (
     <Box p={2}>

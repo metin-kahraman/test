@@ -885,83 +885,83 @@
       }
     }
   },
-  "BlogItems": {
+"BlogItems": {
     "item2": {
       "caption": "What is Bruxism?",
-      "title": "Why Do We Grind Our Teeth at Night or During the Day?, What is Bruxism?, Daytime Bruxism, How to Understand If You Grind Your Teeth at Night?...",
-      "url": "bruxism",
+      "title": "Why do we grind our teeth at night or during the day?, What is bruxism?, Daytime bruxism, How to understand if you grind your teeth at night?...",
+      "url": "bruksizm",
       "imgLink": "/images/blog/bruxism.png",
-      "imgAlt": "Bruxism teeth grinding",
+      "imgAlt": "Bruxism teeth grinding and jaw clenching",
       "seo": {
         "title": "Bruxism (Teeth Grinding) - Causes and Treatment",
-        "description": "Learn about bruxism, its causes, symptoms, and treatment options including night guards and stress management.",
-        "keywords": "bruxism, teeth grinding, jaw clenching, night guard, bruxism treatment",
-        "url": "blog/bruxism"
+        "description": "Learn about bruxism causes, symptoms, and effective treatment methods. Find solutions for nighttime teeth grinding and jaw clenching problems.",
+        "keywords": "bruxism, teeth grinding, jaw clenching, sleep bruxism, bruxism treatment",
+        "url": "bruksizm"
       }
     },
     "item3": {
       "caption": "What is All On 4 Implant?",
-      "title": "All-On-4 Dental Implant Procedure?, Healing Time of All-On-4 Dental Implants, Some Common Problems That May Occur After Surgery...",
+      "title": "How is the All-On-4 Dental Implant Procedure?, All-On-4 Dental Implant Healing Time, Some Common Problems That May Occur After Surgery...",
       "url": "implant/all-on-4",
       "imgLink": "/images/blog/all-on-four.png",
-      "imgAlt": "All-on-4 dental implant",
+      "imgAlt": "All on 4 dental implant treatment procedure",
       "seo": {
-        "title": "All-on-4 Implant - Procedure, Healing, and Costs",
-        "description": "Complete guide to All-on-4 dental implants: how it works, recovery time, common problems, and cost factors.",
-        "keywords": "All-on-4, full mouth implant, same day teeth, implant supported denture",
-        "url": "blog/all-on-4-implant"
+        "title": "All On 4 Implant - Procedure and Advantages",
+        "description": "Discover what All on 4 implant is, how it is applied, healing process, and advantages of treating the whole arch with 4 implants in a single session.",
+        "keywords": "all on 4 implant, all-on-4, dental implant, full arch treatment, implant dentures",
+        "url": "implant/all-on-4"
       }
     },
     "item4": {
       "caption": "What Are Your Temporary Tooth Options While Waiting for Implant Healing?",
-      "title": "Temporary Single Tooth Crown, Temporary Denture, Temporary Dental Bridges, Essix Plates and their Pros and Cons...",
+      "title": "Temporary Single Tooth Crown, Temporary Denture Plate, Temporary Dental Bridges, Essix Splints, and their Pros and Cons...",
       "url": "implant/temporary-options",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Temporary dental options",
+      "imgAlt": "Temporary tooth options during implant healing",
       "seo": {
-        "title": "Temporary Teeth Options During Implant Healing",
-        "description": "Explore temporary tooth solutions like flippers, Essix retainers, and temporary bridges while your dental implant heals.",
-        "keywords": "temporary tooth, implant healing, temporary crown, flipper tooth, Essix retainer",
-        "url": "blog/temporary-tooth-options"
+        "title": "Temporary Tooth Options During Implant Healing",
+        "description": "Explore temporary tooth options during implant healing. Learn the pros and cons of temporary crowns, bridges, denture plates, and Essix splints.",
+        "keywords": "temporary tooth, implant healing, temporary crown, temporary bridge, essix splint",
+        "url": "implant/temporary-options"
       }
     },
     "item5": {
       "caption": "Bone Graft for Dental Implants",
-      "title": "Is Bone Graft Necessary for Implants? Does Bone Graft Affect Treatment Time? Bone Graft Types...",
+      "title": "Is Bone Graft Necessary for Implants? Does Bone Graft Affect Treatment Duration? Bone Graft Types...",
       "url": "implant/bone-graft",
       "imgLink": "/images/blog/bonegraft.png",
-      "imgAlt": "Bone graft for implant",
+      "imgAlt": "Bone grafting procedure for dental implants",
       "seo": {
-        "title": "Bone Graft for Dental Implants - Types and Healing",
-        "description": "Learn about bone grafting for dental implants: when it's needed, types of grafts, recovery time, and costs.",
-        "keywords": "bone graft, dental implant bone graft, sinus lift, jawbone augmentation",
-        "url": "blog/bone-graft-for-implants"
+        "title": "Bone Graft for Implants - Types and Process",
+        "description": "Is bone grafting necessary for dental implants? Learn about bone graft types, their effect on treatment time, and the detailed application process.",
+        "keywords": "bone graft, bone grafting for implants, sinus lifting, autogenous graft, bone powder",
+        "url": "implant/bone-graft"
       }
     },
     "item6": {
       "caption": "Gum Recession and Sensitivity",
-      "title": "Is Bone Graft Necessary for Implants? Does Bone Graft Affect Treatment Time? Bone Graft Types...",
+      "title": "Is Bone Graft Necessary for Implants? Does Bone Graft Affect Treatment Duration? Bone Graft Types...",
       "url": "/gum-recession-and-sensitivity",
       "imgLink": "/images/blog/GumRecessionAndSensitivity.png",
-      "imgAlt": "Gum recession",
+      "imgAlt": "Gum recession causing tooth sensitivity",
       "seo": {
-        "title": "Gum Recession and Tooth Sensitivity - Causes & Treatment",
-        "description": "Understand gum recession causes, symptoms, and treatments including grafting and proper oral hygiene.",
-        "keywords": "gum recession, sensitive teeth, receding gums, gum graft",
-        "url": "blog/gum-recession-sensitivity"
+        "title": "Gum Recession and Sensitivity - Causes and Treatment",
+        "description": "What causes gum recession and sensitivity? Learn about symptoms, risk factors, and effective treatment options to protect your dental health.",
+        "keywords": "gum recession, tooth sensitivity, gum treatment, hot cold sensitivity, receding gums",
+        "url": "/gum-recession-and-sensitivity"
       }
     },
     "item7": {
       "caption": "Dental Bridges",
-      "title": "Types of Dental Bridges, How is Dental Bridge Procedure?, Dental Bridge Cost and Common Problems",
+      "title": "Types of Dental Bridges, How is the Dental Bridge Procedure?, Dental Bridge Cost and Common Problems",
       "url": "/dental-bridge",
       "imgLink": "/images/blog/dental-bridge.png",
-      "imgAlt": "Dental bridge",
+      "imgAlt": "Dental bridge types and application",
       "seo": {
-        "title": "Dental Bridges - Types, Procedure, Cost, and Problems",
-        "description": "Complete guide to dental bridges: traditional, Maryland, cantilever, and implant-supported bridges. Compare costs and longevity.",
-        "keywords": "dental bridge, tooth bridge, missing teeth, bridge cost, fixed prosthesis",
-        "url": "blog/dental-bridge"
+        "title": "Dental Bridges - Types, Procedure, and Costs",
+        "description": "Learn about dental bridge types, application procedures, costs, and common issues. Find the best bridge solutions for missing teeth.",
+        "keywords": "dental bridge, tooth bridge, bridge prosthesis, missing tooth treatment, implant vs bridge",
+        "url": "/dental-bridge"
       }
     },
     "item8": {
@@ -969,38 +969,38 @@
       "title": "How Do Dental Implants Work? Who Can Get Dental Implants? Types of Dental Implants? Pros and Cons of Dental Implants",
       "url": "implant/what-is-dental-implant",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Dental implant",
+      "imgAlt": "Overview of dental implants and how they work",
       "seo": {
-        "title": "What is a Dental Implant? Types, Procedure, Pros & Cons",
-        "description": "Everything about dental implants: how they work, who is a candidate, types, advantages, and disadvantages.",
-        "keywords": "dental implant, implant types, tooth root replacement, implant procedure",
-        "url": "blog/what-is-dental-implant"
+        "title": "What is a Dental Implant? - How It Works and Who Can Get It",
+        "description": "What is a dental implant and how does it work? Learn who can get implants, types, advantages, disadvantages, and everything about implant treatment.",
+        "keywords": "dental implant, tooth implant, implant types, implant treatment, pros and cons of implants",
+        "url": "implant/what-is-dental-implant"
       }
     },
     "item9": {
       "caption": "Same-Day Dental Implant",
-      "title": "Risks, Benefits and Procedure, Immediate Dental Implants vs Traditional Implants, Same Day Dental Implant Risks",
+      "title": "Risks, Benefits, and Procedure, Immediate Dental Implants vs Traditional Implants, Same-Day Dental Implant Risks",
       "url": "implant/same-day-implant",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Same day dental implant",
+      "imgAlt": "Same-day immediate dental implant procedure",
       "seo": {
-        "title": "Same-Day Dental Implants - Immediate Loading Procedure",
-        "description": "Learn about immediate dental implants: benefits, risks, candidacy, and step-by-step procedure for same-day teeth.",
-        "keywords": "same day implant, immediate implant, immediate loading, same day teeth",
-        "url": "blog/same-day-dental-implant"
+        "title": "Same-Day Dental Implant - Risks and Benefits",
+        "description": "What is a same-day dental implant (immediate implant)? Learn about the procedure, risks, benefits, and differences from traditional implants.",
+        "keywords": "same-day implant, immediate implant, single session implant, fast implant, implant risks",
+        "url": "implant/same-day-implant"
       }
     },
     "item10": {
       "caption": "Dental Implant Surgery Healing Period",
-      "title": "What is the recovery time after dental implant surgery?, How Many Implants Did You Have?, Sinus Lift...",
+      "title": "What is the healing period after dental implant surgery?, How many implants did you have?, Sinus Lifting...",
       "url": "implant/implant-healing-process",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Implant healing",
+      "imgAlt": "Healing process after dental implant surgery",
       "seo": {
-        "title": "Dental Implant Healing Process - Recovery Timeline",
-        "description": "Detailed guide on dental implant recovery: healing stages, diet, pain management, and tips for fast healing.",
-        "keywords": "implant healing, recovery after implant, osseointegration, post-op care",
-        "url": "blog/implant-healing-process"
+        "title": "Dental Implant Healing Process - How Long Does It Take?",
+        "description": "How long does the healing period take after dental implant surgery? Learn about sinus lifting, ways to speed up healing, and post-operative care.",
+        "keywords": "implant healing, after implant, healing process, sinus lifting, implant care",
+        "url": "implant/implant-healing-process"
       }
     },
     "item11": {
@@ -1008,12 +1008,129 @@
       "title": "Who gets bad breath?, What are the causes of bad breath?...",
       "url": "halitosis",
       "imgLink": "/images/blog/Halitosis.jpg",
-      "imgAlt": "Bad breath halitosis",
+      "imgAlt": "Bad breath and halitosis causes and solutions",
       "seo": {
         "title": "Bad Breath (Halitosis) - Causes and Solutions",
-        "description": "Discover causes of halitosis: poor oral hygiene, gum disease, dry mouth, and effective treatment methods.",
-        "keywords": "bad breath, halitosis, mouth odor, causes of bad breath",
-        "url": "blog/halitosis"
+        "description": "Discover the causes of bad breath (halitosis), who it affects, underlying diseases, and effective treatment methods to get rid of oral odor.",
+        "keywords": "bad breath, halitosis, mouth odor, causes of bad breath, halitosis treatment",
+        "url": "halitosis"
+      }
+    },
+    "item12": {
+      "caption": "How Long Do Dental Implants Last?",
+      "title": "What factors affect dental implant lifespan?, What should be done to extend the life of a dental implant?",
+      "url": "implant/life-time",
+      "imgLink": "/images/implant-omur1.jpeg",
+      "imgAlt": "Dental implant longevity and lifespan factors",
+      "seo": {
+        "title": "How Long Do Dental Implants Last? - Lifespan Factors",
+        "description": "How long do dental implants last? Learn about factors affecting implant lifespan, care tips to extend durability, and maintenance recommendations.",
+        "keywords": "implant lifespan, how long do implants last, implant care, extending implant life, dental implant durability",
+        "url": "implant/life-time"
+      }
+    },
+    "item13": {
+      "caption": "Can a Single Tooth Implant Be Done?",
+      "title": "What are the advantages of a single tooth implant?, Can implant treatment be applied when there is insufficient bone?, Why do implant prices vary?",
+      "url": "implant/single-tooth-implant",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Single tooth dental implant procedure",
+      "seo": {
+        "title": "Single Tooth Implant - Advantages and Pricing",
+        "description": "Can a single tooth implant be done? Learn about its advantages, application possibilities with insufficient bone, and reasons for price variations.",
+        "keywords": "single tooth implant, single implant, implant prices, bone insufficiency implant, missing single tooth",
+        "url": "implant/single-tooth-implant"
+      }
+    },
+    "item14": {
+      "caption": "What Are the Types of Dental Crowns?",
+      "title": "Zirconia Crown, Laminate Veneer, Metal-Supported Crown",
+      "url": "implant/life-time",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Various types of dental crowns including zirconia and laminate",
+      "seo": {
+        "title": "Types of Dental Crowns - Zirconia, Laminate, Metal-Supported",
+        "description": "What are the types of dental crowns? Learn about differences, advantages, and when to prefer zirconia, laminate, and metal-supported crowns.",
+        "keywords": "dental crown, zirconia crown, laminate veneer, metal-supported crown, porcelain crown",
+        "url": "implant/life-time"
+      }
+    },
+    "item15": {
+      "caption": "What is Orthodontics?",
+      "title": "Who needs orthodontic treatment?, How long does orthodontic treatment take?, At what age should orthodontic treatment be started?, What should be considered during orthodontic treatment?",
+      "url": "ortodonti",
+      "imgLink": "/images/ortodontik-tedavi1.jpeg",
+      "imgAlt": "Orthodontic treatment overview and braces",
+      "seo": {
+        "title": "What is Orthodontics? - Treatment Process and Starting Age",
+        "description": "What is orthodontics? Who needs orthodontic treatment? Learn about treatment duration, starting age, and important considerations during the process.",
+        "keywords": "orthodontics, braces, orthodontic treatment, crooked teeth, orthodontics age",
+        "url": "ortodonti"
+      }
+    },
+    "item16": {
+      "caption": "What Are Orthodontic Treatments?",
+      "title": "Clear Aligner, Braces, Removable Retainer, Fixed Space Maintainer, Jaw Appliances, Palatal Expander, Headgear",
+      "url": "ortodontik-tedaviler-nelerdir",
+      "imgLink": "/images/ortodontik-tedavi2.jpeg",
+      "imgAlt": "Different orthodontic treatment appliances",
+      "seo": {
+        "title": "Orthodontic Treatments - Clear Aligners, Braces, and More",
+        "description": "What are orthodontic treatments? Discover usage areas of clear aligners, braces, removable retainers, palatal expanders, and headgear appliances.",
+        "keywords": "clear aligner, braces, retainer, palatal expander, headgear, orthodontic appliances",
+        "url": "ortodontik-tedaviler-nelerdir"
+      }
+    },
+    "item17": {
+      "caption": "How Is Spaced Teeth Treatment Done?",
+      "title": "Why do teeth stay spaced?, Composite Lamina for Spaced Teeth Treatment, Braces for Spaced Teeth Treatment, Porcelain Lamina for Spaced Teeth Treatment",
+      "url": "spaced-teeth-treatment",
+      "imgLink": "/images/spaced-teeth-1.jpeg",
+      "imgAlt": "Treatment options for spaced teeth and diastema",
+      "seo": {
+        "title": "Spaced Teeth Treatment - Laminate and Braces Options",
+        "description": "How is spaced teeth treatment done? Learn why teeth have gaps, and explore composite laminate, braces, and porcelain laminate treatment options.",
+        "keywords": "spaced teeth, diastema, spaced teeth treatment, laminate for gaps, closing gaps with braces",
+        "url": "spaced-teeth-treatment"
+      }
+    },
+    "item18": {
+      "caption": "Why Do Gums Bleed?",
+      "title": "Causes of Gum Bleeding, What are the Risk Factors?, Diseases That Cause Gum Bleeding, Do Vitamin Deficiencies Lead to Gum Problems?, How Is Gum Bleeding Treated?",
+      "url": "gum-bleeding",
+      "imgLink": "/images/gum-bleeding-1.jpeg",
+      "imgAlt": "Gum bleeding causes and treatment methods",
+      "seo": {
+        "title": "Why Do Gums Bleed? - Causes and Treatment Methods",
+        "description": "Why do gums bleed? Learn about causes, risk factors, the role of vitamin deficiencies, and effective treatment methods for bleeding gums.",
+        "keywords": "gum bleeding, bleeding gums, gum disease, gingivitis, vitamin deficiency gums",
+        "url": "gum-bleeding"
+      }
+    },
+    "item19": {
+      "caption": "How to Prevent Tooth Yellowing?",
+      "title": "Why do teeth turn yellow?, What are the causes of tooth yellowing?, How to prevent tooth yellowing?, Is the effect of teeth whitening permanent? How long does the whitening effect last?, What are the teeth whitening methods applied by dentists?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Preventing and treating tooth yellowing",
+      "seo": {
+        "title": "How to Prevent Tooth Yellowing? - Causes and Whitening",
+        "description": "How to prevent tooth yellowing? Learn why teeth turn yellow, prevention methods, permanence of whitening, and professional teeth whitening techniques.",
+        "keywords": "tooth yellowing, teeth whitening, tooth color, prevent yellowing, professional whitening, tooth stain",
+        "url": "dis-sararması"
+      }
+    },
+    "item20": {
+      "caption": "What is a Dental Prosthesis (Denture)?",
+      "title": "Which type of dental prosthesis is right for you?, Complete Dentures, Partial Dentures, How are prostheses made?, What are prostheses made of?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Denture types and materials used",
+      "seo": {
+        "title": "What is a Dental Prosthesis? - Complete and Partial Dentures",
+        "description": "What is a dental prosthesis? Learn which type is right for you, complete vs partial dentures, manufacturing process, materials used, and care tips.",
+        "keywords": "dental prosthesis, complete denture, partial denture, removable denture, denture making, denture materials",
+        "url": "dis-sararması"
       }
     }
   },
@@ -1466,7 +1583,7 @@
         "title": "Same-Day Dental Implants - Immediate Loading Procedure",
         "description": "Learn about immediate dental implants: benefits, risks, candidacy, and step-by-step procedure for same-day teeth.",
         "keywords": "same day implant, immediate implant, immediate loading, same day teeth, implant procedure",
-        "url": "blog/same-day-dental-implant"
+        "url": "blog/implant/same-day-implanty"
       }
     },
     "Implants": {

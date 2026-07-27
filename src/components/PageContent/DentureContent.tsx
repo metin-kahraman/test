@@ -11,7 +11,7 @@ import {
   import { TreatmentsPageTranslations } from "@/types";
   
   const DentureContent = () => {
-    const t = useTranslations("DENTURE");
+    const t = useTranslations("Blog.DENTURE");
   
     return (
       <Box p={2}>

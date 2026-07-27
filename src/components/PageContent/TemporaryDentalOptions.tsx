@@ -11,7 +11,7 @@ import {
   import { TreatmentsPageTranslations } from "@/types";
   
   const TemporaryDentalOptions = () => {
-    const t = useTranslations("TemporaryDentalOptions");
+    const t = useTranslations("Blog.TemporaryDentalOptions");
   
     return (
       <Box p={2}>

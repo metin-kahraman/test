@@ -11,7 +11,7 @@ import {
   import { TreatmentsPageTranslations } from "@/types";
   
   const ImplantHealingProcessdietFinaly = () => {
-    const t = useTranslations("ImplantHealingProcess.item8");
+    const t = useTranslations("Blog.ImplantHealingProcess.item8");
   
     return (
       <Box p={2}>

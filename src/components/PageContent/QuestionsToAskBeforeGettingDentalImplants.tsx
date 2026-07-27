@@ -11,7 +11,7 @@ import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 
 const QuestionsToAskBeforeGettingDentalImplants = () => {
-  const t = useTranslations("QuestionsToAskBeforeGettingDentalImplants");
+  const t = useTranslations("Blog.QuestionsToAskBeforeGettingDentalImplants");
 
   return (
     <Box p={2}>

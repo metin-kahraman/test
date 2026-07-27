@@ -107,11 +107,11 @@ const nextConfig = {
         destination: '/tr/blog/implant/single-tooth',
       },
       {
-        source: '/tr/tek-dis-implantı',
+        source: '/tr/blog/tek-dis-implant',
         destination: '/tr/blog/implant/single-tooth',
       },
       {
-        source: '/tr/implantatsiya/odin-implant',
+        source: '/tr/blog/implantatsiya/odin-implant',
         destination: '/tr/blog/implant/single-tooth',
       },
       {
@@ -146,6 +146,12 @@ const nextConfig = {
         source: '/tr/blog/implant/life-time',
         destination: '/tr/blog/implant/life-time',
       },
+      // +++ YENİ EKLENEN: implant ömrü alternatifleri
+      {
+        source: '/tr/blog/implant-omru',
+        destination: '/tr/blog/implant/life-time',
+      },
+
       // Diğer blog yazıları
       {
         source: '/tr/blog/dental-bridge',
@@ -159,6 +165,49 @@ const nextConfig = {
         source: '/tr/blog/kopru',
         destination: '/tr/blog/dental-bridge',
       },
+
+      // +++ YENİ EKLENEN: dental-veneer-types
+      {
+        source: '/tr/blog/dis-kaplama-cesitleri',
+        destination: '/tr/blog/dental-veneer-types',
+      },
+      // +++ YENİ EKLENEN: denture
+      {
+        source: '/tr/blog/dis-protezi',
+        destination: '/tr/blog/denture',
+      },
+      // +++ YENİ EKLENEN: how-to-prevent-yellowing-of-teeth
+      {
+        source: '/tr/blog/dis-sararmasi',
+        destination: '/tr/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      // +++ YENİ EKLENEN: impacted-teeth
+      {
+        source: '/tr/blog/gomulu-dis',
+        destination: '/tr/blog/impacted-teeth',
+      },
+      // +++ YENİ EKLENEN: spaced-teeth
+      {
+        source: '/tr/blog/ayrik-dis-tedavisi',
+        destination: '/tr/blog/spaced-teeth',
+      },
+      // +++ YENİ EKLENEN: tooth-bleeding
+      {
+        source: '/tr/blog/dis-eti-kanamasi',
+        destination: '/tr/blog/tooth-bleeding',
+      },
+      // +++ YENİ EKLENEN: orthodontics
+      {
+        source: '/tr/blog/ortodonti',
+        destination: '/tr/blog/orthodontics',
+      },
+      // +++ YENİ EKLENEN: what-are-orthodontic-treatments
+      {
+        source: '/tr/blog/ortodontik-tedaviler-nelerdir',
+        destination: '/tr/blog/what-are-orthodontic-treatments',
+      },
+
+      // Aşağıdakiler zaten mevcuttu, kopyalanmadı
       {
         source: '/tr/blog/dental-veneer-types',
         destination: '/tr/blog/dental-veneer-types',
@@ -215,6 +264,7 @@ const nextConfig = {
         source: '/tr/blog/what-are-orthodontic-treatments',
         destination: '/tr/blog/what-are-orthodontic-treatments',
       },
+
       // Dental treatments alt sayfaları (Türkçe)
       {
         source: '/tr/dis-tedavileri/estetik-dis-hekimligi',
@@ -427,11 +477,11 @@ const nextConfig = {
         destination: '/ru/blog/implant/single-tooth',
       },
       {
-        source: '/ru/tek-dis-implantı',
+        source: '/ru/blog/tek-dis-implant',
         destination: '/ru/blog/implant/single-tooth',
       },
       {
-        source: '/ru/implantatsiya/odin-implant',
+        source: '/ru/blog/implantatsiya/odin-implant',
         destination: '/ru/blog/implant/single-tooth',
       },
       {
@@ -466,6 +516,76 @@ const nextConfig = {
         source: '/ru/blog/implant/life-time',
         destination: '/ru/blog/implant/life-time',
       },
+      // +++ YENİ EKLENEN
+      {
+        source: '/ru/blog/srok-sluzhby-implantov',
+        destination: '/ru/blog/implant/life-time',
+      },
+      {
+        source: '/ru/blog/dental-veneer-types',
+        destination: '/ru/blog/dental-veneer-types',
+      },
+      {
+        source: '/ru/blog/vidy-koronok',
+        destination: '/ru/blog/dental-veneer-types',
+      },
+      {
+        source: '/ru/blog/denture',
+        destination: '/ru/blog/denture',
+      },
+      {
+        source: '/ru/blog/zubnye-protezy',
+        destination: '/ru/blog/denture',
+      },
+      {
+        source: '/ru/blog/how-to-prevent-yellowing-of-teeth',
+        destination: '/ru/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/ru/blog/kak-predotvratit-pozheltenie',
+        destination: '/ru/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/ru/blog/impacted-teeth',
+        destination: '/ru/blog/impacted-teeth',
+      },
+      {
+        source: '/ru/blog/retinirovannye-zuby',
+        destination: '/ru/blog/impacted-teeth',
+      },
+      {
+        source: '/ru/blog/spaced-teeth',
+        destination: '/ru/blog/spaced-teeth',
+      },
+      {
+        source: '/ru/blog/diastema',
+        destination: '/ru/blog/spaced-teeth',
+      },
+      {
+        source: '/ru/blog/tooth-bleeding',
+        destination: '/ru/blog/tooth-bleeding',
+      },
+      {
+        source: '/ru/blog/krovotochivost-desen',
+        destination: '/ru/blog/tooth-bleeding',
+      },
+      {
+        source: '/ru/blog/orthodontics',
+        destination: '/ru/blog/orthodontics',
+      },
+      {
+        source: '/ru/blog/ortodontiya',
+        destination: '/ru/blog/orthodontics',
+      },
+      {
+        source: '/ru/blog/what-are-orthodontic-treatments',
+        destination: '/ru/blog/what-are-orthodontic-treatments',
+      },
+      {
+        source: '/ru/blog/ortodonticheskie-lecheniya',
+        destination: '/ru/blog/what-are-orthodontic-treatments',
+      },
+      // Mevcut diğer bloglar
       {
         source: '/ru/blog/dental-bridge',
         destination: '/ru/blog/dental-bridge',
@@ -477,14 +597,6 @@ const nextConfig = {
       {
         source: '/ru/blog/kopru',
         destination: '/ru/blog/dental-bridge',
-      },
-      {
-        source: '/ru/blog/dental-veneer-types',
-        destination: '/ru/blog/dental-veneer-types',
-      },
-      {
-        source: '/ru/blog/denture',
-        destination: '/ru/blog/denture',
       },
       {
         source: '/ru/blog/gum-recession-and-sensitivity',
@@ -510,30 +622,8 @@ const nextConfig = {
         source: '/ru/blog/galitoz',
         destination: '/ru/blog/halitosis',
       },
-      {
-        source: '/ru/blog/how-to-prevent-yellowing-of-teeth',
-        destination: '/ru/blog/how-to-prevent-yellowing-of-teeth',
-      },
-      {
-        source: '/ru/blog/impacted-teeth',
-        destination: '/ru/blog/impacted-teeth',
-      },
-      {
-        source: '/ru/blog/orthodontics',
-        destination: '/ru/blog/orthodontics',
-      },
-      {
-        source: '/ru/blog/spaced-teeth',
-        destination: '/ru/blog/spaced-teeth',
-      },
-      {
-        source: '/ru/blog/tooth-bleeding',
-        destination: '/ru/blog/tooth-bleeding',
-      },
-      {
-        source: '/ru/blog/what-are-orthodontic-treatments',
-        destination: '/ru/blog/what-are-orthodontic-treatments',
-      },
+
+      // Dental treatments alt sayfaları (Rusça)
       {
         source: '/ru/dis-tedavileri/estetik-dis-hekimligi',
         destination: '/ru/dental-treatments/aesthetic-dentistry',
@@ -689,13 +779,173 @@ const nextConfig = {
         destination: '/en/contact',
       },
       {
-        source: '/en/tek-dis-implantı',
+        source: '/en/blog',
+        destination: '/en/blog',
+      },
+      {
+        source: '/en/blog/bruksizm',
+        destination: '/en/blog/bruxism',
+      },
+      {
+        source: '/en/blog/implant/all-on-4',
+        destination: '/en/blog/implant/all-on-4',
+      },
+      {
+        source: '/en/blog/all-on-4-implant',
+        destination: '/en/blog/implant/all-on-4',
+      },
+      {
+        source: '/en/blog/implant/bone-graft',
+        destination: '/en/blog/implant/bone-graft',
+      },
+      {
+        source: '/en/blog/kostnyy-transplantat',
+        destination: '/en/blog/implant/bone-graft',
+      },
+      {
+        source: '/en/blog/kemik-grefti',
+        destination: '/en/blog/implant/bone-graft',
+      },
+      {
+        source: '/en/blog/implant/healing-process',
+        destination: '/en/blog/implant/healing-process',
+      },
+      {
+        source: '/en/blog/implant-iyilesmesi',
+        destination: '/en/blog/implant/healing-process',
+      },
+      {
+        source: '/en/blog/zazhivlenie-implantata',
+        destination: '/en/blog/implant/healing-process',
+      },
+      {
+        source: '/en/blog/implant/same-day-implant',
+        destination: '/en/blog/implant/same-day-implant',
+      },
+      {
+        source: '/en/blog/ayni-gun-implant',
+        destination: '/en/blog/implant/same-day-implant',
+      },
+      {
+        source: '/en/blog/implantatsiya-za-den',
+        destination: '/en/blog/implant/same-day-implant',
+      },
+      {
+        source: '/en/blog/implant/single-tooth',
         destination: '/en/blog/implant/single-tooth',
       },
       {
-        source: '/en/implantatsiya/odin-implant',
+        source: '/en/blog/tek-dis-implant',
         destination: '/en/blog/implant/single-tooth',
       },
+      {
+        source: '/en/blog/implantatsiya/odin-implant',
+        destination: '/en/blog/implant/single-tooth',
+      },
+      {
+        source: '/en/blog/single-tooth-implant',
+        destination: '/en/blog/implant/single-tooth',
+      },
+      {
+        source: '/en/blog/implant/temporary-options',
+        destination: '/en/blog/implant/temporary-options',
+      },
+      {
+        source: '/en/blog/gecici-disler',
+        destination: '/en/blog/implant/temporary-options',
+      },
+      {
+        source: '/en/blog/vremennye-zuby',
+        destination: '/en/blog/implant/temporary-options',
+      },
+      {
+        source: '/en/blog/implant/what-is-dental-implant',
+        destination: '/en/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/en/blog/implant-nedir',
+        destination: '/en/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/en/blog/chto-takoe-implantat',
+        destination: '/en/blog/implant/what-is-dental-implant',
+      },
+      {
+        source: '/en/blog/implant/life-time',
+        destination: '/en/blog/implant/life-time',
+      },
+      // +++ YENİ EKLENEN
+      {
+        source: '/en/blog/implant-life-time',
+        destination: '/en/blog/implant/life-time',
+      },
+      {
+        source: '/en/blog/dental-veneer-types',
+        destination: '/en/blog/dental-veneer-types',
+      },
+      {
+        source: '/en/blog/denture',
+        destination: '/en/blog/denture',
+      },
+      {
+        source: '/en/blog/how-to-prevent-yellowing-of-teeth',
+        destination: '/en/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/en/blog/impacted-teeth',
+        destination: '/en/blog/impacted-teeth',
+      },
+      {
+        source: '/en/blog/spaced-teeth',
+        destination: '/en/blog/spaced-teeth',
+      },
+      {
+        source: '/en/blog/tooth-bleeding',
+        destination: '/en/blog/tooth-bleeding',
+      },
+      {
+        source: '/en/blog/orthodontics',
+        destination: '/en/blog/orthodontics',
+      },
+      {
+        source: '/en/blog/what-are-orthodontic-treatments',
+        destination: '/en/blog/what-are-orthodontic-treatments',
+      },
+      // Mevcut diğer bloglar
+      {
+        source: '/en/blog/dental-bridge',
+        destination: '/en/blog/dental-bridge',
+      },
+      {
+        source: '/en/blog/zubnye-mosty',
+        destination: '/en/blog/dental-bridge',
+      },
+      {
+        source: '/en/blog/kopru',
+        destination: '/en/blog/dental-bridge',
+      },
+      {
+        source: '/en/blog/gum-recession-and-sensitivity',
+        destination: '/en/blog/gum-recession-and-sensitivity',
+      },
+      {
+        source: '/en/blog/dis-eti-cekilmesi',
+        destination: '/en/blog/gum-recession-and-sensitivity',
+      },
+      {
+        source: '/en/blog/retcessiya-desny',
+        destination: '/en/blog/gum-recession-and-sensitivity',
+      },
+      {
+        source: '/en/blog/halitosis',
+        destination: '/en/blog/halitosis',
+      },
+      {
+        source: '/en/blog/halitoz',
+        destination: '/en/blog/halitosis',
+      },
+
+      // Dental treatments alt sayfaları (İngilizce)
       {
         source: '/en/dis-tedavileri/estetik-dis-hekimligi',
         destination: '/en/dental-treatments/aesthetic-dentistry',
@@ -808,73 +1058,8 @@ const nextConfig = {
         source: '/en/stomatologicheskie-uslugi/nesemnoye-protezirovanie',
         destination: '/en/dental-treatments/fixed-prosthetic-applications',
       },
-      {
-        source: '/en/blog/bruksizm',
-        destination: '/en/blog/bruxism',
-      },
-      {
-        source: '/en/blog/gecici-disler',
-        destination: '/en/blog/implant/temporary-options',
-      },
-      {
-        source: '/en/blog/vremennye-zuby',
-        destination: '/en/blog/implant/temporary-options',
-      },
-      {
-        source: '/en/blog/kemik-grefti',
-        destination: '/en/blog/implant/bone-graft',
-      },
-      {
-        source: '/en/blog/kostnyy-transplantat',
-        destination: '/en/blog/implant/bone-graft',
-      },
-      {
-        source: '/en/blog/dis-eti-cekilmesi',
-        destination: '/en/blog/gum-recession-and-sensitivity',
-      },
-      {
-        source: '/en/blog/retcessiya-desny',
-        destination: '/en/blog/gum-recession-and-sensitivity',
-      },
-      {
-        source: '/en/blog/kopru',
-        destination: '/en/blog/dental-bridge',
-      },
-      {
-        source: '/en/blog/zubnye-mosty',
-        destination: '/en/blog/dental-bridge',
-      },
-      {
-        source: '/en/blog/implant-nedir',
-        destination: '/en/blog/implant/what-is-dental-implant',
-      },
-      {
-        source: '/en/blog/chto-takoe-implantat',
-        destination: '/en/blog/implant/what-is-dental-implant',
-      },
-      {
-        source: '/en/blog/ayni-gun-implant',
-        destination: '/en/blog/implant/same-day-implant',
-      },
-      {
-        source: '/en/blog/implantatsiya-za-den',
-        destination: '/en/blog/implant/same-day-implant',
-      },
-      {
-        source: '/en/blog/implant-iyilesmesi',
-        destination: '/en/blog/implant/healing-process',
-      },
-      {
-        source: '/en/blog/zazhivlenie-implantata',
-        destination: '/en/blog/implant/healing-process',
-      },
-      {
-        source: '/en/blog/halitoz',
-        destination: '/en/blog/halitosis',
-      },
 
       // ========== LİTVANYACA (lt) İÇİN YÖNLENDİRMELER ==========
-      // Üst seviye sayfalar
       {
         source: '/lt/dantų-gydymas',
         destination: '/lt/dental-treatments',
@@ -904,7 +1089,7 @@ const nextConfig = {
         destination: '/lt/blog',
       },
 
-      // Dental treatments alt sayfalar
+      // Dental treatments alt sayfalar (Litvanyaca)
       {
         source: '/lt/dantų-gydymas/estetinė-odontologija',
         destination: '/lt/dental-treatments/aesthetic-dentistry',
@@ -964,7 +1149,7 @@ const nextConfig = {
         destination: '/lt/blog/implant/single-tooth',
       },
 
-      // Blog yazıları (BlogItems)
+      // Blog yazıları (Litvanyaca)
       {
         source: '/lt/tinklaraštis/bruksizmas',
         destination: '/lt/blog/bruxism',
@@ -1005,23 +1190,51 @@ const nextConfig = {
         source: '/lt/tinklaraštis/halitozė',
         destination: '/lt/blog/halitosis',
       },
-
-      // Blog papildomi straipsniai
+      // +++ YENİ EKLENEN LİTVANYACA
       {
-        source: '/lt/tinklaraštis/dantų-pageltimas',
+        source: '/lt/tinklaraštis/implanto-tarnavimo-laikas',
+        destination: '/lt/blog/implant/life-time',
+      },
+      {
+        source: '/lt/tinklaraštis/dantų-karuneliu-tipai',
+        destination: '/lt/blog/dental-veneer-types',
+      },
+      {
+        source: '/lt/tinklaraštis/protezai',
+        destination: '/lt/blog/denture',
+      },
+      {
+        source: '/lt/tinklaraštis/kaip-isvengti-dantu-pageltimo',
         destination: '/lt/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/uzdarame-kaule-esantis-dantis',
+        destination: '/lt/blog/impacted-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/tarpai-tarp-dantu',
+        destination: '/lt/blog/spaced-teeth',
       },
       {
         source: '/lt/tinklaraštis/dantenų-kraujavimas',
         destination: '/lt/blog/tooth-bleeding',
       },
       {
-        source: '/lt/tinklaraštis/tarpelių-tarp-dantų-gydymas',
-        destination: '/lt/blog/spaced-teeth',
+        source: '/lt/tinklaraštis/ortodontija',
+        destination: '/lt/blog/orthodontics',
       },
       {
-        source: '/lt/tinklaraštis/uzdarame-kaule-esancio-danties-salinimas',
-        destination: '/lt/blog/impacted-teeth',
+        source: '/lt/tinklaraštis/kokie-ortodontiniai-gydymai',
+        destination: '/lt/blog/what-are-orthodontic-treatments',
+      },
+      // Diğer mevcut lt bloglar
+      {
+        source: '/lt/tinklaraštis/dantų-pageltimas',
+        destination: '/lt/blog/how-to-prevent-yellowing-of-teeth',
+      },
+      {
+        source: '/lt/tinklaraštis/tarpelių-tarp-dantų-gydymas',
+        destination: '/lt/blog/spaced-teeth',
       },
       {
         source: '/lt/tinklaraštis/dantų-karuneliu-tipai',
@@ -1032,16 +1245,8 @@ const nextConfig = {
         destination: '/lt/blog/what-are-orthodontic-treatments',
       },
       {
-        source: '/lt/tinklaraštis/ortodontija',
-        destination: '/lt/blog/orthodontics',
-      },
-      {
         source: '/lt/tinklaraštis/dantų-implantai',
         destination: '/lt/blog/implant/what-is-dental-implant',
-      },
-      {
-        source: '/lt/tinklaraštis/klausimai-pries-dantu-implantus',
-        destination: '/lt/blog/questions-before-dental-implants',
       },
       {
         source: '/lt/tinklaraštis/protezai',
@@ -1049,11 +1254,10 @@ const nextConfig = {
       },
       {
         source: '/lt/tinklaraštis/protezai-privalumai-trūkumai',
-        destination: '/lt/blog/denture-pros-cons',
+        destination: '/lt/blog/denture',
       },
 
       // ========== POLONCA (pl) İÇİN YÖNLENDİRMELER ==========
-      // Üst seviye sayfalar
       {
         source: '/pl/leczenie-zębów',
         destination: '/pl/dental-treatments',
@@ -1083,7 +1287,7 @@ const nextConfig = {
         destination: '/pl/blog',
       },
 
-      // Dental treatments alt sayfalar
+      // Dental treatments alt sayfalar (Polonca)
       {
         source: '/pl/leczenie-zębów/stomatologia-estetyczna',
         destination: '/pl/dental-treatments/aesthetic-dentistry',
@@ -1143,7 +1347,7 @@ const nextConfig = {
         destination: '/pl/blog/implant/single-tooth',
       },
 
-      // Blog yazıları (BlogItems)
+      // Blog yazıları (Polonca)
       {
         source: '/pl/blog/bruksizm',
         destination: '/pl/blog/bruxism',
@@ -1184,15 +1388,47 @@ const nextConfig = {
         source: '/pl/blog/halitoza',
         destination: '/pl/blog/halitosis',
       },
-
-      // Blog papildomi straipsniai
+      // +++ YENİ EKLENEN POLONCA
       {
-        source: '/pl/blog/zolkniecie-zebow',
+        source: '/pl/blog/zywotnosc-implantow',
+        destination: '/pl/blog/implant/life-time',
+      },
+      {
+        source: '/pl/blog/rodzaje-koron-zebowych',
+        destination: '/pl/blog/dental-veneer-types',
+      },
+      {
+        source: '/pl/blog/protezy',
+        destination: '/pl/blog/denture',
+      },
+      {
+        source: '/pl/blog/jak-zapobiegac-zolknieciu',
         destination: '/pl/blog/how-to-prevent-yellowing-of-teeth',
       },
       {
-        source: '/pl/blog/krwawienie-dziąseł',
+        source: '/pl/blog/zeby-zatrzymane',
+        destination: '/pl/blog/impacted-teeth',
+      },
+      {
+        source: '/pl/blog/diastema',
+        destination: '/pl/blog/spaced-teeth',
+      },
+      {
+        source: '/pl/blog/krwawienie-dziasel',
         destination: '/pl/blog/tooth-bleeding',
+      },
+      {
+        source: '/pl/blog/ortodoncja',
+        destination: '/pl/blog/orthodontics',
+      },
+      {
+        source: '/pl/blog/jakie-sa-leczenia-ortodontyczne',
+        destination: '/pl/blog/what-are-orthodontic-treatments',
+      },
+      // Diğer mevcut pl bloglar
+      {
+        source: '/pl/blog/zolkniecie-zebow',
+        destination: '/pl/blog/how-to-prevent-yellowing-of-teeth',
       },
       {
         source: '/pl/blog/leczenie-przerw-miedzy-zebami',
@@ -1211,25 +1447,143 @@ const nextConfig = {
         destination: '/pl/blog/what-are-orthodontic-treatments',
       },
       {
-        source: '/pl/blog/ortodoncja',
-        destination: '/pl/blog/orthodontics',
-      },
-      {
         source: '/pl/blog/implanty-dentystyczne',
         destination: '/pl/blog/implant/what-is-dental-implant',
       },
       {
-        source: '/pl/blog/pytania-przed-implantami',
-        destination: '/pl/blog/questions-before-dental-implants',
-      },
-      {
-        source: '/pl/blog/protezy',
+        source: '/pl/blog/protezy-zalety-wady',
         destination: '/pl/blog/denture',
       },
+      //EK TEK DİŞ İMPLANT
       {
-        source: '/pl/blog/protezy-zalety-wady',
-        destination: '/pl/blog/denture-pros-cons',
+        source: '/pl/blog/implant/pojedynczy-ząb',
+        destination: '/pl/blog/implant/single-tooth',
       },
+      {
+        source: '/tr/blog/implant/tek-dis-implanti',
+        destination: '/tr/blog/implant/single-tooth',
+      },
+      {
+        source: '/en/blog/implant/single-tooth-implant',
+        destination: '/en/blog/implant/single-tooth',
+      },
+      {
+        source: '/lt/blog/implant/vieno-danties-implantas',
+        destination: '/lt/blog/implant/single-tooth',
+      },
+      {
+        source: '/ru/blog/implant/implantatsiya-odnogo-zuba',
+        destination: '/ru/blog/implant/single-tooth',
+      },
+      // ============================================================
+//  SPACED TEETH & GUM BLEEDING – YERELLEŞTİRİLMİŞ URL'LER ile
+// ============================================================
+
+// ---------- Türkçe (tr) ----------
+// (Zaten doğru URL'ler kullanılıyor, ek yönlendirmeye gerek yok ama eski alias varsa)
+{
+  source: '/tr/blog/spaced-teeth',
+  destination: '/tr/blog/ayrik-dis-tedavisi',
+},
+{
+  source: '/tr/blog/spaced-teeth-treatment',
+  destination: '/tr/blog/ayrik-dis-tedavisi',
+},
+{
+  source: '/tr/blog/gum-bleeding',
+  destination: '/tr/blog/dis-eti-kanamasi',
+},
+
+// ---------- Rusça (ru) ----------
+{
+  source: '/ru/blog/spaced-teeth',
+  destination: '/ru/blog/lechenie-promezhutkov',
+},
+{
+  source: '/ru/blog/spaced-teeth-treatment',
+  destination: '/ru/blog/lechenie-promezhutkov',
+},
+{
+  source: '/ru/blog/diastema',
+  destination: '/ru/blog/lechenie-promezhutkov',
+},
+{
+  source: '/ru/blog/lechenie-promezhutkov-mezhdu-zubami',
+  destination: '/ru/blog/lechenie-promezhutkov',
+},
+{
+  source: '/ru/blog/gum-bleeding',
+  destination: '/ru/blog/krovotochivost-desen',
+},
+{
+  source: '/ru/blog/krovotochivost-desyon',
+  destination: '/ru/blog/krovotochivost-desen',
+},
+
+// ---------- İngilizce (en) ----------
+// (Doğrudan spaced-teeth-treatment ve gum-bleeding kullanılıyor, ek yönlendirmeye gerek yok)
+// Ancak eski alias varsa:
+{
+  source: '/en/blog/spaced-teeth',
+  destination: '/en/blog/spaced-teeth-treatment',
+},
+{
+  source: '/en/blog/bleeding-gums',
+  destination: '/en/blog/tooth-bleeding',
+},
+
+
+// ---------- Lehçe (pl) ----------
+{
+  source: '/pl/blog/spaced-teeth',
+  destination: '/pl/blog/leczenie-przerw',
+},
+{
+  source: '/pl/blog/spaced-teeth-treatment',
+  destination: '/pl/blog/leczenie-przerw',
+},
+{
+  source: '/pl/blog/diastema',
+  destination: '/pl/blog/leczenie-przerw',
+},
+{
+  source: '/pl/blog/przerwy-miedzy-zebami',
+  destination: '/pl/blog/leczenie-przerw',
+},
+{
+  source: '/pl/blog/gum-bleeding',
+  destination: '/pl/blog/krwawienie-dziasel',
+},
+{
+  source: '/pl/blog/krwawiące-dziąsła',
+  destination: '/pl/blog/krwawienie-dziasel',
+},
+
+// ---------- Litvanyaca (lt) ----------
+{
+  source: '/lt/blog/spaced-teeth',
+  destination: '/lt/blog/tarpai-tarp-dantu',
+},
+{
+  source: '/lt/blog/spaced-teeth-treatment',
+  destination: '/lt/blog/tarpai-tarp-dantu',
+},
+{
+  source: '/lt/blog/diastema',
+  destination: '/lt/blog/tarpai-tarp-dantu',
+},
+{
+  source: '/lt/blog/diastemos-gydymas',
+  destination: '/lt/blog/tarpai-tarp-dantu',
+},
+{
+  source: '/lt/blog/gum-bleeding',
+  destination: '/lt/blog/dantenu-kraujavimas',
+},
+{
+  source: '/lt/blog/kraujuojancios-dantenos',
+  destination: '/lt/blog/dantenu-kraujavimas',
+},
     ];
   },
 };

@@ -790,79 +790,255 @@
       }
     }
   },
-  "BlogItems":{
-    "item2":{
-      "caption":"Bruksizm Nedir ?",
-      "title":"Neden Gece veya Gündüz Dişlerinizi Gıcırdatıyoruz ?, Bruksizm Nedir?, Gündüz Bruksizmi, Geceleri Dişlerinizi Öğütürseniz Nasıl Anlaşılır ?...",
-      "url":"bruksizm",
-      "imgLink":"/images/blog/bruxism.png",
-      "imgAlt":""
+"BlogItems": {
+    "item2": {
+        "caption": "Bruksizm Nedir ?",
+        "title": "Neden Gece veya Gündüz Dişlerinizi Gıcırdatıyoruz ?, Bruksizm Nedir?, Gündüz Bruksizmi, Geceleri Dişlerinizi Öğütürseniz Nasıl Anlaşılır ?...",
+        "url": "bruksizm",
+        "imgLink": "/images/blog/bruxism.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Bruksizm (Diş Gıcırdatma) - Nedenleri ve Tedavisi",
+            "description": "Bruksizm (diş gıcırdatma ve çene sıkma) nedenleri, belirtileri ve etkili tedavi yöntemleri hakkında detaylı bilgi alın. Gece diş sıkma sorununuza çözüm bulun.",
+            "keywords": "bruksizm, diş gıcırdatma, çene sıkma, gece diş sıkma, bruksizm tedavisi",
+            "url": "bruksizm"
+        }
     },
-    "item3":{
-      "caption":"All On 4 Implant Nedir?",
-      "title":"All-On-4 Dental İmplant Prosedürü Nasıl?,All-On-4 Dental İmplantların İyileşme Süresi,Ameliyatı Sonrası Yaşanma İhtimali Olan Bazı Genel Sorunlar...",
-      "url":"implant/all-on-4",
-      "imgLink":"/images/blog/all-on-four.png",
-      "imgAlt":""
+    "item3": {
+        "caption": "All On 4 Implant Nedir?",
+        "title": "All-On-4 Dental İmplant Prosedürü Nasıl?,All-On-4 Dental İmplantların İyileşme Süresi,Ameliyatı Sonrası Yaşanma İhtimali Olan Bazı Genel Sorunlar...",
+        "url": "implant/all-on-4",
+        "imgLink": "/images/blog/all-on-four.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "All On 4 İmplant Nedir? | Tedavi Süreci ve Avantajları",
+            "description": "All On 4 implant nedir, nasıl uygulanır? Tek seansta 4 implant ile tüm ark tedavisi avantajları, iyileşme süreci ve fiyatları hakkında bilgi edinin.",
+            "keywords": "all on 4 implant, all-on-4, diş implantı, ark tedavisi, implant ile tüm dişler",
+            "url": "implant/all-on-4"
+        }
     },
-    "item4":{
-      "caption":"İmplantın İyileşmesini Beklerken Geçici Diş Seçenekleriniz Neler?",
-      "title":"Geçici Tek Diş Kaplaması,Geçici Damak,Geçici Diş Köprüleri,Essix Plaklar ve hepsini Artı ve Eksi yönleri...",
-      "url":"implant/temporary-options",
-      "imgLink":"/images/blog/temporary-options.png",
-      "imgAlt":""
+    "item4": {
+        "caption": "İmplantın İyileşmesini Beklerken Geçici Diş Seçenekleriniz Neler?",
+        "title": "Geçici Tek Diş Kaplaması,Geçici Damak,Geçici Diş Köprüleri,Essix Plaklar ve hepsini Artı ve Eksi yönleri...",
+        "url": "implant/temporary-options",
+        "imgLink": "/images/blog/temporary-options.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "İmplant İyileşme Sürecinde Geçici Diş Seçenekleri",
+            "description": "İmplant iyileşme sürecinde geçici diş seçeneklerini keşfedin. Geçici kaplama, köprü ve essix plakların artı ve eksi yönlerini öğrenin.",
+            "keywords": "geçici diş, implant iyileşme, geçici kaplama, geçici köprü, essix plak",
+            "url": "implant/temporary-options"
+        }
     },
-    "item5":{
-      "caption":"Dental İmplantlar İçin Kemik Grefti",
-      "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
-      "url":"implant/bone-graft",
-      "imgLink":"/images/blog/bonegraft.png",
-      "imgAlt":""
+    "item5": {
+        "caption": "Dental İmplantlar İçin Kemik Grefti",
+        "title": "İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
+        "url": "implant/bone-graft",
+        "imgLink": "/images/blog/bonegraft.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "İmplant İçin Kemik Grefti Nedir? | Çeşitleri ve Süreci",
+            "description": "Dental implantlar için kemik grefti gerekli mi? Kemik greft çeşitleri, tedavi süresine etkisi ve uygulama detayları hakkında kapsamlı rehber.",
+            "keywords": "kemik grefti, implant kemik grefti, sinüs lifting, otojen greft, kemik tozu",
+            "url": "implant/bone-graft"
+        }
     },
-    "item6":{
-      "caption":"Diş Eti Çekilmesi ve Hassasiyet",
-      "title":"İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
-      "url":"/gum-recession-and-sensitivity",
-      "imgLink":"/images/blog/GumRecessionAndSensitivity.png",
-      "imgAlt":""
+    "item6": {
+        "caption": "Diş Eti Çekilmesi ve Hassasiyet",
+        "title": "İmplantlar İçin Kemik Grefti Gerekli mi? Kemik Grefti Tedavinin Süresini Etkiler mi? Kemik Greft Çeşitleri...",
+        "url": "/gum-recession-and-sensitivity",
+        "imgLink": "/images/blog/GumRecessionAndSensitivity.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş Eti Çekilmesi ve Hassasiyet | Nedenleri ve Tedavisi",
+            "description": "Diş eti çekilmesi ve hassasiyet neden olur? Belirtileri, risk faktörleri ve etkili tedavi seçenekleri ile diş sağlığınızı koruyun.",
+            "keywords": "diş eti çekilmesi, diş hassasiyeti, diş eti tedavisi, sıcak soğuk hassasiyeti",
+            "url": "/gum-recession-and-sensitivity"
+        }
     },
-    "item7":{
-      "caption":"Dental Körüler",
-      "title":"Dental Köprü Çeşitleri,Dental Köprü Prosedürü Nasıldır?,Dental Köprü Maliyeti ve Sık Karşılaşılan Sorunlar",
-      "url":"/dental-bridge",
-      "imgLink":"/images/blog/dental-bridge.png",
-      "imgAlt":""
+    "item7": {
+        "caption": "Dental Körüler",
+        "title": "Dental Köprü Çeşitleri,Dental Köprü Prosedürü Nasıldır?,Dental Köprü Maliyeti ve Sık Karşılaşılan Sorunlar",
+        "url": "/dental-bridge",
+        "imgLink": "/images/blog/dental-bridge.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Dental Köprüler Nedir? | Çeşitleri ve Maliyeti",
+            "description": "Dental köprü çeşitleri, uygulama prosedürü, maliyeti ve sık karşılaşılan sorunlar hakkında detaylı bilgi. Eksik dişler için köprü çözümleri.",
+            "keywords": "dental köprü, diş köprüsü, köprü protezi, eksik diş tedavisi, implant mı köprü mü",
+            "url": "/dental-bridge"
+        }
     },
-    "item8":{
-      "caption":"Dental İmplant Nedir ?",
-      "title":"Dental İmplantlar Nasıl Çalışır ? Diş İmplantlarını Kimler Yaptırabilir? Dental İmplant Çeşitleri? Dental İmplantların Artıları ve Eksileri",
-      "url":"implant/what-is-dental-implant",
-      "imgLink":"/images/blog/temporary-options.png",
-      "imgAlt":""
+    "item8": {
+        "caption": "Dental İmplant Nedir ?",
+        "title": "Dental İmplantlar Nasıl Çalışır ? Diş İmplantlarını Kimler Yaptırabilir? Dental İmplant Çeşitleri? Dental İmplantların Artıları ve Eksileri",
+        "url": "implant/what-is-dental-implant",
+        "imgLink": "/images/blog/temporary-options.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Dental İmplant Nedir? | Nasıl Çalışır ve Kimler Yaptırabilir?",
+            "description": "Dental implant nedir, nasıl çalışır? Kimler implant yaptırabilir, çeşitleri nelerdir? Avantajları ve dezavantajları ile implant hakkında her şey.",
+            "keywords": "dental implant, diş implantı, implant çeşitleri, implant tedavisi, implant artıları",
+            "url": "implant/what-is-dental-implant"
+        }
     },
-    "item9":{
-      "caption":"Aynı Günde Yapılan Diş İmplantı",
-      "title":"Riskler, Faydalar ve Prosedür,Immediat Diş İmplantları ve Geleneksel İmplantlar,Aynı Gün Dental İmplant Riskleri",
-      "url":"implant/same-day-implant",
-      "imgLink":"/images/treatmentsPage/implant.jpg",
-      "imgAlt":""
+    "item9": {
+        "caption": "Aynı Günde Yapılan Diş İmplantı",
+        "title": "Riskler, Faydalar ve Prosedür,Immediat Diş İmplantları ve Geleneksel İmplantlar,Aynı Gün Dental İmplant Riskleri",
+        "url": "implant/same-day-implant",
+        "imgLink": "/images/treatmentsPage/implant.jpg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Aynı Gün Diş İmplantı Nedir? | Riskler ve Faydalar",
+            "description": "Aynı gün yapılan diş implantı (immediate implant) prosedürü, riskleri, faydaları ve geleneksel implantlardan farkları hakkında bilgi alın.",
+            "keywords": "aynı gün implant, immediate implant, tek seansta implant, hızlı implant, diş implantı riskleri",
+            "url": "implant/same-day-implant"
+        }
     },
-    "item10":{
-      "caption":"Diş İmplantı Cerrahisi İyileşme Dönemi",
-      "title":"Dental implant ameliyatından sonraki iyileşme süresi nedir?, Kaç İmplant Yaptırdığınız ?,Sinüs Yükseltme ...",
-      "url":"implant/implant-healing-process",
-      "imgLink":"/images/treatmentsPage/implant.jpg",
-      "imgAlt":""
+    "item10": {
+        "caption": "Diş İmplantı Cerrahisi İyileşme Dönemi",
+        "title": "Dental implant ameliyatından sonraki iyileşme süresi nedir?, Kaç İmplant Yaptırdığınız ?,Sinüs Yükseltme ...",
+        "url": "implant/implant-healing-process",
+        "imgLink": "/images/treatmentsPage/implant.jpg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş İmplantı İyileşme Süreci | Ne Kadar Sürer?",
+            "description": "Diş implantı cerrahisi sonrası iyileşme dönemi ne kadar sürer? Sinüs yükseltme ve iyileşmeyi hızlandırma yöntemleri hakkında rehber.",
+            "keywords": "implant iyileşme, implant sonrası, iyileşme süreci, sinüs lifting, implant bakımı",
+            "url": "implant/implant-healing-process"
+        }
     },
-    "item11":{
-      "caption":"Ağız kokusu (Halitosis) Nedir?",
-      "title":"Ağız kokusu kimlerde görülür?, Ağız kokusu nedenleri nelerdir?...",
-      "url":"halitosis",
-      "imgLink":"/images/blog/Halitosis.jpg",
-      "imgAlt":""
+    "item11": {
+        "caption": "Ağız kokusu (Halitosis) Nedir?",
+        "title": "Ağız kokusu kimlerde görülür?, Ağız kokusu nedenleri nelerdir?...",
+        "url": "halitosis",
+        "imgLink": "/images/blog/Halitosis.jpg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Ağız Kokusu (Halitosis) - Nedenleri ve Çözüm Önerileri",
+            "description": "Ağız kokusu (halitosis) nedir, kimlerde görülür? Nedenleri, altta yatan hastalıklar ve etkili tedavi yöntemleri ile ağız kokusundan kurtulun.",
+            "keywords": "ağız kokusu, halitosis, nefes kokusu, ağız kokusu nedenleri, halitosis tedavisi",
+            "url": "halitosis"
+        }
+    },
+    "item12": {
+        "caption": "İmplant Diş Ömrü Ne Kadardır ?",
+        "title": "İmplant ömrünü etkileyen faktörler nelerdir?, Diş implantının ömrünü uzatmak için yapılması gerekenler nelerdir?",
+        "url": "implant/life-time",
+        "imgLink": "/images/implant-omur1.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "İmplant Diş Ömrü Ne Kadardır? | Etkileyen Faktörler",
+            "description": "İmplant diş ömrü ne kadardır? İmplant ömrünü uzatmak için yapılması gerekenler, bakım önerileri ve dayanıklılığı etkileyen faktörler.",
+            "keywords": "implant ömrü, implant ne kadar dayanır, implant bakımı, implant ömrünü uzatma, diş implantı dayanıklılığı",
+            "url": "implant/life-time"
+        }
+    },
+    "item13": {
+        "caption": "Tek Diş İmplant Yapılır Mı?",
+        "title": "Tek Diş İmplantının Avantajı Nedir?, Yeterli Kemik Bulunmadığı Durumda İmplant Tedavisi Uygulanabilir mi?, İmplant Fiyatları Neden Değişiklik Göstermektedir?",
+        "url": "implant/tek-dis-implanti",
+        "imgLink": "/images/single-implant1.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Tek Diş İmplant Yapılır mı? | Avantajları ve Fiyatları",
+            "description": "Tek diş implant yapılır mı? Tek diş implantının avantajları, yeterli kemik olmadığında uygulama imkanları ve implant fiyatlarındaki değişkenlikler.",
+            "keywords": "tek diş implantı, tek implant, implant fiyatları, kemik yetmezliği implant, tek diş eksikliği",
+            "url": "implant/tek-dis-implanti"
+        }
+    },
+    "item14": {
+        "caption": "Diş Kaplama Çeşitleri Nelerdir?",
+        "title": "Zirkonyum Kaplama, Lamina Kaplama, Metal Destekli Kaplama",
+        "url": "implant/life-time",
+        "imgLink": "/images/single-implant1.png",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş Kaplama Çeşitleri Nelerdir? | Zirkonyum, Lamina, Metal Destekli",
+            "description": "Diş kaplama çeşitleri nelerdir? Zirkonyum, lamina ve metal destekli kaplamalar arasındaki farklar, avantajları ve hangi durumda hangisi tercih edilmeli?",
+            "keywords": "diş kaplama, zirkonyum kaplama, lamina kaplama, metal destekli kaplama, porselen kaplama",
+            "url": "implant/life-time"
+        }
+    },
+    "item15": {
+        "caption": "Ortodonti Nedir ?",
+        "title": "ZKimler Ortodonti Tedavisine İhtiyaç Duyar?, Ortodontik Tedavi Ne Kadar Sürer?, Ortodonti Tedavisine Kaç Yaşında Başlanır?, Ortodonti Tedavisinde Dikkat Edilmesi Gerekenler",
+        "url": "ortodonti",
+        "imgLink": "/images/ortodontik-tedavi1.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Ortodonti Nedir? | Tedavi Süreci ve Başlangıç Yaşı",
+            "description": "Ortodonti nedir? Kimler ortodontik tedaviye ihtiyaç duyar? Tedavi süresi, başlangıç yaşı ve tedavi sırasında dikkat edilmesi gerekenler hakkında bilgiler.",
+            "keywords": "ortodonti, diş teli, ortodontik tedavi, diş çapraşıklığı, ortodonti yaşı",
+            "url": "ortodonti"
+        }
+    },
+    "item16": {
+        "caption": "Ortodontik Tedaviler Nelerdir?",
+        "title": "Şeffaf Aparey, Braket, Hareketli Pekiştirici, Sabit Yer Tutucu,Çene Apareyleri,Çene Genişletici, Headgear",
+        "url": "ortodontik-tedaviler-nelerdir",
+        "imgLink": "/images/ortodontik-tedavi2.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Ortodontik Tedaviler Nelerdir? | Şeffaf Aparey, Braket ve Diğerleri",
+            "description": "Ortodontik tedaviler nelerdir? Şeffaf aparey (aligner), braket, hareketli pekiştirici, çene genişletici ve headgear gibi aparatların kullanım alanları.",
+            "keywords": "şeffaf aparey, braket, pekiştirici, çene genişletici, headgear, ortodontik aparatlar",
+            "url": "ortodontik-tedaviler-nelerdir"
+        }
+    },
+    "item17": {
+        "caption": "Ayrık Diş Tedavisi Nasıl Olur?",
+        "title": "Dişler neden ayrık kalır?, Kompozit Lamina ile Ayrık Diş Tedavisi,Diş Teli ile Ayrık Diş Tedavisi, Porselen Lamina ile Ayrık Diş Tedavisi",
+        "url": "ayrik-dis-tedavisi",
+        "imgLink": "/images/spaced-teeth-1.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Ayrık Diş Tedavisi Nasıl Olur? | Lamina ve Diş Teli Seçenekleri",
+            "description": "Ayrık diş tedavisi nasıl olur? Dişler neden ayrık kalır? Kompozit lamina, diş teli ve porselen lamina ile diastema tedavi seçenekleri.",
+            "keywords": "ayrık diş, diastema, ayrık diş tedavisi, lamina ile ayrık diş, diş teli ile kapatma",
+            "url": "ayrik-dis-tedavisi"
+        }
+    },
+    "item18": {
+        "caption": "Diş Eti Kanaması Neden Olur?",
+        "title": "Diş Eti Kanamalarının Sebepleri, Risk Faktörleri Nelerdir?, Diş Eti Kanamalarına Sebep Olan Hastalıklar, Vitamin Eksiklikleri Diş Eti Sorunlarına Yol Açar Mı?, Diş Eti Kanamaları Nasıl Tedavi Edilir?",
+        "url": "dis-eti-kanamasi",
+        "imgLink": "/images/gum-bleeding-1.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş Eti Kanaması Neden Olur? | Sebepleri ve Tedavi Yöntemleri",
+            "description": "Diş eti kanaması neden olur? Sebepleri, risk faktörleri, vitamin eksikliklerinin rolü ve diş eti kanamalarına yönelik etkili tedavi yöntemleri.",
+            "keywords": "diş eti kanaması, kanayan diş eti, diş eti hastalığı, gingivitis, vitamin eksikliği diş eti",
+            "url": "dis-eti-kanamasi"
+        }
+    },
+    "item19": {
+        "caption": "Diş Sararması Nasıl Engellenir?",
+        "title": "Dişler Neden Sararır?, Diş Sararmasının Nedenleri Nelerdir?, Diş Sararmalarının Önüne Nasıl Geçilir?, Diş Beyazlatmanın Etkisi Kalıcı mıdır? Beyazlatma İşleminin Etkisi Ne Kadar Sürer?, Diş Hekimlerin Uyguladığı Diş Beyazlatma Yöntemleri Nelerdir?",
+        "url": "dis-sararması",
+        "imgLink": "/images/dis-sararmasi-2.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş Sararması Nasıl Engellenir? | Nedenleri ve Beyazlatma",
+            "description": "Diş sararması nasıl engellenir? Dişler neden sararır, sararmaları önleme yolları, beyazlatma işleminin kalıcılığı ve profesyonel beyazlatma yöntemleri.",
+            "keywords": "diş sararması, diş beyazlatma, diş rengi, sararmayı önleme, profesyonel beyazlatma, diş lekesi",
+            "url": "dis-sararmasi"
+        }
+    },
+    "item20": {
+        "caption": "Diş Protezi Nedir?",
+        "title": "Sizin İçin Doğru Olan Hangi Tür Diş Protezi?, Tam Protezler, Kısmı Protezler,Protezler nasıl yapılır?,Protezler nelerden yapılır?",
+        "url": "dis-sararmasi",
+        "imgLink": "/images/dis-sararmasi-2.jpeg",
+        "imgAlt": "",
+        "seo": {
+            "title": "Diş Protezi Nedir? | Tam ve Kısmi Protez Çeşitleri",
+            "description": "Diş protezi nedir? Sizin için doğru olan protez türü hangisi? Tam ve kısmi protezlerin yapım aşamaları, kullanılan malzemeler ve bakım önerileri.",
+            "keywords": "diş protezi, tam protez, kısmi protez, hareketli protez, protez yapımı, protez malzemeleri",
+            "url": "dis-sararmasi"
+        }
     }
-    
-  },
+},
   "Blog":{
     "toothYellowing": {
       "title": "Diş Sararması Nasıl Engellenir? Dişler Neden Sararır?",
@@ -1210,8 +1386,7 @@
     "smokingTitle": "İyileşme döneminde sigara kullanabilir miyim?",
     "smokingContent": "Tütün ve tütün ürünleri implantınızın iyileşme sürecine zarar verebilir..."
   },
-
-    "Same-dayDentalImplants":{
+  "Same-dayDentalImplants":{
       "item1":{
         "title":"Aynı Günde Yapılan Diş İmplantı",
         "subTitle":"Riskler, Faydalar ve Prosedür",
@@ -1290,9 +1465,78 @@
         "value13":"Ancak, her diş cerrahisinin -diş implantı için bile- artıları ve eksileri, faydaları ve riskleri olduğunu unutmayın ve immediat implantlarının tüm yönlerini tarttıktan sonra, siz ve diş hekiminiz sizin için en doğru olanı seçebilirsiniz."
       }
 
+  },
+    "DENTURE":{
+    "title":"Diş Protezi Nedir?",
+    "title2":"Sizin İçin Doğru Olan Hangi Tür Diş Protezi?",
+    "value":"Diş protezleri, doğal dişlerin yerini alma amacı ile sabit ya da çıkarılabilir yapay dişlerdir. Bütün bir çeneyi veya sadece tek tek dişleri kaplayabilirler. Diş protezleri, hastaların konuşma, yemek yeme ve gülme konusundaki görünümlerini, güvenlerini ve rahatlıklarını sağlamada yardımcı olur.Protezler tipik olarak 5 ila 10 yıl süre ile kullanılırlar. Çoğu, ayarlamalar veya yeniden diş ilaveleri gibi zaman içinde bakıma ihtiyaç duyar. Aşağıda diş ekibimizle birlikte hazırladığımız bilgilendirici bir kılavuzu bulabilirsiniz. Türleri ve malzemeleri karşılaştırın ve artıları ve eksileri keşfedin.",
+    "typeOfDenture":{
+      "title":"Protez Çeşitleri",
+      "value":"Ağzınızın durumuna bağlı olarak seçebileceğiniz birkaç seçenek vardır. Herkes her tür diş protezi yaptırmak için uygun değildir.Eğer hiç dişiniz yoksa; size tam çene diş protezi gerekecektir. Eğer dişlerinizin bir kısmı varsa; kısmi yada halk arasındaki ismiyle kancalı damak yapmak için kalan dişlerin çekilip çekilmeyeceğine karar vermek diş hekiminize bağlıdır. ",
+      "item1":{
+        "title":"Tam Protezler",
+        "value":"Tam protezler, çene başına 12 ila 14 diş içerir. Bazıları ilk azı dişinde (6. diş) biter, ancak bazen sağlamlık için ikinci bir azı dişi (7. diş) eklenir. Belirleyici faktörler, mevcut alan ve karşıt dişlerin olup olmamasıdır.Seçim yaparken iki seçenek vardır",
+        "item1":{
+          "title":"Birincisi",
+          "value":"Geleneksel olarak yapılan dişsiz çenenin üzerine uygulanan damak protezlerdir. Geleneksel protezlerde üst çene kavisi ağzın tüm çatısını kaplar ve emme yoluyla tutturulabilir. Alt çene protezi nal şeklinde olup, hareket halindeki dil olduğu için kullanmak biraz daha zordur."
+      },
+      "item2":{
+        "title":"İkincisi",
+        "value":"İmplant tutuculu protezlerdir ki en fazla desteği ve konforu sağlar. Ayrıca kemik kaybını azaltmaya da yardımcı olurlar, bu da ağız durumunun bozulmaya devam etmeyeceği anlamına gelir. Ancak yine de her yemekten sonra çıkarılıp temizlenmesi gereklidir. Alt çenede en az 2 adet, üst çenede 2 ila 4 adet destek implant gereklidir. İmplantların üstünde topuzcuklar vardır. Damak dişlerin içerisinde de bunların yuvaları olur. "
+      }
+    },
+    "item2":{
+      "title":"Kısmi Protezler",
+      "value":"Ark başına bir miktar diş kalmışsa, kısmi protezler düşünebilirsiniz. Bu çözüm , komşu dişlere takılan metal klipslerle desteklenebilir.Protezi daha gerçekçi hale getirmek için sahte dişlere pembe veya sakız renginde plastik eklenebilir. Reçine genellikle bir metal çerçeveyi veya implantları kapsar."
+    },
+    "item3":{
+      "title":"Flipper Dişler (Geçici Kısmi Dişler)",
+      "value":"Geçici damak dişler; hiç dişsiz kalmak istemeyenler için başka bir çözümdür. Doğal diş çekilmeden önce ya da çekildikten 7 ila 10 gün içinde yapılabilir. Diş hekiminizi daha az ziyaret etmenizi sağlar. Geçici flipper diş bir veya birden fazla diş için yapılabilir.Bir tutucuya benzer şekilde tokalarla tutulabilirler. Bir boşluğa kanatlı diş yerleştirildiğinde, diğer dişlerin kaymasını da önler. Gece çıkarması ve temizliği çok kolaydır."
+    },
+    "item4":{
+      "title":"Protezler nelerden yapılır?",
+      "value":"Protezlerin üç ana bileşeni vardır: taban, dişler ve çerçeve.",
+      "item1":{
+        "title":"Taban",
+        "value":"Protez tabanları hemen hemen her zaman akrilik reçine veya kron kobalt metalden yapılır. Birincisi estetik için daha iyidir çünkü renk hastanın diş etlerine uygun renktedir. İkincisi daha sağlamdır ve takma diş düşürülürse bile kırılma olasılığı daha düşüktür.Esnek protezler, çoğunlukla termoplastik malzemelerden yapılır. Çene kemiğinde çok aşırı miktarda erime görülen hastalarda yapılır. Kullanımı ve alışması diğerleri kadar kolay değildir."
+      },
+      "item2":{
+        "title":"Dişler",
+        "value":"Akrilik reçine, sahte dişler için en popüler malzemedir. Hafif ve ucuzdur. Malzeme ayrıca tabana kolayca yapışır. Birçok renk seçenekleri de vardır. Bu, dişlerin önceden var olan diş yapısına uyması gerektiğinde, kısmi protezler için çok önemlidir.Eğer istenirse damak üzerine porselen dişler de yapılabilir. Diş minesinin görünümü ve verdiği his tam olarak eşleştirilebilir. Bu seçenek akrilikten daha dayanıklıdır. Dezavantajları arasında porselenin pahalı olması ve kırılmaya yatkın olmasıdır. Böyle bir diş hasar gördüğünde, değiştirilmesi çok daha pahalıdır. Ayrıca porselen dişler akriliklere çok daha ağır olacağı için kullanımı konforlu değildir. Diş hekimleri tarafından pek sık tercih edilmezler."
+      },
+      "item3":{
+        "title":"Çerçeve",
+        "value":"Protez çerçeveleri, şekli korumak için sağlam bir malzemeye ihtiyaç duyar. Bu genellikle nikel krom, paslanmaz çelik veya altın gibi bir tür metaldir.Kısmi protezlerde ise, tutucu kancalar çoğunlukla krom kobaltdan yapılır. Sağlamlık ve esnekliği birleştirerek uzun yıllar dayanmasını sağlar."
+      },
+      "item4":{
+        "title":"Protezler nasıl yapılır?",
+        "value":"Çoğu protezin ağzınıza girmesi en az 3 ay sürer. Süreç birkaç randevu içerir. Bu, mümkün olan en iyi uyumu ve dayanıklılığı sağlamak içindir.Protezin şeklini belirlemek için ölçü almak gereklidir. Hemen protez yapılması gerekli olduğu durumlarda, dişler çekilmeden önce ölçü gereklidir.Laboratuvar teknisyenleri önce diş kalıbının içerisine diş alçısı dökecek ve ardından takma diş yapacak. Hastalar bu aşamada ayarlamalar yapmak için birkaç kez diş hekimine gelir. Bundan sonra takma dişiniz kullanmaya hazır olacaktır.Eğer işin içinde implantlar varsa bu süreç daha karmaşık ve uzun sürecektir."
+      }
     }
   },
-  "Implants": {
+  "DentureOps":{
+    "title":"Protezlerin artıları ve eksileri",
+    "positiveOps":{
+      "title":"Artı Yönleri",
+      "item1":"Yemek yemeyi ve konuşmayı kolaylaştırabilir.",
+      "item2":"Alternatiflere kıyasla uygun maliyetli",
+      "item3":"Ağzınıza uyacak şekilde özel yapım"
+    },
+    "negativeOps":{
+      "item1":"Ağızda değilken suda tutulmalıdır",
+      "item2":"Tükürük akışı geçici olarak artar",
+      "item3":"Uyum düzenli olarak kontrol edilmeli ve ayarlanmalıdır",
+      "item4":"Birkaç yılda bir tamir ve yenilenmesi gerekebilir.",
+      "item5":"Yapıştırıcılar genellikle gereklidir.",
+      "item6":"Hastalar sert, yapışkan ve çiğneme gerektiren gıdalardan kaçınmalıdır",
+      "item7":"Yatağa gittiğinizde çıkartmanız gereklidir.",
+      "item8":"Bir süre dişsiz kalmanız gerekebilir.",
+      "item9":"Genellikle birkaç hafta alışma süreci vardır",
+      "item10":"Küçük tahriş ve ağrı yaygındır"
+    }
+  }
+},
+ "Implants": {
     "whatisImplant": "İmplant Nedir ?",
     "whatistypofImplants": "İmplant Türleri Nelerdir ?",
     "implantApply": "İmplant Uygulama Türleri",
@@ -2088,75 +2332,8 @@
       "title":"CPAP Cihazı",
       "value":"CPAP (Continuous Positive Airway Pressure), sürekli pozitif hava yolu basıncı anlamına gelir. CPAP cihazı esasen havayı arıttıktan sonra basınçlı bir şekilde ileten bir pompadır. OSA ile ilişkili diş gıcırdatmanız varsa tam olarak ihtiyacınız olan şey budur. Bir CPAP makinesi temel olarak küçük bir hava pompasıdır. Yüzünüze bir maske veya burun parçası ile yerleştirirsiniz. Bu parça bir hortumla makineye bağlanır.Havanın sürekli dolaşımı, solunumun düzenlenmesine ve hava tıkanıklığıyla mücadelede yardımcı olur.CPAP cihazları uyku apnesini tedavi etmek için üretilmiş endüstriyel standartlardadır. Diş hekiminiz, size makineyle birlikte kullanabileceğiniz bir gece koruyucu plak yapabilir. Bazı durumlarda, bu cihaz sadece OSA ve bruksizmi durdurmak için yeterli olabilir.Yine de, diş gıcırdatma ve OSA'nın tek başına tespit edilmesi zordur.Bu durum sizin için çok ciddi görünmeyebilir. Ancak, bruksizm veya OSA'dan muzdarip olabileceğinizi düşünüyorsanız, bir diş hekimini ziyaret etmeniz çok önemlidir. Sorunun devam etmesi diş sağlığınızdan daha büyük problemlere yol açabilir."
     }
-  },
-  "DENTURE":{
-    "title":"Diş Protezi Nedir?",
-    "title2":"Sizin İçin Doğru Olan Hangi Tür Diş Protezi?",
-    "value":"Diş protezleri, doğal dişlerin yerini alma amacı ile sabit ya da çıkarılabilir yapay dişlerdir. Bütün bir çeneyi veya sadece tek tek dişleri kaplayabilirler. Diş protezleri, hastaların konuşma, yemek yeme ve gülme konusundaki görünümlerini, güvenlerini ve rahatlıklarını sağlamada yardımcı olur.Protezler tipik olarak 5 ila 10 yıl süre ile kullanılırlar. Çoğu, ayarlamalar veya yeniden diş ilaveleri gibi zaman içinde bakıma ihtiyaç duyar. Aşağıda diş ekibimizle birlikte hazırladığımız bilgilendirici bir kılavuzu bulabilirsiniz. Türleri ve malzemeleri karşılaştırın ve artıları ve eksileri keşfedin.",
-    "typeOfDenture":{
-      "title":"Protez Çeşitleri",
-      "value":"Ağzınızın durumuna bağlı olarak seçebileceğiniz birkaç seçenek vardır. Herkes her tür diş protezi yaptırmak için uygun değildir.Eğer hiç dişiniz yoksa; size tam çene diş protezi gerekecektir. Eğer dişlerinizin bir kısmı varsa; kısmi yada halk arasındaki ismiyle kancalı damak yapmak için kalan dişlerin çekilip çekilmeyeceğine karar vermek diş hekiminize bağlıdır. ",
-      "item1":{
-        "title":"Tam Protezler",
-        "value":"Tam protezler, çene başına 12 ila 14 diş içerir. Bazıları ilk azı dişinde (6. diş) biter, ancak bazen sağlamlık için ikinci bir azı dişi (7. diş) eklenir. Belirleyici faktörler, mevcut alan ve karşıt dişlerin olup olmamasıdır.Seçim yaparken iki seçenek vardır",
-        "item1":{
-          "title":"Birincisi",
-          "value":"Geleneksel olarak yapılan dişsiz çenenin üzerine uygulanan damak protezlerdir. Geleneksel protezlerde üst çene kavisi ağzın tüm çatısını kaplar ve emme yoluyla tutturulabilir. Alt çene protezi nal şeklinde olup, hareket halindeki dil olduğu için kullanmak biraz daha zordur."
-      },
-      "item2":{
-        "title":"İkincisi",
-        "value":"İmplant tutuculu protezlerdir ki en fazla desteği ve konforu sağlar. Ayrıca kemik kaybını azaltmaya da yardımcı olurlar, bu da ağız durumunun bozulmaya devam etmeyeceği anlamına gelir. Ancak yine de her yemekten sonra çıkarılıp temizlenmesi gereklidir. Alt çenede en az 2 adet, üst çenede 2 ila 4 adet destek implant gereklidir. İmplantların üstünde topuzcuklar vardır. Damak dişlerin içerisinde de bunların yuvaları olur. "
-      }
-    },
-    "item2":{
-      "title":"Kısmi Protezler",
-      "value":"Ark başına bir miktar diş kalmışsa, kısmi protezler düşünebilirsiniz. Bu çözüm , komşu dişlere takılan metal klipslerle desteklenebilir.Protezi daha gerçekçi hale getirmek için sahte dişlere pembe veya sakız renginde plastik eklenebilir. Reçine genellikle bir metal çerçeveyi veya implantları kapsar."
-    },
-    "item3":{
-      "title":"Flipper Dişler (Geçici Kısmi Dişler)",
-      "value":"Geçici damak dişler; hiç dişsiz kalmak istemeyenler için başka bir çözümdür. Doğal diş çekilmeden önce ya da çekildikten 7 ila 10 gün içinde yapılabilir. Diş hekiminizi daha az ziyaret etmenizi sağlar. Geçici flipper diş bir veya birden fazla diş için yapılabilir.Bir tutucuya benzer şekilde tokalarla tutulabilirler. Bir boşluğa kanatlı diş yerleştirildiğinde, diğer dişlerin kaymasını da önler. Gece çıkarması ve temizliği çok kolaydır."
-    },
-    "item4":{
-      "title":"Protezler nelerden yapılır?",
-      "value":"Protezlerin üç ana bileşeni vardır: taban, dişler ve çerçeve.",
-      "item1":{
-        "title":"Taban",
-        "value":"Protez tabanları hemen hemen her zaman akrilik reçine veya kron kobalt metalden yapılır. Birincisi estetik için daha iyidir çünkü renk hastanın diş etlerine uygun renktedir. İkincisi daha sağlamdır ve takma diş düşürülürse bile kırılma olasılığı daha düşüktür.Esnek protezler, çoğunlukla termoplastik malzemelerden yapılır. Çene kemiğinde çok aşırı miktarda erime görülen hastalarda yapılır. Kullanımı ve alışması diğerleri kadar kolay değildir."
-      },
-      "item2":{
-        "title":"Dişler",
-        "value":"Akrilik reçine, sahte dişler için en popüler malzemedir. Hafif ve ucuzdur. Malzeme ayrıca tabana kolayca yapışır. Birçok renk seçenekleri de vardır. Bu, dişlerin önceden var olan diş yapısına uyması gerektiğinde, kısmi protezler için çok önemlidir.Eğer istenirse damak üzerine porselen dişler de yapılabilir. Diş minesinin görünümü ve verdiği his tam olarak eşleştirilebilir. Bu seçenek akrilikten daha dayanıklıdır. Dezavantajları arasında porselenin pahalı olması ve kırılmaya yatkın olmasıdır. Böyle bir diş hasar gördüğünde, değiştirilmesi çok daha pahalıdır. Ayrıca porselen dişler akriliklere çok daha ağır olacağı için kullanımı konforlu değildir. Diş hekimleri tarafından pek sık tercih edilmezler."
-      },
-      "item3":{
-        "title":"Çerçeve",
-        "value":"Protez çerçeveleri, şekli korumak için sağlam bir malzemeye ihtiyaç duyar. Bu genellikle nikel krom, paslanmaz çelik veya altın gibi bir tür metaldir.Kısmi protezlerde ise, tutucu kancalar çoğunlukla krom kobaltdan yapılır. Sağlamlık ve esnekliği birleştirerek uzun yıllar dayanmasını sağlar."
-      },
-      "item4":{
-        "title":"Protezler nasıl yapılır?",
-        "value":"Çoğu protezin ağzınıza girmesi en az 3 ay sürer. Süreç birkaç randevu içerir. Bu, mümkün olan en iyi uyumu ve dayanıklılığı sağlamak içindir.Protezin şeklini belirlemek için ölçü almak gereklidir. Hemen protez yapılması gerekli olduğu durumlarda, dişler çekilmeden önce ölçü gereklidir.Laboratuvar teknisyenleri önce diş kalıbının içerisine diş alçısı dökecek ve ardından takma diş yapacak. Hastalar bu aşamada ayarlamalar yapmak için birkaç kez diş hekimine gelir. Bundan sonra takma dişiniz kullanmaya hazır olacaktır.Eğer işin içinde implantlar varsa bu süreç daha karmaşık ve uzun sürecektir."
-      }
-    }
-  },
-  "DentureOps":{
-    "title":"Protezlerin artıları ve eksileri",
-    "positiveOps":{
-      "title":"Artı Yönleri",
-      "item1":"Yemek yemeyi ve konuşmayı kolaylaştırabilir.",
-      "item2":"Alternatiflere kıyasla uygun maliyetli",
-      "item3":"Ağzınıza uyacak şekilde özel yapım"
-    },
-    "negativeOps":{
-      "item1":"Ağızda değilken suda tutulmalıdır",
-      "item2":"Tükürük akışı geçici olarak artar",
-      "item3":"Uyum düzenli olarak kontrol edilmeli ve ayarlanmalıdır",
-      "item4":"Birkaç yılda bir tamir ve yenilenmesi gerekebilir.",
-      "item5":"Yapıştırıcılar genellikle gereklidir.",
-      "item6":"Hastalar sert, yapışkan ve çiğneme gerektiren gıdalardan kaçınmalıdır",
-      "item7":"Yatağa gittiğinizde çıkartmanız gereklidir.",
-      "item8":"Bir süre dişsiz kalmanız gerekebilir.",
-      "item9":"Genellikle birkaç hafta alışma süreci vardır",
-      "item10":"Küçük tahriş ve ağrı yaygındır"
-    }
   }
-}
+
+  }
+ 
 }

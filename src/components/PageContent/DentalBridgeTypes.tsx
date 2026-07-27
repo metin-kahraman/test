@@ -13,7 +13,7 @@ const questionList: string[] = ["item1", "item2","item3","item4","item5","item6"
 
 
 const DentalBridgeTypes = () => {
-  const t = useTranslations("DentalBridge");
+  const t = useTranslations("Blog.DentalBridge");
 
   return (
     <Box p={2}>
@@ -249,7 +249,7 @@ const DentalBridgeTypes = () => {
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value2`)}
       </Typography>
           <FrequentlyAskedQuestions
-              translateKey={"DentalBridge.FREQUENTLYASKEDQUESTIONS"}
+              translateKey={"Blog.DentalBridge.FREQUENTLYASKEDQUESTIONS"}
               questionList={questionList}
             />
       

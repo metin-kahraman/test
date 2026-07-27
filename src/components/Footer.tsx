@@ -61,44 +61,36 @@ export default function Footer() {
                   gutterBottom
                   sx={{ fontWeight: 600, mt: 2 }}
                 >
-                  Contact Us
+                  Orange Dent Clinic
                 </Typography>
-                <Typography variant="body2" sx={{ color: 'text.secondary', mb: 2 }}>
-                  Reach out to us through the form below or visit us at our office.
-                </Typography>
+
                 <Stack direction="column" spacing={2}>
                   <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
                     Address
                   </Typography>
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    123 Main Street, Suite 456, City, Country
+                    Merkez, Lise Cd. 18 C / D, 07980 Kemer/Antalya
                   </Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                    Phone
-                  </Typography>
+ 
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    +123 456 7890
+                    05324401740
                   </Typography>
-                  <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                    Email
-                  </Typography>
-                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
-                    contact@sitemark.com
-                  </Typography>
+                  
                 </Stack>
 
               </Box>
             </Grid>
             <Grid item xs={12} md={6}>
               <Box sx={{ width: '100%', height: '300px' }}>
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3153.2970745575454!2d-122.41135668468183!3d37.77492977975977!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8085808df1f58c07%3A0x9c4f06e5a5e6231b!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1632344402727!5m2!1sen!2sus"
-                  width="100%"
-                  height="100%"
-                  style={{ border: 0 }}
-                  loading="lazy"
-                  referrerPolicy="no-referrer-when-downgrade"
-                />
+  <iframe
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.9322410570486!2d30.5584491!3d36.599118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3b7ec82618f7b%3A0x4e65997d889e38fb!2sOrange%20Dent%20Clinic!5e0!3m2!1str!2str!4v1721820000000!5m2!1str!2str"
+  width="100%"
+  height="100%"
+  style={{ border: 0 }}
+  loading="lazy"
+  referrerPolicy="no-referrer-when-downgrade"
+/>
+
               </Box>
             </Grid>
           </Grid>

@@ -885,135 +885,253 @@
       }
     }
   },
-  "BlogItems": {
+"BlogItems": {
     "item2": {
       "caption": "Co to jest bruksizm?",
-      "title": "Dlaczego zgrzytamy zębami w nocy lub w ciągu dnia?, Co to jest bruksizm?, Bruksizm dzienny, Jak rozpoznać, czy zgrzytasz zębami w nocy?...",
+      "title": "Dlaczego zgrzytamy zębami w nocy lub w ciągu dnia?, Co to jest bruksizm?, Bruksizm dzienny, Jak rozpoznać, że zgrzytasz zębami w nocy?...",
       "url": "bruksizm",
       "imgLink": "/images/blog/bruxism.png",
-      "imgAlt": "Bruksizm zgrzytanie zębami",
+      "imgAlt": "Bruksizm – zgrzytanie zębami i zaciskanie szczęki",
       "seo": {
-        "title": "Bruksizm (zgrzytanie zębami) - przyczyny i leczenie",
-        "description": "Dowiedz się o bruksizmie, jego przyczynach, objawach i opcjach leczenia, w tym o szynach nocnych i zarządzaniu stresem.",
-        "keywords": "bruksizm, zgrzytanie zębami, zaciskanie szczęki, szyna nocna, leczenie bruksizmu",
-        "url": "blog/bruksizm"
+        "title": "Bruksizm (Zgrzytanie zębami) - Przyczyny i Leczenie",
+        "description": "Poznaj przyczyny, objawy i skuteczne metody leczenia bruksizmu. Znajdź rozwiązanie na nocne zgrzytanie i zaciskanie szczęki.",
+        "keywords": "bruksizm, zgrzytanie zębami, zaciskanie szczęki, bruksizm nocny, leczenie bruksizmu",
+        "url": "bruksizm"
       }
     },
     "item3": {
       "caption": "Co to jest implant All On 4?",
-      "title": "Procedura implantu All-On-4?, Czas gojenia implantów All-On-4, Niektóre typowe problemy, które mogą wystąpić po operacji...",
+      "title": "Jak przebiega procedura implantów All-On-4?, Czas gojenia implantów All-On-4, Typowe problemy po operacji...",
       "url": "implant/all-on-4",
       "imgLink": "/images/blog/all-on-four.png",
-      "imgAlt": "Implant dentystyczny All-on-4",
+      "imgAlt": "Procedura leczenia implantami All on 4",
       "seo": {
-        "title": "Implant All-on-4 - procedura, gojenie i koszty",
-        "description": "Kompletny przewodnik po implantach All-on-4: jak działa, czas rekonwalescencji, typowe problemy i czynniki kosztowe.",
-        "keywords": "All-on-4, implant na całą jamę ustną, zęby w jeden dzień, proteza wsparta implantami",
-        "url": "blog/implant-all-on-4"
+        "title": "All On 4 Implant - Procedura i Zalety",
+        "description": "Dowiedz się, czym jest implant All on 4, jak przebiega leczenie, proces gojenia i zalety odbudowy całego łuku na 4 implantach.",
+        "keywords": "all on 4 implant, all-on-4, implanty zębowe, leczenie całego łuku, implanty na czterech",
+        "url": "implant/all-on-4"
       }
     },
     "item4": {
-      "caption": "Jakie są opcje tymczasowych zębów podczas oczekiwania na gojenie implantu?",
-      "title": "Tymczasowa korona pojedynczego zęba, tymczasowa proteza, tymczasowe mosty dentystyczne, płytki Essix i ich zalety oraz wady...",
-      "url": "implant/tymczasowe-opcje",
+      "caption": "Jakie masz opcje tymczasowych zębów podczas gojenia implantu?",
+      "title": "Tymczasowa korona na pojedynczy ząb, Tymczasowa proteza, Tymczasowe mosty, Szyny Essix - plusy i minusy...",
+      "url": "implant/temporary-options",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Tymczasowe opcje dentystyczne",
+      "imgAlt": "Opcje tymczasowych zębów podczas gojenia implantu",
       "seo": {
-        "title": "Tymczasowe opcje zębów podczas gojenia implantu",
-        "description": "Poznaj tymczasowe rozwiązania stomatologiczne, takie jak płytki, retencery Essix i tymczasowe mosty, podczas gojenia implantu.",
-        "keywords": "tymczasowy ząb, gojenie implantu, tymczasowa korona, ząb płytkowy, retencer Essix",
-        "url": "blog/tymczasowe-opcje-zebow"
+        "title": "Tymczasowe zęby podczas gojenia implantu - Opcje",
+        "description": "Poznaj opcje tymczasowych zębów podczas gojenia implantu. Dowiedz się o zaletach i wadach tymczasowych koron, mostów, protez i szyn Essix.",
+        "keywords": "tymczasowy ząb, gojenie implantu, tymczasowa korona, tymczasowy most, szyna Essix",
+        "url": "implant/temporary-options"
       }
     },
     "item5": {
-      "caption": "Przeszczep kości dla implantów dentystycznych",
-      "title": "Czy przeszczep kości jest konieczny dla implantów? Czy przeszczep kości wpływa na czas leczenia? Rodzaje przeszczepów kości...",
-      "url": "implant/przeszczep-kosci",
+      "caption": "Przeszczep kości dla implantów zębowych",
+      "title": "Czy przeszczep kości jest konieczny dla implantów? Czy wpływa na czas leczenia? Rodzaje przeszczepów kości...",
+      "url": "implant/bone-graft",
       "imgLink": "/images/blog/bonegraft.png",
-      "imgAlt": "Przeszczep kości dla implantu",
+      "imgAlt": "Procedura przeszczepu kości dla implantów",
       "seo": {
-        "title": "Przeszczep kości dla implantów dentystycznych - rodzaje i gojenie",
-        "description": "Dowiedz się o przeszczepach kości dla implantów: kiedy jest potrzebny, rodzaje przeszczepów, czas rekonwalescencji i koszty.",
-        "keywords": "przeszczep kości, przeszczep kości dla implantu, podniesienie zatoki, augmentacja kości szczęki",
-        "url": "blog/przeszczep-kosci-dla-implantow"
+        "title": "Przeszczep kości dla implantów - Rodzaje i Proces",
+        "description": "Czy przeszczep kości jest konieczny dla implantów? Poznaj rodzaje przeszczepów, ich wpływ na czas leczenia i szczegółowy przebieg zabiegu.",
+        "keywords": "przeszczep kości, augmentacja kości dla implantów, sinus lifting, przeszczep autogenny, proszek kostny",
+        "url": "implant/bone-graft"
       }
     },
     "item6": {
       "caption": "Recesja dziąseł i nadwrażliwość",
-      "title": "Czy przeszczep kości jest konieczny dla implantów? Czy przeszczep kości wpływa na czas leczenia? Rodzaje przeszczepów kości...",
-      "url": "/recesja-dziąseł-i-nadwrażliwość",
+      "title": "Czy przeszczep kości jest konieczny dla implantów? Czy wpływa na czas leczenia? Rodzaje przeszczepów kości...",
+      "url": "/gum-recession-and-sensitivity",
       "imgLink": "/images/blog/GumRecessionAndSensitivity.png",
-      "imgAlt": "Recesja dziąseł",
+      "imgAlt": "Recesja dziąseł powodująca nadwrażliwość zębów",
       "seo": {
-        "title": "Recesja dziąseł i nadwrażliwość zębów - przyczyny i leczenie",
-        "description": "Zrozum przyczyny recesji dziąseł, objawy i metody leczenia, w tym przeszczepy i właściwą higienę jamy ustnej.",
-        "keywords": "recesja dziąseł, wrażliwe zęby, cofające się dziąsła, przeszczep dziąseł",
-        "url": "blog/recesja-dziąseł-nadwrażliwość"
+        "title": "Recesja dziąseł i nadwrażliwość - Przyczyny i Leczenie",
+        "description": "Co powoduje recesję dziąseł i nadwrażliwość? Poznaj objawy, czynniki ryzyka i skuteczne metody leczenia, aby chronić zdrowie zębów.",
+        "keywords": "recesja dziąseł, nadwrażliwość zębów, leczenie dziąseł, nadwrażliwość na zimno/ciepło, cofanie się dziąseł",
+        "url": "/gum-recession-and-sensitivity"
       }
     },
     "item7": {
       "caption": "Mosty dentystyczne",
-      "title": "Rodzaje mostów dentystycznych, jak przebiega procedura mostu dentystycznego?, koszt mostu dentystycznego i typowe problemy",
-      "url": "/most-dentystyczny",
+      "title": "Rodzaje mostów dentystycznych, Jak przebiega zakładanie mostu?, Koszt mostu i częste problemy",
+      "url": "/dental-bridge",
       "imgLink": "/images/blog/dental-bridge.png",
-      "imgAlt": "Most dentystyczny",
+      "imgAlt": "Rodzaje mostów dentystycznych i ich zakładanie",
       "seo": {
-        "title": "Mosty dentystyczne - rodzaje, procedura, koszt i problemy",
-        "description": "Kompletny przewodnik po mostach dentystycznych: tradycyjne, Maryland, wspornikowe i wsparte implantami. Porównaj koszty i trwałość.",
-        "keywords": "most dentystyczny, most zębowy, brakujące zęby, koszt mostu, stała proteza",
-        "url": "blog/mosty-dentystyczne"
+        "title": "Mosty dentystyczne - Rodzaje, Procedura i Koszty",
+        "description": "Dowiedz się o rodzajach mostów dentystycznych, procedurze zakładania, kosztach i częstych problemach. Znajdź najlepsze rozwiązanie dla brakujących zębów.",
+        "keywords": "most dentystyczny, mostek, proteza mostowa, leczenie braków zębowych, implant czy most",
+        "url": "/dental-bridge"
       }
     },
     "item8": {
       "caption": "Co to jest implant dentystyczny?",
-      "title": "Jak działają implanty dentystyczne? Kto może mieć implanty dentystyczne? Rodzaje implantów dentystycznych? Zalety i wady implantów dentystycznych",
-      "url": "implant/co-to-jest-implant-dentystyczny",
+      "title": "Jak działają implanty? Kto może je mieć? Rodzaje implantów? Zalety i wady implantów",
+      "url": "implant/what-is-dental-implant",
       "imgLink": "/images/blog/temporary-options.png",
-      "imgAlt": "Implant dentystyczny",
+      "imgAlt": "Przegląd implantów dentystycznych i ich działanie",
       "seo": {
-        "title": "Co to jest implant dentystyczny? Rodzaje, procedura, zalety i wady",
-        "description": "Wszystko o implantach dentystycznych: jak działają, kto jest kandydatem, rodzaje, zalety i wady.",
-        "keywords": "implant dentystyczny, rodzaje implantów, wymiana korzenia zęba, procedura implantu",
-        "url": "blog/co-to-jest-implant-dentystyczny"
+        "title": "Co to jest implant dentystyczny? - Działanie i Kwalifikacja",
+        "description": "Czym jest implant dentystyczny i jak działa? Dowiedz się, kto może go mieć, rodzaje, zalety, wady i wszystko o leczeniu implantologicznym.",
+        "keywords": "implant dentystyczny, implant zębowy, rodzaje implantów, leczenie implantologiczne, zalety i wady implantów",
+        "url": "implant/what-is-dental-implant"
       }
     },
     "item9": {
-      "caption": "Implant dentystyczny tego samego dnia",
-      "title": "Ryzyko, korzyści i procedura, natychmiastowe implanty dentystyczne vs tradycyjne implanty, ryzyko implantu tego samego dnia",
-      "url": "implant/implant-tego-samego-dnia",
+      "caption": "Implant w tym samym dniu",
+      "title": "Ryzyko, korzyści i procedura, Implanty natychmiastowe vs tradycyjne, Ryzyko implantów w tym samym dniu",
+      "url": "implant/same-day-implant",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Implant dentystyczny tego samego dnia",
+      "imgAlt": "Procedura natychmiastowej implantacji w tym samym dniu",
       "seo": {
-        "title": "Implanty dentystyczne tego samego dnia - procedura natychmiastowego obciążenia",
-        "description": "Dowiedz się o natychmiastowych implantach dentystycznych: korzyści, ryzyko, kwalifikowalność i procedura krok po kroku dla zębów w jeden dzień.",
-        "keywords": "implant tego samego dnia, implant natychmiastowy, natychmiastowe obciążenie, zęby w jeden dzień",
-        "url": "blog/implant-tego-samego-dnia"
+        "title": "Implant w tym samym dniu - Ryzyko i Korzyści",
+        "description": "Co to jest implant w tym samym dniu (implant natychmiastowy)? Poznaj procedurę, ryzyko, korzyści i różnice w stosunku do tradycyjnych implantów.",
+        "keywords": "implant w tym samym dniu, implant natychmiastowy, implant na jednej wizycie, szybki implant, ryzyko implantów",
+        "url": "implant/same-day-implant"
       }
     },
     "item10": {
-      "caption": "Okres gojenia po operacji implantu",
-      "title": "Jaki jest czas rekonwalescencji po operacji implantu?, Ile implantów miałeś?, Podniesienie zatoki...",
-      "url": "implant/proces-gojenia-implantu",
+      "caption": "Okres gojenia po operacji implantacji",
+      "title": "Jaki jest czas gojenia po operacji?, Ile implantów założono?, Sinus lifting...",
+      "url": "implant/implant-healing-process",
       "imgLink": "/images/treatmentsPage/implant.jpg",
-      "imgAlt": "Gojenie implantu",
+      "imgAlt": "Proces gojenia po zabiegu implantacji",
       "seo": {
-        "title": "Proces gojenia implantu - harmonogram rekonwalescencji",
-        "description": "Szczegółowy przewodnik po rekonwalescencji po implancie: etapy gojenia, dieta, zarządzanie bólem i wskazówki dotyczące szybkiego gojenia.",
-        "keywords": "gojenie implantu, rekonwalescencja po implancie, osteointegracja, opieka pooperacyjna",
-        "url": "blog/proces-gojenia-implantu"
+        "title": "Proces gojenia implantów - Ile trwa?",
+        "description": "Jak długo trwa gojenie po operacji implantów? Dowiedz się o sinus liftingu, sposobach na przyspieszenie gojenia i opiece pooperacyjnej.",
+        "keywords": "gojenie implantu, po implantacji, proces gojenia, sinus lifting, pielęgnacja implantów",
+        "url": "implant/implant-healing-process"
       }
     },
     "item11": {
-      "caption": "Co to jest nieświeży oddech (halitoza)?",
+      "caption": "Co to jest nieświeży oddech (Halitoza)?",
       "title": "Kto ma nieświeży oddech?, Jakie są przyczyny nieświeżego oddechu?...",
-      "url": "halitoza",
+      "url": "halitosis",
       "imgLink": "/images/blog/Halitosis.jpg",
-      "imgAlt": "Nieświeży oddech halitoza",
+      "imgAlt": "Przyczyny i rozwiązania dla halitozy (nieświeżego oddechu)",
       "seo": {
-        "title": "Nieświeży oddech (halitoza) - przyczyny i rozwiązania",
-        "description": "Odkryj przyczyny halitozy: zła higiena jamy ustnej, choroba dziąseł, suchość w ustach i skuteczne metody leczenia.",
-        "keywords": "nieświeży oddech, halitoza, zapach z ust, przyczyny nieświeżego oddechu",
-        "url": "blog/halitoza"
+        "title": "Nieświeży oddech (Halitoza) - Przyczyny i Rozwiązania",
+        "description": "Odkryj przyczyny halitozy, kto na nią cierpi, choroby współistniejące i skuteczne metody leczenia nieprzyjemnego zapachu z ust.",
+        "keywords": "nieświeży oddech, halitoza, zapach z ust, przyczyny nieświeżego oddechu, leczenie halitozy",
+        "url": "halitosis"
+      }
+    },
+    "item12": {
+      "caption": "Jak długo wytrzymują implanty zębowe?",
+      "title": "Jakie czynniki wpływają na żywotność implantu?, Co zrobić, aby przedłużyć żywotność implantu?",
+      "url": "implant/life-time",
+      "imgLink": "/images/implant-omur1.jpeg",
+      "imgAlt": "Długość życia i czynniki wpływające na trwałość implantów",
+      "seo": {
+        "title": "Jak długo wytrzymują implanty? - Czynniki wpływające na żywotność",
+        "description": "Ile lat wytrzymują implanty? Poznaj czynniki wpływające na ich trwałość, wskazówki pielęgnacyjne i zalecenia przedłużające żywotność.",
+        "keywords": "żywotność implantu, jak długo trzymają implanty, pielęgnacja implantów, przedłużenie żywotności implantu, trwałość implantów",
+        "url": "implant/life-time"
+      }
+    },
+    "item13": {
+      "caption": "Czy można zrobić implant na jeden ząb?",
+      "title": "Jakie są zalety implantu na jeden ząb?, Czy można zastosować implant przy niedoborze kości?, Dlaczego ceny implantów są różne?",
+      "url": "implant/pojedynczy-implant-zębowy",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Procedura implantacji pojedynczego zęba",
+      "seo": {
+        "title": "Implant na jeden ząb - Zalety i Ceny",
+        "description": "Czy można zrobić implant na jeden ząb? Poznaj zalety, możliwości przy niedoborze kości oraz powody zróżnicowania cen.",
+        "keywords": "implant na jeden ząb, pojedynczy implant, ceny implantów, niedobór kości, brak jednego zęba",
+        "url": "implant/pojedynczy-implant-zębowy"
+      }
+    },
+    "item14": {
+      "caption": "Jakie są rodzaje koron zębowych?",
+      "title": "Korona cyrkonowa, Licówki laminowane, Korona metalowo-ceramiczna",
+      "url": "implant/life-time",
+      "imgLink": "/images/single-implant1.png",
+      "imgAlt": "Różne rodzaje koron zębowych (cyrkon, laminaty)",
+      "seo": {
+        "title": "Rodzaje koron zębowych - Cyrkon, Laminaty, Metaloceramika",
+        "description": "Jakie są rodzaje koron zębowych? Poznaj różnice, zalety i zastosowanie koron cyrkonowych, laminowanych i metalowo-ceramicznych.",
+        "keywords": "korona zębowa, korona cyrkonowa, licówki laminowane, metaloceramika, korona pełnoceramiczna",
+        "url": "implant/life-time"
+      }
+    },
+    "item15": {
+      "caption": "Co to jest ortodoncja?",
+      "title": "Kto potrzebuje leczenia ortodontycznego?, Jak długo trwa leczenie?, W jakim wieku rozpocząć leczenie?, Co należy wziąć pod uwagę?",
+      "url": "ortodonti",
+      "imgLink": "/images/ortodontik-tedavi1.jpeg",
+      "imgAlt": "Leczenie ortodontyczne i aparaty",
+      "seo": {
+        "title": "Co to jest ortodoncja? - Proces leczenia i wiek",
+        "description": "Czym jest ortodoncja? Kto wymaga leczenia ortodontycznego? Dowiedz się o czasie trwania, wieku rozpoczęcia i ważnych aspektach leczenia.",
+        "keywords": "ortodoncja, aparaty ortodontyczne, leczenie ortodontyczne, krzywe zęby, wiek a ortodoncja",
+        "url": "ortodonti"
+      }
+    },
+    "item16": {
+      "caption": "Jakie są rodzaje leczenia ortodontycznego?",
+      "title": "Przezroczyste nakładki, Aparat stały (zamki), Ruchomy retainer, Stały utrzymywacz miejsca, Aparaty szczękowe, Poszerzacz podniebienia, Headgear",
+      "url": "ortodontik-tedaviler-nelerdir",
+      "imgLink": "/images/ortodontik-tedavi2.jpeg",
+      "imgAlt": "Różne rodzaje aparatów ortodontycznych",
+      "seo": {
+        "title": "Leczenie ortodontyczne - Nakładki, Aparaty i inne",
+        "description": "Jakie są rodzaje leczenia ortodontycznego? Poznaj zastosowanie przezroczystych nakładek, aparatów stałych, retainerów, poszerzaczy podniebienia i headgear.",
+        "keywords": "przezroczyste nakładki, aparat ortodontyczny, retainer, poszerzacz podniebienia, headgear, aparaty ortodontyczne",
+        "url": "ortodontik-tedaviler-nelerdir"
+      }
+    },
+"item17": {
+  "caption": "Jak leczy się przerwy między zębami?",
+  "title": "Dlaczego zęby mają przerwy?, Leczenie przerw laminatem kompozytowym, Leczenie przerw aparatem ortodontycznym, Leczenie przerw laminatem porcelanowym",
+  "url": "leczenie-przerw",
+  "imgLink": "/images/spaced-teeth-1.jpeg",
+  "imgAlt": "Opcje leczenia przerw między zębami (diastema)",
+  "seo": {
+    "title": "Leczenie przerw między zębami - Laminaty i Aparat",
+    "description": "Jak leczy się przerwy między zębami? Poznaj przyczyny diastemy i metody leczenia: laminat kompozytowy, porcelanowy oraz aparat ortodontyczny.",
+    "keywords": "przerwy między zębami, diastema, leczenie przerw, laminat na przerwy, aparat na diastemę",
+    "url": "leczenie-przerw"
+  }
+},
+"item18": {
+  "caption": "Dlaczego dziąsła krwawią?",
+  "title": "Przyczyny krwawienia dziąseł, Jakie są czynniki ryzyka?, Choroby powodujące krwawienie, Czy niedobór witamin wpływa na dziąsła?, Jak leczy się krwawienie?",
+  "url": "krwawienie-dziasel",
+  "imgLink": "/images/gum-bleeding-1.jpeg",
+  "imgAlt": "Przyczyny i metody leczenia krwawienia dziąseł",
+  "seo": {
+    "title": "Krwawienie dziąseł - Przyczyny i Leczenie",
+    "description": "Dlaczego dziąsła krwawią? Poznaj przyczyny, czynniki ryzyka, rolę witamin i skuteczne metody leczenia krwawiących dziąseł.",
+    "keywords": "krwawienie dziąseł, krwawiące dziąsła, choroby dziąseł, zapalenie dziąseł, niedobór witamin",
+    "url": "krwawienie-dziasel"
+  }
+}
+,
+    "item19": {
+      "caption": "Jak zapobiegać żółknięciu zębów?",
+      "title": "Dlaczego zęby żółkną?, Jakie są przyczyny żółknięcia?, Jak zapobiegać żółknięciu?, Czy wybielanie jest trwałe? Jak długo utrzymuje się efekt?, Jakie są metody wybielania stosowane przez dentystów?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Zapobieganie i leczenie żółknięcia zębów",
+      "seo": {
+        "title": "Jak zapobiegać żółknięciu zębów? - Przyczyny i Wybielanie",
+        "description": "Jak zapobiegać żółknięciu zębów? Dowiedz się, dlaczego żółkną, jak temu zapobiec, trwałość wybielania i profesjonalne metody wybielania.",
+        "keywords": "żółknięcie zębów, wybielanie zębów, kolor zębów, zapobieganie żółknięciu, profesjonalne wybielanie",
+        "url": "dis-sararması"
+      }
+    },
+    "item20": {
+      "caption": "Co to jest proteza zębowa?",
+      "title": "Jaki rodzaj protezy jest dla Ciebie odpowiedni?, Protezy całkowite, Protezy częściowe, Jak wykonuje się protezy?, Z czego są robione protezy?",
+      "url": "dis-sararması",
+      "imgLink": "/images/dis-sararmasi-2.jpeg",
+      "imgAlt": "Rodzaje protez zębowych i używane materiały",
+      "seo": {
+        "title": "Co to jest proteza zębowa? - Protezy całkowite i częściowe",
+        "description": "Czym jest proteza zębowa? Dowiedz się, który typ jest odpowiedni, różnice między protezami całkowitymi a częściowymi, proces wykonania i materiały.",
+        "keywords": "proteza zębowa, proteza całkowita, proteza częściowa, proteza ruchoma, wykonywanie protez, materiały protetyczne",
+        "url": "dis-sararması"
       }
     }
   },

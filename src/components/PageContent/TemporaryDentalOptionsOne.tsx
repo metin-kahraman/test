@@ -12,7 +12,7 @@ import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 
 const TemporaryDentalOptionsOne = () => {
-    const t = useTranslations("TemporaryDentalOptions");
+    const t = useTranslations("Blog.TemporaryDentalOptions");
 
     return (
         <Grid container spacing={2} size={{ xs: 12, md: 12 }} component="div">

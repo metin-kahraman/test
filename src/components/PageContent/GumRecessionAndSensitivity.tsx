@@ -11,7 +11,7 @@ import {
   import { TreatmentsPageTranslations } from "@/types";
   
   const GumRecessionAndSensitivity = () => {
-    const t = useTranslations("GumRecessionAndSensitivity");
+    const t = useTranslations("Blog.GumRecessionAndSensitivity");
   
     return (
       <Box p={2}>
