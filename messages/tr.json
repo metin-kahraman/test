@@ -950,14 +950,14 @@
     "item14": {
         "caption": "Diş Kaplama Çeşitleri Nelerdir?",
         "title": "Zirkonyum Kaplama, Lamina Kaplama, Metal Destekli Kaplama",
-        "url": "implant/life-time",
+        "url": "dis-kaplama-cesitleri",
         "imgLink": "/images/single-implant1.png",
         "imgAlt": "",
         "seo": {
             "title": "Diş Kaplama Çeşitleri Nelerdir? | Zirkonyum, Lamina, Metal Destekli",
             "description": "Diş kaplama çeşitleri nelerdir? Zirkonyum, lamina ve metal destekli kaplamalar arasındaki farklar, avantajları ve hangi durumda hangisi tercih edilmeli?",
             "keywords": "diş kaplama, zirkonyum kaplama, lamina kaplama, metal destekli kaplama, porselen kaplama",
-            "url": "implant/life-time"
+            "url": "dis-kaplama-cesitleri"
         }
     },
     "item15": {
@@ -1028,14 +1028,14 @@
     "item20": {
         "caption": "Diş Protezi Nedir?",
         "title": "Sizin İçin Doğru Olan Hangi Tür Diş Protezi?, Tam Protezler, Kısmı Protezler,Protezler nasıl yapılır?,Protezler nelerden yapılır?",
-        "url": "dis-sararmasi",
+        "url": "dis-protezi",
         "imgLink": "/images/dis-sararmasi-2.jpeg",
         "imgAlt": "",
         "seo": {
             "title": "Diş Protezi Nedir? | Tam ve Kısmi Protez Çeşitleri",
             "description": "Diş protezi nedir? Sizin için doğru olan protez türü hangisi? Tam ve kısmi protezlerin yapım aşamaları, kullanılan malzemeler ve bakım önerileri.",
             "keywords": "diş protezi, tam protez, kısmi protez, hareketli protez, protez yapımı, protez malzemeleri",
-            "url": "dis-sararmasi"
+            "url": "dis-protezi"
         }
     }
 },
