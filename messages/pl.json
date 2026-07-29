@@ -1270,6 +1270,33 @@
           "content": "Nieprawidłowy zgryz można skorygować za pomocą wypełnień, koron lub leczenia ortodontycznego."
         }
       ],
+          "FREQUENTLYASKEDQUESTIONS": {
+      "title": "Często zadawane pytania",
+      "item1": {
+        "title": "Jakie są objawy zgrzytania zębami (bruksizm)?",
+        "value": "Najczęstsze objawy to",
+        "value2": "Ból szczęki, ból głowy lub napięcie w skroniach odczuwane po przebudzeniu rano.",
+        "value3": "Pęknięcia, złamania lub widoczne ścieranie szkliwa zębów.",
+        "value4": "Zwiększona wrażliwość zębów na gorące i zimne pokarmy.",
+        "value5": "Odgłosy klikania ze stawów skroniowo-żuchwowych oraz trudności z otwieraniem i zamykaniem szczęki."
+      },
+      "item2": {
+        "title": "Co powoduje bruksizm?",
+        "value": "Chociaż pacjenci często postrzegają to jako problem stomatologiczny, rzeczywista przyczyna zwykle może rozwijać się niezależnie od zębów. Chociaż nie ma jednej przyczyny, główne czynniki wyzwalające to:",
+        "value2": "Stres i Lęk: Codzienny stres, złość lub silny niepokój należą do największych czynników wyzwalających.",
+        "value3": "Zaburzenia Snu: Stany takie jak bezdech senny lub chrapanie mogą obniżać jakość snu i nasilać bruksizm.",
+        "value4": "Struktura Zębów (Wady Zgryzu): Niewłaściwe dopasowanie górnych i dolnych zębów, brakujące lub krzywe zęby.",
+        "value5": "Styl Życia: Nadmierne spożycie alkoholu, palenie tytoniu lub kofeiny."
+      },
+      "item3": {
+        "title": "Jak leczy się zgrzytanie zębami?",
+        "value": "Szyna Zgryzowa (Szyna Okluzyjna): Przezroczyste płytki wykonane na zamówienie przez dentystę zapobiegają ocieraniu się zębów o siebie podczas snu. Szyny nocne mają bardziej na celu zapobieganie możliwym problemom z zębami i stawami niż leczenie bruksizmu.",
+        "value2": "Leczenie Botoksem: Botoks podawany w mięśnie żujące (mięsień żwacz) zmniejsza nadmierny nacisk wywierany mimowolnie przez mięśnie i jest obecnie uważany za najskuteczniejszą metodę leczenia.",
+        "value3": "Zarządzanie Stresem: Metody takie jak poradnictwo psychologiczne pomagają zmniejszyć podstawowe źródło stresu.",
+        "value4": "Środki Zwiotczające Mięśnie: Przez określony czas (od 3 do 5 miesięcy) środki zwiotczające mięśnie przyjmowane przed snem zgodnie z zaleceniami lekarza mogą pomóc w zapobieganiu mimowolnemu zgrzytaniu zębami w nocy.",
+        "value5": "Restauracje Stomatologiczne: Niewłaściwe, uszkodzone funkcjonalnie lub przestarzałe restauracje stomatologiczne mogą być skorygowane i/lub można zastosować leczenie wypełnieniami i koronami."
+      }
+    },
       "seo": {
         "title": "Bruksizm (zgrzytanie zębami) - objawy, przyczyny i leczenie",
         "description": "Dowiedz się o bruksizmie: objawach, takich jak ból szczęki, ból głowy, i opcjach leczenia, w tym szynach nocnych i zarządzaniu stresem.",

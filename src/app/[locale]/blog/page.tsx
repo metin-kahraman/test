@@ -13,9 +13,7 @@ export default async function BlogPage({ params }: { params: { locale: string } 
 
   return (
     <Container maxWidth="lg" sx={{ py: 4 }}>
-      <Typography variant="h4" component="h1" gutterBottom sx={{ mb: 4 }}>
-        {t('recentPosts')}
-      </Typography>
+      
       
       <Grid container spacing={4}>
         {blogItems.map((postKey) => {

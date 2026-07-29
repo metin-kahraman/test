@@ -66,7 +66,7 @@ const ContentRightSlideMenu: FC = () => {
         Tedaviler
       </Typography>
 
-      <List sx={{ width: '100%' }}>
+      <List sx={{ width: '100%', mr:5 }}>
         {treatments.map((item, index) => (
           <ListItem
             key={index}
@@ -99,6 +99,7 @@ const ContentRightSlideMenu: FC = () => {
                   color: "#ed6c02",
                   letterSpacing: '0.05em',
                   transition: 'color 0.2s',
+                  p:0,
                   '&:hover': {
                     color: '#388E3C',
                   },

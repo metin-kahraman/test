@@ -1274,7 +1274,34 @@
         "description": "Learn about bruxism: symptoms like jaw pain, headache, and treatment options including night guards and stress management.",
         "keywords": "bruxism, teeth grinding, jaw clenching, night guard, bruxism treatment",
         "url": "blog/bruxism"
+      },
+          "FREQUENTLYASKEDQUESTIONS": {
+      "title": "Frequently Asked Questions",
+      "item1": {
+        "title": "What are the symptoms of teeth grinding (Bruxism)?",
+        "value": "The most common symptoms include",
+        "value2": "Jaw pain, headache, or tension in the temples felt upon waking in the morning.",
+        "value3": "Cracks, fractures, or visible wear on the enamel layer of the teeth.",
+        "value4": "Increased tooth sensitivity to hot and cold foods.",
+        "value5": "Clicking sounds from the jaw joints and difficulty opening and closing the jaw."
+      },
+      "item2": {
+        "title": "What causes Bruxism?",
+        "value": "Although patients often see it as a dental problem, the actual cause can usually develop independently of the teeth. While there is no single cause, the main triggers are:",
+        "value2": "Stress and Anxiety: Daily life stress, anger, or intense anxiety are among the biggest triggers.",
+        "value3": "Sleep Disorders: Conditions such as sleep apnea or snoring can reduce sleep quality and increase bruxism.",
+        "value4": "Dental Structure (Malocclusion): Misalignment of the upper and lower teeth, missing or crooked teeth.",
+        "value5": "Lifestyle: Excessive alcohol, smoking, or caffeine consumption."
+      },
+      "item3": {
+        "title": "How is teeth grinding treated?",
+        "value": "Night Guard (Occlusal Splint): Transparent plaques custom-made by a dentist prevent teeth from rubbing against each other during sleep. Night guards are intended more to prevent possible dental and joint problems rather than curing bruxism itself.",
+        "value2": "Botox Treatment: Botox applied to the chewing muscles (masseter muscle) reduces the excessive pressure involuntarily exerted by the muscles and is currently considered the most effective treatment method.",
+        "value3": "Stress Management: Methods such as psychological counseling help reduce the underlying source of stress.",
+        "value4": "Muscle Relaxants: For a certain period (between 3 to 5 months), muscle relaxants taken before bedtime as recommended by your doctor can help prevent involuntary teeth grinding at night.",
+        "value5": "Dental Restorations: Inappropriate, dysfunctional, or outdated dental restorations can be corrected and/or filling or crown treatments can be applied."
       }
+    }
     },
     "spacedTeeth": {
       "title": "How is Spaced Teeth Treatment Done?",

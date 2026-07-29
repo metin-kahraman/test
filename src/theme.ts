@@ -29,11 +29,9 @@ const handlee = Handlee({
   display: 'swap',
 });
 
-
 const theme = createTheme({
   ...getDesignTokens('light'),
   typography: {
-    // Burada fontların .style.fontFamily değerini kullanıyoruz
     fontFamily: [
       'sans-serif',
       nunito.style.fontFamily,
@@ -46,6 +44,8 @@ const theme = createTheme({
     body1: {
       fontFamily: gowunBatang.style.fontFamily,
       textTransform: 'none',
+      fontSize: 18,
+      textAlign: 'justify',
     },
     body2: {
       fontFamily: gowunBatang.style.fontFamily,
@@ -59,6 +59,45 @@ const theme = createTheme({
     h6: { fontFamily: gowunBatang.style.fontFamily },
   },
   components: {
+    MuiTypography: {
+      styleOverrides: {
+        body1: {
+          padding: '20px', // mt:2 karşılığı
+          textAlign: 'justify',
+          textIndent: '2em', // satır başı boşluğu
+        },
+                h1: {
+          padding: '5px', // mt:2 karşılığı
+          //textAlign: 'justify'
+          textAlign: 'center'
+        },
+                h2: {
+          padding: '5px', // mt:2 karşılığı
+          //textAlign: 'justify'
+          textAlign: 'center'
+        },
+                h3: {
+          padding: '5px', // mt:2 karşılığı
+          //textAlign: 'justify'
+          textAlign: 'center'
+        },
+                h4: {
+          padding: '5px', // mt:2 karşılığı
+          //textAlign: 'justify'
+          textAlign: 'center'
+        },
+                       h5: {
+          padding: '5px', // mt:2 karşılığı
+          //textAlign: 'justify'
+          textAlign: 'center'
+        },
+                       h6: {
+          padding: '5px', // mt:2 karşılığı
+          textAlign: 'center'
+        },
+
+      },
+    },
     //...inputsCustomizations,
     //...dataDisplayCustomizations,
     //...feedbackCustomizations,

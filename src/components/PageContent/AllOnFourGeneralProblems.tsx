@@ -11,7 +11,7 @@ import { useTranslations } from "next-intl";
 import { TreatmentsPageTranslations } from "@/types";
 
 const AllOnFourGeneralProblems = () => {
-  const t = useTranslations("ALLONFOURGENERALPROBLEMS");
+  const t = useTranslations("Blog.ALLONFOURGENERALPROBLEMS");
 
   return (
     <Box p={2}>

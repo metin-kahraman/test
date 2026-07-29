@@ -213,14 +213,14 @@ const nextConfig = {
       { source: '/tr/blog/bruksizm', destination: '/tr/blog/bruxism' },
       { source: '/ru/blog/bruksizm', destination: '/ru/blog/bruxism' },
       { source: '/en/blog/bruksizm', destination: '/en/blog/bruxism' },
-      { source: '/lt/tinklaraštis/bruksizmas', destination: '/lt/blog/bruxism' },
+      { source: '/lt/blog/bruksizmas', destination: '/lt/blog/bruxism' },
       { source: '/pl/blog/bruksizm', destination: '/pl/blog/bruxism' },
 
       // ---- /blog/implant/all-on-4 ----
       { source: '/tr/blog/all-on-4-implant', destination: '/tr/blog/implant/all-on-4' },
       { source: '/ru/blog/all-on-4-implant', destination: '/ru/blog/implant/all-on-4' },
       { source: '/en/blog/all-on-4-implant', destination: '/en/blog/implant/all-on-4' },
-      { source: '/lt/tinklaraštis/implantas/all-on-4', destination: '/lt/blog/implant/all-on-4' },
+      { source: '/lt/blog/implantas/all-on-4', destination: '/lt/blog/implant/all-on-4' },
       { source: '/pl/blog/implant/all-on-4', destination: '/pl/blog/implant/all-on-4' },
 
       // ---- /blog/implant/bone-graft ----
@@ -230,7 +230,7 @@ const nextConfig = {
       { source: '/ru/blog/kemik-grefti', destination: '/ru/blog/implant/bone-graft' },
       { source: '/en/blog/kostnyy-transplantat', destination: '/en/blog/implant/bone-graft' },
       { source: '/en/blog/kemik-grefti', destination: '/en/blog/implant/bone-graft' },
-      { source: '/lt/tinklaraštis/implantas/kaulo-transplantatas', destination: '/lt/blog/implant/bone-graft' },
+      { source: '/lt/blog/implantas/kaulo-transplantatas', destination: '/lt/blog/implant/bone-graft' },
       { source: '/pl/blog/implant/przeszczep-kosci', destination: '/pl/blog/implant/bone-graft' },
 
       // ---- /blog/implant/healing-process ----
@@ -240,7 +240,7 @@ const nextConfig = {
       { source: '/ru/blog/zazhivlenie-implantata', destination: '/ru/blog/implant/healing-process' },
       { source: '/en/blog/implant-iyilesmesi', destination: '/en/blog/implant/healing-process' },
       { source: '/en/blog/zazhivlenie-implantata', destination: '/en/blog/implant/healing-process' },
-      { source: '/lt/tinklaraštis/implanto-gijimo-procesas', destination: '/lt/blog/implant/healing-process' },
+      { source: '/lt/blog/implantas/implanto-gijimo-procesas', destination: '/lt/blog/implant/healing-process' },
       { source: '/pl/blog/proces-gojenia-implantu', destination: '/pl/blog/implant/healing-process' },
 
       // ---- /blog/implant/same-day-implant ----
@@ -250,7 +250,7 @@ const nextConfig = {
       { source: '/ru/blog/implantatsiya-za-den', destination: '/ru/blog/implant/same-day-implant' },
       { source: '/en/blog/ayni-gun-implant', destination: '/en/blog/implant/same-day-implant' },
       { source: '/en/blog/implantatsiya-za-den', destination: '/en/blog/implant/same-day-implant' },
-      { source: '/lt/tinklaraštis/tos-pacios-dienos-dantu-implantas', destination: '/lt/blog/implant/same-day-implant' },
+      { source: '/lt/blog/implantas/tos-pacios-dienos-dantu-implantas', destination: '/lt/blog/implant/same-day-implant' },
       { source: '/pl/blog/implant-tego-samego-dnia', destination: '/pl/blog/implant/same-day-implant' },
 
       // ---- /blog/implant/single-tooth ----
@@ -277,7 +277,7 @@ const nextConfig = {
       { source: '/ru/blog/vremennye-zuby', destination: '/ru/blog/implant/temporary-options' },
       { source: '/en/blog/gecici-disler', destination: '/en/blog/implant/temporary-options' },
       { source: '/en/blog/vremennye-zuby', destination: '/en/blog/implant/temporary-options' },
-      { source: '/lt/tinklaraštis/implantas/laikinos-galybes', destination: '/lt/blog/implant/temporary-options' },
+      { source: '/lt/blog/implantas/laikinos-galybes', destination: '/lt/blog/implant/temporary-options' },
       { source: '/pl/blog/implant/tymczasowe-opcje', destination: '/pl/blog/implant/temporary-options' },
 
       // ---- /blog/implant/what-is-dental-implant ----
@@ -287,7 +287,7 @@ const nextConfig = {
       { source: '/ru/blog/chto-takoe-implantat', destination: '/ru/blog/implant/what-is-dental-implant' },
       { source: '/en/blog/implant-nedir', destination: '/en/blog/implant/what-is-dental-implant' },
       { source: '/en/blog/chto-takoe-implantat', destination: '/en/blog/implant/what-is-dental-implant' },
-      { source: '/lt/tinklaraštis/kas-yra-dantu-implantas', destination: '/lt/blog/implant/what-is-dental-implant' },
+      { source: '/lt/blog/implantas/kas-yra-dantu-implantas', destination: '/lt/blog/implant/what-is-dental-implant' },
       { source: '/lt/tinklaraštis/dantų-implantai', destination: '/lt/blog/implant/what-is-dental-implant' },
       { source: '/pl/blog/co-to-jest-implant-dentystyczny', destination: '/pl/blog/implant/what-is-dental-implant' },
       { source: '/pl/blog/implanty-dentystyczne', destination: '/pl/blog/implant/what-is-dental-implant' },
@@ -306,20 +306,29 @@ const nextConfig = {
       { source: '/ru/blog/kopru', destination: '/ru/blog/dental-bridge' },
       { source: '/en/blog/zubnye-mosty', destination: '/en/blog/dental-bridge' },
       { source: '/en/blog/kopru', destination: '/en/blog/dental-bridge' },
-      { source: '/lt/tinklaraštis/dantų-tiltelis', destination: '/lt/blog/dental-bridge' },
+      { source: '/lt/blog/dantu-tiltelis', destination: '/lt/blog/dental-bridge' },
       { source: '/pl/blog/most-dentystyczny', destination: '/pl/blog/dental-bridge' },
 
       // ---- /blog/dental-veneer-types ----
       { source: '/tr/blog/dis-kaplama-cesitleri', destination: '/tr/blog/dental-veneer-types' },
       { source: '/ru/blog/vidy-koronok', destination: '/ru/blog/dental-veneer-types' },
-      { source: '/lt/tinklaraštis/dantų-karuneliu-tipai', destination: '/lt/blog/dental-veneer-types' },
+      { source: '/lt/blog/dantu-karuneliu-tipai', destination: '/lt/blog/dental-veneer-types' },
       { source: '/pl/blog/rodzaje-koron-zebowych', destination: '/pl/blog/dental-veneer-types' },
+
+
+      // ---- /blog/dental prosthesis ----
+      //{ source: '/lt/blog/dantu-protezavimas', destination: '/lt/blog/dental-veneer-types' },
+      //{ source: '/ru/blog/vidy-koronok', destination: '/ru/blog/dental-veneer-types' },
+      //{ source: '/lt/blog/dantu-karuneliu-tipai', destination: '/lt/blog/dental-veneer-types' },
+      //{ source: '/pl/blog/rodzaje-koron-zebowych', destination: '/pl/blog/dental-veneer-types' },
+
+
 
       // ---- /blog/denture ----
       { source: '/tr/blog/dis-protezi', destination: '/tr/blog/denture' },
       { source: '/ru/blog/zubnye-protezy', destination: '/ru/blog/denture' },
       { source: '/lt/tinklaraštis/protezai', destination: '/lt/blog/denture' },
-      { source: '/lt/tinklaraštis/protezai-privalumai-trūkumai', destination: '/lt/blog/denture' },
+      { source: '/lt/blog/protezai-privalumai-trukumai', destination: '/lt/blog/denture' },
       { source: '/pl/blog/protezy', destination: '/pl/blog/denture' },
       { source: '/pl/blog/protezy-zalety-wady', destination: '/pl/blog/denture' },
 
@@ -327,7 +336,7 @@ const nextConfig = {
       { source: '/tr/blog/dis-sararmasi', destination: '/tr/blog/how-to-prevent-yellowing-of-teeth' },
       { source: '/ru/blog/kak-predotvratit-pozheltenie', destination: '/ru/blog/how-to-prevent-yellowing-of-teeth' },
       { source: '/lt/tinklaraštis/kaip-isvengti-dantu-pageltimo', destination: '/lt/blog/how-to-prevent-yellowing-of-teeth' },
-      { source: '/lt/tinklaraštis/dantų-pageltimas', destination: '/lt/blog/how-to-prevent-yellowing-of-teeth' },
+      { source: '/lt/blog/dantu-pageltimas', destination: '/lt/blog/how-to-prevent-yellowing-of-teeth' },
       { source: '/pl/blog/jak-zapobiegac-zolknieciu', destination: '/pl/blog/how-to-prevent-yellowing-of-teeth' },
       { source: '/pl/blog/zolkniecie-zebow', destination: '/pl/blog/how-to-prevent-yellowing-of-teeth' },
 
@@ -341,14 +350,14 @@ const nextConfig = {
       // ---- /blog/orthodontics ----
       { source: '/tr/blog/ortodonti', destination: '/tr/blog/orthodontics' },
       { source: '/ru/blog/ortodontiya', destination: '/ru/blog/orthodontics' },
-      { source: '/lt/tinklaraštis/ortodontija', destination: '/lt/blog/orthodontics' },
+      { source: '/lt/blog/ortodontija', destination: '/lt/blog/orthodontics' },
       { source: '/pl/blog/ortodoncja', destination: '/pl/blog/orthodontics' },
 
       // ---- /blog/what-are-orthodontic-treatments ----
       { source: '/tr/blog/ortodontik-tedaviler-nelerdir', destination: '/tr/blog/what-are-orthodontic-treatments' },
       { source: '/ru/blog/ortodonticheskie-lecheniya', destination: '/ru/blog/what-are-orthodontic-treatments' },
-      { source: '/lt/tinklaraštis/kokie-ortodontiniai-gydymai', destination: '/lt/blog/what-are-orthodontic-treatments' },
-      { source: '/lt/tinklaraštis/ortodontiniai-gydymai', destination: '/lt/blog/what-are-orthodontic-treatments' },
+      //{ source: '/lt/tinklaraštis/kokie-ortodontiniai-gydymai', destination: '/lt/blog/what-are-orthodontic-treatments' },
+      { source: '/lt/blog/ortodontiniai-gydymai', destination: '/lt/blog/what-are-orthodontic-treatments' },
       { source: '/pl/blog/jakie-sa-leczenia-ortodontyczne', destination: '/pl/blog/what-are-orthodontic-treatments' },
       { source: '/pl/blog/leczenie-ortodontyczne', destination: '/pl/blog/what-are-orthodontic-treatments' },
 
@@ -359,7 +368,7 @@ const nextConfig = {
       { source: '/ru/blog/retcessiya-desny', destination: '/ru/blog/gum-recession-and-sensitivity' },
       { source: '/en/blog/dis-eti-cekilmesi', destination: '/en/blog/gum-recession-and-sensitivity' },
       { source: '/en/blog/retcessiya-desny', destination: '/en/blog/gum-recession-and-sensitivity' },
-      { source: '/lt/tinklaraštis/dantenų-atsitraukimas-ir-jautrumas', destination: '/lt/blog/gum-recession-and-sensitivity' },
+      { source: '/lt/blog/dantenu-atsitraukimas-ir-jautrumas', destination: '/lt/blog/gum-recession-and-sensitivity' },
       { source: '/pl/blog/recesja-dziąseł-i-nadwrażliwość', destination: '/pl/blog/gum-recession-and-sensitivity' },
 
       // ---- /blog/halitosis ----
@@ -374,7 +383,7 @@ const nextConfig = {
       // ---- /blog/ayrik-dis-tedavisi (SPACED TEETH TR) ----
       // canonical: /tr/blog/ayrik-dis-tedavisi
       { source: '/tr/blog/ayrik-dis-tedavisi', destination: '/tr/blog/spaced-teeth' },
-      //{ source: '/tr/blog/spaced-teeth-treatment', destination: '/tr/blog/ayrik-dis-tedavisi' },
+      { source: '/lt/blog/tarpai-tarp-dantu', destination: '/lt/blog/spaced-teeth' },
 
       // ---- /blog/lechenie-promezhutkov (SPACED TEETH RU) ----
       { source: '/ru/blog/spaced-teeth', destination: '/ru/blog/lechenie-promezhutkov' },
@@ -392,14 +401,14 @@ const nextConfig = {
       { source: '/pl/blog/przerwy-miedzy-zebami', destination: '/pl/blog/leczenie-przerw' },
 
       // ---- /blog/tarpai-tarp-dantu (LT) ----
-      { source: '/lt/blog/spaced-teeth', destination: '/lt/blog/tarpai-tarp-dantu' },
-      { source: '/lt/blog/spaced-teeth-treatment', destination: '/lt/blog/tarpai-tarp-dantu' },
-      { source: '/lt/blog/diastema', destination: '/lt/blog/tarpai-tarp-dantu' },
-      { source: '/lt/blog/diastemos-gydymas', destination: '/lt/blog/tarpai-tarp-dantu' },
+      //{ source: '/lt/blog/spaced-teeth', destination: '/lt/blog/tarpai-tarp-dantu' },
+      //{ source: '/lt/blog/spaced-teeth-treatment', destination: '/lt/blog/tarpai-tarp-dantu' },
+      //{ source: '/lt/blog/diastema', destination: '/lt/blog/tarpai-tarp-dantu' },
+      //{ source: '/lt/blog/diastemos-gydymas', destination: '/lt/blog/tarpai-tarp-dantu' },
 
       // ---- /blog/dis-eti-kanamasi (TOOTH BLEEDING TR) ----
       { source: '/tr/blog/dis-eti-kanamasi', destination: '/tr/blog/tooth-bleeding' },
-      //{ source: '/tr/blog/gum-bleeding', destination: '/tr/blog/dis-eti-kanamasi' },
+      { source: '/lt/blog/dantenu-kraujavimas', destination: '/lt/blog/tooth-bleeding' },
 
       // ---- /blog/krovotochivost-desen (RU) ----
       { source: '/ru/blog/tooth-bleeding', destination: '/ru/blog/krovotochivost-desen' },

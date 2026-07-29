@@ -15,7 +15,7 @@ const AllOnFourProcedure = () => {
 
   return (
     <Box p={2}>
-      <Typography align="center" color="#388E3C" variant="h5" gutterBottom>
+      <Typography align="center" color="#388E3C" variant="h4" gutterBottom>
       {t(`MainContent.title`)}
       </Typography>
       <Typography gutterBottom>
