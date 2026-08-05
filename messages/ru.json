@@ -1,13 +1,50 @@
 {
   "HomePage": {
-    "title": "Здравствуй, мир!",
-    "about": "Перейти на страницу О нас",
+  "title": "С нашими врачами-экспертами",
+  "title2": "ваша улыбка под ",
+  "title3": "надёжной защитой.",
+  "title4": "Мы создаём здоровые, эстетичные и уверенные улыбки с помощью современных технологий и индивидуального подхода к лечению.",
+  "title5": "ДЛЯ КАЧЕСТВЕННОГО ЗДОРОВЬЯ ПОЛОСТИ РТА И ЭСТЕТИЧЕСКИХ УЛЫБОК",
+  "bookAn": "Записаться на приём",
+  "comment1orj": "Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
+  "comment1Translate": "Я посетил Orange в ноябре, сделал лечение корневых каналов и заменил черную пломбу на белую, ничего не чувствовал, настоятельно рекомендую этого стоматолога, было очень хорошо, обязательно приду снова для других процедур, спасибо.",
+  "comment1Link": "https://share.google/Y1BGhIashAu1UbG15",
+  "comment2orj": "Отличный сервис!, Разумные цены!, Отзывчивый персонал!, Созвонился, объяснил проблему, записали, вылечили",
+  "comment2Translate": "Отличный сервис!, Разумные цены!, Отзывчивый персонал!, Созвонился, объяснил проблему, записали, вылечили",
+  "comment2Link": "https://share.google/RWy8N3ZcZ9KpD8DnV",
+  "comment3orj": "This is my second time when I went to Orange Dent Clinic and both times they did their job well. Friendly and attentive team. Will come again! Thanks!!!",
+  "comment3Translate": "Это мой второй раз, когда я посетил Orange Dent Clinic, и оба раза они отлично выполнили свою работу. Дружелюбная и внимательная команда. Приду снова! Спасибо!!!",
+  "comment3Link": "https://share.google/mzQng204wtDTra03V",
+  "comment4orj": "Am avut o experiență extraordinara cu echipa acestei clinici.Aparatura de ultima generație si profesionalism desăvârșit.Grija de pacient si modul in care își practica meseria duc la rezultate pe măsură.Felicitari!Recomand cu toată încrederea pentru orice serviciu stomatologic.",
+  "comment4Translate": "Я имел необыкновенный опыт с командой этой клиники. Оборудование последнего поколения и безупречный профессионализм. Забота о пациенте и способ, которым они практикуют свою профессию, приводят к соразмерным результатам. Поздравляю! Рекомендую с полной уверенностью для любых стоматологических услуг.",
+  "comment4Link": "https://share.google/gWsRQC0FNjg7tv0OC",
+  "comment5orj": "Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
+  "comment5Translate": "Благодарю этого доктора и его персонал за их оперативность через Google сообщения, а затем за их доброту и эффективность в решении моей чрезвычайной ситуации, когда я прибыл на место. Офис безупречно чист и оснащен передовыми технологиями. Для моей первой поездки в Турцию в отпуск я чувствую себя очень уверенно в отношении безопасности, гигиены, профессионализма, а также уважения, которое проявляет турецкая нация. Браво и тысяча благодарностей Orange Dent Clinic.",
+  "comment5Link": "https://share.google/E63HQJxer7p14aILn",
+  "ourPartners":"Наши деловые партнеры",
     "seo": {
       "title": "Стоматологическая клиника Orange Dent",
       "description": "Orange Dent Clinic предлагает услуги по имплантации, эстетической стоматологии, ортодонтии и многое другое. Запишитесь на прием для здоровой улыбки.",
       "keywords": "стоматологическая клиника, стоматолог, имплант, эстетическая стоматология, ортодонтия, отбеливание зубов",
       "url": "/"
     }
+  },
+  "Footer": {
+    "contactUs": "Связаться с нами",
+    "address": "Адрес",
+    "phone": "Телефон",
+    "email": "Электронная почта",
+    "workingHours": "Часы работы",
+    "socialMedia": "Социальные сети",
+    "title":"Ваше здоровье и улыбка – наш приоритет",
+    "iconPersonTitle":"Квалифицированный персонал",
+    "iconPersonSubTitle":"Врачи-специалисты с большим опытом работы в своей области",
+    "iconCalendarTitle":"Индивидуальное планирование",
+    "iconCalendarSubTitle":"Индивидуальные планы лечения и подробный анализ",
+    "iconRepairTitle":"Современные технологии",
+    "iconRepairSubTitle":"Быстрое и комфортное лечение с использованием цифровых технологий",
+    "iconMedicTitle":"Гигиена и безопасность",
+    "iconMedicSubTitle":"Высокие стандарты гигиены и безопасная клиническая среда"
   },
   "Buttons":{
     "readMore":"Читать далее",
@@ -1333,9 +1370,8 @@
         "meta_description": "Узнайте, почему возникают промежутки между зубами и как лечится диастема. Методы лечения: виниры, брекеты и другие.",
         "keywords": "диастема, щель между зубами, лечение диастемы, виниры, брекеты"
       }
-    }
-  },
-  "ImpactedTeeth": {
+    },
+     "ImpactedTeeth": {
     "title": "Лечение удаления ретинированных зубов",
     "definition": "Ретинированный зуб — это зуб, который остался за или рядом с другими зубами из-за недостатка места в челюстной кости...",
     "extractionTitle": "Как удаляются ретинированные зубы?",
@@ -2558,5 +2594,7 @@
       "keywords": "зубные протезы, виды протезов, полные протезы, частичные протезы, материалы протезов"
     }
   }
+  }
+
 
 }

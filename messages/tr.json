@@ -1,7 +1,44 @@
 {
-  "HomePage": {
-    "title": "Merhaba dünya!",
-    "about": "Hakkında sayfasına gidin"
+    "HomePage": {
+      "title": "Uzman doktorlarımızla ",
+      "title2": "gülüşünüzü güvence ",
+      "title3": "altına alın.",
+      "title4": "Modern teknoloji ve kişiye özel tedavi yaklaşımlarımızla sağlıklı, estetik ve özgüvenli gülüşler tasarlıyoruz.",
+      "bookAn":"Randevu Alın",
+      "title5":"KALİTELİ DİŞ SAĞLIĞIve ESTETİK GÜLÜŞLER İÇİN",
+      "comment1orj":"Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
+      "comment1Translate":"Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
+      "comment1Link":"https://share.google/Y1BGhIashAu1UbG15",
+      "comment2orj":"Отличный сервис!, Разумные цены!, Отзывчивый персонал!, Созвонился, объяснил проблему, записали, вылечили",
+      "comment2Translate":"Mükemmel hizmet! Uygun fiyatlar! Yardımsever personel! Aradım, sorunu anlattım, randevu aldım ve tedavi oldum",
+      "comment2Link":"https://share.google/RWy8N3ZcZ9KpD8DnV",
+      "comment3orj":"This is my second time when I went to Orange Dent Clinic and both times they did their job well. Friendly and attentive team. Will come again! Thanks!!! ",
+      "comment3Translate":"Orange Dent Clinic'e ikinci kez gittim ve her iki seferde de işlerini çok iyi yaptılar. Dost canlısı ve ilgili bir ekip. Tekrar geleceğim! Teşekkürler!!!",
+      "comment3Link":"https://share.google/mzQng204wtDTra03V",
+      "comment4orj":"Am avut o experiență extraordinara cu echipa acestei clinici.Aparatura de ultima generație si profesionalism desăvârșit.Grija de pacient si modul in care își practica meseria duc la rezultate pe măsură.Felicitari!Recomand cu toată încrederea pentru orice serviciu stomatologic.",
+      "comment4Translate":"Bu klinikteki ekiple olağanüstü bir deneyim yaşadım. Son teknoloji ekipmanlar ve mükemmel profesyonellik. Hasta bakımı ve mesleklerini icra etme biçimleri ölçülebilir sonuçlara yol açıyor. Tebrikler! Her türlü diş hizmeti için onları gönül rahatlığıyla tavsiye ederim.",
+      "comment4Link":"https://share.google/gWsRQC0FNjg7tv0OC",
+      "comment5orj":"Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
+      "comment5Translate":"Google mesajlaşma yoluyla gösterdikleri hızlı yanıt ve acil durumumu ele alırken gösterdikleri nezaket ve verimlilik için bu doktora ve ekibine teşekkür ederim.Ofis son derece temiz ve en son teknolojiyle donatılmış.Türkiye'ye ilk tatil seyahatimde, Türk halkının gösterdiği güvenlik, hijyen, profesyonellik ve saygıdan dolayı kendimi çok güvende hissediyorum. Bravo ve Orange Dent Clinic'e binlerce teşekkür.",
+      "comment5Link":"https://share.google/E63HQJxer7p14aILn",
+      "ourPartners":"İş Ortaklarımız"
+    },
+      "Footer": {
+    "contactUs": "Bizimle İletişime Geç",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "E-posta",
+    "workingHours": "Çalışma Saatleri",
+    "socialMedia": "Sosyal Medya",
+    "title": "Sağlığınız ve gülüşünüz bizim önceliğimiz",
+    "iconPersonTitle": "Nitelikli Personel",
+    "iconPersonSubTitle": "Kendi alanında geniş deneyime sahip uzman hekimler",
+    "iconCalendarTitle": "Bireysel Planlama",
+    "iconCalendarSubTitle": "Kişiye özel tedavi planları ve detaylı analiz",
+    "iconRepairTitle": "Modern Teknolojiler",
+    "iconRepairSubTitle": "Dijital teknolojilerle hızlı ve konforlu tedavi",
+    "iconMedicTitle": "Hijyen ve Güvenlik",
+    "iconMedicSubTitle": "Yüksek hijyen standartları ve güvenli klinik ortamı"
   },
   "Buttons":{
     "readMore":"Devamını Oku",

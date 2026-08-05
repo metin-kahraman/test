@@ -16,6 +16,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import TwitterIcon from '@mui/icons-material/X';
 import SitemarkIcon from './SitemarkIcon';
 import CustomDivider from './CustomDivider';
+import { useTranslations } from 'next-intl';
 
 
 function Copyright() {
@@ -33,7 +34,7 @@ function Copyright() {
 
 export default function Footer() {
 
-
+  const t = useTranslations('Footer');
   return (
     <React.Fragment>
                   <CustomDivider text="" />
@@ -55,10 +56,11 @@ export default function Footer() {
           <Grid container spacing={4}>
             <Grid item xs={12} md={6}>
               <Box>
-                <SitemarkIcon />
+                {/*<SitemarkIcon />*/}
                 <Typography
                   variant="h6"
                   gutterBottom
+                  color="#d3a572"
                   sx={{ fontWeight: 600, mt: 2 }}
                 >
                   Orange Dent Clinic
@@ -66,12 +68,14 @@ export default function Footer() {
 
                 <Stack direction="column" spacing={2}>
                   <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
-                    Address
+                    {t('address')}
                   </Typography>
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                     Merkez, Lise Cd. 18 C / D, 07980 Kemer/Antalya
                   </Typography>
- 
+                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                    {t('phone')}
+                  </Typography>
                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
                     05324401740
                   </Typography>

@@ -112,10 +112,7 @@ export default function BruxismPage() {
           ))}
 
         </Grid>
-                <Grid container spacing={4} sx={{ mb: 4 }}>
 
-                  <FrequentlyAskedQuestions translateKey={"Blog.bruxism.FREQUENTLYASKEDQUESTIONS"} questionList={questionList} startWith="•⁠" totalQuestionsValue={3}/>
-          </Grid>
       </Paper>
   </Box>
 
@@ -136,3 +133,9 @@ export default function BruxismPage() {
 }
 
 //#D3A572
+/**
+ *                 <Grid container spacing={4} sx={{ mb: 4 }}>
+
+                  <FrequentlyAskedQuestions translateKey={"Blog.bruxism.FREQUENTLYASKEDQUESTIONS"} questionList={questionList} startWith="•⁠" totalQuestionsValue={3}/>
+          </Grid>
+ */

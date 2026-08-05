@@ -3,6 +3,8 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Card, CardContent, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import TranslateIcon from '@mui/icons-material/Translate';
+import { useTranslations } from "next-intl";
+import Link from '@mui/material/Link';
 const reviews = [
   {
     name: 'John Doe',
@@ -29,24 +31,26 @@ const reviews = [
     text: 'Truly exceeded my expectations in every way.',
   },
 ];
+const reviewsItems=["1","2","3","4","5"];
 
 
 function ReviewSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const t = useTranslations("HomePage");
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % reviews.length);
-    }, 5000); // Her 5 saniyede bir geçiş yap
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsItems.length);
+    }, 20000); // Her 20 saniyede bir geçiş yap
     return () => clearInterval(interval);
   }, []);
 
   const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? reviews.length - 1 : prevIndex - 1));
+    setCurrentIndex((prevIndex) => (prevIndex === 0 ? reviewsItems.length - 1 : prevIndex - 1));
   };
 
   const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviews.length);
+    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsItems.length);
   };
 
   return (
@@ -87,10 +91,10 @@ function ReviewSlider() {
           display: 'flex',
           transition: 'transform 0.5s ease',
           transform: `translateX(-${currentIndex * 100}%)`,
-          width: `${reviews.length * 100}%`,
+          width: `${reviewsItems.length * 100}%`,
         }}
       >
-        {reviews.map((review, index) => (
+        {reviewsItems.map((review, index) => (
           <Box
             key={index}
             sx={{
@@ -100,7 +104,10 @@ function ReviewSlider() {
               padding: '10px',
               boxSizing: 'border-box', // Padding ve border hesaplamalarını dahil et
             }}
+
           >
+                        <Typography variant="h6" sx={{ mb: 2, textAlign: 'center' }}>
+            </Typography>
             <Card
               sx={{
                 width: '100%',
@@ -128,15 +135,18 @@ function ReviewSlider() {
               </Box>
               <CardContent sx={{ padding: '10px' }}>
                 <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
-                  {review.text}
+                   {t(`comment${review}orj`)}
                 </Typography>
                 <TranslateIcon sx={{color:'#ff7f50'}}/>
                 <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
-                  {review.text}
+                  {t(`comment${review}Translate`)}
                 </Typography>
                 <Typography variant="subtitle2" color="text.secondary" sx={{ fontWeight: 'bold' }}>
-                  - {review.name} -
+                 
                 </Typography>
+                <Link href={t(`comment${review}Link`)}  color="#FF8C00">
+   - {t(`comment${review}Link`)} -
+</Link>
               </CardContent>
             </Card>
           </Box>

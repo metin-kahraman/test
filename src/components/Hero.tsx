@@ -2,7 +2,15 @@
 import { Box, Container, Typography, Button, Icon } from '@mui/material';
 //import EventIcon from '@mui/icons-material/Event';
 import WhatsappIcon from '@mui/icons-material/WhatsApp';
+
+import { useTranslations } from "next-intl";
+  
+
+
 export default function Hero() {
+    const t = useTranslations("HomePage");
+
+
   return (
     <Box
       sx={{
@@ -46,11 +54,11 @@ export default function Hero() {
 
     */}
 
-          <Typography variant="h2" component="h1" sx={{ mb: 3, opacity: 0.6,fontSize: { xs: '2.5rem', md: '3.5rem' }, lineHeight: 1.2 }}>
-            Uzman doktorlarımızla <br/> gülüşünüzü güvence altına alın.
+          <Typography component="h1" sx={{ mb: 3, opacity: 0.6,fontSize: { xs: '2.5rem', md: '3.5rem' }}}>
+             {t(`title`)}<br/>{t(`title2`)}<br/>{t(`title3`)}
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, opacity: 0.5, maxWidth: '450px', fontSize: '1.1rem' }}>
-            Modern teknoloji ve kişiye özel tedavi yaklaşımlarımızla sağlıklı, estetik ve özgüvenli gülüşler tasarlıyoruz.
+           {t(`title4`)}
           </Typography>
           <Button
             variant="contained"
@@ -64,7 +72,7 @@ export default function Hero() {
               '&:hover': { backgroundColor: '#b08350' }
             }}
           >
-            RANDEVU ALIN
+            {t(`bookAn`)}
           </Button>
         </Box>
       </Container>

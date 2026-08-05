@@ -1,13 +1,50 @@
 {
   "HomePage": {
-    "title": "Hello world!",
-    "about": "Go to the About page",
+  "title": "With our expert doctors, ",
+  "title2": "secure your smile ",
+  "title3": "with confidence.",
+  "title4": "We design healthy, aesthetic, and confident smiles with modern technology and personalized treatment approaches.",
+  "title5": "FOR QUALITY ORAL HEALTH AND AESTHETIC SMILES",
+  "bookAn": "Book an Appointment",
+  "comment1orj": "Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
+  "comment1Translate": "I went to Orange in November, had a root canal treatment and changed my black filling to white, I didn't feel anything, I highly recommend this dentist, it was very good, I will definitely go again for other treatments, thank you.",
+  "comment1Link": "https://share.google/Y1BGhIashAu1UbG15",
+  "comment2orj": "Отличный сервис!, Разумные цены!, Отзывчивый персонал!, Созвонился, объяснил проблему, записали, вылечили",
+  "comment2Translate": "Excellent service!, Reasonable prices!, Responsive staff!, Called, explained the problem, made an appointment, treated.",
+  "comment2Link": "https://share.google/RWy8N3ZcZ9KpD8DnV",
+  "comment3orj": "This is my second time when I went to Orange Dent Clinic and both times they did their job well. Friendly and attentive team. Will come again! Thanks!!!",
+  "comment3Translate": "This is my second time when I went to Orange Dent Clinic and both times they did their job well. Friendly and attentive team. Will come again! Thanks!!!",
+  "comment3Link": "https://share.google/mzQng204wtDTra03V",
+  "comment4orj": "Am avut o experiență extraordinara cu echipa acestei clinici.Aparatura de ultima generație si profesionalism desăvârșit.Grija de pacient si modul in care își practica meseria duc la rezultate pe măsură.Felicitari!Recomand cu toată încrederea pentru orice serviciu stomatologic.",
+  "comment4Translate": "I had an extraordinary experience with the team of this clinic. State-of-the-art equipment and complete professionalism. Care for the patient and the way they practice their profession lead to commensurate results. Congratulations! I recommend with full confidence for any dental service.",
+  "comment4Link": "https://share.google/gWsRQC0FNjg7tv0OC",
+  "comment5orj": "Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
+  "comment5Translate": "Thank you to this Doctor and his staff for their responsiveness via Google messaging, then their kindness and efficiency in handling my emergency once I arrived on site. The office is impeccably clean and equipped with state-of-the-art technology. For my first vacation trip to Turkey, I feel very reassured regarding safety, hygiene, professionalism, as well as the respect shown by the Turkish nation. Bravo and a thousand thanks to Orange Dent Clinic.",
+  "comment5Link": "https://share.google/E63HQJxer7p14aILn",
+  "ourPartners":"Our Business Partners",
     "seo": {
       "title": "Orange Dent Clinic - Dental Health & Aesthetics",
       "description": "Orange Dent Clinic offers expert services in implants, aesthetic dentistry, orthodontics, and more. Book your appointment for a healthy smile.",
       "keywords": "dental clinic, dentist, implant, aesthetic dentistry, orthodontics, teeth whitening",
       "url": "/"
     }
+  },
+    "Footer": {
+    "contactUs": "Contact Us",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "workingHours": "Working Hours",
+    "socialMedia": "Social Media",
+    "title": "Your health and smile are our priority",
+    "iconPersonTitle": "Qualified Staff",
+    "iconPersonSubTitle": "Specialist doctors with extensive experience in their field",
+    "iconCalendarTitle": "Individual Planning",
+    "iconCalendarSubTitle": "Individual treatment plans and detailed analysis",
+    "iconRepairTitle": "Modern Technologies",
+    "iconRepairSubTitle": "Fast and comfortable treatment using digital technologies",
+    "iconMedicTitle": "Hygiene and Safety",
+    "iconMedicSubTitle": "High hygiene standards and a safe clinical environment"
   },
   "Buttons":{
     "readMore":"Read More",
@@ -99,7 +136,7 @@
       "title": "Single Tooth Implant - Orange Dent Clinic",
       "description": "Learn about single tooth implant procedure, advantages, recovery time, and prices. Get a natural-looking solution without damaging adjacent teeth.",
       "keywords": "single tooth implant, dental implant, missing tooth, implant advantages, implant healing",
-      "url": "implant/single-tooth-implant"
+      "url": "implant/single-tooth"
     }
   },
   "Treatmans": {
@@ -1032,14 +1069,14 @@
     "item13": {
       "caption": "Can a Single Tooth Implant Be Done?",
       "title": "What are the advantages of a single tooth implant?, Can implant treatment be applied when there is insufficient bone?, Why do implant prices vary?",
-      "url": "implant/single-tooth-implant",
+      "url": "implant/single-tooth",
       "imgLink": "/images/single-implant1.png",
       "imgAlt": "Single tooth dental implant procedure",
       "seo": {
         "title": "Single Tooth Implant - Advantages and Pricing",
         "description": "Can a single tooth implant be done? Learn about its advantages, application possibilities with insufficient bone, and reasons for price variations.",
         "keywords": "single tooth implant, single implant, implant prices, bone insufficiency implant, missing single tooth",
-        "url": "implant/single-tooth-implant"
+        "url": "implant/single-tooth"
       }
     },
     "item14": {
@@ -1058,40 +1095,40 @@
     "item15": {
       "caption": "What is Orthodontics?",
       "title": "Who needs orthodontic treatment?, How long does orthodontic treatment take?, At what age should orthodontic treatment be started?, What should be considered during orthodontic treatment?",
-      "url": "ortodonti",
+      "url": "orthodontics",
       "imgLink": "/images/ortodontik-tedavi1.jpeg",
       "imgAlt": "Orthodontic treatment overview and braces",
       "seo": {
         "title": "What is Orthodontics? - Treatment Process and Starting Age",
         "description": "What is orthodontics? Who needs orthodontic treatment? Learn about treatment duration, starting age, and important considerations during the process.",
         "keywords": "orthodontics, braces, orthodontic treatment, crooked teeth, orthodontics age",
-        "url": "ortodonti"
+        "url": "orthodontics"
       }
     },
     "item16": {
       "caption": "What Are Orthodontic Treatments?",
       "title": "Clear Aligner, Braces, Removable Retainer, Fixed Space Maintainer, Jaw Appliances, Palatal Expander, Headgear",
-      "url": "ortodontik-tedaviler-nelerdir",
+      "url": "what-are-orthodontic-treatments",
       "imgLink": "/images/ortodontik-tedavi2.jpeg",
       "imgAlt": "Different orthodontic treatment appliances",
       "seo": {
         "title": "Orthodontic Treatments - Clear Aligners, Braces, and More",
         "description": "What are orthodontic treatments? Discover usage areas of clear aligners, braces, removable retainers, palatal expanders, and headgear appliances.",
         "keywords": "clear aligner, braces, retainer, palatal expander, headgear, orthodontic appliances",
-        "url": "ortodontik-tedaviler-nelerdir"
+        "url": "what-are-orthodontic-treatments"
       }
     },
     "item17": {
       "caption": "How Is Spaced Teeth Treatment Done?",
       "title": "Why do teeth stay spaced?, Composite Lamina for Spaced Teeth Treatment, Braces for Spaced Teeth Treatment, Porcelain Lamina for Spaced Teeth Treatment",
-      "url": "spaced-teeth-treatment",
+      "url": "spaced-teeth",
       "imgLink": "/images/spaced-teeth-1.jpeg",
       "imgAlt": "Treatment options for spaced teeth and diastema",
       "seo": {
         "title": "Spaced Teeth Treatment - Laminate and Braces Options",
         "description": "How is spaced teeth treatment done? Learn why teeth have gaps, and explore composite laminate, braces, and porcelain laminate treatment options.",
         "keywords": "spaced teeth, diastema, spaced teeth treatment, laminate for gaps, closing gaps with braces",
-        "url": "spaced-teeth-treatment"
+        "url": "spaced-teeth"
       }
     },
     "item18": {
@@ -1110,27 +1147,27 @@
     "item19": {
       "caption": "How to Prevent Tooth Yellowing?",
       "title": "Why do teeth turn yellow?, What are the causes of tooth yellowing?, How to prevent tooth yellowing?, Is the effect of teeth whitening permanent? How long does the whitening effect last?, What are the teeth whitening methods applied by dentists?",
-      "url": "dis-sararması",
+      "url": "how-to-prevent-yellowing-of-teeth",
       "imgLink": "/images/dis-sararmasi-2.jpeg",
       "imgAlt": "Preventing and treating tooth yellowing",
       "seo": {
         "title": "How to Prevent Tooth Yellowing? - Causes and Whitening",
         "description": "How to prevent tooth yellowing? Learn why teeth turn yellow, prevention methods, permanence of whitening, and professional teeth whitening techniques.",
         "keywords": "tooth yellowing, teeth whitening, tooth color, prevent yellowing, professional whitening, tooth stain",
-        "url": "dis-sararması"
+        "url": "how-to-prevent-yellowing-of-teeth"
       }
     },
     "item20": {
       "caption": "What is a Dental Prosthesis (Denture)?",
       "title": "Which type of dental prosthesis is right for you?, Complete Dentures, Partial Dentures, How are prostheses made?, What are prostheses made of?",
-      "url": "dis-sararması",
+      "url": "denture",
       "imgLink": "/images/dis-sararmasi-2.jpeg",
       "imgAlt": "Denture types and materials used",
       "seo": {
         "title": "What is a Dental Prosthesis? - Complete and Partial Dentures",
         "description": "What is a dental prosthesis? Learn which type is right for you, complete vs partial dentures, manufacturing process, materials used, and care tips.",
         "keywords": "dental prosthesis, complete denture, partial denture, removable denture, denture making, denture materials",
-        "url": "dis-sararması"
+        "url": "denture"
       }
     }
   },

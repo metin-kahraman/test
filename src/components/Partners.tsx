@@ -1,5 +1,7 @@
 import React from 'react';
 import { Card, CardContent, CardMedia, Typography, Grid2 , Container, Box } from '@mui/material';
+import { useTranslations } from "next-intl";
+
 
 interface Partner {
   id: number;
@@ -12,14 +14,16 @@ interface PartnersProps {
 }
 
 const Partners: React.FC<PartnersProps> = ({ partners }) => {
+  const t = useTranslations('HomePage');
+
   return (
     <Container sx={{ py: 8 }}>
       <Box sx={{ textAlign: 'center', mb: 6 }}>
         <Typography variant="caption" component="div" sx={{ color: 'primary.main', letterSpacing: '0.1em' }}>
-          KALİTELİ DİŞ SAĞLIĞI
+          {t('title5')}
         </Typography>
         <Typography variant="h4" component="h2" sx={{ color: '#1a1a1a', mt: 1 }}>
-          İş Ortaklarımız
+          {t('ourPartners')}
         </Typography>
         <Box sx={{ width: '40px', height: '2px', bgcolor: 'primary.main', mx: 'auto', mt: 2 }} />
       </Box>
