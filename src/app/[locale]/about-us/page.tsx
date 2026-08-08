@@ -112,12 +112,6 @@ const AboutUs: FC = () => {
         </Typography>
 
 
-        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
-                <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
-        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
-        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
-        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
-
     </Grid>
   );
 };

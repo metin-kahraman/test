@@ -1,15 +1,7 @@
 "use client";
 import {
   Typography,
-  Card,
-  CardContent,
-  CardMedia,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
   Box,
-  Paper,
   Dialog,
   DialogTitle,
   DialogContent,
@@ -31,7 +23,7 @@ const handlee = Merienda({
   display: "swap",
 });
 
-// Örnek veri – kendi verilerinizle değiştirin
+// Örnek veri (kendi verilerinizle değiştirin)
 const doctors = [
   {
     id: 1,
@@ -79,6 +71,7 @@ const doctors = [
   },
 ];
 
+
 const AboutUs: FC = () => {
   const t = useTranslations("aboutUs");
   const [selectedDoctor, setSelectedDoctor] = useState<typeof doctors[0] | null>(null);
@@ -96,14 +89,41 @@ const AboutUs: FC = () => {
 
   return (
     <Grid>
-      <Grid container spacing={2} sx={{ padding: "7%" }}>
+      {/* Grid container – justify content center ile yatayda ortala */}
+      <Grid
+        container
+        spacing={2}
+        sx={{
+          padding: "7%",
+          justifyContent: "center", // Yatayda ortalamak için
+        }}
+      >
         {doctors.map((doctor) => (
-          <Grid size={{ xs: 12, sm: 6, md: 4 }} sx={{ mt: 5, p: 5 }} key={doctor.id}>
-            <Box onClick={() => handleCardClick(doctor)} sx={{ cursor: "pointer" }}>
+          <Grid
+            size={{ xs: 12, sm: 6, md: 4 }}
+            key={doctor.id}
+            sx={{
+              display: "flex",
+              justifyContent: "center", // İçindeki kartı ortala
+            }}
+          >
+            <Box
+              onClick={() => handleCardClick(doctor)}
+              sx={{
+                cursor: "pointer",
+                width: "100%", // Kartın Grid hücresini kaplamasını sağla
+                display: "flex",
+                justifyContent: "center",
+              }}
+            >
               <ProfileCard
                 imageUrl={doctor.imageUrl}
                 name={doctor.name}
-                description={doctor.description}
+                university={doctor.university}
+                graduationYear={doctor.graduationYear}
+                specialty={doctor.specialty}
+                experienceYears={doctor.experienceYears}
+                rating={4.5}
               />
             </Box>
           </Grid>
@@ -112,7 +132,7 @@ const AboutUs: FC = () => {
 
       <WhyChooseUs />
 
-      {/* Modal */}
+      {/* Modal (aynı) */}
       <Dialog open={modalOpen} onClose={handleCloseModal} maxWidth="sm" fullWidth>
         {selectedDoctor && (
           <>
@@ -121,7 +141,7 @@ const AboutUs: FC = () => {
             </DialogTitle>
             <DialogContent dividers>
               <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
-                <Box sx={{ display: "flex", alignSelf:"center",alignItems: "center", gap: 2 }}>
+                <Box sx={{ display: "flex", alignSelf: "center", alignItems: "center", gap: 2 }}>
                   <Avatar
                     src={selectedDoctor.imageUrl}
                     alt={selectedDoctor.name}
