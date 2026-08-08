@@ -106,11 +106,11 @@ const nextConfig = {
       { source: '/pl/leczenie-zębów/invisalign-ortodoncja', destination: '/pl/dental-treatments/invisalign-orthodontics' },
 
       // ---- /dental-treatments/orthodontics ----
-      { source: '/tr/dis-tedavileri/ortodonti-braket', destination: '/tr/dental-treatments/orthodontics' },
+      { source: '/tr/dis-tedavileri/dis-teli-tedavisi', destination: '/tr/dental-treatments/orthodontics' },
       { source: '/tr/stomatologicheskie-uslugi/ortodontiya-brekey', destination: '/tr/dental-treatments/orthodontics' },
-      { source: '/ru/dis-tedavileri/ortodonti-braket', destination: '/ru/dental-treatments/orthodontics' },
+      { source: '/ru/dis-tedavileri/dis-teli-tedavisi', destination: '/ru/dental-treatments/orthodontics' },
       { source: '/ru/stomatologicheskie-uslugi/ortodontiya-brekey', destination: '/ru/dental-treatments/orthodontics' },
-      { source: '/en/dis-tedavileri/ortodonti-braket', destination: '/en/dental-treatments/orthodontics' },
+      { source: '/en/dis-tedavileri/dis-teli-tedavisi', destination: '/en/dental-treatments/orthodontics' },
       { source: '/en/stomatologicheskie-uslugi/ortodontiya-brekey', destination: '/en/dental-treatments/orthodontics' },
       { source: '/lt/dantų-gydymas/ortodontija-breketai', destination: '/lt/dental-treatments/orthodontics' },
       { source: '/pl/leczenie-zębów/ortodoncja-aparaty', destination: '/pl/dental-treatments/orthodontics' },

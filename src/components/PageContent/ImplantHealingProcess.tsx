@@ -22,13 +22,13 @@ import {
         {t(`subTitle`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`value`)}
+          {t(`value`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`value2`)}
+          {t(`value2`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`value3`)}
+          {t(`value3`)}
         </Typography>
         <img
         style={{

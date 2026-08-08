@@ -60,23 +60,23 @@ export default function Footer() {
                 <Typography
                   variant="h6"
                   gutterBottom
-                  color="#d3a572"
-                  sx={{ fontWeight: 600, mt: 2 }}
+                  color="#c9743c"
+                  sx={{ fontWeight: 600, fontSize: 24, mt: 2 }}
                 >
                   Orange Dent Clinic
                 </Typography>
 
                 <Stack direction="column" spacing={2}>
-                  <Typography variant="body2" sx={{ fontWeight: 'medium' }}>
+                  <Typography variant="body2" sx={{ fontWeight: 800, fontSize: 20 }}>
                     {t('address')}
                   </Typography>
-                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  <Typography variant="body2" sx={{ fontWeight: 400, fontSize: 20 }}>
                     Merkez, Lise Cd. 18 C / D, 07980 Kemer/Antalya
                   </Typography>
-                   <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                   <Typography variant="body2" sx={{ fontWeight: 800, fontSize: 20 }}>
                     {t('phone')}
                   </Typography>
-                  <Typography variant="body2" sx={{ color: 'text.secondary' }}>
+                  <Typography variant="body2" sx={{ fontWeight: 400, fontSize: 20 }}>
                     05324401740
                   </Typography>
                   

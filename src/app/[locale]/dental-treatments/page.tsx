@@ -85,7 +85,7 @@ const cardData = [
   { img: '/images/treatmentsPage/teltedavisi.jpeg', title: 'T4' },
   { img: '/images/treatmentsPage/kanaltedavisi.jpeg', title: 'T5' },
   { img: '/images/treatmentsPage/disetitedavileri.jpeg', title: 'T6' },
-  { img: '/images/treatmentsPage/cocukdishek.jpeg', title: 'T7' },
+  { img: '/images/treatmentsPage/pedodonti.jpeg', title: 'T7' },
   { img: '/images/treatmentsPage/implant.jpg', title: 'T8' },
   { img: '/images/treatmentsPage/agizdisvecene.jpeg', title: 'T9' },
   { img: '/images/treatmentsPage/frenektomi.jpg', title: 'T10' },

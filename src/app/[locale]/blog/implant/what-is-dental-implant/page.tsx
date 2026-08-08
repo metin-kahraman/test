@@ -63,8 +63,8 @@ const WhatIsDentalImplant = () => {
           marginLeft:'auto',
           marginRight:'auto',
         }}
-        srcSet={`/images/blog/temporary-options.png`}
-        src={`/images/blog/stemporary-options.png`}
+        srcSet={`/images/blog/temporary-options.jpeg`}
+        src={`/images/blog/temporary-options.jpeg`}
         loading="lazy"
       />
         <TypeOfDentalImplant />

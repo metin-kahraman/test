@@ -16,7 +16,7 @@ import { FC } from "react";
 import Grid from "@mui/material/Grid2"; // Doğru import
 import { useTranslations } from "next-intl";
 import { Merienda } from 'next/font/google';
- 
+ import ProfileCard from "@/components/ProfilCard";
 import { usePathname, useRouter, useParams } from "next/navigation";
 
 import { MenuItemTranslations } from "@/types/menu";
@@ -110,7 +110,14 @@ const AboutUs: FC = () => {
                      <Typography variant="body1" sx={{ fontSize: 20, textAlign: "justify", mt: 2 }}>
 &nbsp;&nbsp;&nbsp;Bizim için her hasta, ailemizin yeni bir üyesidir. Kliniğimizde geçirdiğiniz her dakikanın, sağlığınıza yapılan değerli bir yatırım olduğuna inanıyoruz. Amacımız sadece diş problemlerinizi çözmek değil, aynı zamanda kliniğimizden güvenle ve mutlu gülümseyerek ayrılmanızı sağlamaktır.
         </Typography>
-        
+
+
+        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
+                <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
+        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
+        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
+        <ProfileCard imageUrl="http://localhost:3000/images/treatmentsPage/estetik.jpeg" name="Dr. Ayşe Yılmaz" description="Estetik diş hekimi" />
+
     </Grid>
   );
 };

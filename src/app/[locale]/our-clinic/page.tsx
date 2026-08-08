@@ -111,12 +111,17 @@ const DigitalDentistry: FC = () => {
           </Grid>
 
           <Grid size={{ xs: 12, md: 6 }} sx={{mt:5 , p:5}}>
-          <img
+                        <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+                        <img
         style={{
           borderRadius: 8,
           width: "100%",
           display: "block",
-          marginLeft: "10%",
+          //marginLeft: "10%",
           //marginRight: "10%",
           paddingTop: '5%'
         }}
@@ -124,10 +129,18 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-3.jpeg`}
         loading="lazy"
       />
+                          </Box>
+
+
           </Grid>
 
           <Grid size={{ xs: 12, md: 6 }} sx={{mt:5 , p:5}}>
-          <img
+                        <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+                     <img
         style={{
           borderRadius: 8,
           width: "100%",
@@ -141,16 +154,26 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-8.jpeg`}
         loading="lazy"
       />
+                          </Box>
+
+   
 
           </Grid>
 
          <Grid size={{ xs: 12, md: 6 }} sx={{ p:5 ,pt:0}}>
+                      <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+
+
           <img
         style={{
           borderRadius: 8,
           width: "100%",
           display: "block",
-          marginLeft: "10%",
+          //marginLeft: "10%",
           //marginRight: "10%",
           //paddingTop: '5%'
         }}
@@ -158,9 +181,18 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-7.jpeg`}
         loading="lazy"
       />
+
+                          </Box>
+
           </Grid>
 
           <Grid size={{ xs: 12, md: 6 }} sx={{ p:5, pt:0}}>
+                        <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+
           <img
         style={{
           borderRadius: 8,
@@ -174,16 +206,24 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-4.jpeg`}
         loading="lazy"
       />
+                          </Box>
+
 
           </Grid>
 
                   <Grid size={{ xs: 12, md: 6 }} sx={{ p:5 ,pt:0}}>
+                                <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+
           <img
         style={{
           borderRadius: 8,
           width: "100%",
           display: "block",
-          marginLeft: "10%",
+          //marginLeft: "10%",
           //marginRight: "10%",
           //paddingTop: '5%'
         }}
@@ -191,10 +231,19 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-5.jpeg`}
         loading="lazy"
       />
+
+                          </Box>
+
+
           </Grid>
 
           <Grid size={{ xs: 12, md: 6 }} sx={{ p:5, pt:0}}>
-          <img
+            <Box
+            sx={{
+              display: "flex",
+              justifyContent: "center",
+            }}>
+                       <img
         style={{
           borderRadius: 8,
           width: "100%",
@@ -207,6 +256,8 @@ const DigitalDentistry: FC = () => {
         src={`/images/our-clinic-6.jpeg`}
         loading="lazy"
       />
+            </Box>
+ 
 
           </Grid>
  

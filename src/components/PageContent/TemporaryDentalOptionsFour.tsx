@@ -65,7 +65,19 @@ const TemporaryDentalOptionsFour = () => {
             </Grid>
             <Grid size={{ xs: 12, md: 12 }}>
                 <Box p={2}>
-                    <Typography align="center" gutterBottom color="#388E3C" variant="h5">
+                                                 <img
+        style={{
+          borderRadius: 8,
+          width: '80%',
+          display:'block',
+          marginLeft:'auto',
+          marginRight:'auto',
+        }}
+        srcSet={`/images/blog/plastic-teeth.jpeg`}
+        src={`/images/blog/plastic-teeth.jpeg`}
+        loading="lazy"
+      />
+                    <Typography align="center" gutterBottom color="#388E3C" pt={4} variant="h5">
                         {t(`Finally.title`)}
                     </Typography>
                     <Typography sx={{ pl: 3 }} gutterBottom >

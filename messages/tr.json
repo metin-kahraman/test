@@ -60,7 +60,7 @@
       "T5Link":"dis-tedavileri/kanal-tedavisi",
       "T6": "Diş Eti Tedavileri (Periodontoloji)",
       "T6Link":"dis-tedavileri/dis-eti-tedavisi",
-      "T7": "Çocuk Diş Hekimliği (Pedodontoloji)",
+      "T7": "Çocuk Diş Hekimliği (Pedodonti)",
       "T7Link":"dis-tedavileri/cocuk-dis-hekimligi",
       "T8": "İmplant Tedavisi",
       "T8Link":"dis-tedavileri/implant",
@@ -106,6 +106,14 @@
     "title":"Hakkımızda",
     "slogan":"GÜLÜŞÜNÜZ, EN DEĞERLİ İMZANIZDIR…",
     "content":"Orange Dent Klinik olarak, modern diş hekimliği uygulamalarını samimi ve huzurlu bir atmosferde sizlerle buluşturmak için yola çıktık. 2018 yılından bu yana Antalya’nın Kemer bölgesinde, sağlığınızı ve estetik beklentilerinizi en üst düzeyde tutmayı amaç edindik.Uzman hekim kadromuz; implantolojiden estetik gülüş tasarımına, ortodontiden çocuk diş hekimliğine kadar geniş bir yelpazede kişiye özel tedavi protokolleri sunmaktadır. Deneyimli diş hekimleri ve uzmanlardan oluşan multidisipliner ekibimiz, karmaşık vakalarda dahi en doğru teşhis ve tedavi planını oluşturur. Kliniğimizde, tedavi korkunuzu kapıda bırakmanızı sağlayacak konforlu bir ortam ve en son teknolojiye sahip ekipmanlar  (örneğin; 3D tomografi, dijital tarayıcılar, blok kazıyıcılar, ortodontik şeffaf plak) kullanılmaktadır. Teknolojik gelişmeleri yakından takip ediyor ve dijital diş hekimliği çözümlerini kliniğimizin merkezine koyuyoruz.Bizim için her hasta, ailemizin yeni bir üyesidir. Kliniğimizde geçirdiğiniz her dakikanın, sağlığınıza yapılan değerli bir yatırım olduğuna inanıyoruz. Amacımız sadece diş problemlerinizi çözmek değil, aynı zamanda kliniğimizden güvenle ve mutlu gülümseyerek ayrılmanızı sağlamaktır."
+  },
+  "3dDentistry":{
+    "title":"Dijital Diş Hekimliği",
+    "title2":"Daha Hızlı, Daha Konforlu, Daha Hassas",
+    "content":"Dijital diş hekimliği, geleneksel yöntemlerin ötesine geçerek, diş tedavilerini daha hızlı, hassas ve kişiye özel hale getiren bir yaklaşımdır. 3D tarayıcılar, dijital planlama yazılımları ve 3D yazıcılar gibi ileri teknolojiler kullanılarak, hastaların ağız yapısı detaylı bir şekilde analiz edilir ve tedavi süreci optimize edilir. Bu sayede, hem estetik hem de fonksiyonel açıdan mükemmel sonuçlar elde edilir.",
+    "content2":"Gelişmiş teknolojiler sayesinde ağız ve diş tedavilerini daha konforlu, hassas ve verimli hale getiren modern bir yaklaşımdır. Ağız içi dijital tarayıcılar sayesinde birçok durumda geleneksel ölçü alma yöntemlerine olan ihtiyaç azalırken, hastalar daha rahat bir tedavi deneyimi yaşayabilir.",
+    "content3":"Elde edilen üç boyutlu dijital kayıtlar sayesinde kron, köprü, implant planlaması ve estetik gülüş tasarımı gibi işlemler daha ayrıntılı planlanabilir. Bu da hem tedavi sürecinin daha öngörülebilir olmasına hem de hasta ile hekimin tedavi planını daha net değerlendirebilmesine katkı sağlar.",
+    "content4":"Teknolojinin sunduğu bu imkanlar, doğru tanı ve kişiye özel tedavi planlamasını destekleyerek hem hekim hem de hasta için önemli avantajlar sunmaktadır."
   },
   "SingleToothImplant": {
     "title": "Tek Diş İmplant Yapılır Mı?",
@@ -500,7 +508,7 @@
         "value":"Orange Dent, diş hekimliğinde kapsamlı hizmetler sunan bir klinik olarak, hastalarının ağız ve diş sağlığını korumak ve iyileştirmek için çeşitli tedavi yöntemleri sunmaktadır. Diş kayıplarının tedavisinde en etkili yöntemlerden biri olan implant tedavileri, klinikte büyük bir uzmanlıkla uygulanmaktadır. İmplant tedavisi, dişlerin kaybedilmesinin ardından doğal dişlerin yerine konan yapay diş kökleri ile yapılan bir tedavi yöntemidir. Orange Dent, bu alandaki deneyimi ve modern teknolojisi ile, hastalarına uzun ömürlü ve estetik açıdan tatmin edici çözümler sunmaktadır. "
       },
       "item2":{
-        "title":"Orange Dent'te İmplant Tedavisi ",
+        "title":"İmplant Tedavisi ",
         "value":"Diş kaybı, sadece estetik bir sorun değil, aynı zamanda fonksiyonel problemler de yaratabilir. İmplant tedavisi, kaybolan dişlerin yerine yerleştirilen titanyum vidalarla, çene kemiğine uyum sağlayan yapay diş kökleri oluşturur. Bu yöntem, doğal dişin işlevini yerine getirir ve estetik açıdan da tatmin edici sonuçlar sağlar. Orange Dent, implant tedavileri konusunda son derece deneyimli bir ekip ve son teknoloji cihazlarla çalışarak, hastalarına güvenli, hızlı ve başarılı tedavi süreçleri sunar. "
       },
       "item3":{
@@ -894,7 +902,7 @@
         }
     },
     "item7": {
-        "caption": "Dental Körüler",
+        "caption": "Dental Köprüler",
         "title": "Dental Köprü Çeşitleri,Dental Köprü Prosedürü Nasıldır?,Dental Köprü Maliyeti ve Sık Karşılaşılan Sorunlar",
         "url": "/dental-bridge",
         "imgLink": "/images/blog/dental-bridge.png",
@@ -910,7 +918,7 @@
         "caption": "Dental İmplant Nedir ?",
         "title": "Dental İmplantlar Nasıl Çalışır ? Diş İmplantlarını Kimler Yaptırabilir? Dental İmplant Çeşitleri? Dental İmplantların Artıları ve Eksileri",
         "url": "implant/what-is-dental-implant",
-        "imgLink": "/images/blog/temporary-options.png",
+        "imgLink": "/images/blog/temporary-options.jpeg",
         "imgAlt": "",
         "seo": {
             "title": "Dental İmplant Nedir? | Nasıl Çalışır ve Kimler Yaptırabilir?",
@@ -1066,7 +1074,7 @@
         "caption": "Diş Protezi Nedir?",
         "title": "Sizin İçin Doğru Olan Hangi Tür Diş Protezi?, Tam Protezler, Kısmı Protezler,Protezler nasıl yapılır?,Protezler nelerden yapılır?",
         "url": "dis-protezi",
-        "imgLink": "/images/dis-sararmasi-2.jpeg",
+        "imgLink": "/images/dental-prosthesis.jpeg",
         "imgAlt": "",
         "seo": {
             "title": "Diş Protezi Nedir? | Tam ve Kısmi Protez Çeşitleri",
