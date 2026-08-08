@@ -22,6 +22,7 @@ const handlee = Merienda({
   subsets: ["latin"],
   display: "swap",
 });
+const imageUrl = `${window.location.origin}/images/treatmentsPage/estetik.jpeg`;
 
 // Örnek veri (kendi verilerinizle değiştirin)
 const doctors = [
@@ -32,7 +33,7 @@ const doctors = [
     university: "İstanbul Üniversitesi",
     graduationYear: 2010,
     experienceYears: 14,
-    imageUrl: "http://localhost:3000/images/treatmentsPage/estetik.jpeg",
+    imageUrl: imageUrl,
     description: "Estetik diş hekimi",
     bio: "Dr. Ayşe Yılmaz, 2010 yılında İstanbul Üniversitesi Diş Hekimliği Fakültesi'nden mezun oldu. 14 yıldır estetik diş hekimliği alanında çalışmaktadır. Gülüş tasarımı, porselen lamina ve diş beyazlatma konularında uzmandır.",
   },
@@ -43,7 +44,7 @@ const doctors = [
     university: "Hacettepe Üniversitesi",
     graduationYear: 2012,
     experienceYears: 12,
-    imageUrl: "http://localhost:3000/images/treatmentsPage/estetik.jpeg",
+    imageUrl: imageUrl,
     description: "Ortodonti uzmanı",
     bio: "Dr. Mehmet Demir, Hacettepe Üniversitesi'nden 2012'de mezun oldu. Ortodonti alanında 12 yıllık deneyime sahip. Tel tedavisi ve şeffaf plak (Invisalign) uygulamaları yapmaktadır.",
   },
@@ -54,7 +55,7 @@ const doctors = [
     university: "Ege Üniversitesi",
     graduationYear: 2015,
     experienceYears: 9,
-    imageUrl: "http://localhost:3000/images/treatmentsPage/estetik.jpeg",
+    imageUrl: imageUrl,
     description: "Pedodonti uzmanı",
     bio: "Dr. Elif Kaya, 2015 yılında Ege Üniversitesi'nden mezun oldu. Çocuk diş hekimliği alanında 9 yıldır çalışmaktadır. Çocuklarda diş çürüğü tedavisi, koruyucu uygulamalar ve davranış yönlendirme konularında deneyimlidir.",
   },
@@ -65,7 +66,7 @@ const doctors = [
     university: "Ankara Üniversitesi",
     graduationYear: 2008,
     experienceYears: 16,
-    imageUrl: "http://localhost:3000/images/treatmentsPage/estetik.jpeg",
+    imageUrl: imageUrl,
     description: "Periodontoloji uzmanı",
     bio: "Dr. Ali Can, 2008 yılında Ankara Üniversitesi'nden mezun oldu. 16 yıldır diş eti hastalıkları ve implantoloji alanında çalışmaktadır. Lazer destekli tedaviler ve greft uygulamaları konusunda uzmandır.",
   },
