@@ -71,7 +71,7 @@
       "T11": "All - On - 4 Tedaviler",
       "T11Link":"dis-tedavileri/all-on-4",
       "T12": "Dolgu Tedavisi",
-      "T12Link":"dis-tedavileri/dolgu-tedavisi",
+      "T12Link":"dis-tedavileri/dis-dolgusu",
       "T13": "Sabit Protetik Uygulamalar",
       "T13Link":"dis-tedavileri/sabit-protez"
     },
@@ -90,7 +90,8 @@
       "item4": "Hakkımızda",
       "item5": "Öncesi ve Sonrası",
       "item6": "İletişim",
-      "item7":"Blog"
+      "item7":"Blog",
+      "item8":"Hekimlerimiz"
     },
     "urls": {
       "item1": "dis-tedavileri",
@@ -99,12 +100,15 @@
       "item4":"hakkimizda",
       "item5":"oncesi-sonrasi",
       "item6":"iletisim",
-      "item7":"blog"
+      "item7":"blog",
+      "item8":"hekimlerimiz"
     }
   },
   "aboutUs":{
     "title":"Hakkımızda",
-    "slogan":"GÜLÜŞÜNÜZ, EN DEĞERLİ İMZANIZDIR…",
+    "slogan1": "Gülüşünüz,",
+    "slogan2": "En Değerli",
+    "slogan3": "İmzamızdır…",
     "content":"Orange Dent Klinik olarak, modern diş hekimliği uygulamalarını samimi ve huzurlu bir atmosferde sizlerle buluşturmak için yola çıktık. 2018 yılından bu yana Antalya’nın Kemer bölgesinde, sağlığınızı ve estetik beklentilerinizi en üst düzeyde tutmayı amaç edindik.Uzman hekim kadromuz; implantolojiden estetik gülüş tasarımına, ortodontiden çocuk diş hekimliğine kadar geniş bir yelpazede kişiye özel tedavi protokolleri sunmaktadır. Deneyimli diş hekimleri ve uzmanlardan oluşan multidisipliner ekibimiz, karmaşık vakalarda dahi en doğru teşhis ve tedavi planını oluşturur. Kliniğimizde, tedavi korkunuzu kapıda bırakmanızı sağlayacak konforlu bir ortam ve en son teknolojiye sahip ekipmanlar  (örneğin; 3D tomografi, dijital tarayıcılar, blok kazıyıcılar, ortodontik şeffaf plak) kullanılmaktadır. Teknolojik gelişmeleri yakından takip ediyor ve dijital diş hekimliği çözümlerini kliniğimizin merkezine koyuyoruz.Bizim için her hasta, ailemizin yeni bir üyesidir. Kliniğimizde geçirdiğiniz her dakikanın, sağlığınıza yapılan değerli bir yatırım olduğuna inanıyoruz. Amacımız sadece diş problemlerinizi çözmek değil, aynı zamanda kliniğimizden güvenle ve mutlu gülümseyerek ayrılmanızı sağlamaktır."
   },
   "3dDentistry":{

@@ -14,6 +14,7 @@ import Drawer from "@mui/material/Drawer";
 import MenuIcon from "@mui/icons-material/Menu";
 import CloseRoundedIcon from "@mui/icons-material/CloseRounded";
 import Sitemark from "./SitemarkIcon";
+import Link from "next/link";
 import { usePathname, useRouter, useParams } from "next/navigation";
 import {
   Select,
@@ -33,13 +34,6 @@ const StyledToolbar = styled(Toolbar)(({ theme }) => ({
   alignItems: "center",
   justifyContent: "space-between",
   flexShrink: 0,
-  //borderRadius: `calc(${theme.shape.borderRadius}px + 8px)`,
-  //backdropFilter: "blur(24px)",
-  //border: "1px solid",
-  //borderColor: theme.palette.divider,
-  //backgroundColor: alpha(theme.palette.background.paper, 0.4),
-  //boxShadow: theme.shadows[1],
-  //padding: "8px 12px",
 }));
 
 const languages = [
@@ -48,7 +42,6 @@ const languages = [
   { code: "ru", flagUrl: "https://flagcdn.com/w320/ru.png" },
   { code: "pl", flagUrl: "https://flagcdn.com/w320/pl.png" },
   { code: "lt", flagUrl: "https://flagcdn.com/w320/lt.png" },
-
 ];
 
 const CustomSelect = styled(Select)(({ theme }) => ({
@@ -68,13 +61,14 @@ const CustomSelect = styled(Select)(({ theme }) => ({
     boxSizing: "border-box",
   },
 }));
+
 const menuItems = [
   { title: "item1" },
   { title: "item2" },
   { title: "item3" },
   { title: "item4" },
   { title: "item5" },
-  { title: "item6" },
+  { title: "item8" },
   { title: "item7" },
 ];
 
@@ -91,30 +85,29 @@ export default function AppAppBar() {
   const url = useTranslations("Menu.urls") as (
     key: keyof MenuItemTranslations["url"]
   ) => string;
+
   const handleScrollToBottom = () => {
-    console.log("cliked");
     window.scroll({
       top: document.body.offsetHeight,
       left: 0,
       behavior: "smooth",
     });
   };
+
   const [selectedLanguage, setSelectedLanguage] = React.useState<string>("en");
   const flagitemMobil = languages.find((language) => language.code === locale);
-  const [color, setColor] = React.useState('green'); React.useEffect(() => { const interval = setInterval(() => { setColor((prevColor) => (prevColor === 'green' ? '#f37418' : 'green')); }, 5000); return () => clearInterval(interval); }, []);
+
   const handleLanguageChange = (event: SelectChangeEvent<unknown> | string) => {
     const newLocale =
       typeof event === "string" ? event : (event.target.value as string);
 
-    // Mevcut locale'yi çıkart ve kalan path'i al
     const pathParts = pathname.split("/");
-    const currentPath = pathParts.slice(2).join("/"); // locale ve '/' kısmını çıkar
+    const currentPath = pathParts.slice(2).join("/");
 
-    // URL'yi yeni locale'e göre dönüştür
     const newPath =
       urlMappings[newLocale as keyof typeof urlMappings]?.[currentPath] ||
       currentPath;
-    // Yönlendirme
+
     router.push(`/${newLocale}/${newPath}`);
     setSelectedLanguage(newLocale);
   };
@@ -126,16 +119,20 @@ export default function AppAppBar() {
     setOpen(newOpen);
   };
 
+  // Bayrak görseli için aktif dil kodunu bul
+  const activeLocale = (locale as string) || selectedLanguage;
+  const activeFlag =
+    languages.find((lang) => lang.code === activeLocale)?.flagUrl ||
+    languages[0].flagUrl;
 
   return (
     <AppBar
       position="fixed"
+      elevation={0}
       sx={{
         boxShadow: 0,
         bgcolor: "#fcfbf9",
         backgroundImage: "none",
-        //mt: 2,
-        //mb: 2,
         pr: "2.2%",
         pl: "2.2%",
       }}
@@ -147,16 +144,15 @@ export default function AppAppBar() {
           >
             <Sitemark />
             <Box sx={{ display: { xs: "none", md: "flex" } }}>
-              {menuItems.map((item) => (
+              {menuItems.map((item, index) => (
                 <Button
-                  onClick={() => router.push(`/${locale}/${url(item.title)}`)}
+                  key={1 + index}
+                  component={Link}
+                  href={`/${locale}/${url(item.title)}`}
                   variant="text"
                   sx={{
-                    //color: item.title == "item4" ?  color : "#388E3C",
                     color: "#d3a572",
-                    //transition:item ?  'color 1.7s ease-in-out' : "none",
                     fontWeight: "bold",
-                    //fontFamily: "oswald",
                     letterSpacing: "0.7px",
                     fontSize: "14px",
                   }}
@@ -170,15 +166,15 @@ export default function AppAppBar() {
                 sx={{
                   color: "#d3a572",
                   fontWeight: "bold",
-                  //fontFamily: "oswald",
                   letterSpacing: "0.7px",
                   fontSize: "14px",
                 }}
               >
-                {t("item5")}
+                {t("item6")}
               </Button>
             </Box>
           </Box>
+
           <Box
             sx={{
               display: { xs: "none", md: "flex" },
@@ -187,10 +183,11 @@ export default function AppAppBar() {
             }}
           >
             <IconButton
-              aria-label="Instgram"
+              aria-label="Instagram"
               size="small"
-              href="https://www.instagram.com/orangedentclinic" 
+              href="https://www.instagram.com/orangedentclinic"
               target="_blank"
+              rel="noopener noreferrer"
               sx={{ color: "#E4405F" }}
             >
               <InstagramIcon />
@@ -203,16 +200,22 @@ export default function AppAppBar() {
             >
               <PhoneIcon />
             </IconButton>
-            <IconButton aria-label="WhatsApp" size="small" color="success" href="https://wa.me/905324401740">
+            <IconButton
+              aria-label="WhatsApp"
+              size="small"
+              color="success"
+              href="https://wa.me/905324401740"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <WhatsAppIcon />
-              
             </IconButton>
 
             <CustomSelect
               value={locale}
               onChange={handleLanguageChange}
               sx={{ borderRadius: "50%" }}
-              renderValue={(selected) => (
+              renderValue={() => (
                 <Box
                   sx={{
                     display: "flex",
@@ -221,11 +224,8 @@ export default function AppAppBar() {
                   }}
                 >
                   <img
-                    src={
-                      languages.find((lang) => lang.code === locale)?.flagUrl ||
-                      languages[0].flagUrl
-                    }
-                    alt={selectedLanguage as string} // 'unknown' türünü 'string' olarak belirtiyoruz
+                    src={activeFlag}
+                    alt={`Dil: ${activeLocale}`}
                     style={{
                       width: 26,
                       height: 24,
@@ -243,7 +243,7 @@ export default function AppAppBar() {
                   <Box sx={{ display: "flex", alignItems: "center", gap: 1 }}>
                     <img
                       src={lang.flagUrl}
-                      alt={lang.code}
+                      alt={`Dil: ${lang.code}`}
                       style={{ width: 32, height: 24 }}
                     />
                   </Box>
@@ -251,6 +251,7 @@ export default function AppAppBar() {
               ))}
             </CustomSelect>
           </Box>
+
           <Box sx={{ display: { sm: "flex", md: "none" } }}>
             <Modal
               open={modalOpen}
@@ -285,14 +286,14 @@ export default function AppAppBar() {
                       justifyContent: "center",
                       mt: 2,
                     }}
-                    aria-label={`${lang.code} bayrağı`}
+                    aria-label={`${lang.code} dilini seç`}
                     size="small"
                     color="success"
                     onClick={() => handleLanguageChange(lang.code)}
                   >
                     <img
                       src={lang.flagUrl}
-                      alt={lang.code}
+                      alt={`Dil: ${lang.code}`}
                       style={{ width: 42, height: 42, borderRadius: "50%" }}
                     />
                   </IconButton>
@@ -300,10 +301,22 @@ export default function AppAppBar() {
               </Box>
             </Modal>
 
-            <IconButton aria-label="Telefon" size="small" color="warning">
+            <IconButton
+              aria-label="Telefon"
+              size="small"
+              color="warning"
+              href="tel:+905324401740"
+            >
               <PhoneIcon />
             </IconButton>
-            <IconButton aria-label="WhatsApp" size="small" color="success">
+            <IconButton
+              aria-label="WhatsApp"
+              size="small"
+              color="success"
+              href="https://wa.me/905324401740"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <WhatsAppIcon />
             </IconButton>
             <IconButton
@@ -313,11 +326,8 @@ export default function AppAppBar() {
               onClick={handleModalOpen}
             >
               <img
-                src={
-                  languages.find((lang) => lang.code === locale)?.flagUrl ||
-                  languages[0].flagUrl
-                }
-                alt={selectedLanguage as string}
+                src={activeFlag}
+                alt={`Dil: ${activeLocale}`}
                 style={{ width: 24, height: 24, borderRadius: "50%" }}
               />
             </IconButton>
@@ -344,13 +354,15 @@ export default function AppAppBar() {
                   </IconButton>
                 </Box>
                 <Divider sx={{ my: 2 }} />
-                {menuItems.map((item) => (
+                {menuItems.map((item, index) => (
                   <Button
-                    onClick={() => router.push(`/${locale}/${url(item.title)}`)}
+                    key={2 + index}
+                    component={Link}
+                    href={`/${locale}/${url(item.title)}`}
+                    onClick={toggleDrawer(false)}
                     variant="text"
-                    color="info"
                     size="small"
-                    sx={{fontWeight: "600",color:"#d3a572",/*fontFamily: "oswald"*/}}
+                    sx={{ fontWeight: "600", color: "#d3a572" }}
                     fullWidth
                   >
                     {t(item.title)}

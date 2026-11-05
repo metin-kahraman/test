@@ -31,62 +31,60 @@ import {
         {t(`item1.subTitle`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item1.value`)}
+          {t(`item1.value`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item2.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item2.value`)}
+          {t(`item2.value`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item2.value2`)}
+          {t(`item2.value2`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item3.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item3.value`)}
+          {t(`item3.value`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item4.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item4.value`)}
+          {t(`item4.value`)}
         </Typography>
-        <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item4.value2`)}
-        </Typography>
+
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item5.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item5.value`)}
+          {t(`item5.value`)}
         </Typography>
 
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item6.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item6.value`)}
+          {t(`item6.value`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item7.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item7.value`)}
+          {t(`item7.value`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item8.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item8.value`)}
+          {t(`item8.value`)}
         </Typography>
         <Typography align="center" variant="h6" gutterBottom>
         {t(`item9.title`)}
         </Typography>
         <Typography gutterBottom>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{t(`item9.value`)}
+          {t(`item9.value`)}
         </Typography>
         <FrequentlyAskedQuestions translateKey={"Treatmans.ORTHODONTIC.FREQUENTLYASKEDQUESTIONS"} questionList={questionList}/>
         

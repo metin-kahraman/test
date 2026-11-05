@@ -55,37 +55,37 @@
   "TreatmentsPage": {
     "titles": {
       "T1": "Stomatologia estetyczna",
-      "T1Link": "leczenie-zębów/stomatologia-estetyczna",
+      "T1Link": "leczenie-zebow/stomatologia-estetyczna",
       "T2": "Wybielanie zębów",
-      "T2Link": "leczenie-zębów/wybielanie-zębów",
+      "T2Link": "leczenie-zebow/wybielanie-zebow",
       "T3": "Ortodoncja bezprzewodowa (Invisalign)",
-      "T3Link": "leczenie-zębów/invisalign-ortodoncja",
+      "T3Link": "leczenie-zebow/invisalign-ortodoncja",
       "T4": "Ortodoncja (aparat ortodontyczny)",
-      "T4Link": "leczenie-zębów/ortodoncja-aparaty",
+      "T4Link": "leczenie-zebow/ortodoncja-aparaty",
       "T5": "Leczenie kanałowe (endodoncja)",
-      "T5Link": "leczenie-zębów/endodoncja",
+      "T5Link": "leczenie-zebow/endodoncja",
       "T6": "Leczenie dziąseł (periodontologia)",
-      "T6Link": "leczenie-zębów/periodontologia",
+      "T6Link": "leczenie-zebow/periodontologia",
       "T7": "Stomatologia dziecięca (pedodoncja)",
-      "T7Link": "leczenie-zębów/stomatologia-dziecięca",
+      "T7Link": "leczenie-zebow/stomatologia-dziecieca",
       "T8": "Leczenie implantologiczne",
-      "T8Link": "leczenie-zębów/implanty",
+      "T8Link": "leczenie-zebow/implanty",
       "T9": "Chirurgia jamy ustnej, zębów i szczęki",
-      "T9Link": "leczenie-zębów/chirurgia-jamy-ustnej-szczęki",
+      "T9Link": "leczenie-zebow/chirurgia-jamy-ustnej-szczeki",
       "T10": "Frenektomia (uwolnienie wędzidełka wargi/języka)",
-      "T10Link": "leczenie-zębów/frenektomia",
+      "T10Link": "leczenie-zebow/frenektomia",
       "T11": "Leczenie All-On-4",
-      "T11Link": "leczenie-zębów/all-on-4",
+      "T11Link": "leczenie-zebow/all-on-4",
       "T12": "Leczenie wypełnieniami",
-      "T12Link": "leczenie-zębów/wypełnienia",
+      "T12Link": "leczenie-zebow/wypelnienia",
       "T13": "Stałe uzupełnienia protetyczne",
-      "T13Link": "leczenie-zębów/stale-uzupełnienia-protetyczne"
+      "T13Link": "leczenie-zebow/stale-uzupelnienia-protetyczne"
     },
     "seo": {
       "title": "Leczenie zębów - Orange Dent Clinic",
       "description": "Poznaj wszystkie zabiegi stomatologiczne w Orange Dent: implanty, stomatologia estetyczna, ortodontia, leczenie kanałowe, leczenie dziąseł, stomatologia dziecięca i inne.",
       "keywords": "leczenie zębów, implant, stomatologia estetyczna, ortodontia, leczenie kanałowe, leczenie dziąseł, stomatolog dziecięcy",
-      "url": "leczenie-zębów"
+      "url": "leczenie-zebow"
     }
   },
   "Menu": {
@@ -96,16 +96,18 @@
       "item4": "O nas",
       "item5": "Przed i po",
       "item6": "Kontakt",
-      "item7": "Blog"
+      "item7": "Blog",
+      "item8": "Nasi lekarze"
     },
     "urls": {
-      "item1": "leczenie-zębów",
+      "item1": "leczenie-zebow",
       "item2": "stomatologia-cyfrowa",
       "item3": "nasza-klinika",
       "item4": "o-nas",
       "item5": "przed-po",
       "item6": "kontakt",
-      "item7": "blog"
+      "item7": "blog",
+      "item8": "nasi-lekarze"
     },
     "seo": {
       "title": "Orange Dent Clinic - Menu",
@@ -116,7 +118,9 @@
   },
   "aboutUs": {
     "title": "O nas",
-    "slogan": "TWAJ UŚMIECH TO NAJCENNIEJSZY PODPIS...",
+    "slogan1": "Twój Uśmiech Jest",
+    "slogan2": "Naszym Najcenniejszym",
+    "slogan3": "Podpisem…",
     "content": "Jako Orange Dent Clinic wyruszyliśmy, aby przynieść Ci nowoczesną praktykę stomatologiczną w serdecznej i spokojnej atmosferze. Od 2018 roku w regionie Kemer w Antalyi dążymy do utrzymania Twoich oczekiwań zdrowotnych i estetycznych na najwyższym poziomie. Nasz zespół lekarzy specjalistów oferuje spersonalizowane protokoły leczenia w szerokim zakresie – od implantologii po estetyczny projekt uśmiechu, ortodontię po stomatologię dziecięcą. Nasz multidyscyplinarny zespół doświadczonych dentystów i specjalistów tworzy najdokładniejszy plan diagnozy i leczenia nawet w skomplikowanych przypadkach. W naszej klinice wykorzystuje się komfortowe środowisko i najnowocześniejszy sprzęt (taki jak tomografia 3D, skanery cyfrowe, skaler, przezroczyste nakładki ortodontyczne), aby pomóc Ci zostawić lęki związane z leczeniem za drzwiami. Uważnie śledzimy rozwój technologiczny i stawiamy cyfrowe rozwiązania stomatologiczne w centrum naszej kliniki. Dla nas każdy pacjent jest nowym członkiem naszej rodziny. Wierzymy, że każda minuta spędzona w naszej klinice to cenna inwestycja w Twoje zdrowie. Naszym celem jest nie tylko rozwiązywanie problemów z zębami, ale także zapewnienie, że opuścisz naszą klinikę z pewnością siebie i szczęśliwym uśmiechem."
   },
   "SingleToothImplant": {
@@ -185,7 +189,7 @@
         "title": "Stomatologia estetyczna - Orange Dent Clinic",
         "description": "Stomatologia estetyczna w Orange Dent: wybielanie zębów, licówki, wypełnienia kompozytowe, cyfrowy projekt uśmiechu i implanty. Osiągnij wymarzony uśmiech.",
         "keywords": "stomatologia estetyczna, wybielanie zębów, licówki, cyfrowy projekt uśmiechu, wypełnienie kompozytowe",
-        "url": "leczenie-zębów/stomatologia-estetyczna"
+        "url": "leczenie-zebow/stomatologia-estetyczna"
       }
     },
     "DENTALBLEACHING": {
@@ -255,7 +259,7 @@
         "title": "Wybielanie zębów - Orange Dent Clinic",
         "description": "Profesjonalne wybielanie zębów w Orange Dent: metody gabinetowe i domowe. Uzyskaj jaśniejszy uśmiech bezpiecznie i skutecznie.",
         "keywords": "wybielanie zębów, wybielanie, wybielanie gabinetowe, wybielanie domowe, żółte zęby",
-        "url": "leczenie-zębów/wybielanie-zębów"
+        "url": "leczenie-zebow/wybielanie-zebow"
       }
     },
     "INVISALIGN": {
@@ -312,7 +316,7 @@
         "title": "Leczenie Invisalign - Orange Dent Clinic",
         "description": "Prostuj zęby dyskretnie za pomocą przezroczystych nakładek Invisalign w Orange Dent. Komfortowe, zdejmowane i skuteczne rozwiązanie ortodontyczne.",
         "keywords": "Invisalign, przezroczyste nakładki, niewidoczne aparaty, leczenie ortodontyczne, ortodoncja bezprzewodowa",
-        "url": "leczenie-zębów/invisalign"
+        "url": "leczenie-zebow/invisalign"
       }
     },
     "ORTHODONTIC": {
@@ -364,7 +368,7 @@
         "title": "Ortodoncja (aparat) - Orange Dent Clinic",
         "description": "Tradycyjne aparaty i leczenie ortodontyczne w Orange Dent. Skoryguj krzywe zęby, stłoczenie i zaburzenia szczęk dla pięknego uśmiechu.",
         "keywords": "ortodoncja, aparat ortodontyczny, prostowanie zębów, leczenie ortodontyczne, aparat na zęby",
-        "url": "leczenie-zębów/ortodoncja-aparaty"
+        "url": "leczenie-zebow/ortodoncja-aparaty"
       }
     },
     "ENDODONTI": {
@@ -420,7 +424,7 @@
         "title": "Leczenie kanałowe (endodoncja) - Orange Dent Clinic",
         "description": "Bezbolesne leczenie kanałowe w Orange Dent. Uratuj swój naturalny ząb dzięki nowoczesnej technologii. Szybkie i skuteczne rozwiązanie dla infekcji zęba.",
         "keywords": "leczenie kanałowe, endodoncja, infekcja zęba, kanał, uratowanie zęba",
-        "url": "leczenie-zębów/endodoncja"
+        "url": "leczenie-zebow/endodoncja"
       }
     },
     "PERIODONTOLOJI": {
@@ -489,7 +493,7 @@
         "title": "Leczenie dziąseł (periodontologia) - Orange Dent Clinic",
         "description": "Lecz recesję dziąseł, krwawienie i stany zapalne w Orange Dent. Profesjonalny skaling, wygładzanie korzeni i chirurgia dziąseł dla zdrowych dziąseł.",
         "keywords": "leczenie dziąseł, periodontologia, recesja dziąseł, krwawienie dziąseł, skaling, wygładzanie korzeni",
-        "url": "leczenie-zębów/periodontologia"
+        "url": "leczenie-zebow/periodontologia"
       }
     },
     "PEDODONTICS": {
@@ -549,7 +553,7 @@
         "title": "Stomatologia dziecięca (pedodoncja) - Orange Dent Clinic",
         "description": "Specjalistyczna opieka stomatologiczna dla dzieci w Orange Dent. Leczenie profilaktyczne, kolorowe wypełnienia i przyjazne środowisko dla zdrowych uśmiechów.",
         "keywords": "stomatolog dziecięcy, pedodoncja, dentysta dla dzieci, opieka stomatologiczna dla dzieci, lakowanie, fluoryzacja",
-        "url": "leczenie-zębów/stomatologia-dziecięca"
+        "url": "leczenie-zebow/stomatologia-dziecieca"
       }
     },
     "IMPLANT": {
@@ -635,7 +639,7 @@
         "title": "Leczenie implantologiczne - Orange Dent Clinic",
         "description": "Trwałe i naturalnie wyglądające implanty dentystyczne w Orange Dent. Zastąpienie pojedynczego lub wielu zębów z wysokim wskaźnikiem sukcesu. Umów się na konsultację.",
         "keywords": "implant dentystyczny, leczenie implantologiczne, niedobór zębów, implant tytanowy, koszt implantu",
-        "url": "leczenie-zębów/implanty"
+        "url": "leczenie-zebow/implanty"
       }
     },
     "JAWSURGERY": {
@@ -692,7 +696,7 @@
         "title": "Chirurgia jamy ustnej, zębów i szczęki - Orange Dent Clinic",
         "description": "Ekspercka chirurgia jamy ustnej w Orange Dent: ekstrakcja zębów, zatrzymane zęby mądrości, chirurgia implantologiczna, chirurgia dziąseł i inne. Bezpieczne i bezbolesne procedury.",
         "keywords": "chirurgia jamy ustnej, chirurgia szczęki, ekstrakcja zęba, ząb zatrzymany, ząb mądrości, chirurgia dziąseł",
-        "url": "leczenie-zębów/chirurgia-jamy-ustnej-szczęki"
+        "url": "leczenie-zebow/chirurgia-jamy-ustnej-szczeki"
       }
     },
     "FRENECTOMY": {
@@ -738,7 +742,7 @@
         "title": "Frenektomia (uwolnienie wędzidełka wargi/języka) - Orange Dent Clinic",
         "description": "Laserowa frenektomia wędzidełka wargi i języka w Orange Dent. Popraw mowę, karmienie i higienę jamy ustnej za pomocą prostej procedury.",
         "keywords": "frenektomia, wędzidełko wargi, wędzidełko języka, ankyloglossia, uwolnienie wędzidełka",
-        "url": "leczenie-zębów/frenektomia"
+        "url": "leczenie-zebow/frenektomia"
       }
     },
     "ALLONFOUR": {
@@ -804,7 +808,7 @@
         "title": "Leczenie implantologiczne All-On-4 - Orange Dent Clinic",
         "description": "Stałe zęby na zaledwie czterech implantach z techniką All-On-4. Szybkie, estetyczne i trwałe rozwiązanie dla całkowitej utraty zębów.",
         "keywords": "All-On-4, implant na całą jamę ustną, stała proteza, zęby w jeden dzień, proteza wsparta implantami",
-        "url": "leczenie-zębów/all-on-4"
+        "url": "leczenie-zebow/all-on-4"
       }
     },
     "FILLINGTREATMENT": {
@@ -855,7 +859,7 @@
         "title": "Leczenie wypełnieniami - Orange Dent Clinic",
         "description": "Estetyczne i trwałe wypełnienia zębów w Orange Dent. Opcje kompozytowe, porcelanowe, amalgamatowe. Bezbolesna procedura dla próchnicy i złamań.",
         "keywords": "wypełnienie zęba, wypełnienie kompozytowe, wypełnienie porcelanowe, leczenie próchnicy, odbudowa zęba",
-        "url": "leczenie-zębów/wypełnienia"
+        "url": "leczenie-zebow/wypelnienia"
       }
     },
     "FIXEDPROSTHETICAPPLICATIONS": {
@@ -918,7 +922,7 @@
         "title": "Stałe uzupełnienia protetyczne - Orange Dent Clinic",
         "description": "Korony, mosty, cyrkon i licówki porcelanowe w Orange Dent. Odbuduj brakujące lub uszkodzone zęby naturalnie wyglądającymi stałymi protezami.",
         "keywords": "korona zęba, most zębowy, korona cyrkonowa, licówka porcelanowa, stała proteza",
-        "url": "leczenie-zębów/stale-uzupełnienia-protetyczne"
+        "url": "leczenie-zebow/stale-uzupelnienia-protetyczne"
       }
     }
   },

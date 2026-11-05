@@ -15,8 +15,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi', destination: '/ru/dental-treatments' },
       { source: '/en/dis-tedavileri', destination: '/en/dental-treatments' },
       { source: '/en/stomatologicheskie-uslugi', destination: '/en/dental-treatments' },
-      { source: '/lt/dantų-gydymas', destination: '/lt/dental-treatments' },
-      { source: '/pl/leczenie-zębów', destination: '/pl/dental-treatments' },
+      { source: '/lt/dantu-gydymas', destination: '/lt/dental-treatments' },
+      { source: '/pl/leczenie-zebow', destination: '/pl/dental-treatments' },
 
       // ---- /digital-dentistry ----
       { source: '/tr/dijital-dis-hekimligi', destination: '/tr/digital-dentistry' },
@@ -37,7 +37,15 @@ const nextConfig = {
       { source: '/en/nasha-klinika', destination: '/en/our-clinic' },
       { source: '/lt/mūsų-klinika', destination: '/lt/our-clinic' },
       { source: '/pl/nasza-klinika', destination: '/pl/our-clinic' },
-
+      // ---- /about-us ----
+      { source: '/tr/hakkimizda', destination: '/tr/about-us' },
+      { source: '/tr/o-nas', destination: '/tr/about-us' },
+      { source: '/ru/hakkimizda', destination: '/ru/about-us' },
+      { source: '/ru/o-nas', destination: '/ru/about-us' },
+      { source: '/en/hakkimizda', destination: '/en/about-us' },
+      { source: '/en/o-nas', destination: '/en/about-us' },
+      { source: '/lt/apie-mus', destination: '/lt/about-us' },
+      { source: '/pl/o-nas', destination: '/pl/about-us' },
       // ---- /before-after ----
       { source: '/tr/oncesi-sonrasi', destination: '/tr/before-after' },
       { source: '/tr/do-i-posle', destination: '/tr/before-after' },
@@ -76,8 +84,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/esteticheskaya-stomatologiya', destination: '/ru/dental-treatments/aesthetic-dentistry' },
       { source: '/en/dis-tedavileri/estetik-dis-hekimligi', destination: '/en/dental-treatments/aesthetic-dentistry' },
       { source: '/en/stomatologicheskie-uslugi/esteticheskaya-stomatologiya', destination: '/en/dental-treatments/aesthetic-dentistry' },
-      { source: '/lt/dantų-gydymas/estetinė-odontologija', destination: '/lt/dental-treatments/aesthetic-dentistry' },
-      { source: '/pl/leczenie-zębów/stomatologia-estetyczna', destination: '/pl/dental-treatments/aesthetic-dentistry' },
+      { source: '/lt/dantu-gydymas/estetine-odontologija', destination: '/lt/dental-treatments/aesthetic-dentistry' },
+      { source: '/pl/leczenie-zebow/stomatologia-estetyczna', destination: '/pl/dental-treatments/aesthetic-dentistry' },
 
       // ---- /dental-treatments/dental-bleaching ----
       { source: '/tr/dis-tedavileri/dis-beyazlatma', destination: '/tr/dental-treatments/dental-bleaching' },
@@ -86,8 +94,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/otbelivanie-zubov', destination: '/ru/dental-treatments/dental-bleaching' },
       { source: '/en/dis-tedavileri/dis-beyazlatma', destination: '/en/dental-treatments/dental-bleaching' },
       { source: '/en/stomatologicheskie-uslugi/otbelivanie-zubov', destination: '/en/dental-treatments/dental-bleaching' },
-      { source: '/lt/dantų-gydymas/dantų-balinimas', destination: '/lt/dental-treatments/dental-bleaching' },
-      { source: '/pl/leczenie-zębów/wybielanie-zębów', destination: '/pl/dental-treatments/dental-bleaching' },
+      { source: '/lt/dantu-gydymas/dantu-balinimas', destination: '/lt/dental-treatments/dental-bleaching' },
+      { source: '/pl/leczenie-zebow/wybielanie-zebow', destination: '/pl/dental-treatments/dental-bleaching' },
 
       // ---- /dental-treatments/invisalign-orthodontics ----
       { source: '/tr/dis-tedavileri/telsiz-ortodonti-tedavisi', destination: '/tr/dental-treatments/invisalign-orthodontics' },
@@ -102,8 +110,8 @@ const nextConfig = {
       { source: '/en/stomatologicheskie-uslugi/nevidimaya-ortodontiya', destination: '/en/dental-treatments/invisalign-orthodontics' },
       { source: '/en/dis-tedavileri/invisalign', destination: '/en/dental-treatments/invisalign-orthodontics' },
       { source: '/en/stomatologicheskie-uslugi/invisalign', destination: '/en/dental-treatments/invisalign-orthodontics' },
-      { source: '/lt/dantų-gydymas/invisalign-ortodontija', destination: '/lt/dental-treatments/invisalign-orthodontics' },
-      { source: '/pl/leczenie-zębów/invisalign-ortodoncja', destination: '/pl/dental-treatments/invisalign-orthodontics' },
+      { source: '/lt/dantu-gydymas/invisalign-ortodontija', destination: '/lt/dental-treatments/invisalign-orthodontics' },
+      { source: '/pl/leczenie-zebow/invisalign-ortodoncja', destination: '/pl/dental-treatments/invisalign-orthodontics' },
 
       // ---- /dental-treatments/orthodontics ----
       { source: '/tr/dis-tedavileri/dis-teli-tedavisi', destination: '/tr/dental-treatments/orthodontics' },
@@ -112,8 +120,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/ortodontiya-brekey', destination: '/ru/dental-treatments/orthodontics' },
       { source: '/en/dis-tedavileri/dis-teli-tedavisi', destination: '/en/dental-treatments/orthodontics' },
       { source: '/en/stomatologicheskie-uslugi/ortodontiya-brekey', destination: '/en/dental-treatments/orthodontics' },
-      { source: '/lt/dantų-gydymas/ortodontija-breketai', destination: '/lt/dental-treatments/orthodontics' },
-      { source: '/pl/leczenie-zębów/ortodoncja-aparaty', destination: '/pl/dental-treatments/orthodontics' },
+      { source: '/lt/dantu-gydymas/ortodontija-breketai', destination: '/lt/dental-treatments/orthodontics' },
+      { source: '/pl/leczenie-zebow/ortodoncja-aparaty', destination: '/pl/dental-treatments/orthodontics' },
 
       // ---- /dental-treatments/endodontics ----
       { source: '/tr/dis-tedavileri/kanal-tedavisi', destination: '/tr/dental-treatments/endodontics' },
@@ -122,8 +130,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/lechenie-kornevyh-kanalov', destination: '/ru/dental-treatments/endodontics' },
       { source: '/en/dis-tedavileri/kanal-tedavisi', destination: '/en/dental-treatments/endodontics' },
       { source: '/en/stomatologicheskie-uslugi/lechenie-kornevyh-kanalov', destination: '/en/dental-treatments/endodontics' },
-      { source: '/lt/dantų-gydymas/endodontija', destination: '/lt/dental-treatments/endodontics' },
-      { source: '/pl/leczenie-zębów/endodoncja', destination: '/pl/dental-treatments/endodontics' },
+      { source: '/lt/dantu-gydymas/endodontija', destination: '/lt/dental-treatments/endodontics' },
+      { source: '/pl/leczenie-zebow/endodoncja', destination: '/pl/dental-treatments/endodontics' },
 
       // ---- /dental-treatments/periodontology ----
       { source: '/tr/dis-tedavileri/dis-eti-tedavisi', destination: '/tr/dental-treatments/periodontology' },
@@ -132,8 +140,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/lechenie-desen', destination: '/ru/dental-treatments/periodontology' },
       { source: '/en/dis-tedavileri/dis-eti-tedavisi', destination: '/en/dental-treatments/periodontology' },
       { source: '/en/stomatologicheskie-uslugi/lechenie-desen', destination: '/en/dental-treatments/periodontology' },
-      { source: '/lt/dantų-gydymas/periodontologija', destination: '/lt/dental-treatments/periodontology' },
-      { source: '/pl/leczenie-zębów/periodontologia', destination: '/pl/dental-treatments/periodontology' },
+      { source: '/lt/dantu-gydymas/periodontologija', destination: '/lt/dental-treatments/periodontology' },
+      { source: '/pl/leczenie-zebow/periodontologia', destination: '/pl/dental-treatments/periodontology' },
 
       // ---- /dental-treatments/pediatric-dentistry ----
       { source: '/tr/dis-tedavileri/cocuk-dis-hekimligi', destination: '/tr/dental-treatments/pediatric-dentistry' },
@@ -142,8 +150,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/detskaya-stomatologiya', destination: '/ru/dental-treatments/pediatric-dentistry' },
       { source: '/en/dis-tedavileri/cocuk-dis-hekimligi', destination: '/en/dental-treatments/pediatric-dentistry' },
       { source: '/en/stomatologicheskie-uslugi/detskaya-stomatologiya', destination: '/en/dental-treatments/pediatric-dentistry' },
-      { source: '/lt/dantų-gydymas/vaikų-odontologija', destination: '/lt/dental-treatments/pediatric-dentistry' },
-      { source: '/pl/leczenie-zębów/stomatologia-dziecięca', destination: '/pl/dental-treatments/pediatric-dentistry' },
+      { source: '/lt/dantu-gydymas/vaiku-odontologija', destination: '/lt/dental-treatments/pediatric-dentistry' },
+      { source: '/pl/leczenie-zebow/stomatologia-dziecieca', destination: '/pl/dental-treatments/pediatric-dentistry' },
 
       // ---- /dental-treatments/implants ----
       { source: '/tr/dis-tedavileri/implant', destination: '/tr/dental-treatments/implants' },
@@ -152,8 +160,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/implantatsiya', destination: '/ru/dental-treatments/implants' },
       { source: '/en/dis-tedavileri/implant', destination: '/en/dental-treatments/implants' },
       { source: '/en/stomatologicheskie-uslugi/implantatsiya', destination: '/en/dental-treatments/implants' },
-      { source: '/lt/dantų-gydymas/implantai', destination: '/lt/dental-treatments/implants' },
-      { source: '/pl/leczenie-zębów/implanty', destination: '/pl/dental-treatments/implants' },
+      { source: '/lt/dantu-gydymas/implantai', destination: '/lt/dental-treatments/implants' },
+      { source: '/pl/leczenie-zebow/implanty', destination: '/pl/dental-treatments/implants' },
 
       // ---- /dental-treatments/oral-jaw-surgery ----
       { source: '/tr/dis-tedavileri/agiz-cerrahi', destination: '/tr/dental-treatments/oral-jaw-surgery' },
@@ -162,8 +170,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/hirurgiya-rti', destination: '/ru/dental-treatments/oral-jaw-surgery' },
       { source: '/en/dis-tedavileri/agiz-cerrahi', destination: '/en/dental-treatments/oral-jaw-surgery' },
       { source: '/en/stomatologicheskie-uslugi/hirurgiya-rti', destination: '/en/dental-treatments/oral-jaw-surgery' },
-      { source: '/lt/dantų-gydymas/burnos-žandikaulių-chirurgija', destination: '/lt/dental-treatments/oral-jaw-surgery' },
-      { source: '/pl/leczenie-zębów/chirurgia-jamy-ustnej-szczęki', destination: '/pl/dental-treatments/oral-jaw-surgery' },
+      { source: '/lt/dantu-gydymas/burnos-zandikauliu-chirurgija', destination: '/lt/dental-treatments/oral-jaw-surgery' },
+      { source: '/pl/leczenie-zebow/chirurgia-jamy-ustnej-szczeki', destination: '/pl/dental-treatments/oral-jaw-surgery' },
 
       // ---- /dental-treatments/frenectomy ----
       { source: '/tr/dis-tedavileri/frenektomi', destination: '/tr/dental-treatments/frenectomy' },
@@ -172,8 +180,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/frenektomiya', destination: '/ru/dental-treatments/frenectomy' },
       { source: '/en/dis-tedavileri/frenektomi', destination: '/en/dental-treatments/frenectomy' },
       { source: '/en/stomatologicheskie-uslugi/frenektomiya', destination: '/en/dental-treatments/frenectomy' },
-      { source: '/lt/dantų-gydymas/frenektomija', destination: '/lt/dental-treatments/frenectomy' },
-      { source: '/pl/leczenie-zębów/frenektomia', destination: '/pl/dental-treatments/frenectomy' },
+      { source: '/lt/dantu-gydymas/frenektomija', destination: '/lt/dental-treatments/frenectomy' },
+      { source: '/pl/leczenie-zebow/frenektomia', destination: '/pl/dental-treatments/frenectomy' },
 
       // ---- /dental-treatments/all-on-4 ----
       { source: '/tr/dis-tedavileri/all-on-4', destination: '/tr/dental-treatments/all-on-4' },
@@ -182,18 +190,18 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/all-on-4', destination: '/ru/dental-treatments/all-on-4' },
       { source: '/en/dis-tedavileri/all-on-4', destination: '/en/dental-treatments/all-on-4' },
       { source: '/en/stomatologicheskie-uslugi/all-on-4', destination: '/en/dental-treatments/all-on-4' },
-      { source: '/lt/dantų-gydymas/all-on-4', destination: '/lt/dental-treatments/all-on-4' },
-      { source: '/pl/leczenie-zębów/all-on-4', destination: '/pl/dental-treatments/all-on-4' },
+      { source: '/lt/dantu-gydymas/all-on-4', destination: '/lt/dental-treatments/all-on-4' },
+      { source: '/pl/leczenie-zebow/all-on-4', destination: '/pl/dental-treatments/all-on-4' },
 
       // ---- /dental-treatments/filling ----
-      { source: '/tr/dis-tedavileri/dolgu', destination: '/tr/dental-treatments/filling' },
+      { source: '/tr/dis-tedavileri/dis-dolgusu', destination: '/tr/dental-treatments/filling' },
       { source: '/tr/stomatologicheskie-uslugi/plomby', destination: '/tr/dental-treatments/filling' },
       { source: '/ru/dis-tedavileri/dolgu', destination: '/ru/dental-treatments/filling' },
       { source: '/ru/stomatologicheskie-uslugi/plomby', destination: '/ru/dental-treatments/filling' },
       { source: '/en/dis-tedavileri/dolgu', destination: '/en/dental-treatments/filling' },
       { source: '/en/stomatologicheskie-uslugi/plomby', destination: '/en/dental-treatments/filling' },
-      { source: '/lt/dantų-gydymas/plombavimas', destination: '/lt/dental-treatments/filling' },
-      { source: '/pl/leczenie-zębów/wypełnienia', destination: '/pl/dental-treatments/filling' },
+      { source: '/lt/dantu-gydymas/plombavimas', destination: '/lt/dental-treatments/filling' },
+      { source: '/pl/leczenie-zebow/wypelnienia', destination: '/pl/dental-treatments/filling' },
 
       // ---- /dental-treatments/fixed-prosthetic-applications ----
       { source: '/tr/dis-tedavileri/sabit-protez', destination: '/tr/dental-treatments/fixed-prosthetic-applications' },
@@ -202,8 +210,8 @@ const nextConfig = {
       { source: '/ru/stomatologicheskie-uslugi/nesemnoye-protezirovanie', destination: '/ru/dental-treatments/fixed-prosthetic-applications' },
       { source: '/en/dis-tedavileri/sabit-protez', destination: '/en/dental-treatments/fixed-prosthetic-applications' },
       { source: '/en/stomatologicheskie-uslugi/nesemnoye-protezirovanie', destination: '/en/dental-treatments/fixed-prosthetic-applications' },
-      { source: '/lt/dantų-gydymas/fiksuotos-protezavimo-procedūros', destination: '/lt/dental-treatments/fixed-prosthetic-applications' },
-      { source: '/pl/leczenie-zębów/stale-uzupełnienia-protetyczne', destination: '/pl/dental-treatments/fixed-prosthetic-applications' },
+      { source: '/lt/dantu-gydymas/fiksuotos-protezavimo-proceduros', destination: '/lt/dental-treatments/fixed-prosthetic-applications' },
+      { source: '/pl/leczenie-zebow/stale-uzupelnienia-protetyczne', destination: '/pl/dental-treatments/fixed-prosthetic-applications' },
 
       // ================================================================
       // 3. BLOG YAZILARI (TÜM DİLLER, destination bazlı gruplanmış)
@@ -288,7 +296,7 @@ const nextConfig = {
       { source: '/en/blog/implant-nedir', destination: '/en/blog/implant/what-is-dental-implant' },
       { source: '/en/blog/chto-takoe-implantat', destination: '/en/blog/implant/what-is-dental-implant' },
       { source: '/lt/blog/implantas/kas-yra-dantu-implantas', destination: '/lt/blog/implant/what-is-dental-implant' },
-      { source: '/lt/tinklaraštis/dantų-implantai', destination: '/lt/blog/implant/what-is-dental-implant' },
+      { source: '/lt/tinklaraštis/dantu-implantai', destination: '/lt/blog/implant/what-is-dental-implant' },
       { source: '/pl/blog/co-to-jest-implant-dentystyczny', destination: '/pl/blog/implant/what-is-dental-implant' },
       { source: '/pl/blog/implanty-dentystyczne', destination: '/pl/blog/implant/what-is-dental-implant' },
 

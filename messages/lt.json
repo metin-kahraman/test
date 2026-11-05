@@ -55,37 +55,37 @@
   "TreatmentsPage": {
     "titles": {
       "T1": "Estetinė odontologija",
-      "T1Link": "dantų-gydymas/estetinė-odontologija",
+      "T1Link": "dantu-gydymas/estetine-odontologija",
       "T2": "Dantų balinimas",
-      "T2Link": "dantų-gydymas/dantų-balinimas",
+      "T2Link": "dantu-gydymas/dantu-balinimas",
       "T3": "Bevielė ortodontija (Invisalign)",
-      "T3Link": "dantų-gydymas/invisalign-ortodontija",
+      "T3Link": "dantu-gydymas/invisalign-ortodontija",
       "T4": "Ortodontija (breketai)",
-      "T4Link": "dantų-gydymas/ortodontija-breketai",
+      "T4Link": "dantu-gydymas/ortodontija-breketai",
       "T5": "Šaknų kanalų gydymas (endodontija)",
-      "T5Link": "dantų-gydymas/endodontija",
+      "T5Link": "dantu-gydymas/endodontija",
       "T6": "Dantenų gydymas (periodontologija)",
-      "T6Link": "dantų-gydymas/periodontologija",
+      "T6Link": "dantu-gydymas/periodontologija",
       "T7": "Vaikų odontologija (pedodontija)",
-      "T7Link": "dantų-gydymas/vaikų-odontologija",
+      "T7Link": "dantu-gydymas/vaiku-odontologija",
       "T8": "Implantų gydymas",
-      "T8Link": "dantų-gydymas/implantai",
+      "T8Link": "dantu-gydymas/implantai",
       "T9": "Burnos, dantų ir žandikaulių chirurgija",
-      "T9Link": "dantų-gydymas/burnos-žandikaulių-chirurgija",
+      "T9Link": "dantu-gydymas/burnos-zandikauliu-chirurgija",
       "T10": "Frenektomija (lūpų / liežuvio raiščio korekcija)",
-      "T10Link": "dantų-gydymas/frenektomija",
+      "T10Link": "dantu-gydymas/frenektomija",
       "T11": "All-On-4 gydymas",
-      "T11Link": "dantų-gydymas/all-on-4",
+      "T11Link": "dantu-gydymas/all-on-4",
       "T12": "Plombavimo gydymas",
-      "T12Link": "dantų-gydymas/plombavimas",
+      "T12Link": "dantu-gydymas/plombavimas",
       "T13": "Fiksuotos protezavimo procedūros",
-      "T13Link": "dantų-gydymas/fiksuotos-protezavimo-procedūros"
+      "T13Link": "dantu-gydymas/fiksuotos-protezavimo-proceduros"
     },
     "seo": {
       "title": "Dantų gydymas - Orange Dent klinika",
       "description": "Susipažinkite su visomis Orange Dent gydymo galimybėmis: implantai, estetinė odontologija, ortodontija, šaknų kanalai, dantenų gydymas, vaikų odontologija ir kt.",
       "keywords": "dantų gydymas, implantas, estetinė odontologija, ortodontija, šaknų kanalas, dantenų gydymas, vaikų odontologas",
-      "url": "dantų-gydymas"
+      "url": "dantu-gydymas"
     }
   },
   "Menu": {
@@ -96,16 +96,18 @@
       "item4": "Apie mus",
       "item5": "Prieš ir po",
       "item6": "Kontaktai",
-      "item7": "Tinklaraštis"
+      "item7": "Tinklaraštis",
+      "item8": "Mūsų gydytojai"
     },
     "urls": {
-      "item1": "dantų-gydymas",
+      "item1": "dantu-gydymas",
       "item2": "skaitmeninė-odontologija",
       "item3": "mūsų-klinika",
       "item4": "apie-mus",
       "item5": "prieš-po",
       "item6": "kontaktai",
-      "item7": "tinklaraštis"
+      "item7": "tinklaraštis",
+      "item8": "musu-gydytojai"
     },
     "seo": {
       "title": "Orange Dent klinika - Meniu",
@@ -116,7 +118,9 @@
   },
   "aboutUs": {
     "title": "Apie mus",
-    "slogan": "JŪSŲ ŠYPSENA – VERTINGIAUSIAS PARAŠAS...",
+    "slogan1": "Jūsų Šypsena Yra",
+    "slogan2": "Mūsų Brangiausias",
+    "slogan3": "Parašas…",
     "content": "Kaip Orange Dent klinika, mes pradėjome savo veiklą siekdami jums pasiūlyti šiuolaikinę odontologijos praktiką nuoširdžioje ir ramioje atmosferoje. Nuo 2018 metų Antalijos Kemer regione siekiame išlaikyti jūsų sveikatos ir estetinius lūkesčius aukščiausiame lygyje. Mūsų specialistų gydytojų komanda siūlo individualizuotus gydymo protokolus įvairiose srityse – nuo implantologijos iki estetinės šypsenos dizaino, ortodontijos iki vaikų odontologijos. Mūsų daugiadalykė patyrusių odontologų ir specialistų komanda sukuria tiksliausią diagnozės ir gydymo planą net sudėtingiausiais atvejais. Mūsų klinikoje naudojama patogi aplinka ir pažangiausia įranga (pvz., 3D tomografija, skaitmeniniai skeneriai, blokų grandikliai, ortodontiniai skaidrūs kapai), padedanti jums palikti baimę gydymo procedūrų metu. Mes atidžiai sekame technologijų pažangą ir skaitmeninius odontologijos sprendimus laikome savo klinikos pagrindu. Mums kiekvienas pacientas yra naujas mūsų šeimos narys. Tikime, kad kiekviena jūsų praleista minutė mūsų klinikoje yra vertinga investicija į jūsų sveikatą. Mūsų tikslas – ne tik išspręsti jūsų dantų problemas, bet ir užtikrinti, kad iš mūsų klinikos išeitumėte pasitikėdami ir su laiminga šypsena."
   },
   "SingleToothImplant": {
@@ -185,7 +189,7 @@
         "title": "Estetinė odontologija - Orange Dent klinika",
         "description": "Estetinė odontologija Orange Dent: dantų balinimas, faneravimas, kompozitinės plombos, skaitmeninis šypsenos dizainas ir implantai. Pasiekite savo svajonių šypseną.",
         "keywords": "estetinė odontologija, dantų balinimas, faneravimas, skaitmeninis šypsenos dizainas, kompozitinė plomba",
-        "url": "dantų-gydymas/estetinė-odontologija"
+        "url": "dantu-gydymas/estetine-odontologija"
       }
     },
     "DENTALBLEACHING": {
@@ -255,7 +259,7 @@
         "title": "Dantų balinimas - Orange Dent klinika",
         "description": "Profesionalus dantų balinimas Orange Dent: kabinetiniai ir namų metodai. Gaukite šviesesnę šypseną saugiai ir efektyviai.",
         "keywords": "dantų balinimas, balinimas, kabinetinis balinimas, namų balinimas, pageltę dantys",
-        "url": "dantų-gydymas/dantų-balinimas"
+        "url": "dantu-gydymas/dantu-balinimas"
       }
     },
     "INVISALIGN": {
@@ -312,7 +316,7 @@
         "title": "Invisalign gydymas - Orange Dent klinika",
         "description": "Tiesinkite dantis diskretiškai su Invisalign skaidriais kapais Orange Dent. Patogus, nuimamas ir efektyvus ortodontinis sprendimas.",
         "keywords": "Invisalign, skaidrūs kapai, nematomi breketai, ortodontinis gydymas, bevielė ortodontija",
-        "url": "dantų-gydymas/invisalign"
+        "url": "dantu-gydymas/invisalign"
       }
     },
     "ORTHODONTIC": {
@@ -364,7 +368,7 @@
         "title": "Ortodontija (breketai) - Orange Dent klinika",
         "description": "Tradiciniai breketai ir ortodontinis gydymas Orange Dent. Ištaisykite kreivus dantis, susigrūdimą ir žandikaulio sutrikimus gražiai šypsenai.",
         "keywords": "ortodontija, breketai, dantų tiesinimas, ortodontinis gydymas, dantų breketai",
-        "url": "dantų-gydymas/ortodontija-breketai"
+        "url": "dantu-gydymas/ortodontija-breketai"
       }
     },
     "ENDODONTI": {
@@ -420,7 +424,7 @@
         "title": "Šaknų kanalų gydymas (endodontija) - Orange Dent klinika",
         "description": "Neskausmingas šaknų kanalų gydymas Orange Dent. Išsaugokite natūralų dantį su moderniomis technologijomis. Greitas ir efektyvus sprendimas dantų infekcijai.",
         "keywords": "šaknų kanalų gydymas, endodontija, dantų infekcija, šaknų kanalas, išsaugoti dantį",
-        "url": "dantų-gydymas/endodontija"
+        "url": "dantu-gydymas/endodontija"
       }
     },
     "PERIODONTOLOJI": {
@@ -489,7 +493,7 @@
         "title": "Dantenų gydymas (periodontologija) - Orange Dent klinika",
         "description": "Gydykite dantenų atsitraukimą, kraujavimą ir uždegimą Orange Dent. Profesionalus akmenų šalinimas, šaknų lyginimas ir dantenų chirurgija sveikoms dantenoms.",
         "keywords": "dantenų gydymas, periodontologija, dantenų atsitraukimas, dantenų kraujavimas, akmenų šalinimas, šaknų lyginimas",
-        "url": "dantų-gydymas/periodontologija"
+        "url": "dantu-gydymas/periodontologija"
       }
     },
     "PEDODONTICS": {
@@ -549,7 +553,7 @@
         "title": "Vaikų odontologija (pedodontija) - Orange Dent klinika",
         "description": "Specializuota vaikų dantų priežiūra Orange Dent. Prevencinės procedūros, spalvotos plombos ir vaikams draugiška aplinka sveikoms šypsenoms.",
         "keywords": "vaikų odontologas, pedodontija, vaikų dantų gydytojas, vaikų dantų priežiūra, plyšių sandarinimas, fluorido procedūros",
-        "url": "dantų-gydymas/vaikų-odontologija"
+        "url": "dantu-gydymas/vaiku-odontologija"
       }
     },
     "IMPLANT": {
@@ -635,7 +639,7 @@
         "title": "Dantų implantų gydymas - Orange Dent klinika",
         "description": "Nuolatiniai ir natūraliai atrodantys dantų implantai Orange Dent. Vieno ar kelių dantų pakeitimas su dideliu sėkmės procentu. Užsiregistruokite konsultacijai.",
         "keywords": "dantų implantas, implantų gydymas, dantų trūkumas, titano implantas, implantų kaina",
-        "url": "dantų-gydymas/implantai"
+        "url": "dantu-gydymas/implantai"
       }
     },
     "JAWSURGERY": {
@@ -692,7 +696,7 @@
         "title": "Burnos, dantų ir žandikaulių chirurgija - Orange Dent klinika",
         "description": "Ekspertų burnos chirurgija Orange Dent: dantų šalinimas, uždarame kaule esantys išminties dantys, implantų chirurgija, dantenų chirurgija ir kt. Saugios ir neskausmingos procedūros.",
         "keywords": "burnos chirurgija, žandikaulių chirurgija, dantų šalinimas, uždarame kaule dantis, išminties dantis, dantenų chirurgija",
-        "url": "dantų-gydymas/burnos-žandikaulių-chirurgija"
+        "url": "dantu-gydymas/burnos-zandikauliu-chirurgija"
       }
     },
     "FRENECTOMY": {
@@ -738,7 +742,7 @@
         "title": "Frenektomija (lūpų/liežuvio raiščio korekcija) - Orange Dent klinika",
         "description": "Lazerinė frenektomija lūpų ir liežuvio raiščiui Orange Dent. Pagerinkite kalbą, maitinimą ir burnos higieną paprasta procedūra.",
         "keywords": "frenektomija, lūpų raištis, liežuvio raištis, ankyloglossia, raiščio atpalaidavimas",
-        "url": "dantų-gydymas/frenektomija"
+        "url": "dantu-gydymas/frenektomija"
       }
     },
     "ALLONFOUR": {
@@ -804,7 +808,7 @@
         "title": "All-On-4 implantų gydymas - Orange Dent klinika",
         "description": "Fiksuoti dantys ant tik keturių implantų su All-On-4 technika. Greitas, estetiškas ir ilgalaikis sprendimas visiškam dantų praradimui.",
         "keywords": "All-On-4, pilnos burnos implantas, fiksuotas protezas, tie patys dantys per dieną, implantais paremtas protezas",
-        "url": "dantų-gydymas/all-on-4"
+        "url": "dantu-gydymas/all-on-4"
       }
     },
     "FILLINGTREATMENT": {
@@ -855,7 +859,7 @@
         "title": "Dantų plombavimo gydymas - Orange Dent klinika",
         "description": "Estetinės ir patvarios dantų plombos Orange Dent. Kompozitinės, porcelianinės, amalgaminės galimybės. Neskausminga procedūra ėduoniui ir lūžiams.",
         "keywords": "dantų plomba, kompozitinė plomba, porcelianinė plomba, ėduonies gydymas, dantų restauravimas",
-        "url": "dantų-gydymas/plombavimas"
+        "url": "dantu-gydymas/plombavimas"
       }
     },
     "FIXEDPROSTHETICAPPLICATIONS": {
@@ -912,7 +916,7 @@
         "title": "Fiksuotos protezavimo procedūros - Orange Dent klinika",
         "description": "Karūnėlės, tilteliai, cirkonis ir porceliano laminatas Orange Dent. Atstatykite trūkstamus ar pažeistus dantis natūraliai atrodančiais fiksuotais protezais.",
         "keywords": "dantų karūnėlė, dantų tiltelis, cirkonio karūnėlė, porceliano laminatas, fiksuotas protezas",
-        "url": "dantų-gydymas/fiksuotos-protezavimo-procedūros"
+        "url": "dantu-gydymas/fiksuotos-protezavimo-proceduros"
       }
     }
   },
@@ -1214,7 +1218,7 @@
         "title": "Dantų pageltimas - priežastys, prevencija ir balinimas",
         "description": "Kodėl dantys pagelsta? Sužinokite, kaip išvengti pageltimo ir profesionalius balinimo metodus Orange Dent.",
         "keywords": "dantų pageltimas, geltoni dantys, dantų balinimas, išvengti geltonų dantų",
-        "url": "tinklaraštis/dantų-pageltimas"
+        "url": "tinklaraštis/dantu-pageltimas"
       }
     },
     "gumBleeding": {
@@ -1363,7 +1367,7 @@
         "title": "Tarpelių tarp dantų gydymas - kompozitinis laminatas, porcelianas, breketai",
         "description": "Sužinokite, kaip uždaryti tarpelius tarp dantų naudojant kompozitinį laminatą, porcelianinį laminatą ar ortodontines galimybes.",
         "keywords": "tarpeliai tarp dantų, tarpas tarp dantų, diastema, dantų tarpelio gydymas, laminatas",
-        "url": "tinklaraštis/tarpelių-tarp-dantų-gydymas"
+        "url": "tinklaraštis/tarpelių-tarp-dantu-gydymas"
       }
     },
     "ImpactedTeeth": {
@@ -1446,7 +1450,7 @@
         "title": "Dantų karūnėlių tipai - cirkonis, laminatas, metalu paremtas",
         "description": "Palyginkite cirkonio, laminato ir metalu paremtas dantų karūnėles. Raskite geriausią variantą patvarumui ir estetikai.",
         "keywords": "dantų karūnėlė, cirkonio karūnėlė, laminato faneravimas, metalu paremta karūnėlė, dantų karūnėlė",
-        "url": "tinklaraštis/dantų-karuneliu-tipai"
+        "url": "tinklaraštis/dantu-karuneliu-tipai"
       }
     },
     "OrthodonticTreatments": {
@@ -1784,7 +1788,7 @@
         "title": "Dantų implantai - tipai, procedūra, privalumai ir trūkumai",
         "description": "Išsamus vadovas apie dantų implantus: kas jie yra, tipai (titanas, keramika), procedūra, privalumai, trūkumai ir kainos.",
         "keywords": "dantų implantas, titano implantas, keraminis implantas, implantų tipai, implanto procedūra",
-        "url": "tinklaraštis/dantų-implantai"
+        "url": "tinklaraštis/dantu-implantai"
       }
     },
     "QuestionsToAskBeforeGettingDentalImplants": {
@@ -2197,7 +2201,7 @@
         "title": "Dantų tilteliai - tipai, procedūra, kaina ir problemos",
         "description": "Išsamus dantų tiltelių vadovas: tradiciniai, Merilando, konsoliniai ir implantais paremti tilteliai. Palyginkite kainas ir ilgaamžiškumą.",
         "keywords": "dantų tiltelis, dantų tiltas, trūkstami dantys, tiltelio kaina, fiksuotas protezas",
-        "url": "tinklaraštis/dantų-tilteliai"
+        "url": "tinklaraštis/dantu-tilteliai"
       }
     },
     "Halitosis": {
