@@ -1,82 +1,110 @@
-"use client";
-import {
-  Typography,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Box,
-  Paper,
-} from "@mui/material";
-import Image from "next/image"; // Logo için Next.js Image component'ini kullanıyoruz
-import { FC } from "react";
-import Grid from "@mui/material/Grid2"; // Doğru import
-import SvgIcon from "@mui/material/SvgIcon";
-import { useTranslations } from "next-intl";
-import { TreatmentsPageTranslations } from "@/types";
-import Divider from "@mui/material/Divider";
-import ContentRightSlideMenu from "@/components/contentRightSlideMenu";
+// app/[locale]/dijital-dis-hekimligi/page.tsx
+import type { Metadata } from 'next';
+import { getTranslations } from 'next-intl/server';
+import DigitalDentistryContent from '../../../components/DigitalDentistryContent';
+import { buildHreflang, getCanonicalUrl, baseUrl } from '@/lib/seo';
+import { buildBreadcrumbSchema } from '@/lib/schema';
+import JsonLd from '@/components/JsonLd';
 
-const typofImplants = ["content", "content2", "content3", "content4"];
+const CANONICAL_PATH = 'dijital-dis-hekimligi';
 
-const DigitalDentistry: FC = () => {
-  const t = useTranslations("3dDentistry");
+type PageProps = { params: Promise<{ locale: string }> };
+
+/* ---------- SEO Metadata ---------- */
+export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: '3dDentistry' });
+
+  const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
+  const languages = buildHreflang(CANONICAL_PATH);
+
+  const ogLocaleMap: Record<string, string> = {
+    tr: 'tr_TR',
+    en: 'en_US',
+    lt: 'lt_LT',
+    pt: 'pt_PT',
+    ru: 'ru_RU',
+  };
+
+  // ✅ t.has() yerine try/catch — server-side'da t.has yok
+  let seoTitle: string | undefined;
+  let seoDescription: string | undefined;
+
+  try {
+    seoTitle = t('seo.title');
+  } catch {
+    seoTitle = undefined;
+  }
+
+  try {
+    seoDescription = t('seo.description');
+  } catch {
+    seoDescription = undefined;
+  }
+
+  const title = seoTitle ?? `${t('title')} | Orange Dent Clinic`;
+  const description =
+    seoDescription ?? `${t('content').slice(0, 155)}…`;
+
+  return {
+    title,
+    description,
+    alternates: {
+      canonical: canonicalUrl,
+      languages,
+    },
+    openGraph: {
+      title,
+      description,
+      url: canonicalUrl,
+      siteName: 'Orange Dent Clinic',
+      type: 'article',
+      locale: ogLocaleMap[locale] ?? 'en_US',
+      images: [
+        {
+          url: `${baseUrl}/images/digital-dentistry.jpg`,
+          width: 1200,
+          height: 630,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${baseUrl}/images/digital-dentistry.jpg`],
+    },
+    robots: {
+      index: true,
+      follow: true,
+      googleBot: {
+        index: true,
+        follow: true,
+        'max-image-preview': 'large',
+        'max-snippet': -1,
+      },
+    },
+  };
+}
+
+/* ---------- Sayfa ---------- */
+export default async function DigitalDentistryPage({ params }: PageProps) {
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: '3dDentistry' });
+
+  const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
+  const homeUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
+
+  const breadcrumbSchema = buildBreadcrumbSchema([
+    { name: 'Ana Sayfa', url: homeUrl },
+    { name: t('title'), url: canonicalUrl },
+  ]);
 
   return (
-    <Grid container spacing={2} component="div">
-      <Grid size={{ xs: 12, md: 9 }}>
-        <Paper sx={{ backgroundColor: "white" }}>
-          <Box p={2}>
-            <Typography
-              sx={{ textAlign: "center", alignSelf: "center", pt: 2 }}
-              gutterBottom
-              variant="h4"
-            >
-              {t("title")}
-            </Typography>
-
-            <Typography
-              sx={{ textAlign: "center", alignSelf: "center", pt: 2 }}
-              gutterBottom
-              variant="h5"
-            >
-              {t("title2")}
-            </Typography>
-
-            <Box
-              sx={{
-                display: "flex",
-                justifyContent: "center",
-              }}
-            >
-              <img
-                width="80%"
-                height={"auto"}
-                src="/images/digital-dentistry.jpg"
-              ></img>
-            </Box>
-            <Box p={2}>
-
-
-            {typofImplants.map((item) => (
-              <>
-                <Typography sx={{ p: 2 }} gutterBottom>
-                  {t(`${item}`)}
-                </Typography>
-              </>
-            ))}
-                      </Box>
-
-          </Box>
-        </Paper>
-      </Grid>
-
-      {/* Sağ taraf (3 birim genişlik) */}
-      <Grid size={{ xs: 12, md: 3 }}>
-        <ContentRightSlideMenu />
-      </Grid>
-    </Grid>
+    <>
+      <JsonLd data={breadcrumbSchema} />
+      <DigitalDentistryContent />
+    </>
   );
-};
-
-export default DigitalDentistry;
+}

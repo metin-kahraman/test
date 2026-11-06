@@ -21,7 +21,12 @@
       "comment5orj":"Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
       "comment5Translate":"Google mesajlaşma yoluyla gösterdikleri hızlı yanıt ve acil durumumu ele alırken gösterdikleri nezaket ve verimlilik için bu doktora ve ekibine teşekkür ederim.Ofis son derece temiz ve en son teknolojiyle donatılmış.Türkiye'ye ilk tatil seyahatimde, Türk halkının gösterdiği güvenlik, hijyen, profesyonellik ve saygıdan dolayı kendimi çok güvende hissediyorum. Bravo ve Orange Dent Clinic'e binlerce teşekkür.",
       "comment5Link":"https://share.google/E63HQJxer7p14aILn",
-      "ourPartners":"İş Ortaklarımız"
+      "ourPartners":"İş Ortaklarımız",
+      "seo": {
+      "title": "Orange Dent Clinic | Kemer Antalya'da Estetik ve İmplant Diş Hekimliği",
+      "description": "Uzman kadromuzla estetik diş hekimliği, implant, ortodonti ve diş eti tedavileri. Modern teknoloji, konforlu tedavi. Randevu alın.",
+      "keywords": "diş kliniği kemer antalya, implant, estetik diş, ortodonti, diş eti tedavisi"
+    }
     },
       "Footer": {
     "contactUs": "Bizimle İletişime Geç",
@@ -117,8 +122,29 @@
     "content":"Dijital diş hekimliği, geleneksel yöntemlerin ötesine geçerek, diş tedavilerini daha hızlı, hassas ve kişiye özel hale getiren bir yaklaşımdır. 3D tarayıcılar, dijital planlama yazılımları ve 3D yazıcılar gibi ileri teknolojiler kullanılarak, hastaların ağız yapısı detaylı bir şekilde analiz edilir ve tedavi süreci optimize edilir. Bu sayede, hem estetik hem de fonksiyonel açıdan mükemmel sonuçlar elde edilir.",
     "content2":"Gelişmiş teknolojiler sayesinde ağız ve diş tedavilerini daha konforlu, hassas ve verimli hale getiren modern bir yaklaşımdır. Ağız içi dijital tarayıcılar sayesinde birçok durumda geleneksel ölçü alma yöntemlerine olan ihtiyaç azalırken, hastalar daha rahat bir tedavi deneyimi yaşayabilir.",
     "content3":"Elde edilen üç boyutlu dijital kayıtlar sayesinde kron, köprü, implant planlaması ve estetik gülüş tasarımı gibi işlemler daha ayrıntılı planlanabilir. Bu da hem tedavi sürecinin daha öngörülebilir olmasına hem de hasta ile hekimin tedavi planını daha net değerlendirebilmesine katkı sağlar.",
-    "content4":"Teknolojinin sunduğu bu imkanlar, doğru tanı ve kişiye özel tedavi planlamasını destekleyerek hem hekim hem de hasta için önemli avantajlar sunmaktadır."
+    "content4":"Teknolojinin sunduğu bu imkanlar, doğru tanı ve kişiye özel tedavi planlamasını destekleyerek hem hekim hem de hasta için önemli avantajlar sunmaktadır.",
+      "seo": {
+    "title": "Dijital Diş Hekimliği | 3D Tarayıcı ve Dijital Gülüş Tasarımı",
+    "description": "Kemer Antalya'da dijital diş hekimliği: 3D tarayıcılar, dijital gülüş tasarımı, CAD/CAM ve implant planlaması. Daha hızlı, konforlu ve hassas tedavi."
+  }
   },
+  "OurClinic": {
+  "title": "Kliniğimiz",
+  "intro": "Orange Dent Clinic olarak Kemer Antalya'da modern teknoloji ve konforlu bir ortamda hizmet veriyoruz. Kliniğimizde son teknoloji 3D tomografi, dijital tarayıcılar ve sterilizasyon ekipmanları bulunmaktadır. Hastalarımızın kendini evinde hissetmesi için tasarladığımız klinik alanımızı keşfedin.",
+  "seo": {
+    "title": "Kliniğimiz | Kemer Antalya Modern Diş Kliniği - Orange Dent",
+    "description": "Orange Dent Clinic Kemer Antalya'nın modern diş kliniği. 3D tomografi, dijital tarayıcılar ve steril ortamda uzman diş hekimliği hizmeti. Klinik fotoğraflarımızı inceleyin."
+  },
+  "p1alt":"giriş",
+  "p2alt":"bekleme-alanı-1",
+  "p3alt":"çocuk-oyun-odası",
+  "p4alt":"pedidonti-klinik-odası",
+  "p5alt":"klinik-odası-1",
+  "p6alt":"klinik-odası-2",
+  "p7alt":"bekleme-alanı-2",
+  "p8alt":"bekleme-alanı-3"
+},
+
   "SingleToothImplant": {
     "title": "Tek Diş İmplant Yapılır Mı?",
     "content1": "Tek diş implant uygulaması çok kısa bir sürede ve başarılı bir şekilde tamamlanacak süreçlerin başlangıcıdır. İlk önce eksik diş olduğu bölge için yeterli derecede kemik dokusu olup olmadığı kontrol edilir. Operasyonla 15-30 dk sürecek işlemle tamamlanır. Eksik dişlerin boş bırakılması ileri dönemlerde birçok farklı problemlere neden olabilir.",

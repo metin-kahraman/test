@@ -123,6 +123,34 @@
     "slogan3": "Podpisem…",
     "content": "Jako Orange Dent Clinic wyruszyliśmy, aby przynieść Ci nowoczesną praktykę stomatologiczną w serdecznej i spokojnej atmosferze. Od 2018 roku w regionie Kemer w Antalyi dążymy do utrzymania Twoich oczekiwań zdrowotnych i estetycznych na najwyższym poziomie. Nasz zespół lekarzy specjalistów oferuje spersonalizowane protokoły leczenia w szerokim zakresie – od implantologii po estetyczny projekt uśmiechu, ortodontię po stomatologię dziecięcą. Nasz multidyscyplinarny zespół doświadczonych dentystów i specjalistów tworzy najdokładniejszy plan diagnozy i leczenia nawet w skomplikowanych przypadkach. W naszej klinice wykorzystuje się komfortowe środowisko i najnowocześniejszy sprzęt (taki jak tomografia 3D, skanery cyfrowe, skaler, przezroczyste nakładki ortodontyczne), aby pomóc Ci zostawić lęki związane z leczeniem za drzwiami. Uważnie śledzimy rozwój technologiczny i stawiamy cyfrowe rozwiązania stomatologiczne w centrum naszej kliniki. Dla nas każdy pacjent jest nowym członkiem naszej rodziny. Wierzymy, że każda minuta spędzona w naszej klinice to cenna inwestycja w Twoje zdrowie. Naszym celem jest nie tylko rozwiązywanie problemów z zębami, ale także zapewnienie, że opuścisz naszą klinikę z pewnością siebie i szczęśliwym uśmiechem."
   },
+  "3dDentistry": {
+  "title": "Stomatologia cyfrowa",
+  "title2": "Szybciej, wygodniej, precyzyjniej",
+  "content": "Stomatologia cyfrowa wykracza poza tradycyjne metody, czyniąc leczenie stomatologiczne szybszym, precyzyjniejszym i bardziej spersonalizowanym. Dzięki zaawansowanym technologiom, takim jak skanery 3D, oprogramowanie do planowania cyfrowego i drukarki 3D, struktura jamy ustnej pacjenta jest szczegółowo analizowana, a proces leczenia optymalizowany. Dzięki temu uzyskuje się doskonałe rezultaty zarówno pod względem estetycznym, jak i funkcjonalnym.",
+  "content2": "To nowoczesne podejście, które dzięki zaawansowanym technologiom czyni leczenie jamy ustnej i zębów wygodniejszym, precyzyjniejszym i efektywniejszym. Wewnątrzustne skanery cyfrowe w wielu przypadkach zmniejszają potrzebę tradycyjnego pobierania wycisków, umożliwiając pacjentom bardziej komfortowe doświadczenie leczenia.",
+  "content3": "Dzięki uzyskanym trójwymiarowym zapisom cyfrowym takie procedury jak korony, mosty, planowanie implantów i estetyczny projekt uśmiechu można planować bardziej szczegółowo. Przyczynia się to zarówno do bardziej przewidywalnego procesu leczenia, jak i do jaśniejszej oceny planu leczenia między pacjentem a lekarzem.",
+  "content4": "Te możliwości technologiczne wspierają dokładną diagnostykę i indywidualne planowanie leczenia, oferując istotne korzyści zarówno dla lekarza, jak i dla pacjenta.",
+  "seo": {
+    "title": "Stomatologia cyfrowa | Skaner 3D i cyfrowy projekt uśmiechu",
+    "description": "Stomatologia cyfrowa w Kemer, Antalya: skanery 3D, cyfrowy projekt uśmiechu, CAD/CAM i planowanie implantów. Szybsze, wygodniejsze i precyzyjniejsze leczenie."
+  }
+},
+"OurClinic": {
+  "title": "Nasza klinika",
+  "intro": "Orange Dent Clinic w Kemer, Antalya, oferuje leczenie w nowoczesnym i komfortowym otoczeniu z wykorzystaniem najnowszych technologii. Nasza klinika jest wyposażona w zaawansowaną tomografię 3D, skanery cyfrowe i sprzęt do sterylizacji. Odkryj naszą przestrzeń kliniki, zaprojektowaną z myślą o Twoim komforcie.",
+  "seo": {
+    "title": "Nasza klinika | Nowoczesna klinika stomatologiczna w Kemer, Antalya - Orange Dent",
+    "description": "Orange Dent Clinic to nowoczesna klinika stomatologiczna w Kemer, Antalya. Profesjonalne leczenie z tomografią 3D, skanerami cyfrowymi i sterylnym środowiskiem. Zobacz zdjęcia kliniki."
+  },
+      "p1alt": "wejście",
+    "p2alt": "poczekalnia-1",
+    "p3alt": "pokój-zabaw-dla-dzieci",
+    "p4alt": "gabinet-pedodontyczny",
+    "p5alt": "gabinet-1",
+    "p6alt": "gabinet-2",
+    "p7alt": "poczekalnia-2",
+    "p8alt": "poczekalnia-3"
+},
   "SingleToothImplant": {
     "title": "Czy można wykonać implant pojedynczego zęba?",
     "content1": "Implantacja pojedynczego zęba to proces, który można pomyślnie zakończyć w bardzo krótkim czasie. Najpierw sprawdza się, czy w miejscu brakującego zęba jest wystarczająca ilość tkanki kostnej. Operacja trwa 15-30 minut. Pozostawienie brakujących zębów bez leczenia może w przyszłości powodować wiele różnych problemów.",

@@ -13,6 +13,8 @@ export default function Hero() {
 
   return (
     <Box
+    role="img"
+    aria-label={t('seo.title')}
       sx={{
         position: 'relative',
         height: { xs: '600px', md: '85vh' }, // Mobilde biraz daha kısa

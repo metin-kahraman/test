@@ -89,7 +89,8 @@ export function buildHreflang(englishPath: string): Record<string, string> {
     const prefix = loc === defaultLocale ? '' : `/${loc}`;
     languages[loc] = `${baseUrl}${prefix}/${enc(localized)}`;
   }
-  languages['x-default'] = languages[defaultLocale];
+  // ✅ x-default her zaman Türkçe sayfaya gitmeli
+  languages['x-default'] = languages['tr'];
   return languages;
 }
 

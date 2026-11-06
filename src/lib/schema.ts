@@ -1,6 +1,9 @@
 // lib/schema.ts
 import { baseUrl, getCanonicalUrl } from './seo';
 
+/* =========================================================
+   ARTICLE
+   ========================================================= */
 export type ArticleSchemaInput = {
   locale: string;
   headline: string;
@@ -9,11 +12,14 @@ export type ArticleSchemaInput = {
   datePublished: string;
   dateModified?: string;
   authorName?: string;
+  authorUrl?: string;
+  authorType?: 'Person' | 'Organization';
   canonicalPath: string;
 };
 
 export function buildArticleSchema(input: ArticleSchemaInput) {
   const url = getCanonicalUrl(input.locale, input.canonicalPath);
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
@@ -25,12 +31,13 @@ export function buildArticleSchema(input: ArticleSchemaInput) {
     inLanguage: input.locale,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     author: {
-      '@type': 'Organization',
+      '@type': input.authorType ?? 'Organization',
       name: input.authorName ?? 'Orange Dent Clinic',
-      url: baseUrl,
+      url: input.authorUrl ?? baseUrl,
     },
     publisher: {
       '@type': 'Organization',
+      '@id': `${baseUrl}/#organization`,
       name: 'Orange Dent Clinic',
       url: baseUrl,
       logo: {
@@ -41,6 +48,9 @@ export function buildArticleSchema(input: ArticleSchemaInput) {
   };
 }
 
+/* =========================================================
+   BREADCRUMB
+   ========================================================= */
 export type BreadcrumbItem = { name: string; url: string };
 
 export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
@@ -56,6 +66,9 @@ export function buildBreadcrumbSchema(items: BreadcrumbItem[]) {
   };
 }
 
+/* =========================================================
+   FAQ
+   ========================================================= */
 export type FaqItem = { question: string; answer: string };
 
 export function buildFaqSchema(items: FaqItem[]) {
@@ -70,33 +83,59 @@ export function buildFaqSchema(items: FaqItem[]) {
   };
 }
 
-export function buildDentistSchema() {
+/* =========================================================
+   DENTIST (LocalBusiness)
+   ========================================================= */
+type DentistSchemaOptions = {
+  locale?: string;
+};
+
+export function buildDentistSchema(options: DentistSchemaOptions = {}) {
+  const { locale } = options;
+  const url = locale ? getCanonicalUrl(locale, '/') : baseUrl;
+
   return {
     '@context': 'https://schema.org',
     '@type': 'Dentist',
+    '@id': `${baseUrl}/#organization`,
     name: 'Orange Dent Clinic',
-    url: baseUrl,
+    url,
     logo: `${baseUrl}/images/logo.png`,
-    image: `${baseUrl}/images/og-default.svg`,
-    telephone: '+90-000-000-0000',          // TODO: gerçek numara
-    email: 'info@orangedentclinic.com',      // TODO: gerçek email
+       image: [
+      `${baseUrl}/images/our-clinic-1.jpeg`,
+      `${baseUrl}/images/our-clinic-2.jpeg`,
+      `${baseUrl}/images/our-clinic-3.jpeg`,
+      `${baseUrl}/images/our-clinic-4.jpeg`,
+      `${baseUrl}/images/our-clinic-5.jpeg`,
+      `${baseUrl}/images/our-clinic-8.jpeg`,
+    ],
+    email: 'info@orangedentclinic.com',    // TODO: gerçek email
+    telephone: '+90-532-440-17-40',
     address: {
-      '@type': 'PostalAddress',
-      streetAddress: '...',                  // TODO: sokak
-      addressLocality: 'Kemer',
-      addressRegion: 'Antalya',
-      postalCode: '07980',
-      addressCountry: 'TR',
+  '@type': 'PostalAddress',
+  streetAddress: 'Merkez, Lise Cd. 18 C / D',
+  addressLocality: 'Kemer',
+  addressRegion: 'Antalya',
+  postalCode: '07980',
+  addressCountry: 'TR',
+  
     },
     geo: {
       '@type': 'GeoCoordinates',
-      latitude: 36.5986,                     // TODO: doğrula
-      longitude: 30.5604,                    // TODO: doğrula
+      latitude: 36.5986,                   // TODO: doğrula
+      longitude: 30.5604,                  // TODO: doğrula
     },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
-        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'],
+        dayOfWeek: [
+          'Monday',
+          'Tuesday',
+          'Wednesday',
+          'Thursday',
+          'Friday',
+          'Saturday',
+        ],
         opens: '09:00',
         closes: '19:00',
       },
@@ -104,7 +143,59 @@ export function buildDentistSchema() {
     sameAs: [
       'https://www.instagram.com/orangedentclinic', // TODO: gerçek
       'https://www.facebook.com/orangedentclinic',  // TODO: gerçek
+      'https://maps.app.goo.gl/9GXEhmQp8oZsMZuU8'
     ],
     priceRange: '₺₺',
+    medicalSpecialty: 'Dentistry',
+    availableService: [
+      { '@type': 'MedicalProcedure', name: 'Dental Implants' },
+      { '@type': 'MedicalProcedure', name: 'Cosmetic Dentistry' },
+      { '@type': 'MedicalProcedure', name: 'Orthodontics' },
+      { '@type': 'MedicalProcedure', name: 'Teeth Whitening' },
+      { '@type': 'MedicalProcedure', name: 'Gum Treatment' },
+      { '@type': 'MedicalProcedure', name: 'Root Canal Treatment' },
+    ],
   };
+}
+
+/* =========================================================
+   WEBSITE + SearchAction (Sitelinks Search Box)
+   ========================================================= */
+type WebSiteSchemaOptions = {
+  locale?: string;
+  searchPath?: string; // örn: '/ara' veya '/search'
+};
+
+export function buildWebSiteSchema(options: WebSiteSchemaOptions = {}) {
+  const { locale, searchPath } = options;
+  const inLanguage = locale ?? 'tr';
+
+  const schema: Record<string, unknown> = {
+    '@context': 'https://schema.org',
+    '@type': 'WebSite',
+    '@id': `${baseUrl}/#website`,
+    url: baseUrl,
+    name: 'Orange Dent Clinic',
+    inLanguage,
+    publisher: { '@id': `${baseUrl}/#organization` },
+  };
+  
+
+  if (searchPath) {
+    const localizedSearch =
+      locale && locale !== 'en'
+        ? `${baseUrl}/${locale}${searchPath}`
+        : `${baseUrl}${searchPath}`;
+
+    schema.potentialAction = {
+      '@type': 'SearchAction',
+      target: {
+        '@type': 'EntryPoint',
+        urlTemplate: `${localizedSearch}?q={search_term_string}`,
+      },
+      'query-input': 'required name=search_term_string',
+    };
+  }
+
+  return schema;
 }

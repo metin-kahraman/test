@@ -205,6 +205,7 @@ function DentalApplications() {
                   borderBottom: '1px solid',
                   borderColor: 'divider',
                   height:200,
+                  
                   objectFit:'fill'
 
                 }}

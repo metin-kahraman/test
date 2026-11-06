@@ -123,6 +123,34 @@
     "slogan3": "Parašas…",
     "content": "Kaip Orange Dent klinika, mes pradėjome savo veiklą siekdami jums pasiūlyti šiuolaikinę odontologijos praktiką nuoširdžioje ir ramioje atmosferoje. Nuo 2018 metų Antalijos Kemer regione siekiame išlaikyti jūsų sveikatos ir estetinius lūkesčius aukščiausiame lygyje. Mūsų specialistų gydytojų komanda siūlo individualizuotus gydymo protokolus įvairiose srityse – nuo implantologijos iki estetinės šypsenos dizaino, ortodontijos iki vaikų odontologijos. Mūsų daugiadalykė patyrusių odontologų ir specialistų komanda sukuria tiksliausią diagnozės ir gydymo planą net sudėtingiausiais atvejais. Mūsų klinikoje naudojama patogi aplinka ir pažangiausia įranga (pvz., 3D tomografija, skaitmeniniai skeneriai, blokų grandikliai, ortodontiniai skaidrūs kapai), padedanti jums palikti baimę gydymo procedūrų metu. Mes atidžiai sekame technologijų pažangą ir skaitmeninius odontologijos sprendimus laikome savo klinikos pagrindu. Mums kiekvienas pacientas yra naujas mūsų šeimos narys. Tikime, kad kiekviena jūsų praleista minutė mūsų klinikoje yra vertinga investicija į jūsų sveikatą. Mūsų tikslas – ne tik išspręsti jūsų dantų problemas, bet ir užtikrinti, kad iš mūsų klinikos išeitumėte pasitikėdami ir su laiminga šypsena."
   },
+  "3dDentistry": {
+  "title": "Skaitmeninė odontologija",
+  "title2": "Greičiau, patogiau, tiksliau",
+  "content": "Skaitmeninė odontologija peržengia tradicinių metodų ribas ir daro dantų gydymą greitesnį, tikslesnį bei labiau individualizuotą. Naudojant pažangias technologijas, tokias kaip 3D skaitytuvai, skaitmeninio planavimo programinė įranga ir 3D spausdintuvai, išsamiai analizuojama pacientų burnos ertmės struktūra ir optimizuojamas gydymo procesas. Taip pasiekiami puikūs tiek estetiniai, tiek funkciniai rezultatai.",
+  "content2": "Tai modernus požiūris, kuris dėl pažangių technologijų daro burnos ir dantų gydymą patogesnį, tikslesnį ir efektyvesnį. Burnos ertmės skaitmeniniai skaitytuvai daugeliu atvejų sumažina tradicinių atspaudų ėmimo metodų poreikį, leisdami pacientams patirti patogesnę gydymo patirtį.",
+  "content3": "Dėl gautų trimačių skaitmeninių įrašų tokios procedūros kaip vainikėliai, tiltai, implantų planavimas ir estetinis šypsenos dizainas gali būti planuojamos išsamiau. Tai prisideda tiek prie labiau nuspėjamo gydymo proceso, tiek prie aiškesnio gydymo plano vertinimo tarp paciento ir gydytojo.",
+  "content4": "Šios technologinės galimybės palaiko tikslią diagnostiką ir individualų gydymo planavimą, suteikdamos didelių privalumų tiek gydytojui, tiek pacientui.",
+  "seo": {
+    "title": "Skaitmeninė odontologija | 3D skaitytuvas ir skaitmeninis šypsenos dizainas",
+    "description": "Skaitmeninė odontologija Kemere, Antalijoje: 3D skaitytuvai, skaitmeninis šypsenos dizainas, CAD/CAM ir implantų planavimas. Greitesnis, patogesnis ir tikslesnis gydymas."
+  }
+},
+"OurClinic": {
+  "title": "Mūsų klinika",
+  "intro": "Orange Dent Clinic Kemere, Antalijoje, teikia paslaugas modernioje ir jaukioje aplinkoje naudodama naujausias technologijas. Mūsų klinikoje įrengti pažangūs 3D tomografai, skaitmeniniai skaitytuvai ir sterilizacijos įranga. Atraskite mūsų klinikos erdvę, sukurtą jūsų komfortui.",
+  "seo": {
+    "title": "Mūsų klinika | Moderni odontologijos klinika Kemere, Antalijoje - Orange Dent",
+    "description": "Orange Dent Clinic – moderni odontologijos klinika Kemere, Antalijoje. Profesionalus gydymas su 3D tomografija, skaitmeniniais skaitytuvais ir sterilia aplinka. Peržiūrėkite klinikos nuotraukas."
+  },
+      "p1alt": "įėjimas",
+    "p2alt": "laukimo-zona-1",
+    "p3alt": "vaikų-žaidimų-kambarys",
+    "p4alt": "vaikų-odontologijos-kabinetas",
+    "p5alt": "kabinetas-1",
+    "p6alt": "kabinetas-2",
+    "p7alt": "laukimo-zona-2",
+    "p8alt": "laukimo-zona-3"
+},
   "SingleToothImplant": {
     "title": "Ar galima atlikti vieno danties implantą?",
     "content1": "Vieno danties implantavimas yra procesas, kuris gali būti sėkmingai užbaigtas per labai trumpą laiką. Pirmiausia patikrinama, ar trūkstamo danties srityje yra pakankamai kaulinio audinio. Operacija atliekama per 15-30 minučių. Negydant trūkstamų dantų ateityje gali kilti daug įvairių problemų.",

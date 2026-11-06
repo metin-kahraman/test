@@ -130,19 +130,7 @@ const ModernPageBanner = () => {
 */}
           </Box>
 
-          <Typography
-            variant="h3"
-            component="h1"
-            sx={{
-              fontWeight: 700,
-              fontSize: { xs: '2rem', sm: '2.8rem' },
-              fontFamily: '"Poppins", "Roboto", "Helvetica", sans-serif',
-              letterSpacing: '-0.01em',
-              textShadow: '0 4px 15px rgba(0,0,0,0.2)',
-            }}
-          >
-            
-          </Typography>
+ 
         </Box>
 
         {/* Görseldeki Hizalı Breadcrumb Yapısı */}

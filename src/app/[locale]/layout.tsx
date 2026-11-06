@@ -1,32 +1,35 @@
 // app/[locale]/layout.tsx
-import * as React from "react";
+import * as React from 'react';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages } from 'next-intl/server';
-import { AppRouterCacheProvider } from "@mui/material-nextjs/v14-appRouter";
-import { ThemeProvider } from "@mui/material/styles";
-import CssBaseline from "@mui/material/CssBaseline";
-import GlobalStyles from "@mui/material/GlobalStyles";
-import theme from "@/theme";
-import AppAppBar from "@/components/AppAppBar";
-import Container from "@mui/material/Container";
-import Footer from "@/components/Footer";
-import FloatingActionButtons from "@/components/FloatingActionButtons";
-import type { Metadata } from "next";
-import ModernBannerWrapper from "@/components/ModernBannerWrapper";
-import JsonLd from "@/components/JsonLd";
-import { buildDentistSchema } from "@/lib/schema";
+import { getMessages, getTranslations } from 'next-intl/server';
+import { AppRouterCacheProvider } from '@mui/material-nextjs/v14-appRouter';
+import { ThemeProvider } from '@mui/material/styles';
+import CssBaseline from '@mui/material/CssBaseline';
+import GlobalStyles from '@mui/material/GlobalStyles';
+import theme from '@/theme';
+import AppAppBar from '@/components/AppAppBar';
+import Container from '@mui/material/Container';
+import Footer from '@/components/Footer';
+import FloatingActionButtons from '@/components/FloatingActionButtons';
+import type { Metadata } from 'next';
+import ModernBannerWrapper from '@/components/ModernBannerWrapper';
+import JsonLd from '@/components/JsonLd';
+import { buildDentistSchema, buildWebSiteSchema } from '@/lib/schema';
+import { baseUrl, getCanonicalUrl } from '@/lib/seo';
 
-const locales = ['en', 'tr', 'ru', 'pl', 'lt'] as const;
+/* ---------- Locale ayarları ---------- */
+const locales = ['en', 'tr', 'ru', 'lt', 'pl'] as const; // ⚠️ pt mi pl mi kontrol edin
 const defaultLocale = 'en';
 
-const baseUrl =
-  process.env.NEXT_PUBLIC_SITE_URL || 'https://orangedentclinic.com';
-
-type Props = {
-  children: React.ReactNode;
-  params: { locale: string };
+const ogLocaleMap: Record<string, string> = {
+  tr: 'tr_TR',
+  en: 'en_US',
+  lt: 'lt_LT',
+  pt: 'pt_PT',
+  ru: 'ru_RU',
 };
 
+/* ---------- Yardımcılar ---------- */
 function getLocalizedUrl(locale: string, path: string = ''): string {
   const cleanPath = path.startsWith('/') ? path : path ? `/${path}` : '';
   return locale === defaultLocale
@@ -43,20 +46,39 @@ function buildLanguageAlternates(path: string = '') {
   return languages;
 }
 
+/* ---------- Metadata ---------- */
+type Props = {
+  children: React.ReactNode;
+  params: Promise<{ locale: string }>;
+};
+
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const { locale } = params;
+  const { locale } = await params;
+  const t = await getTranslations({ locale, namespace: 'Home.seo' });
+
+  // Fallback: Metadata namespace yoksa varsayılanlara dön
+  let title: string;
+  let description: string;
+  try {
+    title = t('title');
+    description = t('description');
+  } catch {
+    title =
+      'Orange Dent Clinic | Kemer Antalya Diş Kliniği - İmplant, Estetik Diş, Ortodonti';
+    description =
+      'Kemer Antalya’da Orange Dent Clinic: implant, estetik diş hekimliği, ortodonti, diş beyazlatma ve dijital diş hekimliği. Uzman kadro, modern teknoloji.';
+  }
+
   const canonicalUrl = getLocalizedUrl(locale);
-  const ogImage = '/images/og-default.svg';
+  const ogImage = '/images/og-home.jpg'; // ⚠️ SVG yerine JPG/PNG (1200×630)
 
   return {
     metadataBase: new URL(baseUrl),
     title: {
-      default:
-        'Orange Dent Clinic | Kemer Antalya Diş Kliniği - İmplant, Estetik Diş, Ortodonti',
-      template: '%s | Orange Dent Clinic',
+      default: title,
+      template: `%s | Orange Dent Clinic`,
     },
-    description:
-      'Kemer Antalya’da Orange Dent Clinic: implant, estetik diş hekimliği, ortodonti, diş beyazlatma ve dijital diş hekimliği. Uzman kadro, modern teknoloji, kişiye özel tedavi. Randevu için hemen arayın.',
+    description,
     alternates: {
       canonical: canonicalUrl,
       languages: buildLanguageAlternates(),
@@ -65,12 +87,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
       type: 'website',
       url: canonicalUrl,
       siteName: 'Orange Dent Clinic',
-      title:
-        'Orange Dent Clinic | Kemer Antalya Diş Kliniği - İmplant, Estetik Diş, Ortodonti',
-      description:
-        'Kemer Antalya’da Orange Dent Clinic: implant, estetik diş hekimliği, ortodonti ve dijital diş hekimliği.',
-      locale: locale,
-      alternateLocale: ['en', 'tr', 'ru', 'pl', 'lt'].filter((l) => l !== locale),
+      title,
+      description,
+      locale: ogLocaleMap[locale] ?? 'en_US',
+      alternateLocale: locales
+        .filter((l) => l !== locale)
+        .map((l) => ogLocaleMap[l]),
       images: [
         {
           url: ogImage,
@@ -82,9 +104,8 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     },
     twitter: {
       card: 'summary_large_image',
-      title: 'Orange Dent Clinic | Kemer Antalya Diş Kliniği',
-      description:
-        'Uzman kadro, modern teknoloji, kişiye özel tedavi. Randevu için hemen arayın.',
+      title,
+      description,
       images: [ogImage],
     },
     robots: {
@@ -95,19 +116,27 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
         follow: true,
         'max-image-preview': 'large',
         'max-snippet': -1,
+        'max-video-preview': -1,
       },
+    },
+    icons: {
+      icon: '/favicon.ico',
+      apple: '/apple-touch-icon.png',
     },
   };
 }
 
-export default async function LocaleLayout({ children, params: { locale } }: Props) {
+/* ---------- Layout ---------- */
+export default async function LocaleLayout({ children, params }: Props) {
+  const { locale } = await params;
   const messages = await getMessages({ locale });
 
   return (
     <html lang={locale}>
       <body>
-        {/* Sitewide Dentist schema — her sayfada bir kez */}
-        <JsonLd data={buildDentistSchema()} />
+        {/* Sitewide JSON-LD — her sayfada bir kez */}
+        <JsonLd data={buildDentistSchema({ locale })} />
+        <JsonLd data={buildWebSiteSchema({ locale })} />
 
         <AppRouterCacheProvider options={{ enableCssLayer: true }}>
           <ThemeProvider theme={theme}>
@@ -150,4 +179,4 @@ export default async function LocaleLayout({ children, params: { locale } }: Pro
       </body>
     </html>
   );
-}
+} 

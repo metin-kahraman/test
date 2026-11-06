@@ -92,6 +92,7 @@ export default function Footer() {
   height="100%"
   style={{ border: 0 }}
   loading="lazy"
+  title="Orange Dent Clinic - Kemer Antalya Konum"
   referrerPolicy="no-referrer-when-downgrade"
 />
 

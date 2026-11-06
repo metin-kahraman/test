@@ -123,6 +123,34 @@
   "slogan3": "SIGNATURE…",
   "content": "As Orange Dent Clinic, we set out to bring modern dentistry practices to you in a sincere and peaceful atmosphere. Since 2018, in the Kemer region of Antalya, we have aimed to keep your health and aesthetic expectations at the highest level. Our team of specialist doctors offers personalized treatment protocols in a wide range from implantology to aesthetic smile design, orthodontics to pediatric dentistry. Our multidisciplinary team of experienced dentists and specialists creates the most accurate diagnosis and treatment plan even in complex cases. In our clinic, a comfortable environment and state-of-the-art equipment (such as 3D tomography, digital scanners, block scrapers, orthodontic clear aligners) are used to help you leave your treatment fears at the door. We closely follow technological developments and place digital dentistry solutions at the center of our clinic. For us, every patient is a new member of our family. We believe that every minute you spend in our clinic is a valuable investment in your health. Our goal is not only to solve your dental problems but also to ensure that you leave our clinic with confidence and a happy smile."
   },
+  "3dDentistry": {
+  "title": "Digital Dentistry",
+  "title2": "Faster, More Comfortable, More Precise",
+  "content": "Digital dentistry goes beyond traditional methods, making dental treatments faster, more precise and personalized. Using advanced technologies such as 3D scanners, digital planning software and 3D printers, patients' oral structures are analyzed in detail and the treatment process is optimized. This delivers excellent results in both aesthetics and function.",
+  "content2": "It is a modern approach that makes oral and dental treatments more comfortable, precise and efficient thanks to advanced technologies. Intraoral digital scanners reduce the need for traditional impression-taking methods in many cases, allowing patients to enjoy a more comfortable treatment experience.",
+  "content3": "Thanks to the three-dimensional digital records obtained, procedures such as crowns, bridges, implant planning and aesthetic smile design can be planned in greater detail. This contributes both to a more predictable treatment process and to a clearer evaluation of the treatment plan between the patient and the dentist.",
+  "content4": "These technological possibilities support accurate diagnosis and personalized treatment planning, offering significant advantages for both the dentist and the patient.",
+  "seo": {
+    "title": "Digital Dentistry | 3D Scanner and Digital Smile Design",
+    "description": "Digital dentistry in Kemer, Antalya: 3D scanners, digital smile design, CAD/CAM and implant planning. Faster, more comfortable and precise treatment."
+  }
+},
+"OurClinic": {
+  "title": "Our Clinic",
+  "intro": "At Orange Dent Clinic, we serve patients in Kemer, Antalya in a modern, comfortable environment with the latest technology. Our clinic is equipped with advanced 3D tomography, digital scanners and sterilization equipment. Discover our clinic space, designed to make you feel at home.",
+  "seo": {
+    "title": "Our Clinic | Modern Dental Clinic in Kemer Antalya - Orange Dent",
+    "description": "Orange Dent Clinic is a modern dental clinic in Kemer, Antalya. Expert dental care with 3D tomography, digital scanners and a sterile environment. Explore our clinic photos."
+  },
+      "p1alt": "entrance",
+    "p2alt": "waiting-area-1",
+    "p3alt": "children's-playroom",
+    "p4alt": "pedodonti-clinic-room",
+    "p5alt": "clinic-room-1",
+    "p6alt": "clinic-room-2",
+    "p7alt": "waiting-area-2",
+    "p8alt": "waiting-area-3"
+},
   "SingleToothImplant": {
     "title": "Can a Single Tooth Implant Be Done?",
     "content1": "Single tooth implant application is the beginning of processes that will be completed successfully in a very short time. First, it is checked whether there is sufficient bone tissue for the missing tooth area. The operation is completed in 15-30 minutes. Leaving missing teeth untreated can cause many different problems in the future.",
