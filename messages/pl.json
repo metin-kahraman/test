@@ -1,8 +1,8 @@
 {
   "HomePage": {
-  "title": "Z naszymi lekarzami ekspertami ",
-  "title2": "masz pewność ",
-  "title3": "swojego uśmiechu.",
+  "title": "Orange Klinika stomatologiczna w Kemerze",
+  "title2": "w Antalyi, opieka dla",
+  "title3": "pacjentów z zagranicy.",
   "title4": "Tworzymy zdrowe, estetyczne i pewne siebie uśmiechy dzięki nowoczesnym technologiom i indywidualnemu podejściu do leczenia.",
   "title5": "DLA JAKOŚCI ZDROWIA JAMY USTNEJ I ESTETYCZNYCH UŚMIECHÓW",
   "bookAn": "Umów wizytę",
@@ -21,10 +21,15 @@
   "comment5orj": "Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
   "comment5Translate": "Dziękuję temu Doktorowi i jego personelowi za ich szybką reakcję przez wiadomości Google, a następnie za ich życzliwość i skuteczność w radzeniu sobie z moim nagłym przypadkiem po przybyciu na miejsce. Gabinet jest nienagannie czysty i wyposażony w najnowocześniejszą technologię. Podczas mojej pierwszej wakacyjnej podróży do Turcji czuję się bardzo spokojny jeśli chodzi o bezpieczeństwo, higienę, profesjonalizm, a także szacunek, jaki okazuje naród turecki. Bravo i tysiące podziękowań dla Orange Dent Clinic.",
   "comment5Link": "https://share.google/E63HQJxer7p14aILn",
+  "viewReview": "Zobacz oryginalną opinię",
+  "SeoFallback": {
+    "title": "{topic} | Orange Dent Clinic",
+    "description": "Poznaj temat „{topic}” w Orange Dent Clinic w Kemer w Antalyi oraz dostępne metody leczenia stomatologicznego."
+  },
   "ourPartners":"Nasi partnerzy biznesowi",
     "seo": {
-      "title": "Orange Dent Clinic – Zdrowie i estetyka zębów",
-      "description": "Orange Dent Clinic oferuje usługi ekspertów w zakresie implantów, stomatologii estetycznej, ortodontii i innych. Umów się na wizytę dla zdrowego uśmiechu.",
+      "title": "Orange Dent Clinic | Dentysta w Kemer, Antalya",
+      "description": "Orange Dent Clinic w Kemer w Antalyi oferuje implanty, stomatologię estetyczną, ortodoncję i wybielanie zębów. Umów wizytę u doświadczonego dentysty.",
       "keywords": "klinika stomatologiczna, dentysta, implant, stomatologia estetyczna, ortodontia, wybielanie zębów",
       "url": "/"
     }
@@ -35,6 +40,7 @@
     "phone": "Telefon",
     "email": "E-mail",
     "workingHours": "Godziny pracy",
+    "mapTitle": "Lokalizacja Orange Dent Clinic w Kemer w Antalyi",
     "socialMedia": "Media społecznościowe",
     "title": "Twoje zdrowie i uśmiech – nasz priorytet",
     "iconPersonTitle": "Wykwalifikowany personel",
@@ -955,6 +961,11 @@
     }
   },
 "BlogItems": {
+    "seo": {
+      "title": "Blog o zdrowiu zębów | Orange Dent Clinic",
+      "description": "Czytaj praktyczne poradniki o zdrowiu zębów, implantach, ortodoncji i leczeniu od Orange Dent Clinic w Kemer w Antalyi.",
+      "keywords": "blog o zdrowiu zębów, implanty zębowe, zdrowie jamy ustnej, ortodoncja, leczenie stomatologiczne"
+    },
     "item2": {
       "caption": "Co to jest bruksizm?",
       "title": "Dlaczego zgrzytamy zębami w nocy lub w ciągu dnia?, Co to jest bruksizm?, Bruksizm dzienny, Jak rozpoznać, że zgrzytasz zębami w nocy?...",
@@ -1180,27 +1191,27 @@
     "item19": {
       "caption": "Jak zapobiegać żółknięciu zębów?",
       "title": "Dlaczego zęby żółkną?, Jakie są przyczyny żółknięcia?, Jak zapobiegać żółknięciu?, Czy wybielanie jest trwałe? Jak długo utrzymuje się efekt?, Jakie są metody wybielania stosowane przez dentystów?",
-      "url": "dis-sararması",
+      "url": "jak-zapobiegac-zolknieciu-zebow",
       "imgLink": "/images/dis-sararmasi-2.jpeg",
       "imgAlt": "Zapobieganie i leczenie żółknięcia zębów",
       "seo": {
         "title": "Jak zapobiegać żółknięciu zębów? - Przyczyny i Wybielanie",
         "description": "Jak zapobiegać żółknięciu zębów? Dowiedz się, dlaczego żółkną, jak temu zapobiec, trwałość wybielania i profesjonalne metody wybielania.",
         "keywords": "żółknięcie zębów, wybielanie zębów, kolor zębów, zapobieganie żółknięciu, profesjonalne wybielanie",
-        "url": "dis-sararması"
+        "url": "jak-zapobiegac-zolknieciu-zebow"
       }
     },
     "item20": {
       "caption": "Co to jest proteza zębowa?",
       "title": "Jaki rodzaj protezy jest dla Ciebie odpowiedni?, Protezy całkowite, Protezy częściowe, Jak wykonuje się protezy?, Z czego są robione protezy?",
-      "url": "dis-sararması",
+      "url": "protezy",
       "imgLink": "/images/dental-prosthesis.jpeg",
       "imgAlt": "Rodzaje protez zębowych i używane materiały",
       "seo": {
         "title": "Co to jest proteza zębowa? - Protezy całkowite i częściowe",
         "description": "Czym jest proteza zębowa? Dowiedz się, który typ jest odpowiedni, różnice między protezami całkowitymi a częściowymi, proces wykonania i materiały.",
         "keywords": "proteza zębowa, proteza całkowita, proteza częściowa, proteza ruchoma, wykonywanie protez, materiały protetyczne",
-        "url": "dis-sararması"
+        "url": "protezy"
       }
     }
   },

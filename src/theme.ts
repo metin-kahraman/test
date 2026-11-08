@@ -1,5 +1,5 @@
 'use client';
-import { Oswald, Gowun_Batang, Nunito, Handlee } from 'next/font/google';
+import { Oswald, Gowun_Batang, Nunito } from 'next/font/google';
 import { createTheme } from '@mui/material/styles';
 import { getDesignTokens } from './app/theme/themePrimitives';
 import {
@@ -14,29 +14,27 @@ const oswald = Oswald({
   weight: ['200', '300', '400', '500', '600'],
   subsets: ['latin'],
   display: 'swap',
+  preload: false,
 });
 const gowunBatang = Gowun_Batang({
   weight: ['400', '700'],
   subsets: ['latin'],
+  preload: false,
 });
 const nunito = Nunito({
   subsets: ['latin'],
   weight: ['400', '600', '700'],
-});
-const handlee = Handlee({
-  weight: ['400'],
-  subsets: ['latin'],
-  display: 'swap',
+  preload: false,
 });
 
 const theme = createTheme({
   ...getDesignTokens('light'),
   typography: {
     fontFamily: [
-      'sans-serif',
       nunito.style.fontFamily,
       oswald.style.fontFamily,
       gowunBatang.style.fontFamily,
+      'sans-serif',
       'Roboto',
       '"Helvetica Neue"',
       'Arial',

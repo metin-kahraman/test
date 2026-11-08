@@ -33,10 +33,10 @@ const servicesData2 = [
 
 
 const servicesData = ["AESTHETICDENTISTRY", "IMPLANT", "ORTHODONTIC", "DENTALBLEACHING"];
-const serviceDataLink =["T1Link","T8Link","T4Link","T2Link"]
+const serviceDataLink = ['T1Link', 'T8Link', 'T4Link', 'T2Link'] as const;
+const serviceTitleKeys = ['T1', 'T8', 'T4', 'T2'] as const;
 export default function Services() {
-    const { locale } = useParams();
-    console.log("Locale in Services component:", locale); // Log the locale to check its value
+    const { locale } = useParams<{ locale: string }>();
     const t = useTranslations('HomePage');
     const tt = useTranslations('Menu.titles');
     const ttt = useTranslations('Treatmans');
@@ -58,7 +58,7 @@ export default function Services() {
         {servicesData2.map((service, index) => (
           <Grid item xs={12} sm={6} md={3} key={index}>
             <Card sx={{ height: '100%', borderRadius: 0, boxShadow: 'none', border: '1px solid #f0f0f0', transition: 'all 0.3s', '&:hover': { boxShadow: '0px 4px 20px rgba(0,0,0,0.08)', transform: 'translateY(-4px)' } }}>
-              <CardMedia component="img" height="200" width="100%" image={service.image} alt={service.title} sx={{ objectFit: 'cover' }} />
+              <CardMedia component="img" height="200" width="100%" image={service.image} alt={tLink(serviceTitleKeys[index])} sx={{ objectFit: 'cover' }} />
               <Box sx={{ p: 2, position: 'relative' }}>
                 <Box sx={{ width: '50px', height: '50px', bgcolor: '#fff', borderRadius: '50%', border: '1px solid #eee', display: 'flex', alignItems: 'center', justifyContent: 'center', mt: -3, mb: 2, boxShadow: '0px 2px 10px rgba(0,0,0,0.05)' }}>
                     <Box sx={{color:'primary.main'}}>
@@ -87,7 +87,8 @@ export default function Services() {
       left: 10
       }}
     component="a"
-    href={`${locale}/${tLink(serviceDataLink[index])}`}
+    href={`/${locale}/${tLink(serviceDataLink[index])}`}
+    aria-label={tLink(serviceTitleKeys[index])}
   >
     <ArrowForwardIcon fontSize="small" />
   </IconButton>

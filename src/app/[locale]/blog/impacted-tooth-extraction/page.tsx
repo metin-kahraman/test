@@ -2,7 +2,7 @@ import { useTranslations } from 'next-intl';
 import { Container, Typography, Box, Paper, Divider, List, ListItem, ListItemText } from '@mui/material';
 import Image from 'next/image';
 
-export default function ImpactedTeeth() {
+export default function ImpactedToothExtraction() {
   const t = useTranslations('Blog.ImpactedTeeth');
   const causes = t.raw('wisdomTeethCauses') as string[];
   const indications = t.raw('extractionIndications') as string[];
@@ -17,7 +17,7 @@ export default function ImpactedTeeth() {
         <Box sx={{ mb: 4 }}>
           <Image
             src="/images/gomulu-dis1.jpeg"
-            alt="Gömülü diş tedavisi"
+            alt={t('title')}
             width={800}
             height={400}
             style={{ width: '100%', height: '400px', borderRadius: '8px' }}
@@ -43,7 +43,7 @@ export default function ImpactedTeeth() {
         <Box sx={{ mb: 4, mt: 4 }}>
           <Image
             src="/images/gomulu-dis2.jpeg"
-            alt="20 yaş dişi çekimi"
+            alt={t('extractionTitle')}
             width={800}
             height={400}
             style={{ width: '100%', height: '400px', borderRadius: '8px' }}

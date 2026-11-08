@@ -24,6 +24,7 @@ const handlee = Merienda({
   weight: ['300', '400', '500'],
   subsets: ['latin'],
   display: 'swap',
+  preload: false,
 });
 
 const AboutUs: FC = () => {

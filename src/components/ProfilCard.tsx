@@ -7,7 +7,6 @@ import Stack from '@mui/material/Stack';
 import Divider from '@mui/material/Divider';
 import SchoolIcon from '@mui/icons-material/School';
 import MedicalServicesIcon from '@mui/icons-material/MedicalServices';
-import WorkIcon from '@mui/icons-material/Work';
 //import StarRating from './StarRating'; // optional custom component
 
 type ProfilCardProps = {
@@ -15,7 +14,6 @@ type ProfilCardProps = {
   specialty: string;
   university: string;
   graduationYear: number;
-  experienceYears: number;
   imageUrl: string;
   rating?: number; // 0-5
 };
@@ -25,7 +23,6 @@ export default function ProfilCard({
   specialty,
   university,
   graduationYear,
-  experienceYears,
   imageUrl,
   rating,
 }: ProfilCardProps) {
@@ -105,12 +102,6 @@ export default function ProfilCard({
             </Typography>
           </Stack>
 
-          <Stack direction="row" alignItems="center" spacing={1}>
-            <WorkIcon fontSize="small" color="action" />
-            <Typography variant="body2" color="text.secondary">
-              {experienceYears} yıl deneyim
-            </Typography>
-          </Stack>
         </Stack>
       </CardContent>
     </Card>

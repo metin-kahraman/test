@@ -23,6 +23,7 @@ export default function Hero() {
         backgroundPosition: 'center',
         display: 'flex',
         alignItems: 'center',
+        mt:6 
       }}
     >
       {/* Görselin üzerine hafif bir karartma efekti (okunabilirlik için) */}
@@ -37,7 +38,7 @@ export default function Hero() {
         }}
       />
       
-      <Container sx={{ position: 'relative', zIndex: 2 }}>
+      <Container sx={{ position: 'relative', zIndex: 2}}>
         <Box sx={{ maxWidth: { xs: '100%', md: '600px' }, color: '#fff' }}>
               <Typography variant="caption" component="div" sx={{ letterSpacing: '0.2em', mb: 2, color: 'primary.light', display: 'flex', alignItems: 'center', gap: 1 }}>
              ORANGE DENT CLINIC

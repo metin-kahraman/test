@@ -3,7 +3,7 @@ import React, { useState, useEffect } from 'react';
 import { Box, Typography, Card, CardContent, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import TranslateIcon from '@mui/icons-material/Translate';
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import Link from '@mui/material/Link';
 const reviews = [
   {
@@ -32,11 +32,19 @@ const reviews = [
   },
 ];
 const reviewsItems=["1","2","3","4","5"];
+const reviewSourceLocales: Record<string, string> = {
+  '1': 'tr',
+  '2': 'ru',
+  '3': 'en',
+  '4': 'ro',
+  '5': 'fr',
+};
 
 
 function ReviewSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const t = useTranslations("HomePage");
+  const locale = useLocale();
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -106,8 +114,6 @@ function ReviewSlider() {
             }}
 
           >
-                        <Typography variant="h6" sx={{ mb: 2, textAlign: 'center' }}>
-            </Typography>
             <Card
               sx={{
                 width: '100%',
@@ -130,23 +136,37 @@ function ReviewSlider() {
                 <img
                   src="/google-logo.png"
                   alt="Google Reviews"
-                  style={{ width: '100px', height: 'auto'}}
+                  width={100}
+                  height={42}
+                  loading="lazy"
+                  decoding="async"
+                  style={{ width: '100px', height: 'auto' }}
                 />
               </Box>
               <CardContent sx={{ padding: '10px' }}>
-                <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
+                <Typography
+                  variant="body1"
+                  lang={reviewSourceLocales[review]}
+                  sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}
+                >
                    {t(`comment${review}orj`)}
                 </Typography>
-                <TranslateIcon sx={{color:'#ff7f50'}}/>
-                <Typography variant="body1" sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}>
-                  {t(`comment${review}Translate`)}
-                </Typography>
-                <Typography variant="subtitle2" color="text.secondary" sx={{ fontWeight: 'bold' }}>
-                 
-                </Typography>
-                <Link href={t(`comment${review}Link`)}  color="#FF8C00">
-   - {t(`comment${review}Link`)} -
-</Link>
+                {reviewSourceLocales[review] !== locale &&
+                  t(`comment${review}orj`).trim() !== t(`comment${review}Translate`).trim() && (
+                    <>
+                      <TranslateIcon aria-hidden="true" sx={{ color: '#ff7f50' }} />
+                      <Typography
+                        variant="body1"
+                        lang={locale}
+                        sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}
+                      >
+                        {t(`comment${review}Translate`)}
+                      </Typography>
+                    </>
+                  )}
+                <Link href={t(`comment${review}Link`)} color="#FF8C00" target="_blank" rel="noopener noreferrer">
+                  {t('viewReview')}
+                </Link>
               </CardContent>
             </Card>
           </Box>

@@ -1,11 +1,11 @@
 {
     "HomePage": {
-      "title": "Uzman doktorlarımızla ",
-      "title2": "gülüşünüzü güvence ",
-      "title3": "altına alın.",
+      "title": "Orange Dent Diş Kliniği Kemer Antalya",
+      "title2": "Güvenilir ve kaliteli",
+      "title3": "modern diş tedavileri.",
       "title4": "Modern teknoloji ve kişiye özel tedavi yaklaşımlarımızla sağlıklı, estetik ve özgüvenli gülüşler tasarlıyoruz.",
       "bookAn":"Randevu Alın",
-      "title5":"KALİTELİ DİŞ SAĞLIĞIve ESTETİK GÜLÜŞLER İÇİN",
+      "title5":"KALİTELİ DİŞ SAĞLIĞI VE ESTETİK GÜLÜŞLER İÇİN",
       "comment1orj":"Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
       "comment1Translate":"Kasım ayında Orange'a gittim, kanal tedavisi yaptırdım ve siyah dolgumu beyaza değiştirdim, hiçbir şey hissetmedim, bu diş hekimini şiddetle tavsiye ederim, çok iyiydi, kesinlikle diğer tedaviler için tekrar gideceğim, teşekkür ederim.",
       "comment1Link":"https://share.google/Y1BGhIashAu1UbG15",
@@ -21,10 +21,15 @@
       "comment5orj":"Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
       "comment5Translate":"Google mesajlaşma yoluyla gösterdikleri hızlı yanıt ve acil durumumu ele alırken gösterdikleri nezaket ve verimlilik için bu doktora ve ekibine teşekkür ederim.Ofis son derece temiz ve en son teknolojiyle donatılmış.Türkiye'ye ilk tatil seyahatimde, Türk halkının gösterdiği güvenlik, hijyen, profesyonellik ve saygıdan dolayı kendimi çok güvende hissediyorum. Bravo ve Orange Dent Clinic'e binlerce teşekkür.",
       "comment5Link":"https://share.google/E63HQJxer7p14aILn",
+      "viewReview":"Orijinal yorumu gör",
+      "SeoFallback": {
+        "title": "{topic} | Orange Dent Clinic",
+        "description": "Kemer, Antalya'daki Orange Dent Clinic'te {topic} hakkında bilgi edinin; diş sağlığı hizmetlerimizi ve tedavi seçeneklerimizi keşfedin."
+      },
       "ourPartners":"İş Ortaklarımız",
       "seo": {
-      "title": "Orange Dent Clinic | Kemer Antalya'da Estetik ve İmplant Diş Hekimliği",
-      "description": "Uzman kadromuzla estetik diş hekimliği, implant, ortodonti ve diş eti tedavileri. Modern teknoloji, konforlu tedavi. Randevu alın.",
+      "title": "Orange Dent Clinic | Kemer Antalya Diş Kliniği – İmplant ve Estetik Diş Hekimliği",
+      "description": "Kemer, Antalya'daki Orange Dent Clinic'te implant, estetik diş hekimliği, ortodonti ve diş beyazlatma tedavileri. Deneyimli diş hekimlerinden randevu alın.",
       "keywords": "diş kliniği kemer antalya, implant, estetik diş, ortodonti, diş eti tedavisi"
     }
     },
@@ -34,6 +39,7 @@
     "phone": "Telefon",
     "email": "E-posta",
     "workingHours": "Çalışma Saatleri",
+    "mapTitle": "Orange Dent Clinic, Kemer Antalya konumu",
     "socialMedia": "Sosyal Medya",
     "title": "Sağlığınız ve gülüşünüz bizim önceliğimiz",
     "iconPersonTitle": "Nitelikli Personel",
@@ -320,7 +326,7 @@
     },
     "ORTHODONTIC":{
       "item1":{
-        "title":"Ortodonti(Tel tedavisi)",
+        "title":"Ortodonti (Tel tedavisi)",
         "subTitle":"Orange Dent ve Ortodonti",
         "value":"Orange Dent, diş sağlığının yanı sıra estetik gülüşün de önemini bilen, ortodonti alanında yüksek kalitede hizmet veren bir kliniktir. Ortodonti, dişlerin, çene yapısının ve yüz estetiğinin düzeltilmesi amacıyla yapılan tedavi yöntemlerini kapsar. Orange Dent, modern teknoloji ve deneyimli kadrosuyla, dişlerin düzgün sıralanması ve çene uyumu için en uygun tedavi planlarını sunar. Gülüş estetiğinizin yanı sıra fonksiyonel diş sağlığınız için de ortodontik tedavi büyük bir öneme sahiptir."
       },
@@ -866,6 +872,11 @@
     }
   },
 "BlogItems": {
+    "seo": {
+      "title": "Diş Sağlığı Blogu | Orange Dent Clinic",
+      "description": "Orange Dent Clinic'in diş sağlığı, implant, ortodonti ve tedaviler hakkındaki rehberlerini keşfedin. Kemer, Antalya'daki uzmanlardan güncel bilgiler.",
+      "keywords": "diş sağlığı blogu, diş implantı, ağız sağlığı, ortodonti, diş tedavisi"
+    },
     "item2": {
         "caption": "Bruksizm Nedir ?",
         "title": "Neden Gece veya Gündüz Dişlerinizi Gıcırdatıyoruz ?, Bruksizm Nedir?, Gündüz Bruksizmi, Geceleri Dişlerinizi Öğütürseniz Nasıl Anlaşılır ?...",
@@ -1090,14 +1101,14 @@
     "item19": {
         "caption": "Diş Sararması Nasıl Engellenir?",
         "title": "Dişler Neden Sararır?, Diş Sararmasının Nedenleri Nelerdir?, Diş Sararmalarının Önüne Nasıl Geçilir?, Diş Beyazlatmanın Etkisi Kalıcı mıdır? Beyazlatma İşleminin Etkisi Ne Kadar Sürer?, Diş Hekimlerin Uyguladığı Diş Beyazlatma Yöntemleri Nelerdir?",
-        "url": "dis-sararması",
+        "url": "dis-sararmasini-onleme",
         "imgLink": "/images/dis-sararmasi-2.jpeg",
         "imgAlt": "",
         "seo": {
             "title": "Diş Sararması Nasıl Engellenir? | Nedenleri ve Beyazlatma",
             "description": "Diş sararması nasıl engellenir? Dişler neden sararır, sararmaları önleme yolları, beyazlatma işleminin kalıcılığı ve profesyonel beyazlatma yöntemleri.",
             "keywords": "diş sararması, diş beyazlatma, diş rengi, sararmayı önleme, profesyonel beyazlatma, diş lekesi",
-            "url": "dis-sararmasi"
+            "url": "dis-sararmasini-onleme"
         }
     },
     "item20": {
@@ -1316,7 +1327,13 @@
       "Ortodontik tedavi gerektiren durumlar",
       "Protez planlaması öncesi",
       "Kist oluşumu riski"
-    ]
+    ],
+    "seo": {
+      "title": "Gömülü Diş Çekimi ve 20 Yaş Dişi Tedavisi",
+      "description": "Gömülü diş ve 20 yaş dişi çekiminin nasıl yapıldığını, iyileşme sürecini ve hangi durumlarda gerekli olduğunu öğrenin.",
+      "keywords": "gömülü diş çekimi, 20 yaş dişi, gömülü diş tedavisi, diş çekimi",
+      "url": "blog/gomulu-dis-cekimi"
+    }
   },
   "DentalCrowns": {
     "title": "Diş Kaplama Çeşitleri Nelerdir?",

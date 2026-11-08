@@ -1,5 +1,5 @@
 import { useTranslations } from 'next-intl';
-import { getMessages } from 'next-intl/server';
+import { getTranslations } from 'next-intl/server';
 import type { Metadata } from 'next';
 import {
   Container, Typography, Box, Paper, Divider, Grid, Card, CardContent,
@@ -9,7 +9,12 @@ import Image from 'next/image';
 import ContentRightSlideMenu from '@/components/contentRightSlideMenu';
 import FrequentlyAskedQuestions from '@/components/FrequentlyAskedQuestions';
 import JsonLd from '@/components/JsonLd';
-import { buildHreflang, getCanonicalUrl, baseUrl } from '@/lib/seo';
+import {
+  buildHreflang,
+  getCanonicalUrl,
+  getOpenGraphLocale,
+  baseUrl,
+} from '@/lib/seo';
 import {
   buildArticleSchema,
   buildBreadcrumbSchema,
@@ -24,50 +29,42 @@ interface Treatment {
 
 /* ---------- SEO ---------- */
 const CANONICAL_PATH = 'blog/bruxism';
-const PUBLISHED_DATE = '2024-01-01';   // TODO: gerçek yayın tarihi
-
 type PageProps = { params: { locale: string } };
 
 export async function generateMetadata({ params }: PageProps): Promise<Metadata> {
   const { locale } = params;
 
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
-  const localizedLast = decodeURIComponent(canonicalUrl.split('/').pop() || '');
   const languages = buildHreflang(CANONICAL_PATH);
-
-  let seo: { title?: string; description?: string; keywords?: string } | undefined;
-
-  try {
-    const messages = await getMessages({ locale });
-    const items = (messages.BlogItems ?? {}) as Record<
-      string,
-      { seo?: { title: string; description: string; keywords?: string; url: string } }
-    >;
-
-    seo = Object.values(items)
-      .map((i) => i?.seo)
-      .find(
-        (s) =>
-          s?.url &&
-          (s.url === localizedLast || s.url.split('/').pop() === localizedLast)
-      );
-  } catch {
-    // fallback
-  }
+  const t = await getTranslations({
+    locale,
+    namespace: 'BlogItems.item2.seo',
+  });
+  const title = t('title');
+  const description = t('description');
 
   return {
-    title: seo?.title ?? 'Bruksizm - Orange Dent Clinic',
-    description: seo?.description ?? '',
-    keywords: seo?.keywords,
+    title,
+    description,
+    keywords: t('keywords'),
     alternates: {
       canonical: canonicalUrl,
       languages,
     },
     openGraph: {
-      title: seo?.title,
-      description: seo?.description,
+      title,
+      description,
       url: canonicalUrl,
+      siteName: 'Orange Dent Clinic',
       type: 'article',
+      locale: getOpenGraphLocale(locale),
+      images: [`${baseUrl}/images/bruxism-1.jpeg`],
+    },
+    twitter: {
+      card: 'summary_large_image',
+      title,
+      description,
+      images: [`${baseUrl}/images/bruxism-1.jpeg`],
     },
     robots: { index: true, follow: true },
   };
@@ -112,15 +109,14 @@ export default function BruxismPage({ params }: PageProps) {
   const articleTitle = t('title');
   const articleIntro = t('intro');
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
-  const homeUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
-  const blogUrl = locale === 'en' ? `${baseUrl}/blog` : `${baseUrl}/${locale}/blog`;
+  const homeUrl = getCanonicalUrl(locale, '');
+  const blogUrl = getCanonicalUrl(locale, 'blog');
 
   const articleSchema = buildArticleSchema({
     locale,
     headline: articleTitle,
     description: articleIntro,
     image: '/images/bruxism-1.jpeg',
-    datePublished: PUBLISHED_DATE,
     canonicalPath: CANONICAL_PATH,
   });
 

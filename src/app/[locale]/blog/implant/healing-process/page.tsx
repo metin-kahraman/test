@@ -15,7 +15,7 @@ export default function ImplantRecovery() {
         <Box sx={{ mb: 4 }}>
           <Image
             src="/images/implant-iyilesme1.png"
-            alt="Implant iyileşme süreci"
+            alt={t('title')}
             width={600}
             height={400}
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
@@ -38,7 +38,7 @@ export default function ImplantRecovery() {
         <Box sx={{ mb: 4, mt: 4 }}>
           <Image
             src="/images/implant-iyilesme2.jpeg"
-            alt="Implant yarası iyileşme süreci"
+            alt={t('woundHealingTitle')}
             width={600}
             height={400}
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}

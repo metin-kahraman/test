@@ -15,7 +15,7 @@ export default function Orthodontics() {
         <Box sx={{ mb: 4 }}>
           <Image
             src="/images/ortodonti1.jpg"
-            alt="Ortodonti tedavisi"
+            alt={t('title')}
             width={600}
             height={400}
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}
@@ -42,7 +42,7 @@ export default function Orthodontics() {
         <Box sx={{ mb: 4, mt: 4 }}>
           <Image
             src="/images/ortodonti2.jpg"
-            alt="Ortodonti tedavi örnekleri"
+            alt={t('whoNeedsTitle')}
             width={600}
             height={400}
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}

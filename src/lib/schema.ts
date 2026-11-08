@@ -1,5 +1,5 @@
 // lib/schema.ts
-import { baseUrl, getCanonicalUrl } from './seo';
+import { baseUrl, getCanonicalUrl, type Locale } from './seo';
 
 /* =========================================================
    ARTICLE
@@ -9,7 +9,7 @@ export type ArticleSchemaInput = {
   headline: string;
   description: string;
   image: string;
-  datePublished: string;
+  datePublished?: string;
   dateModified?: string;
   authorName?: string;
   authorUrl?: string;
@@ -26,8 +26,12 @@ export function buildArticleSchema(input: ArticleSchemaInput) {
     headline: input.headline,
     description: input.description,
     image: `${baseUrl}${input.image}`,
-    datePublished: input.datePublished,
-    dateModified: input.dateModified ?? input.datePublished,
+    ...(input.datePublished
+      ? {
+          datePublished: input.datePublished,
+          dateModified: input.dateModified ?? input.datePublished,
+        }
+      : {}),
     inLanguage: input.locale,
     mainEntityOfPage: { '@type': 'WebPage', '@id': url },
     author: {
@@ -93,6 +97,48 @@ type DentistSchemaOptions = {
 export function buildDentistSchema(options: DentistSchemaOptions = {}) {
   const { locale } = options;
   const url = locale ? getCanonicalUrl(locale, '/') : baseUrl;
+  const serviceNames: Record<Locale, string[]> = {
+    en: [
+      'Dental implants',
+      'Cosmetic dentistry',
+      'Orthodontics',
+      'Teeth whitening',
+      'Gum treatment',
+      'Root canal treatment',
+    ],
+    tr: [
+      'Diş implantı',
+      'Estetik diş hekimliği',
+      'Ortodonti',
+      'Diş beyazlatma',
+      'Diş eti tedavisi',
+      'Kanal tedavisi',
+    ],
+    ru: [
+      'Зубные импланты',
+      'Эстетическая стоматология',
+      'Ортодонтия',
+      'Отбеливание зубов',
+      'Лечение дёсен',
+      'Лечение корневых каналов',
+    ],
+    pl: [
+      'Implanty zębowe',
+      'Stomatologia estetyczna',
+      'Ortodoncja',
+      'Wybielanie zębów',
+      'Leczenie dziąseł',
+      'Leczenie kanałowe',
+    ],
+    lt: [
+      'Dantų implantai',
+      'Estetinė odontologija',
+      'Ortodontija',
+      'Dantų balinimas',
+      'Dantenų gydymas',
+      'Šaknų kanalų gydymas',
+    ],
+  };
 
   return {
     '@context': 'https://schema.org',
@@ -100,7 +146,8 @@ export function buildDentistSchema(options: DentistSchemaOptions = {}) {
     '@id': `${baseUrl}/#organization`,
     name: 'Orange Dent Clinic',
     url,
-    logo: `${baseUrl}/images/logo.png`,
+    inLanguage: locale,
+    logo: `${baseUrl}/images/OrangeDentClinic-logo.svg`,
        image: [
       `${baseUrl}/images/our-clinic-1.jpeg`,
       `${baseUrl}/images/our-clinic-2.jpeg`,
@@ -147,14 +194,9 @@ export function buildDentistSchema(options: DentistSchemaOptions = {}) {
     ],
     priceRange: '₺₺',
     medicalSpecialty: 'Dentistry',
-    availableService: [
-      { '@type': 'MedicalProcedure', name: 'Dental Implants' },
-      { '@type': 'MedicalProcedure', name: 'Cosmetic Dentistry' },
-      { '@type': 'MedicalProcedure', name: 'Orthodontics' },
-      { '@type': 'MedicalProcedure', name: 'Teeth Whitening' },
-      { '@type': 'MedicalProcedure', name: 'Gum Treatment' },
-      { '@type': 'MedicalProcedure', name: 'Root Canal Treatment' },
-    ],
+    availableService: (locale ? serviceNames[locale as Locale] : serviceNames.en).map(
+      (name) => ({ '@type': 'MedicalProcedure', name })
+    ),
   };
 }
 
@@ -174,7 +216,7 @@ export function buildWebSiteSchema(options: WebSiteSchemaOptions = {}) {
     '@context': 'https://schema.org',
     '@type': 'WebSite',
     '@id': `${baseUrl}/#website`,
-    url: baseUrl,
+    url: locale ? getCanonicalUrl(locale, '') : baseUrl,
     name: 'Orange Dent Clinic',
     inLanguage,
     publisher: { '@id': `${baseUrl}/#organization` },

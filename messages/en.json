@@ -1,8 +1,8 @@
 {
   "HomePage": {
-  "title": "With our expert doctors, ",
-  "title2": "secure your smile ",
-  "title3": "with confidence.",
+  "title": "Orange Dental clinic in Kemer, Antalya",
+  "title2": "Trusted care for international",
+  "title3": "patients and their smiles.",
   "title4": "We design healthy, aesthetic, and confident smiles with modern technology and personalized treatment approaches.",
   "title5": "FOR QUALITY ORAL HEALTH AND AESTHETIC SMILES",
   "bookAn": "Book an Appointment",
@@ -21,10 +21,15 @@
   "comment5orj": "Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
   "comment5Translate": "Thank you to this Doctor and his staff for their responsiveness via Google messaging, then their kindness and efficiency in handling my emergency once I arrived on site. The office is impeccably clean and equipped with state-of-the-art technology. For my first vacation trip to Turkey, I feel very reassured regarding safety, hygiene, professionalism, as well as the respect shown by the Turkish nation. Bravo and a thousand thanks to Orange Dent Clinic.",
   "comment5Link": "https://share.google/E63HQJxer7p14aILn",
+  "viewReview": "View original review",
+  "SeoFallback": {
+    "title": "{topic} | Orange Dent Clinic",
+    "description": "Explore {topic} at Orange Dent Clinic in Kemer, Antalya. Find details about our dental care and treatment options."
+  },
   "ourPartners":"Our Business Partners",
     "seo": {
-      "title": "Orange Dent Clinic - Dental Health & Aesthetics",
-      "description": "Orange Dent Clinic offers expert services in implants, aesthetic dentistry, orthodontics, and more. Book your appointment for a healthy smile.",
+      "title": "Orange Dent Clinic | Dentist in Kemer, Antalya",
+      "description": "Visit Orange Dent Clinic, a modern dental clinic in Kemer, Antalya. Our dentists offer implants, cosmetic dentistry, orthodontics and teeth whitening.",
       "keywords": "dental clinic, dentist, implant, aesthetic dentistry, orthodontics, teeth whitening",
       "url": "/"
     }
@@ -35,6 +40,7 @@
     "phone": "Phone",
     "email": "Email",
     "workingHours": "Working Hours",
+    "mapTitle": "Orange Dent Clinic location in Kemer, Antalya",
     "socialMedia": "Social Media",
     "title": "Your health and smile are our priority",
     "iconPersonTitle": "Qualified Staff",
@@ -107,7 +113,7 @@
       "item5": "before-after",
       "item6": "contact",
       "item7": "blog",
-      "item8": "our-doctors"
+      "item8": "our-dentist"
     },
     "seo": {
       "title": "Orange Dent Clinic - Menu",
@@ -955,17 +961,22 @@
     }
   },
 "BlogItems": {
+    "seo": {
+      "title": "Dental Health Blog | Orange Dent Clinic",
+      "description": "Read practical guides on dental health, implants, orthodontics and treatments from Orange Dent Clinic in Kemer, Antalya.",
+      "keywords": "dental health blog, dental implants, oral health, orthodontics, dental treatment"
+    },
     "item2": {
       "caption": "What is Bruxism?",
       "title": "Why do we grind our teeth at night or during the day?, What is bruxism?, Daytime bruxism, How to understand if you grind your teeth at night?...",
-      "url": "bruksizm",
+      "url": "bruxism",
       "imgLink": "/images/blog/bruxism.png",
       "imgAlt": "Bruxism teeth grinding and jaw clenching",
       "seo": {
         "title": "Bruxism (Teeth Grinding) - Causes and Treatment",
         "description": "Learn about bruxism causes, symptoms, and effective treatment methods. Find solutions for nighttime teeth grinding and jaw clenching problems.",
         "keywords": "bruxism, teeth grinding, jaw clenching, sleep bruxism, bruxism treatment",
-        "url": "bruksizm"
+        "url": "bruxism"
       }
     },
     "item3": {
@@ -1166,14 +1177,14 @@
     "item18": {
       "caption": "Why Do Gums Bleed?",
       "title": "Causes of Gum Bleeding, What are the Risk Factors?, Diseases That Cause Gum Bleeding, Do Vitamin Deficiencies Lead to Gum Problems?, How Is Gum Bleeding Treated?",
-      "url": "gum-bleeding",
+      "url": "tooth-bleeding",
       "imgLink": "/images/gum-bleeding-1.jpeg",
       "imgAlt": "Gum bleeding causes and treatment methods",
       "seo": {
         "title": "Why Do Gums Bleed? - Causes and Treatment Methods",
         "description": "Why do gums bleed? Learn about causes, risk factors, the role of vitamin deficiencies, and effective treatment methods for bleeding gums.",
         "keywords": "gum bleeding, bleeding gums, gum disease, gingivitis, vitamin deficiency gums",
-        "url": "gum-bleeding"
+        "url": "tooth-bleeding"
       }
     },
     "item19": {

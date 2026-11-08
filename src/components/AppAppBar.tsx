@@ -26,7 +26,7 @@ import {
 } from "@mui/material";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
 import PhoneIcon from "@mui/icons-material/Phone";
-import urlMappings from "public/locales/urlMapping";
+import { getEnglishPath, getLocalizedPath } from "@/lib/seo";
 import { MenuItemTranslations } from "@/types/menu";
 
 const StyledToolbar = styled(Toolbar)(({ theme }) => ({
@@ -104,11 +104,11 @@ export default function AppAppBar() {
     const pathParts = pathname.split("/");
     const currentPath = pathParts.slice(2).join("/");
 
-    const newPath =
-      urlMappings[newLocale as keyof typeof urlMappings]?.[currentPath] ||
-      currentPath;
+    const englishPath =
+      getEnglishPath(String(locale), currentPath) ?? currentPath;
+    const newPath = getLocalizedPath(newLocale, englishPath);
 
-    router.push(`/${newLocale}/${newPath}`);
+    router.push(newPath ? `/${newLocale}/${newPath}` : `/${newLocale}`);
     setSelectedLanguage(newLocale);
   };
 

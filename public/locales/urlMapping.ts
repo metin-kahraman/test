@@ -61,9 +61,9 @@ export const urlMappings: Record<string, Record<Locale, string>> = {
     pl: 'blog',
     lt: 'tinklaraštis',
   },
-  'our-doctors': {
+  'our-dentist': {
     tr: 'hekimlerimiz',
-    en: 'our-doctors',
+    en: 'our-dentist',
     ru: 'nashi-vrachi',
     pl: 'nasi-lekarze',
     lt: 'musu-gydytojai',
@@ -226,7 +226,7 @@ export const urlMappings: Record<string, Record<Locale, string>> = {
   'blog/implant/implant-healing-process': {
     tr: 'blog/implant/implant-iyilesme-sureci',
     en: 'blog/implant/implant-healing-process',
-    ru: 'blog/implant/protsess-priživleniya-implantata',
+    ru: 'blog/implant/protsess-prizhivleniya-implantata',
     pl: 'blog/implant/proces-gojenia-implantu',
     lt: 'blog/implantas/implanto-gijimo-procesas',
   },
@@ -279,9 +279,9 @@ export const urlMappings: Record<string, Record<Locale, string>> = {
     pl: 'blog/leczenie-przerw',
     lt: 'blog/tarpai-tarp-dantu',
   },
-  'blog/gum-bleeding': {
+  'blog/tooth-bleeding': {
     tr: 'blog/dis-eti-kanamasi',
-    en: 'blog/gum-bleeding',
+    en: 'blog/tooth-bleeding',
     ru: 'blog/krovotochivost-desen',
     pl: 'blog/krwawienie-dziasel',
     lt: 'blog/dantenu-kraujavimas',
@@ -299,6 +299,13 @@ export const urlMappings: Record<string, Record<Locale, string>> = {
     ru: 'blog/zubnye-protezy',
     pl: 'blog/protezy',
     lt: 'blog/protezai',
+  },
+  'blog/impacted-tooth-extraction': {
+    tr: 'blog/gomulu-dis-cekimi',
+    en: 'blog/impacted-tooth-extraction',
+    ru: 'blog/udalenie-retinirovannyh-zubov',
+    pl: 'blog/ekstrakcja-zeba-zatrzymanego',
+    lt: 'blog/uzdarame-kaule-esancio-danties-salinimas',
   },
 };
 

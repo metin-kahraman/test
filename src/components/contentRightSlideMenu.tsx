@@ -14,6 +14,7 @@ import { Nunito } from 'next/font/google';
 const nunito = Nunito({
   subsets: ["latin"],
   weight: ["400", "600", "700"],
+  preload: false,
 });
 const treatments = [
   { img: "https://picsum.photos/800/450?random=1", title: "T1" },

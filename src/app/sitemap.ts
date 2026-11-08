@@ -5,47 +5,18 @@ import {
   defaultLocale,
   getEnglishPages,
   getLocalizedUrl,
+  buildHreflang,
 } from '@/lib/seo';
-import urlMappings from '../../public/locales/urlMapping';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const pages = getEnglishPages();
+  return ['', ...getEnglishPages()].flatMap((englishPath) => {
+    const languages = buildHreflang(englishPath);
 
-  // Anasayfayı da ekle
-  const allPages = ['', ...pages];
-
-  return allPages.flatMap((enSlug) => {
-    // Bu sayfa için tüm dillerdeki URL'ler (hreflang haritası)
-    const languages: Record<string, string> = {};
-    for (const loc of locales) {
-      const localized =
-        enSlug === ''
-          ? ''
-          : loc === 'en'
-            ? enSlug
-            : urlMappings[loc]?.[enSlug] ?? enSlug;
-      languages[loc] = getLocalizedUrl(loc, localized ? `/${localized}` : '');
-    }
-    languages['x-default'] = getLocalizedUrl(
-      defaultLocale,
-      enSlug ? `/${enSlug}` : ''
-    );
-
-    return locales.map((loc) => {
-      const localized =
-        enSlug === ''
-          ? ''
-          : loc === 'en'
-            ? enSlug
-            : urlMappings[loc]?.[enSlug] ?? enSlug;
-      return {
-        url: getLocalizedUrl(loc, localized ? `/${localized}` : ''),
-        lastModified: new Date(),
-        changeFrequency: 'monthly' as const,
-        priority:
-          enSlug === '' ? 1 : loc === defaultLocale ? 0.9 : 0.8,
-        alternates: { languages },
-      };
-    });
+    return locales.map((locale) => ({
+      url: getLocalizedUrl(locale, englishPath),
+      changeFrequency: 'monthly' as const,
+      priority: englishPath === '' ? 1 : locale === defaultLocale ? 0.9 : 0.8,
+      alternates: { languages },
+    }));
   });
 }

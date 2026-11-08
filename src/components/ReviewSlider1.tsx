@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Box, Typography, Button, Card, CardContent, IconButton } from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
-import GoogleLogo from './img/googleReviews.png'; // Google'ın yorum logosunu kullanmak için bir resim dosyası
 
 const reviews = [
   {
@@ -60,7 +59,15 @@ function ReviewSlider() {
         }}
       >
         <Box sx={{ width: '100%', display: 'flex', justifyContent: 'center', mb: 2 }}>
-        <img src="/google-logo.png" alt="Google Reviews" style={{ width: 100, height: 'auto' }} />
+        <img
+          src="/google-logo.png"
+          alt="Google Reviews"
+          width={100}
+          height={42}
+          loading="lazy"
+          decoding="async"
+          style={{ width: 100, height: 'auto' }}
+        />
         </Box>
         <CardContent>
           <Typography variant="body1" sx={{ marginBottom: '10px' }}>

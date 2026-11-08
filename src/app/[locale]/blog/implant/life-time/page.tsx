@@ -19,7 +19,7 @@ export default function ImplantLifetime() {
         <Box sx={{ mb: 4 }}>
           <Image
             src="/images/implant-omur1.jpeg"
-            alt="İmplant diş ömrü"
+            alt={t('title')}
             width={600}
             height={400}
             style={{ width: '100%', height: 'auto', borderRadius: '8px' }}

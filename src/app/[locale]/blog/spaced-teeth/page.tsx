@@ -29,7 +29,7 @@ export default function SpacedTeethPage() {
         <Box sx={{ my: 4, position: 'relative', height: '400px', borderRadius: '8px', overflow: 'hidden' }}>
           <Image
             src="/images/spaced-teeth-1.jpeg"
-            alt="Ayrık Diş Tedavisi"
+            alt={t('title')}
             fill
             style={{ objectFit: 'cover' }}
             priority

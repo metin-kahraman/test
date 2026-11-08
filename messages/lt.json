@@ -1,8 +1,8 @@
 {
   "HomePage": {
-  "title": "Su mūsų gydytojais ekspertais ",
-  "title2": "jūsų šypsena ",
-  "title3": "patikimai apsaugota.",
+  "title": "Orange Odontologijos klinika Kemere",
+  "title2": "Antalijoje, priežiūra",
+  "title3": "tarptautiniams pacientams.",
   "title4": "Kuriame sveikas, estetiškas ir pasitikinčias šypsenas naudodami modernias technologijas ir individualų gydymo požiūrį.",
   "title5": "KOKYBIŠKAI BURNOS SVEIKATAI IR ESTETIŠKOMS ŠYPSENOMS",
   "bookAn": "Užsirašyti vizitui",
@@ -21,10 +21,15 @@
   "comment5orj": "Merci à ce Docteur et à son staff pour leur réactivité via la messagerie Google, puis leur gentillesse et leur efficacité à gérer mon urgence une fois arrivée sur place.Cabinet d’une propreté irréprochable et un matériel à la pointe de la technologie.Pour ma première venue en vacance en Turquie je suis très rassuré niveau sécurité, hygiène, professionnalisme, ainsi que le respect dont font preuve la nation turque.Bravo et milles merci à Orange Dent Clinic.",
   "comment5Translate": "Ačiū šiam daktarui ir jo personalui už jų reagavimą per Google žinutes, tada už jų gerumą ir efektyvumą sprendžiant mano skubią situaciją, kai atvykau į vietą. Kabinetas yra nepriekaištingai švarus ir aprūpintas pažangiausiomis technologijomis. Mano pirmajai atostogų kelionei į Turkiją jaučiuosi labai ramus dėl saugumo, higienos, profesionalumo, taip pat pagarbos, kurią demonstruoja turkų tauta. Bravo ir tūkstantis ačiū Orange Dent Clinic.",
   "comment5Link": "https://share.google/E63HQJxer7p14aILn",
+  "viewReview": "Peržiūrėti originalų atsiliepimą",
+  "SeoFallback": {
+    "title": "{topic} | Orange Dent Clinic",
+    "description": "Sužinokite apie „{topic}“ Orange Dent Clinic Kemere, Antalijoje, ir susipažinkite su odontologinio gydymo galimybėmis."
+  },
   "ourPartners":"Mūsų verslo partneriai",
     "seo": {
-      "title": "Orange Dent klinika – Dantų sveikata ir estetika",
-      "description": "Orange Dent klinika siūlo ekspertines paslaugas implantologijos, estetinės odontologijos, ortodontijos ir kt. srityse. Užsiregistruokite vizitui dėl sveikos šypsenos.",
+      "title": "Orange Dent Clinic | Odontologijos klinika Kemere, Antalijoje",
+      "description": "Orange Dent Clinic Kemere, Antalijoje: dantų implantai, estetinė odontologija, ortodontija ir dantų balinimas. Registruokitės pas patyrusį odontologą.",
       "keywords": "odontologijos klinika, odontologas, implantas, estetinė odontologija, ortodontija, dantų balinimas",
       "url": "/"
     }
@@ -35,6 +40,7 @@
     "phone": "Telefonas",
     "email": "El. paštas",
     "workingHours": "Darbo laikas",
+    "mapTitle": "Orange Dent Clinic vieta Kemere, Antalijoje",
     "socialMedia": "Socialiniai tinklai",
     "title": "Jūsų sveikata ir šypsena – mūsų prioritetas",
     "iconPersonTitle": "Kvalifikuotas personalas",
@@ -949,6 +955,11 @@
     }
   },
   "BlogItems": {
+    "seo": {
+      "title": "Dantų sveikatos tinklaraštis | Orange Dent Clinic",
+      "description": "Skaitykite praktinius straipsnius apie dantų sveikatą, implantus, ortodontiją ir gydymą iš Orange Dent Clinic Kemere, Antalijoje.",
+      "keywords": "dantų sveikatos tinklaraštis, dantų implantai, burnos sveikata, ortodontija, odontologinis gydymas"
+    },
     "item2": {
       "caption": "Kas yra bruksizmas?",
       "title": "Kodėl naktį ar dieną griežiame dantimis?, Kas yra bruksizmas?, Dieninis bruksizmas, Kaip suprasti, kad naktį griežiate dantimis?...",
@@ -1173,14 +1184,14 @@
     "item19": {
       "caption": "Kaip išvengti dantų pageltimo?",
       "title": "Kodėl dantys pagelsta?, Kokios yra dantų pageltimo priežastys?, Kaip išvengti pageltimo?, Ar dantų balinimo poveikis yra pastovus? Kiek laiko išlieka balinimo efektas?, Kokius balinimo metodus taiko odontologai?",
-      "url": "dantu-pageltimas",
+      "url": "kaip-isvengti-dantu-pageltimo",
       "imgLink": "/images/dis-sararmasi-2.jpeg",
       "imgAlt": "Dantų pageltimo prevencija ir gydymas",
       "seo": {
         "title": "Kaip išvengti dantų pageltimo? - Priežastys ir Balinimas",
         "description": "Kaip išvengti dantų pageltimo? Sužinokite, kodėl dantys gelsta, prevencijos būdus, balinimo pastovumą ir profesionalius balinimo metodus.",
         "keywords": "dantų pageltimas, dantų balinimas, dantų spalva, pageltimo prevencija, profesionalus balinimas",
-        "url": "dantu-pageltimas"
+        "url": "kaip-isvengti-dantu-pageltimo"
       }
     },
     "item20": {
@@ -1427,7 +1438,7 @@
         "title": "Uždarame kaule esančio danties šalinimas - išminties danties šalinimas",
         "description": "Išsamus vadovas apie uždarame kaule esančių dantų, ypač išminties dantų, šalinimą. Sužinokite apie procedūrą, atsigavimą ir kada tai būtina.",
         "keywords": "uždarame kaule dantis, išminties danties šalinimas, gömülü diş, 20 yaş dişi, uždarame kaule išminties dantis",
-        "url": "tinklaraštis/uzdarame-kaule-esancio-danties-salinimas"
+        "url": "blog/uzdarame-kaule-esancio-danties-salinimas"
       }
     },
     "DentalCrowns": {

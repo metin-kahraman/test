@@ -17,6 +17,7 @@ import TwitterIcon from '@mui/icons-material/X';
 import SitemarkIcon from './SitemarkIcon';
 import CustomDivider from './CustomDivider';
 import { useTranslations } from 'next-intl';
+import { useLocale } from 'next-intl';
 
 
 function Copyright() {
@@ -35,6 +36,15 @@ function Copyright() {
 export default function Footer() {
 
   const t = useTranslations('Footer');
+  const locale = useLocale();
+  const mapLocale = {
+    en: ['en', 'us'],
+    tr: ['tr', 'tr'],
+    ru: ['ru', 'ru'],
+    pl: ['pl', 'pl'],
+    lt: ['lt', 'lt'],
+  }[locale] ?? ['en', 'us'];
+  const [mapLanguage, mapRegion] = mapLocale;
   return (
     <React.Fragment>
                   <CustomDivider text="" />
@@ -87,12 +97,12 @@ export default function Footer() {
             <Grid item xs={12} md={6}>
               <Box sx={{ width: '100%', height: '300px' }}>
   <iframe
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.9322410570486!2d30.5584491!3d36.599118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3b7ec82618f7b%3A0x4e65997d889e38fb!2sOrange%20Dent%20Clinic!5e0!3m2!1str!2str!4v1721820000000!5m2!1str!2str"
+  src={`https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d306.9322410570486!2d30.5584491!3d36.599118!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14c3b7ec82618f7b%3A0x4e65997d889e38fb!2sOrange%20Dent%20Clinic!5e0!3m2!1s${mapLanguage}!2s${mapRegion}!4v1721820000000!5m2!1s${mapLanguage}!2s${mapRegion}`}
   width="100%"
   height="100%"
   style={{ border: 0 }}
   loading="lazy"
-  title="Orange Dent Clinic - Kemer Antalya Konum"
+  title={t('mapTitle')}
   referrerPolicy="no-referrer-when-downgrade"
 />
 

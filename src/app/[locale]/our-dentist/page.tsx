@@ -21,10 +21,9 @@ const handlee = Merienda({
   weight: ["300", "400", "500"],
   subsets: ["latin"],
   display: "swap",
+  preload: false,
 });
-const imageUrl = `${window.location.origin}/images/treatmentsPage/estetik.jpeg`;
 
-// Örnek veri (kendi verilerinizle değiştirin)
 const doctors = [
   {
     id: 1,
@@ -32,8 +31,7 @@ const doctors = [
     specialty: "Genel Diş Hekimi",
     university: "Hacettepe Üniversitesi",
     graduationYear: 2002,
-    //experienceYears: 14,
-    imageUrl: `${window.location.origin}/images/dentist/mehmet-sitki-tuncay.jpeg`,
+    imageUrl: "/images/dentist/mehmet-sitki-tuncay.jpeg",
     description: "Genel diş hekimi",
     bio: "Mehmet Sıtkı Tuncay, 2002 yılında Hacettepe Üniversitesi Diş Hekimliği Fakültesi’nden mezun olmuştur. Mezuniyetinin ardından mesleki çalışmalarını aralıksız sürdürerek, Dijital diş hekimliği uygulamalarını yakından takip etmektedir.Mesleki deneyimi doğrultusunda özellikle cerrahi diş hekimliği ve implant uygulamaları alanlarında çalışmalarını sürdürmekte; hastalarına güvenli, özenli ve kişiye özel tedavi yaklaşımları sunmaktadır.",
   },
@@ -43,8 +41,7 @@ const doctors = [
     specialty: "Genel Diş Hekimi",
     university: "İstanbul Okan Üniversitesi ",
     graduationYear: 2013,
-    //experienceYears: 12,
-    imageUrl: `${window.location.origin}/images/dentist/sibel-zeynep-arslan.jpeg`,
+    imageUrl: "/images/dentist/sibel-zeynep-arslan.jpeg",
     description: "Genel diş hekimi",
     bio: "Dt. Sibel Zeynep Arslan, 2023 yılında İstanbul Okan Üniversitesi Diş Hekimliği Fakültesi’nden mezun oldu. Mesleki çalışmalarını genel diş hekimliği alanında sürdürmekte olup; estetik diş hekimliği, restoratif tedaviler, protetik diş tedavileri, periodontal tedaviler, diş beyazlatma ve gülüş tasarımı başta olmak üzere ağız ve diş sağlığı uygulamalarıyla ilgilenmektedir. Hastalarına güncel tedavi yaklaşımları doğrultusunda, estetik ve fonksiyonu bir arada gözeten tedaviler sunmaktadır."
   },
@@ -54,8 +51,7 @@ const doctors = [
     specialty: "Genel Diş Hekimi",
     university: "İstanbul Kent Üniversitesi",
     graduationYear: 2024,
-    //experienceYears: 9,
-    imageUrl: `${window.location.origin}/images/dentist/huriye-sude-avci.jpeg`,
+    imageUrl: "/images/dentist/huriye-sude-avci.jpeg",
     description: "Genel diş hekimi",
     bio: "Dt. Huriye Sude Avcı, 2024 yılında İstanbul Kent Üniversitesi Diş Hekimliği Fakültesi’nden mezun olmuştur. Genel diş hekimliği pratiği kapsamında; restoratif ve estetik diş hekimliği, endodonti, ağız hijyeni, koruyucu diş hekimliği ile teşhis ve tedavi uygulamaları alanlarında hizmet vermektedir.",
   },
@@ -113,7 +109,6 @@ const AboutUs: FC = () => {
                 university={doctor.university}
                 graduationYear={doctor.graduationYear}
                 specialty={doctor.specialty}
-                experienceYears={doctor.experienceYears}
                 rating={4.5}
               />
             </Box>
@@ -142,9 +137,6 @@ const AboutUs: FC = () => {
                     <Typography variant="h6">{selectedDoctor.specialty}</Typography>
                     <Typography variant="body2" color="text.secondary">
                       {selectedDoctor.university} ({selectedDoctor.graduationYear})
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      {selectedDoctor.experienceYears} yıl deneyim
                     </Typography>
                   </Box>
                 </Box>

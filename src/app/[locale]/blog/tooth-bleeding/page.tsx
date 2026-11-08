@@ -30,7 +30,7 @@ export default function GumBleedingPage() {
         <Box sx={{ my: 4, position: 'relative', height: '400px', borderRadius: '8px', overflow: 'hidden' }}>
           <Image
             src="/images/gum-bleeding-1.jpeg"
-            alt="Diş Eti Kanaması"
+            alt={t('title')}
             fill
             style={{ objectFit: 'cover' }}
             priority
@@ -74,7 +74,7 @@ export default function GumBleedingPage() {
         <Box sx={{ my: 4, position: 'relative', height: '300px', borderRadius: '8px', overflow: 'hidden' }}>
           <Image
             src="/images/gum-bleeding-2.jpeg"
-            alt="Diş Eti Kanaması Risk Faktörleri"
+            alt={t('riskFactorsTitle')}
             fill
             style={{ objectFit: 'cover' }}
           />
@@ -123,7 +123,7 @@ export default function GumBleedingPage() {
         <Box sx={{ my: 4, position: 'relative', height: '400px', borderRadius: '8px', overflow: 'hidden' }}>
           <Image
             src="/images/gum-bleeding-3.jpeg"
-            alt="Diş Eti Kanaması Tedavisi"
+            alt={t('treatmentTitle')}
             fill
             style={{ objectFit: 'cover' }}
           />

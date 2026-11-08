@@ -2,11 +2,16 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import DigitalDentistryContent from '../../../components/DigitalDentistryContent';
-import { buildHreflang, getCanonicalUrl, baseUrl } from '@/lib/seo';
+import {
+  buildHreflang,
+  getCanonicalUrl,
+  getOpenGraphLocale,
+  baseUrl,
+} from '@/lib/seo';
 import { buildBreadcrumbSchema } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
 
-const CANONICAL_PATH = 'dijital-dis-hekimligi';
+const CANONICAL_PATH = 'digital-dentistry';
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -17,14 +22,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
   const languages = buildHreflang(CANONICAL_PATH);
-
-  const ogLocaleMap: Record<string, string> = {
-    tr: 'tr_TR',
-    en: 'en_US',
-    lt: 'lt_LT',
-    pt: 'pt_PT',
-    ru: 'ru_RU',
-  };
 
   // ✅ t.has() yerine try/catch — server-side'da t.has yok
   let seoTitle: string | undefined;
@@ -42,7 +39,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     seoDescription = undefined;
   }
 
-  const title = seoTitle ?? `${t('title')} | Orange Dent Clinic`;
+  const localizedTitle = seoTitle ?? t('title');
+  const title = localizedTitle.includes('Orange Dent')
+    ? localizedTitle
+    : `${localizedTitle} | Orange Dent Clinic`;
   const description =
     seoDescription ?? `${t('content').slice(0, 155)}…`;
 
@@ -59,7 +59,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: canonicalUrl,
       siteName: 'Orange Dent Clinic',
       type: 'article',
-      locale: ogLocaleMap[locale] ?? 'en_US',
+      locale: getOpenGraphLocale(locale),
       images: [
         {
           url: `${baseUrl}/images/digital-dentistry.jpg`,
@@ -94,7 +94,7 @@ export default async function DigitalDentistryPage({ params }: PageProps) {
   const t = await getTranslations({ locale, namespace: '3dDentistry' });
 
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
-  const homeUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
+  const homeUrl = getCanonicalUrl(locale, '');
 
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Ana Sayfa', url: homeUrl },

@@ -2,11 +2,16 @@
 import type { Metadata } from 'next';
 import { getTranslations } from 'next-intl/server';
 import OurClinicContent from '../../../components/OurClinicContent';
-import { buildHreflang, getCanonicalUrl, baseUrl } from '@/lib/seo';
+import {
+  buildHreflang,
+  getCanonicalUrl,
+  getOpenGraphLocale,
+  baseUrl,
+} from '@/lib/seo';
 import { buildBreadcrumbSchema } from '@/lib/schema';
 import JsonLd from '@/components/JsonLd';
 
-const CANONICAL_PATH = 'klinigimiz';
+const CANONICAL_PATH = 'our-clinic';
 
 type PageProps = { params: Promise<{ locale: string }> };
 
@@ -17,14 +22,6 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
   const languages = buildHreflang(CANONICAL_PATH);
-
-  const ogLocaleMap: Record<string, string> = {
-    tr: 'tr_TR',
-    en: 'en_US',
-    lt: 'lt_LT',
-    pt: 'pt_PT',
-    ru: 'ru_RU',
-  };
 
   // try/catch ile güvenli fallback (t.has server'da yok)
   let seoTitle: string | undefined;
@@ -59,10 +56,10 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       url: canonicalUrl,
       siteName: 'Orange Dent Clinic',
       type: 'website',
-      locale: ogLocaleMap[locale] ?? 'en_US',
+      locale: getOpenGraphLocale(locale),
       images: [
         {
-          url: `${baseUrl}/images/our-clinic-1.jpeg`,
+          url: `${baseUrl}/images/clinic/clinic-interior-1.jpg`,
           width: 1200,
           height: 630,
           alt: title,
@@ -73,7 +70,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
       card: 'summary_large_image',
       title,
       description,
-      images: [`${baseUrl}/images/our-clinic-1.jpeg`],
+      images: [`${baseUrl}/images/clinic/clinic-interior-1.jpg`],
     },
     robots: {
       index: true,
@@ -94,7 +91,7 @@ export default async function OurClinicPage({ params }: PageProps) {
   const t = await getTranslations({ locale, namespace: 'OurClinic' });
 
   const canonicalUrl = getCanonicalUrl(locale, CANONICAL_PATH);
-  const homeUrl = locale === 'en' ? baseUrl : `${baseUrl}/${locale}`;
+  const homeUrl = getCanonicalUrl(locale, '');
 
   const breadcrumbSchema = buildBreadcrumbSchema([
     { name: 'Ana Sayfa', url: homeUrl },
