@@ -7,6 +7,7 @@ const defaultLocale = 'en';
 const locales = ['tr', 'en', 'ru', 'pl', 'lt'];
 
 const nextConfig = {
+  output: 'standalone',
   async redirects() {
     const redirects = [];
     const seen = new Set();

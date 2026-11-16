@@ -67,7 +67,10 @@ export default function Hero() {
           </Typography>
           <Button
             variant="contained"
-            startIcon={<WhatsappIcon  /*color="success"*/ />}
+            href="https://wa.me/905324401740"
+            target="_blank"
+            rel="noopener noreferrer"
+            startIcon={<WhatsappIcon   /*color="success"*/ />}
             sx={{
               backgroundColor: '#d3a572',
               color: '#ffffff',
