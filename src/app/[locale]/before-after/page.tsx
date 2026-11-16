@@ -89,15 +89,11 @@ const itemList = [
 ];
 
 const itemListImplant = [
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba22.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
-  {before:"/images/ba12.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba11.jpeg", after:"/images/ba11.jpeg"},
+  {before:"/images/ba22.jpeg", after:"/images/ba21.jpeg"},
+  {before:"/images/ba32.jpeg", after:"/images/ba31.jpeg"},
+  {before:"/images/ba42.jpeg", after:"/images/ba41.jpeg"},
+  {before:"/images/ba52.jpeg", after:"/images/ba51.jpeg"},
 ];
 
 export default function Page(): React.JSX.Element {
@@ -153,58 +149,12 @@ export default function Page(): React.JSX.Element {
             letterSpacing: "0.5px",
           }}
         >
-          Implant
+          Orange Dent Clinic Kemer
         </Typography>
         <CustomDivider text="" />
       </Grid>
 
-      {itemListImplant.slice(0, implantLimit).map(function (item) {
-        return (
-          <Grid size={{ xs: 12, md: 4 }}>
-            <CustomBeforeAfterSlider
-              beforeImage="/images/ba12.jpeg"
-              afterImage="/images/ba11.jpeg"
-              handleImage="/img.jpeg"
-            />
-          </Grid>
-        );
-      })}
-
-      <Grid size={{ xs: 12, md: 12 }}>
-
-        <Typography align='center'>
-          {implantLimit == itemListImplant.length ? <Button sx={{ /*fontFamily: "oswald",*/ letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showLess(0)}>Show less </Button>
-            : <Button sx={{ /*fontFamily: "oswald", letterSpacing: "0.5px",*/ backgroundColor: '#eb984f',borderRadius:0 , fontSize:'0.875rem', fontWeight:'600', transform:0}}  variant='contained' onClick={() => showMore(0)}>Show more </Button>
-
-          }
-
-        </Typography>
-
-      </Grid>
-
-
-      <Grid size={{ xs: 12, md: 12 }}>
-                     <CustomDivider text="Diş Taşı Temizliği" />
-
-
-        <Typography
-          //variant="h5"
-
-          align="center"
-          sx={{
-            color: "#388E3C",
-            fontFamily: "gowunBatang",
-                    fontWeight: "bold",
-                    //fontFamily: "oswald",
-                    letterSpacing: "0.7px",
-                    fontSize: "22px",
-          }}
-        >Diş Taşı Temizliği
-        </Typography>
-
-      </Grid>
-
-      {itemList.map(function (item) {
+      {itemList.slice(0, 5).map(function (item) {
         return (
           <Grid size={{ xs: 12, md: 4 }}>
             <CustomBeforeAfterSlider
@@ -215,6 +165,25 @@ export default function Page(): React.JSX.Element {
           </Grid>
         );
       })}
+
+
+
+
+
     </Grid>
   );
 }
+/** 
+
+      <Grid size={{ xs: 12, md: 12 }}>
+
+        <Typography align='center'>
+          {implantLimit == itemListImplant.length ? <Button sx={{  letterSpacing: "0.1px", backgroundColor: '#ed6c02' }} size='large' variant='contained' onClick={() => showLess(0)}>Show less </Button>
+            : <Button sx={{backgroundColor: '#eb984f',borderRadius:0 , fontSize:'0.875rem', fontWeight:'600', transform:0}}  variant='contained' onClick={() => showMore(0)}>Show more </Button>
+
+          }
+
+        </Typography>
+
+      </Grid>
+  */

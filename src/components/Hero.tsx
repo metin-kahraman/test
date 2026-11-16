@@ -39,8 +39,8 @@ export default function Hero() {
       />
       
       <Container sx={{ position: 'relative', zIndex: 2}}>
-        <Box sx={{ maxWidth: { xs: '100%', md: '600px' }, color: '#fff' }}>
-              <Typography variant="caption" component="div" sx={{ letterSpacing: '0.2em', mb: 2, color: 'primary.light', display: 'flex', alignItems: 'center', gap: 1 }}>
+        <Box sx={{ maxWidth: { xs: '100%', md: '800px' }, color: '#fff' }}>
+              <Typography variant="caption" component="div" sx={{ letterSpacing: '0.2em', mb: 2, color: 'primary.light', display: 'flex', alignItems: 'center', gap: 1 ,mt: { xs: 40,sm: 5, md: 3, lg:20, xl:20 } }}>
              ORANGE DENT CLINIC
           </Typography>
 
@@ -57,7 +57,9 @@ export default function Hero() {
 
     */}
 
-          <Typography component="h1" sx={{ mb: 3, opacity: 0.6,fontSize: { xs: '2.5rem', md: '3.5rem' }}}>
+          <Typography component="h1" sx={{ mb: 3, opacity: 0.6,fontSize: { xs: '2.5rem', md: '3.5rem' },  textIndent: 0,
+    pl: 0,
+    paddingLeft: 0}}>
              {t(`title`)}<br/>{t(`title2`)}<br/>{t(`title3`)}
           </Typography>
           <Typography variant="body1" sx={{ mb: 4, opacity: 0.5, maxWidth: '450px', fontSize: '1.1rem' }}>
@@ -76,6 +78,7 @@ export default function Hero() {
             }}
           >
             {t(`bookAn`)}
+            
           </Button>
         </Box>
       </Container>
