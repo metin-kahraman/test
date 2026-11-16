@@ -1,194 +1,211 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import { Box, Typography, Card, CardContent, IconButton } from '@mui/material';
+import {
+  Box, Typography, Card, CardContent, IconButton,
+  useMediaQuery, useTheme,
+} from '@mui/material';
 import { ArrowBack, ArrowForward } from '@mui/icons-material';
 import TranslateIcon from '@mui/icons-material/Translate';
 import { useLocale, useTranslations } from "next-intl";
 import Link from '@mui/material/Link';
-const reviews = [
-  {
-    name: 'John Doe',
-    text: 'This is an amazing product! Highly recommend it to everyone.',
-  },
-  {
-    name: 'Jane Smith',
-    text: 'Absolutely love it! Great quality and excellent support.',
-  },
-  {
-    name: 'Michael Brown',
-    text: 'Good value for money. Would buy again!',
-  },
-  {
-    name: 'Emily Johnson',
-    text: 'The service was exceptional. I will definitely return.',
-  },
-  {
-    name: 'Chris Lee',
-    text: 'A solid choice for anyone looking for quality and value.',
-  },
-  {
-    name: 'Anna White',
-    text: 'Truly exceeded my expectations in every way.',
-  },
-];
-const reviewsItems=["1","2","3","4","5"];
-const reviewSourceLocales: Record<string, string> = {
-  '1': 'tr',
-  '2': 'ru',
-  '3': 'en',
-  '4': 'ro',
-  '5': 'fr',
-};
 
+const reviewsItems = ["1", "2", "3", "4", "5"];
+const reviewSourceLocales: Record<string, string> = {
+  '1': 'tr', '2': 'ru', '3': 'en', '4': 'ro', '5': 'fr',
+};
 
 function ReviewSlider() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const t = useTranslations("HomePage");
   const locale = useLocale();
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // < 600px
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsItems.length);
-    }, 20000); // Her 20 saniyede bir geçiş yap
+      setCurrentIndex((prev) => (prev + 1) % reviewsItems.length);
+    }, 20000);
     return () => clearInterval(interval);
   }, []);
 
-  const handlePrev = () => {
-    setCurrentIndex((prevIndex) => (prevIndex === 0 ? reviewsItems.length - 1 : prevIndex - 1));
-  };
+  const handlePrev = () =>
+    setCurrentIndex((prev) => (prev === 0 ? reviewsItems.length - 1 : prev - 1));
+  const handleNext = () =>
+    setCurrentIndex((prev) => (prev + 1) % reviewsItems.length);
 
-  const handleNext = () => {
-    setCurrentIndex((prevIndex) => (prevIndex + 1) % reviewsItems.length);
+  const buttonSx = {
+    backgroundColor: '#FFA500',
+    color: '#fff',
+    zIndex: 3,
+    '&:hover': { backgroundColor: '#FF8C00' },
   };
 
   return (
-    
-    <Box
-      sx={{
-        width: '100%',
-        //maxWidth: '800px',
-        margin: '0 auto',
-        padding: '20px',
-        position: 'relative',
-        overflow: 'hidden',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
-      }}
-    >
-      
-      <IconButton
-        onClick={handlePrev}
-        sx={{
-          position: 'absolute',
-          left: '10px',
-          zIndex: 3,
-          backgroundColor: '#FFA500',
-          color: '#fff',
-          '&:hover': {
-            backgroundColor: '#FF8C00',
-          },
-          top: '50%',
-          transform: 'translateY(-50%)',
-        }}
-      >
-        <ArrowBack />
-      </IconButton>
-      <Box
-        sx={{
-          display: 'flex',
-          transition: 'transform 0.5s ease',
-          transform: `translateX(-${currentIndex * 100}%)`,
-          width: `${reviewsItems.length * 100}%`,
-        }}
-      >
-        {reviewsItems.map((review, index) => (
-          <Box
-            key={index}
-            sx={{
-              flex: '0 0 100%', // Her yorum ekranın tamamını kaplasın
-              display: 'flex',
-              justifyContent: 'center',
-              padding: '10px',
-              boxSizing: 'border-box', // Padding ve border hesaplamalarını dahil et
-            }}
+    <Box sx={{ width: '100%', margin: '0 auto', padding: { xs: '12px', sm: '20px' } }}>
+      {/* Slider viewport */}
+      <Box sx={{ position: 'relative', width: '100%', overflow: 'hidden' }}>
 
+        {/* Desktop: sol ok */}
+        {!isMobile && (
+          <IconButton
+            onClick={handlePrev}
+            aria-label="Previous review"
+            sx={{
+              ...buttonSx,
+              position: 'absolute', left: '10px', top: '50%',
+              transform: 'translateY(-50%)',
+            }}
           >
-            <Card
+            <ArrowBack />
+          </IconButton>
+        )}
+
+        {/* Sliding track */}
+        <Box
+          sx={{
+            display: 'flex',
+            width: '100%',
+            minHeight: { xs: 280, sm: 260 },
+            transition: 'transform 0.5s ease',
+            transform: `translateX(-${currentIndex * 100}%)`,
+          }}
+        >
+          {reviewsItems.map((review, index) => (
+            <Box
+              key={index}
               sx={{
-                width: '100%',
-                maxWidth: '600px',
-                backgroundColor: 'white',
-                border: '2px solid #FFA500',
-                borderRadius: '15px',
-                textAlign: 'center',
-                boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
-                transition: 'transform 0.3s, opacity 0.3s',
-                transform: currentIndex === index ? 'scale(1.05)' : 'scale(0.95)',
-                opacity: currentIndex === index ? 1 : 0.8,
+                flex: '0 0 100%',
+                minWidth: 0,
                 display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
                 justifyContent: 'center',
+                alignItems: 'center',   // kart içerik boyunda kalır
+                boxSizing: 'border-box',
+                px: { xs: 1, sm: 2 },
               }}
             >
-              <Box sx={{ mb: 0 ,pt:2}}>
-                <img
-                  src="/google-logo.png"
-                  alt="Google Reviews"
-                  width={100}
-                  height={42}
-                  loading="lazy"
-                  decoding="async"
-                  style={{ width: '100px', height: 'auto' }}
-                />
-              </Box>
-              <CardContent sx={{ padding: '10px' }}>
-                <Typography
-                  variant="body1"
-                  lang={reviewSourceLocales[review]}
-                  sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}
+              <Card
+                sx={{
+                  width: '100%',
+                  maxWidth: '600px',
+                  backgroundColor: 'white',
+                  border: '2px solid #FFA500',
+                  borderRadius: '15px',
+                  textAlign: 'center',
+                  boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+                  transition: 'transform 0.3s, opacity 0.3s',
+                  transform: currentIndex === index ? 'scale(1.02)' : 'scale(0.98)',
+                  opacity: currentIndex === index ? 1 : 0.85,
+                  display: 'flex',
+                  flexDirection: 'column',
+                  alignItems: 'center',
+                  overflow: 'hidden',
+                }}
+              >
+                <Box sx={{ pt: 2 }}>
+                  <img
+                    src="/google-logo.png"
+                    alt="Google Reviews"
+                    width={100}
+                    height={42}
+                    loading="lazy"
+                    decoding="async"
+                    style={{ width: '100px', height: 'auto' }}
+                  />
+                </Box>
+
+                <CardContent
+                  sx={{
+                    padding: { xs: '8px 8px 12px', sm: '10px' },
+                    width: '100%',
+                    boxSizing: 'border-box',
+                    '&:last-child': { paddingBottom: { xs: '12px', sm: '16px' } },
+                  }}
                 >
-                   {t(`comment${review}orj`)}
-                </Typography>
-                {reviewSourceLocales[review] !== locale &&
-                  t(`comment${review}orj`).trim() !== t(`comment${review}Translate`).trim() && (
-                    <>
-                      <TranslateIcon aria-hidden="true" sx={{ color: '#ff7f50' }} />
-                      <Typography
-                        variant="body1"
-                        lang={locale}
-                        sx={{ marginBottom: '10px', pl: '16%', pr: '16%' }}
-                      >
-                        {t(`comment${review}Translate`)}
-                      </Typography>
-                    </>
-                  )}
-                <Link href={t(`comment${review}Link`)} color="#FF8C00" target="_blank" rel="noopener noreferrer">
-                  {t('viewReview')}
-                </Link>
-              </CardContent>
-            </Card>
-          </Box>
-        ))}
+                  <Typography
+                    variant="body1"
+                    lang={reviewSourceLocales[review]}
+                    sx={{
+                      mb: '10px',
+                      px: { xs: 1, sm: '16%' },
+                      textAlign: 'center',
+                      textIndent: 0,
+                      wordBreak: 'break-word',
+                      overflowWrap: 'anywhere',
+                    }}
+                  >
+                    {t(`comment${review}orj`)}
+                  </Typography>
+
+                  {reviewSourceLocales[review] !== locale &&
+                    t(`comment${review}orj`).trim() !== t(`comment${review}Translate`).trim() && (
+                      <>
+                        <TranslateIcon aria-hidden="true" sx={{ color: '#ff7f50' }} />
+                        <Typography
+                          variant="body1"
+                          lang={locale}
+                          sx={{
+                            mb: '10px',
+                            px: { xs: 1, sm: '16%' },
+                            textAlign: 'center',
+                            textIndent: 0,
+                            wordBreak: 'break-word',
+                            overflowWrap: 'anywhere',
+                          }}
+                        >
+                          {t(`comment${review}Translate`)}
+                        </Typography>
+                      </>
+                    )}
+
+                  <Link
+                    href={t(`comment${review}Link`)}
+                    color="#FF8C00"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    {t('viewReview')}
+                  </Link>
+                </CardContent>
+              </Card>
+            </Box>
+          ))}
+        </Box>
+
+        {/* Desktop: sağ ok */}
+        {!isMobile && (
+          <IconButton
+            onClick={handleNext}
+            aria-label="Next review"
+            sx={{
+              ...buttonSx,
+              position: 'absolute', right: '10px', top: '50%',
+              transform: 'translateY(-50%)',
+            }}
+          >
+            <ArrowForward />
+          </IconButton>
+        )}
       </Box>
-      <IconButton
-        onClick={handleNext}
-        sx={{
-          position: 'absolute',
-          right: '10px',
-          zIndex: 3,
-          backgroundColor: '#FFA500',
-          color: '#fff',
-          '&:hover': {
-            backgroundColor: '#FF8C00',
-          },
-          top: '50%',
-          transform: 'translateY(-50%)',
-        }}
-      >
-        <ArrowForward />
-      </IconButton>
+
+      {/* Mobil: oklar altta */}
+      {isMobile && (
+        <Box
+          sx={{
+            display: 'flex',
+            justifyContent: 'center',
+            alignItems: 'center',
+            gap: 3,
+            mt: 1,
+          }}
+        >
+          <IconButton onClick={handlePrev} aria-label="Previous review" sx={buttonSx}>
+            <ArrowBack />
+          </IconButton>
+          <IconButton onClick={handleNext} aria-label="Next review" sx={buttonSx}>
+            <ArrowForward />
+          </IconButton>
+        </Box>
+      )}
     </Box>
   );
 }
