@@ -19,7 +19,7 @@ function ReviewSlider() {
   const t = useTranslations("HomePage");
   const locale = useLocale();
   const theme = useTheme();
-  const isMobile = useMediaQuery(theme.breakpoints.down('sm')); // < 600px
+  const isMobile = useMediaQuery(theme.breakpoints.down('sm'));
 
   useEffect(() => {
     const interval = setInterval(() => {
@@ -78,7 +78,7 @@ function ReviewSlider() {
                 minWidth: 0,
                 display: 'flex',
                 justifyContent: 'center',
-                alignItems: 'center',   // kart içerik boyunda kalır
+                alignItems: 'center',
                 boxSizing: 'border-box',
                 px: { xs: 1, sm: 2 },
               }}
@@ -115,10 +115,9 @@ function ReviewSlider() {
 
                 <CardContent
                   sx={{
-                    padding: { xs: '8px 8px 12px', sm: '10px' },
+                    padding: { xs: '8px 8px 4px', sm: '10px' },
                     width: '100%',
                     boxSizing: 'border-box',
-                    '&:last-child': { paddingBottom: { xs: '12px', sm: '16px' } },
                   }}
                 >
                   <Typography
@@ -166,6 +165,38 @@ function ReviewSlider() {
                     {t('viewReview')}
                   </Link>
                 </CardContent>
+
+                {/* 🔑 Mobil: oklar kart içinde, yorumun hemen altında */}
+                {isMobile && (
+                  <Box
+                    sx={{
+                      display: 'flex',
+                      justifyContent: 'center',
+                      alignItems: 'center',
+                      gap: 3,
+                      pb: 2,
+                      pt: 0.5,
+                      mt: 'auto', // kısa yorumlarda alta yaslan
+                    }}
+                  >
+                    <IconButton
+                      onClick={handlePrev}
+                      aria-label="Previous review"
+                      size="small"
+                      sx={buttonSx}
+                    >
+                      <ArrowBack fontSize="small" />
+                    </IconButton>
+                    <IconButton
+                      onClick={handleNext}
+                      aria-label="Next review"
+                      size="small"
+                      sx={buttonSx}
+                    >
+                      <ArrowForward fontSize="small" />
+                    </IconButton>
+                  </Box>
+                )}
               </Card>
             </Box>
           ))}
@@ -186,26 +217,6 @@ function ReviewSlider() {
           </IconButton>
         )}
       </Box>
-
-      {/* Mobil: oklar altta */}
-      {isMobile && (
-        <Box
-          sx={{
-            display: 'flex',
-            justifyContent: 'center',
-            alignItems: 'center',
-            gap: 3,
-            mt: 1,
-          }}
-        >
-          <IconButton onClick={handlePrev} aria-label="Previous review" sx={buttonSx}>
-            <ArrowBack />
-          </IconButton>
-          <IconButton onClick={handleNext} aria-label="Next review" sx={buttonSx}>
-            <ArrowForward />
-          </IconButton>
-        </Box>
-      )}
     </Box>
   );
 }
