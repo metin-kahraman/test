@@ -112,7 +112,7 @@ const TreatmentsPage = () => {
           {cardData.map((card, index) => (
             <React.Fragment key={index}>
               <Grid item xs={12} md={6} lg={4} xl={3}>
-              <Link underline="none" href={`/${locale}/${t(serviceLinkKeys[index])}`}>
+              <Link underline="none" href={`/${locale}/${t(card.title+"Link")}`}>
 
                 <StyledCard variant="outlined">
                   <CardMedia

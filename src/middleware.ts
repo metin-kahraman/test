@@ -26,5 +26,5 @@ export default function middleware(request: NextRequest) {
  
 export const config = {
   // Match only internationalized pathnames
-  matcher: ['/', '/(tr|en|ru|pl|lt|)/:path*']
+matcher: '/((?!api|trpc|_next|_vercel|blog|.*\\..*).*)'
 };
